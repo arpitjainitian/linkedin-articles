@@ -1,4 +1,4 @@
-# #JustAddRAG series
+# Series 1: #JustAddRAG
 
 "Just add RAG over our docs" sounds like two weeks. It usually takes six months. This series takes one piece of the iceberg at a time, using one running example: a small assistant over my own documents (passport, tax returns, salary slips).
 

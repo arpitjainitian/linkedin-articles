@@ -1,13 +1,13 @@
 # Roadmap: AI engineering that looks simple, and fails often
 
-Each topic is a sentence that sounds easy in a kickoff meeting and turns out to be the hard part of an AI project.
+Each topic is its own series, numbered below. Each is a sentence that sounds easy in a kickoff meeting and turns out to be the hard part of an AI project.
 
 **Order:** technical difficulty goes up gradually, from L1 (easy) to L5 (advanced).
 **Writing:** stays as simple as possible at every level: plain words, everyday analogies, real examples.
 
-| # | Topic ("looks simple") | Level | What it covers | Status |
+| Series | Topic ("looks simple") | Level | What it covers | Status |
 |---|---|---|---|---|
-| 1 | "Just add RAG over our docs" | L2 | A full series of write-ups, see [just-add-rag/](just-add-rag/README.md) | **In progress** |
+| 1 | "Just add RAG over our docs" | L2 | A full series of write-ups, see [01-just-add-rag/](01-just-add-rag/README.md) | **In progress** |
 | 2 | "Users will love the chatbot" | L1 | Trust, UX, citations, "I don't know", adoption | Planned |
 | 3 | "AI transformation = buy licenses + train people" | L1 | Process redesign, success metrics | Planned |
 | 4 | "The POC got a standing ovation" | L2 | The POC-to-production cliff, ownership | Planned |
