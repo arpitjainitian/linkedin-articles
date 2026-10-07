@@ -6,8 +6,8 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 
 | # | Title | Topic | Status | LinkedIn |
 |---|---|---|---|---|
-| 0 | Why does "Just add RAG" sound like 2 weeks but take 6 months? | Curtain raiser | **Published** | (add link) |
-| 1 | Why can't your AI read a PDF that a 10-year-old can? | Document ingestion, OCR | **Published** | (add link) |
+| 0 | Why does "Just add RAG" sound like 2 weeks but take 6 months? | Curtain raiser | **Published** | [Read](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/) |
+| 1 | Why can't your AI read a PDF that a 10-year-old can? | Document ingestion, OCR | **Published** | [Read](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/) |
 | 2 | What if the answer was in your docs, but you cut it in half? | Chunking | Ready to publish | |
 | 3 | Is your AI hallucinating, or just looking in the wrong place? | Retrieval, multilingual questions | Not started | |
 | 4 | What does your AI say when it doesn't know? | Grounding, citations, follow-ups, human review | Not started | |
