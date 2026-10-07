@@ -16,7 +16,7 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 | 7 | [Can the intern ask your AI about the CEO's salary?](07-permissions.md) | Permissions, security, prompt injection, guardrails | Draft for review | |
 | 8 | [How many questions did you test before saying "it works"?](08-evals.md) | Evals, ground truth, test harness | Draft for review | |
 | 9 | [A few cents per question: so why is finance calling?](09-cost.md) | Cost, bills, caching | Draft for review | |
-| 10 | It's fast in the demo, so why are users clicking twice? | Performance, availability, backups | Not started | |
+| 10 | [It's fast in the demo, so why are users clicking twice?](10-performance.md) | Performance, availability, backups | Draft for review | |
 | 11 | Where did your user's passport just travel to? | Privacy, residency, compliance, right to delete | Not started | |
 | 12 | When your AI gives a wrong answer, can you tell why? | Observability | Not started | |
 | 13 | What breaks when you change the model you never changed? | Model updates, consistency, vendor lock-in | Not started | |
