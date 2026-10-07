@@ -11,7 +11,7 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 | 2 | [What if the answer was in your docs, but you cut it in half?](02-chunking.md) | Chunking | Ready to publish | |
 | 3 | [Is your AI hallucinating, or just looking in the wrong place?](03-retrieval.md) | Retrieval, multilingual questions | Draft for review | |
 | 4 | [What does your AI say when it doesn't know?](04-grounding.md) | Grounding, citations, follow-ups, human review | Draft for review | |
-| 5 | Is your chatbot answering a question that needs a database? | Picking the right tool for the question | Not started | |
+| 5 | [Is your chatbot answering a question that needs a database?](05-right-tool.md) | Picking the right tool for the question | Draft for review | |
 | 6 | What happens when your AI finds two versions of the truth? | Versions, ownership after go-live | Not started | |
 | 7 | Can the intern ask your AI about the CEO's salary? | Permissions, security, prompt injection, guardrails | Not started | |
 | 8 | How many questions did you test before saying "it works"? | Evals, ground truth, test harness | Not started | |
