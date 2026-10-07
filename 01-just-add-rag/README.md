@@ -22,7 +22,7 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 | 13 | [What breaks when you change the model you never changed?](13-model-changes.md) | Model updates, consistency, vendor lock-in | Draft for review | |
 | 14 | [The demo works, so why isn't it 4 weeks from production?](14-estimates.md) | Estimates, expert time | Draft for review | |
 | 15 | [You built it. Why isn't anyone using it?](15-adoption.md) | Success metrics, ROI, adoption | Draft for review | |
-| 16 | So, should you really "just add RAG"? | Finale: the checklist | Not started | |
+| 16 | [So, should you really "just add RAG"?](16-finale-checklist.md) | Finale: the checklist | Draft for review | |
 
 Numbers are for planning only. Published write-ups are called "write-ups", not numbered parts, and there is no fixed schedule.
 
