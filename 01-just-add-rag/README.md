@@ -18,7 +18,7 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 | 9 | [A few cents per question: so why is finance calling?](09-cost.md) | Cost, bills, caching | Draft for review | |
 | 10 | [It's fast in the demo, so why are users clicking twice?](10-performance.md) | Performance, availability, backups | Draft for review | |
 | 11 | [Where did your user's passport just travel to?](11-privacy.md) | Privacy, residency, compliance, right to delete | Draft for review | |
-| 12 | When your AI gives a wrong answer, can you tell why? | Observability | Not started | |
+| 12 | [When your AI gives a wrong answer, can you tell why?](12-observability.md) | Observability | Draft for review | |
 | 13 | What breaks when you change the model you never changed? | Model updates, consistency, vendor lock-in | Not started | |
 | 14 | The demo works, so why isn't it 4 weeks from production? | Estimates, expert time | Not started | |
 | 15 | You built it. Why isn't anyone using it? | Success metrics, ROI, adoption | Not started | |
