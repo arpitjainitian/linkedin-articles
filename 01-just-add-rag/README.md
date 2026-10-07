@@ -13,7 +13,7 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 | 4 | [What does your AI say when it doesn't know?](04-grounding.md) | Grounding, citations, follow-ups, human review | Draft for review | |
 | 5 | [Is your chatbot answering a question that needs a database?](05-right-tool.md) | Picking the right tool for the question | Draft for review | |
 | 6 | [What happens when your AI finds two versions of the truth?](06-versions.md) | Versions, ownership after go-live | Draft for review | |
-| 7 | Can the intern ask your AI about the CEO's salary? | Permissions, security, prompt injection, guardrails | Not started | |
+| 7 | [Can the intern ask your AI about the CEO's salary?](07-permissions.md) | Permissions, security, prompt injection, guardrails | Draft for review | |
 | 8 | How many questions did you test before saying "it works"? | Evals, ground truth, test harness | Not started | |
 | 9 | A few cents per question: so why is finance calling? | Cost, bills, caching | Not started | |
 | 10 | It's fast in the demo, so why are users clicking twice? | Performance, availability, backups | Not started | |
