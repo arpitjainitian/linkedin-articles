@@ -18,10 +18,12 @@ Each topic is its own series, numbered below. Each is a sentence that sounds eas
 | 9 | "Just tell it in the prompt not to do that" | L3 | Guardrails: input and output filters, PII, jailbreaks, policy | Planned |
 | 10 | "We'll just check the logs" | L3 | Observability: traces, logs, metrics, feedback | Planned |
 | 11 | "Just call the model API directly" | L4 | AI gateway: auth, routing, rate limits, caching, fallbacks across providers | Planned |
-| 12 | "Just add an MCP server" | L4 | What MCP is, why it helps, and what it doesn't solve | Planned |
-| 13 | "Connect the agent to our DB/tools" | L4 | Tool security, least privilege, prompt injection through data | Planned |
-| 14 | "Let's make it agentic" | L4 | Agentic loops: plan, act, observe, reflect; when a workflow beats an agent | Planned |
-| 15 | "Add more agents, it'll get smarter" | L5 | Multi-agent systems: orchestrators, isolated context, compounding errors | Planned |
-| 16 | "The vendor ships the model, so we're done" | L5 | The agent harness: you own the loop | Planned |
+| 12 | "Just add a knowledge graph" | L4 | GraphRAG: entities and relationships, multi-hop questions, explainable paths, and the real cost of building and maintaining the graph | Planned |
+| 13 | "Just add an MCP server" | L4 | What MCP is, why it helps, and what it doesn't solve | Planned |
+| 14 | "Connect the agent to our DB/tools" | L4 | Tool security, least privilege, prompt injection through data | Planned |
+| 15 | "Let's make it agentic" | L4 | Agentic loops: plan, act, observe, reflect; when a workflow beats an agent | Planned |
+| 16 | "Let the agent decide what to search" | L5 | Agentic RAG: plan, retrieve, reason, retrieve again; loops, cost and latency, when plain RAG is enough | Planned |
+| 17 | "Add more agents, it'll get smarter" | L5 | Multi-agent systems: orchestrators, isolated context, compounding errors | Planned |
+| 18 | "The vendor ships the model, so we're done" | L5 | The agent harness: you own the loop | Planned |
 
-Topics 9-11 and 14-16 were inspired by a "9 AI concepts" infographic by Brij Kishore Pandey ([@brijpandeyji](https://www.linkedin.com/in/brijpandeyji/)).
+Topics 9-11, 15, 17 and 18 were inspired by a "9 AI concepts" infographic by Brij Kishore Pandey ([@brijpandeyji](https://www.linkedin.com/in/brijpandeyji/)). Topics 12 and 16 were inspired by an "Agentic RAG vs GraphRAG" comparison infographic.
