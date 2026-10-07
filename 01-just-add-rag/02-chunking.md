@@ -43,25 +43,25 @@ The tutorial default is to cut every 500 characters. A character counter will ha
 
 1. **A ruler on a stuffed sandwich**
 
-   **Fixed-size chunking**: every N tokens, whatever's inside. Sometimes a perfect bite, sometimes all bread. Fine for prototypes.
+   Cut every N tokens, whatever's inside. Sometimes a perfect bite, sometimes all bread. Fine for prototypes. That's **fixed-size chunking**.
 2. **Cut along the natural lines first**
 
-   **Recursive splitting**: paragraphs, then lines, then sentences, with the ruler only as a last resort. A sensible default.
+   Paragraphs, then lines, then sentences, with the ruler only as a last resort. A sensible default. That's **recursive splitting**.
 3. **Follow the table of contents**
 
-   **Structure-aware chunking**: cut at headings, sections and clauses. Best for contracts and policies.
+   Cut at headings, sections and clauses. Best for contracts and policies. That's **structure-aware chunking**.
 4. **New topic, new paragraph**
 
-   **Semantic chunking**: cut where the meaning shifts between sentences. Smarter, but costlier at volume.
+   Cut where the meaning shifts between sentences. Smarter, but costlier at volume. That's **semantic chunking**.
 5. **Find the line, read the page**
 
-   **Parent-child, or small-to-big**: search small chunks, then send the LLM the whole section around the match.
+   Search small chunks, then send the LLM the whole section around the match. That's **parent-child, or small-to-big, chunking**.
 6. **The chapter title on every photocopy**
 
-   **Contextual chunks**: stamp the document name and section on every chunk. Cheap, and it rescues the lonely date.
+   Stamp the document name and section on every chunk. Cheap, and it rescues the lonely date. These are **contextual chunks**.
 7. **Some things shouldn't be cut at all**
 
-   **One record, one chunk**: a passport, an invoice, one FAQ answer.
+   A passport, an invoice, one FAQ answer: already the right size. That's **one record, one chunk**.
 
 Whatever you pick: **overlap** a sentence or two at each border (10-20% is a common start), keep **tables and lists whole** (half a rate card is worse than none), and let a test, not a hunch, decide the **size**.
 
