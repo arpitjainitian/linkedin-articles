@@ -10,7 +10,7 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 | 1 | Why can't your AI read a PDF that a 10-year-old can? | Document ingestion, OCR | **Published** | [Read](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/) |
 | 2 | [What if the answer was in your docs, but you cut it in half?](02-chunking.md) | Chunking | Ready to publish | |
 | 3 | [Is your AI hallucinating, or just looking in the wrong place?](03-retrieval.md) | Retrieval, multilingual questions | Draft for review | |
-| 4 | What does your AI say when it doesn't know? | Grounding, citations, follow-ups, human review | Not started | |
+| 4 | [What does your AI say when it doesn't know?](04-grounding.md) | Grounding, citations, follow-ups, human review | Draft for review | |
 | 5 | Is your chatbot answering a question that needs a database? | Picking the right tool for the question | Not started | |
 | 6 | What happens when your AI finds two versions of the truth? | Versions, ownership after go-live | Not started | |
 | 7 | Can the intern ask your AI about the CEO's salary? | Permissions, security, prompt injection, guardrails | Not started | |
