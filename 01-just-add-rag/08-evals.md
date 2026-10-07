@@ -106,7 +106,10 @@ Next write-up: **A few cents per question: so why is finance calling?** (Cost)
 
 Follow me for the next one. And tell me: how many test questions does your AI project have? Be honest. One counts.
 
-*New to the series? Start with the first write-up: [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)*
+**Earlier in this series:**
+
+- [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+- [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
 
 ---
 

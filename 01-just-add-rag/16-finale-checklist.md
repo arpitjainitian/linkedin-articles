@@ -79,7 +79,10 @@ This series ends here. The next one starts soon, on another sentence that sounds
 
 And tell me one last time: how many boxes did your project tick?
 
-*New to the series? The full list of write-ups is in the pinned comment.*
+**Earlier in this series:**
+
+- [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+- [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
 
 ---
 

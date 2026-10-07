@@ -102,7 +102,10 @@ Next write-up: **Is your chatbot answering a question that needs a database?** (
 
 Follow me for the next one. And tell me: what's the best "I don't know" you've seen from an AI? Or the most confident guess?
 
-*New to the series? Start with the first write-up: [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)*
+**Earlier in this series:**
+
+- [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+- [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
 
 ---
 
