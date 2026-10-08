@@ -6,11 +6,11 @@ Questions are collected from posts and discussions shared over time. They are re
 
 | # | Question | Topic | Level | Related write-up | Source | Status |
 |---|---|---|---|---|---|---|
-| | *(questions will be added as sources are shared)* | | | | | |
+| 1 | Every morning at exactly 9:00 AM, a cron job starts 50 worker nodes that pull reports from a shared relational database. The connection pool runs out instantly, and the whole app is down for 15 minutes. What's happening, and how do you fix it? | Thundering herd, connection pool exhaustion, scheduled load spikes | L3 | | S1 | Planned |
 
 ## Sources
 
-*(none yet)*
+- **S1:** shared directly by Arpit (no link).
 
 ## Rules for this series
 
