@@ -7,6 +7,7 @@ Questions are collected from posts and discussions shared over time. They are re
 | # | Question | Topic | Level | Related write-up | Source | Status |
 |---|---|---|---|---|---|---|
 | 1 | Every morning at exactly 9:00 AM, a cron job starts 50 worker nodes that pull reports from a shared relational database. The connection pool runs out instantly, and the whole app is down for 15 minutes. What's happening, and how do you fix it? | Thundering herd, connection pool exhaustion, scheduled load spikes | L3 | | S1 | Planned |
+| 2 | During a holiday sale, the third-party fraud-check API your checkout depends on slows from 50 ms to 15 seconds per call. Checkout threads pile up waiting, and the whole e-commerce platform crashes. How do you stop one slow dependency from taking everything down? | Cascading failure, timeouts, circuit breaker, bulkhead, graceful degradation | L3 | #JustAddRAG: performance (fallbacks, graceful degradation) | S1 | Planned |
 
 ## Sources
 
