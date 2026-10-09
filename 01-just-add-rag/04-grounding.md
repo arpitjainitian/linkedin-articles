@@ -6,9 +6,7 @@
 
 Ask a good new colleague something they don't know, and they'll say, "Let me check." Ask an LLM, and you'll usually get a fluent, confident paragraph. LLMs are trained to be helpful. Awkward silence isn't in the training plan.
 
-I asked my document assistant: "Can I travel to the USA next week?" It answered correctly: "Your passport expired on 29/09/2024 and is no longer valid for travel."
-
-Then I thought about a question my documents can't fully answer: "Do I need a visa for the USA?" My prompt never told the model what to do in that case. So nothing stops it answering from general knowledge, in a tone that sounds exactly like it read it in my files. Like a very confident uncle at a family wedding.
+Imagine asking your document assistant: "Do I need a visa for the USA?" when none of your documents mention a visa. Unless it's been told what to do in that case, it will answer anyway, from general knowledge, in a tone that sounds exactly like it read it in your files. Like a very confident uncle at a family wedding.
 
 Keeping the AI's answers tied to your documents is called grounding. Showing where each answer came from is called citation. Together, they decide whether people can trust what the AI says.
 
