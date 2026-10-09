@@ -6,7 +6,9 @@
 
 Ask a good new colleague something they don't know, and they'll say, "Let me check." Ask an LLM, and you'll usually get a fluent, confident paragraph. LLMs are trained to be helpful. Awkward silence isn't in the training plan.
 
-I asked my document assistant: "Do I need a visa for the USA?" None of my documents mention a visa. A model left to itself will still answer, from general knowledge, in a tone that sounds exactly like it read it in my files. Like a very confident uncle at a family wedding.
+I asked my document assistant: "Can I travel to the USA next week?" It answered correctly: "Your passport expired on 29/09/2024 and is no longer valid for travel."
+
+Then I thought about a question my documents can't fully answer: "Do I need a visa for the USA?" My prompt never told the model what to do in that case. So nothing stops it answering from general knowledge, in a tone that sounds exactly like it read it in my files. Like a very confident uncle at a family wedding.
 
 Keeping the AI's answers tied to your documents is called grounding. Showing where each answer came from is called citation. Together, they decide whether people can trust what the AI says.
 
@@ -21,9 +23,29 @@ Keeping the AI's answers tied to your documents is called grounding. Showing whe
 
 ## What my assistant got right, and not quite
 
-**Right:** the system prompt told gpt-4o-mini to check expiry dates against today's date, and I passed today's date in with every question, because the model doesn't know what day it is. My API also returned the source it used.
+**Right:**
 
-**Not quite:** that source came back as `cited_documents: ["doc-9a140b96"]`. A citation only a database could love. No user can click that and check it. My prompt's rules were all about dates and travel eligibility, not about what to say when the documents are silent. And it ran at a temperature of 0.7, a setting that's lovely for poetry and less lovely for passports.
+- The model doesn't know today's date, so I sent it with every question. My instructions told the model to compare it with the expiry date. That's how it knew the passport had expired.
+- My system also returned which document the answer came from.
+
+**Not quite:**
+
+- That source came back as `doc-9a140b96`, a database ID. A user can't tell it means "your passport", and can't click it to check. A citation only a database could love.
+- My instructions covered dates and travel, but never said what to do when the answer isn't in the documents. So "I don't know" was never an option.
+- It ran at a temperature of 0.7, which adds variety to the wording. Lovely for poetry. Less lovely for passports.
+
+## "Not found" isn't the same as "not there"
+
+You might ask: a US visa would be stamped in my passport. Can't the model just check?
+
+Partly. My OCR extracted about a thousand characters, essentially the passport's information page. Visa stamps live on inner pages. So "no visa found" could mean I have no visa, or the visa pages weren't scanned, or OCR missed the stamp, or the visa is in my old passport, or it's an e-visa with no stamp at all.
+
+And there are really two questions hiding in one:
+
+- **"Do I have a US visa?"** My documents can help, if the right pages are in them.
+- **"Do I need a US visa?"** My documents can't answer that. It depends on rules about nationality, destination and purpose of travel, and those rules aren't in my passport.
+
+A good grounded answer says exactly that: "I couldn't find a US visa in the pages you uploaded. Only your passport's information page is in your documents. Whether you need a visa depends on rules that aren't in your documents, so please check the official US visa website."
 
 ## Six ways answers drift from your documents
 
