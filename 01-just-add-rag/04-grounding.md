@@ -1,4 +1,4 @@
-# What Does Your AI Say When It Doesn't Know?
+# 4. What Does Your AI Say When It Doesn't Know?
 
 ![Cover](images/04-grounding-cover.png)
 
@@ -129,16 +129,16 @@ New in this write-up, plus two quick refreshers.
 
 The AI that can say "I don't know" is the one people end up trusting.
 
-Next write-up: **Is your chatbot answering a question that needs a database?** (Picking the right tool)
+Next write-up (5): **Is your chatbot answering a question that needs a database?** (Picking the right tool)
 
 Follow me for the next one. And tell me: what's the best "I don't know" you've seen from an AI? Or the most confident guess?
 
 **Earlier in this series:**
 
-- [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
-- [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
-- [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
-- [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
+- 0. [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+- 1. [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
+- 2. [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
+- 3. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
 
 ---
 
@@ -148,7 +148,7 @@ Follow me for the next one. And tell me: what's the best "I don't know" you've s
 >
 > None of my documents mention a visa. A model left to itself would still answer, confidently, as if it read it in my files.
 >
-> New write-up in my #JustAddRAG series: grounding, citations a person can actually check, and why "I don't know" is a feature worth designing for. Plus three things to take to your next kickoff meeting.
+> Write-up 4 in my #JustAddRAG series: grounding, citations a person can actually check, and why "I don't know" is a feature worth designing for. Plus three things to take to your next kickoff meeting.
 >
 > What's the best "I don't know" you've seen from an AI?
 

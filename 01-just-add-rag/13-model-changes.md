@@ -1,4 +1,4 @@
-# What Breaks When You Change the Model You Never Changed?
+# 13. What Breaks When You Change the Model You Never Changed?
 
 ![Cover](images/13-model-changes-cover.png)
 
@@ -96,16 +96,16 @@ Models have expiry dates too. Just like my passport.
 
 You can rent the brain. Just don't let it move in.
 
-Next write-up: **The demo works, so why isn't it 4 weeks from production?** (Estimates)
+Next write-up (14): **The demo works, so why isn't it 4 weeks from production?** (Estimates)
 
 Follow me for the next one. And tell me: has a model update ever changed your AI's answers without warning?
 
 **Earlier in this series:**
 
-- [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
-- [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
-- [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
-- [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
+- 0. [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+- 1. [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
+- 2. [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
+- 3. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
 
 ---
 
@@ -115,7 +115,7 @@ Follow me for the next one. And tell me: has a model update ever changed your AI
 >
 > My config said "gpt-4o-mini": a name, not a version. Models have expiry dates too. Just like my passport.
 >
-> New write-up in my #JustAddRAG series: model pinning, embedding migrations, testing a new model before users meet it, avoiding vendor lock-in, and three things to take to your next kickoff meeting.
+> Write-up 13 in my #JustAddRAG series: model pinning, embedding migrations, testing a new model before users meet it, avoiding vendor lock-in, and three things to take to your next kickoff meeting.
 >
 > Has a model update ever changed your AI's answers without warning?
 

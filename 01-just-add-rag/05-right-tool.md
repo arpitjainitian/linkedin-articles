@@ -1,4 +1,4 @@
-# Is Your Chatbot Answering a Question That Needs a Database?
+# 5. Is Your Chatbot Answering a Question That Needs a Database?
 
 ![Cover](images/05-right-tool-cover.png)
 
@@ -94,16 +94,16 @@ List the 20 questions users ask most, and label each with the tool it needs. The
 
 Not every question is a search. Some are just a database query with good manners.
 
-Next write-up: **What happens when your AI finds two versions of the truth?** (Versions and ownership)
+Next write-up (6): **What happens when your AI finds two versions of the truth?** (Versions and ownership)
 
 Follow me for the next one. And tell me: what's a question your users asked a chatbot that really needed a spreadsheet?
 
 **Earlier in this series:**
 
-- [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
-- [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
-- [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
-- [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
+- 0. [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+- 1. [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
+- 2. [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
+- 3. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
 
 ---
 
@@ -113,7 +113,7 @@ Follow me for the next one. And tell me: what's a question your users asked a ch
 >
 > Sounds like a chatbot question. It's a database query wearing a chatbot costume.
 >
-> New write-up in my #JustAddRAG series: why RAG counts what it was handed, not what you have, the six kinds of questions that each need a different tool, and three things to take to your next kickoff meeting.
+> Write-up 5 in my #JustAddRAG series: why RAG counts what it was handed, not what you have, the six kinds of questions that each need a different tool, and three things to take to your next kickoff meeting.
 >
 > What's a question your users asked a chatbot that really needed a spreadsheet?
 

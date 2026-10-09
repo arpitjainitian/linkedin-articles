@@ -1,4 +1,4 @@
-# Can the Intern Ask Your AI About the CEO's Salary?
+# 7. Can the Intern Ask Your AI About the CEO's Salary?
 
 ![Cover](images/07-permissions-cover.png)
 
@@ -97,16 +97,16 @@ Log in as your least-privileged user. Ask for the most sensitive thing you can t
 
 If access control only lives on the screen, it doesn't really exist.
 
-Next write-up: **How many questions did you test before saying "it works"?** (Evals and ground truth)
+Next write-up (8): **How many questions did you test before saying "it works"?** (Evals and ground truth)
 
 Follow me for the next one. And tell me: has anyone run the intern test on your AI assistant yet?
 
 **Earlier in this series:**
 
-- [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
-- [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
-- [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
-- [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
+- 0. [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+- 1. [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
+- 2. [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
+- 3. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
 
 ---
 
@@ -116,7 +116,7 @@ Follow me for the next one. And tell me: has anyone run the intern test on your 
 >
 > The HR portal blocks it. The AI's search index doesn't know it should.
 >
-> New write-up in my #JustAddRAG series: why permissions must live in the search, not the screen, how a single database row can carry instructions, and the intern test every AI assistant should pass before launch.
+> Write-up 7 in my #JustAddRAG series: why permissions must live in the search, not the screen, how a single database row can carry instructions, and the intern test every AI assistant should pass before launch.
 >
 > Has anyone run the intern test on your AI yet?
 

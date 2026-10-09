@@ -1,4 +1,4 @@
-# The Demo Works, So Why Isn't It 4 Weeks From Production?
+# 14. The Demo Works, So Why Isn't It 4 Weeks From Production?
 
 ![Cover](images/14-estimates-cover.png)
 
@@ -92,16 +92,16 @@ The **sponsor** approves each phase. **Product** owns the quality bar. **Enginee
 
 A demo is a promise. Production is keeping it.
 
-Next write-up: **You built it. Why isn't anyone using it?** (Adoption and ROI)
+Next write-up (15): **You built it. Why isn't anyone using it?** (Adoption and ROI)
 
 Follow me for the next one. And tell me: what's the biggest gap you've seen between a demo date and a go-live date?
 
 **Earlier in this series:**
 
-- [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
-- [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
-- [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
-- [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
+- 0. [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+- 1. [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
+- 2. [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
+- 3. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
 
 ---
 
@@ -111,7 +111,7 @@ Follow me for the next one. And tell me: what's the biggest gap you've seen betw
 >
 > A demo proves the idea, not the system. The rest is the whole iceberg: documents, search, grounding, permissions, evals, cost, speed, privacy, monitoring.
 >
-> New write-up in my #JustAddRAG series: seven estimation traps, a phased plan that tends to survive reality, and three things to take to your next kickoff meeting.
+> Write-up 14 in my #JustAddRAG series: seven estimation traps, a phased plan that tends to survive reality, and three things to take to your next kickoff meeting.
 >
 > What's the biggest gap you've seen between a demo date and a go-live date?
 

@@ -1,4 +1,4 @@
-# What Happens When Your AI Finds Two Versions of the Truth?
+# 6. What Happens When Your AI Finds Two Versions of the Truth?
 
 ![Cover](images/06-versions-cover.png)
 
@@ -92,16 +92,16 @@ Add "old versus new" questions to your test set. Upload two versions of the same
 
 Give the AI one version of the truth, or it will quietly choose one for you.
 
-Next write-up: **Can the intern ask your AI about the CEO's salary?** (Permissions and security)
+Next write-up (7): **Can the intern ask your AI about the CEO's salary?** (Permissions and security)
 
 Follow me for the next one. And tell me: how many versions of the same policy live in your shared drive right now? Honest numbers only.
 
 **Earlier in this series:**
 
-- [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
-- [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
-- [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
-- [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
+- 0. [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+- 1. [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
+- 2. [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
+- 3. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
 
 ---
 
@@ -111,7 +111,7 @@ Follow me for the next one. And tell me: how many versions of the same policy li
 >
 > Upload a renewed document, and your AI now has two versions of the truth. Which one answers depends on the search that day.
 >
-> New write-up in my #JustAddRAG series: drafts beating finals, deleted files that keep answering, why every document collection needs a named owner, and three things to take to your next kickoff meeting.
+> Write-up 6 in my #JustAddRAG series: drafts beating finals, deleted files that keep answering, why every document collection needs a named owner, and three things to take to your next kickoff meeting.
 >
 > How many versions of the same policy live in your shared drive right now?
 

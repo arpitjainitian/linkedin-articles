@@ -1,4 +1,4 @@
-# So, Should You Really "Just Add RAG"?
+# 16. So, Should You Really "Just Add RAG"?
 
 ![Cover](images/16-finale-checklist-cover.png)
 
@@ -81,10 +81,10 @@ And tell me one last time: how many boxes did your project tick?
 
 **Earlier in this series:**
 
-- [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
-- [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
-- [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
-- [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
+- 0. [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+- 1. [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
+- 2. [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
+- 3. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
 
 ---
 
@@ -94,7 +94,7 @@ And tell me one last time: how many boxes did your project tick?
 >
 > Yes. With your eyes open, a real plan, and a budget for what's under the water.
 >
-> The final write-up in my #JustAddRAG series: when RAG fits and when it doesn't, plus the whole iceberg as one 15-question checklist you can take into any kickoff meeting.
+> Write-up 16, the final one, in my #JustAddRAG series: when RAG fits and when it doesn't, plus the whole iceberg as one 15-question checklist you can take into any kickoff meeting.
 >
 > How many boxes does your project tick?
 

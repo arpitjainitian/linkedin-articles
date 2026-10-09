@@ -1,4 +1,4 @@
-# It's Fast in the Demo, So Why Are Users Clicking Twice?
+# 10. It's Fast in the Demo, So Why Are Users Clicking Twice?
 
 ![Cover](images/10-performance-cover.png)
 
@@ -95,16 +95,16 @@ Run a load test with realistic traffic. Unplug the LLM provider on purpose in a 
 
 Users forgive "thinking...". They don't forgive silence.
 
-Next write-up: **Where did your user's passport just travel to?** (Privacy and compliance)
+Next write-up (11): **Where did your user's passport just travel to?** (Privacy and compliance)
 
 Follow me for the next one. And tell me: what's the longest an AI tool made you wait before you gave up?
 
 **Earlier in this series:**
 
-- [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
-- [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
-- [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
-- [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
+- 0. [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+- 1. [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
+- 2. [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
+- 3. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
 
 ---
 
@@ -114,7 +114,7 @@ Follow me for the next one. And tell me: what's the longest an AI tool made you 
 >
 > Real users wait two seconds, then click again. Now it's answering the same question three times.
 >
-> New write-up in my #JustAddRAG series: four hops per question, what happens when the AI provider is down, why the average hides your angriest users, and three things to take to your next kickoff meeting.
+> Write-up 10 in my #JustAddRAG series: four hops per question, what happens when the AI provider is down, why the average hides your angriest users, and three things to take to your next kickoff meeting.
 >
 > What's the longest an AI tool made you wait before you gave up?
 
