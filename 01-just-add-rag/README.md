@@ -10,7 +10,7 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 | 2 | Why can't your AI read a PDF that a 10-year-old can? | Document ingestion, OCR | **Published** | [Read](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/) |
 | 3 | [What if the answer was in your docs, but you cut it in half?](02-chunking.md) | Chunking | **Published** | [Read](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/) |
 | 4 | [Is your AI hallucinating, or just looking in the wrong place?](03-retrieval.md) | Retrieval, multilingual questions | **Published** | [Read](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/) |
-| 5 | [What does your AI say when it doesn't know?](04-grounding.md) | Grounding, citations, follow-ups, human review | Draft for review | |
+| 5 | [What does your AI say when it doesn't know?](04-grounding.md) | Grounding, citations, follow-ups, human review | **Published** | [Read](https://www.linkedin.com/pulse/5-what-does-your-ai-say-when-doesnt-know-arpit-jain-wr5bf) |
 | 6 | [Is your chatbot answering a question that needs a database?](05-right-tool.md) | Picking the right tool for the question | Draft for review | |
 | 7 | [What happens when your AI finds two versions of the truth?](06-versions.md) | Versions, ownership after go-live | Draft for review | |
 | 8 | [Can the intern ask your AI about the CEO's salary?](07-permissions.md) | Permissions, security, prompt injection, guardrails | Draft for review | |
