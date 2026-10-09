@@ -23,6 +23,10 @@ Keeping the AI's answers tied to your documents is called grounding. Showing whe
 
 ## What my assistant got right, and not quite
 
+**Question 1:** "Can I travel to the USA next week?"
+
+**My assistant's answer:** "Your passport expired on 29/09/2024 and is no longer valid for travel. You cannot travel to USA next week without renewing it first."
+
 **Right:**
 
 - The model doesn't know today's date, so I sent it with every question. My instructions told the model to compare it with the expiry date. That's how it knew the passport had expired.
@@ -31,8 +35,15 @@ Keeping the AI's answers tied to your documents is called grounding. Showing whe
 **Not quite:**
 
 - That source came back as `doc-9a140b96`, a database ID. A user can't tell it means "your passport", and can't click it to check. A citation only a database could love.
-- My instructions covered dates and travel, but never said what to do when the answer isn't in the documents. So "I don't know" was never an option.
 - It ran at a temperature of 0.7, which adds variety to the wording. Lovely for poetry. Less lovely for passports.
+
+**Question 2:** "Do I need a visa for the USA?"
+
+**The kind of answer a model gives without a "not found" rule:** "Yes, Indian citizens need a B1/B2 visitor visa to travel to the USA. You can apply online through the DS-160 form and book an interview at the US consulate."
+
+Fluent, helpful, and possibly correct. But none of it came from my documents. It's the model's general knowledge, delivered in exactly the same confident tone as the passport answer. A user can't tell the difference.
+
+**What went wrong:** my instructions covered dates and travel, but never said what to do when the answer isn't in the documents. So "I don't know" was never an option.
 
 ## "Not found" isn't the same as "not there"
 
