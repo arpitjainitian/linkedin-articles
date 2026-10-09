@@ -162,7 +162,14 @@ Follow me for the next one. And tell me: what's a question your users asked a ch
 >
 > Sounds like a chatbot question. It's a database query wearing a chatbot costume.
 >
-> Write-up 6 in my #JustAddRAG series: why RAG counts what it was handed, not what you have, the six kinds of questions that each need a different tool, and three things to take to your next kickoff meeting.
+> Send it to RAG anyway, and you pay for it:
+> • Accuracy: it counts only the 3 chunks it was handed, so the list is quietly incomplete
+> • Latency: seconds instead of milliseconds
+> • Cost: an embedding, a search and an LLM call, for a question SQL answers almost free
+> • Availability: it fails whenever the AI provider is down
+> • Trust: the answer changes each time you ask
+>
+> Write-up 6 in my #JustAddRAG series: six kinds of questions that each need a different tool, who decides the route, and three things to take to your next kickoff meeting.
 >
 > What's a question your users asked a chatbot that really needed a spreadsheet?
 
