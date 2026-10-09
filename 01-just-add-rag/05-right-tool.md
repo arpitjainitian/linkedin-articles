@@ -71,6 +71,39 @@ Two honest trade-offs. The router itself adds a small step, so keep it light. An
 
 The router is the first step after the question arrives. A small model, or even a simple classifier, labels the question: search, count, calculate, live, or "can't help". Then it goes to the matching tool.
 
+```
+                     User question
+                           |
+                           v
+                 +-------------------+
+                 |      ROUTER       |
+                 | (rules, a small   |
+                 |  classifier, or   |
+                 |  the LLM itself)  |
+                 +-------------------+
+                           |
+     +------------+--------+---------+-------------+
+     |            |                  |             |
+     v            v                  v             v
++---------+  +----------+  +--------------+  +-----------+
+| SEARCH  |  |  COUNT   |  |  CALCULATE   |  |   LIVE    |
+|  (RAG)  |  |  (SQL)   |  |   (code)     |  |   (API)   |
++---------+  +----------+  +--------------+  +-----------+
+ "What does   "Which docs   "Days until my   "Is my visa
+  the policy   expire this    passport         appointment
+  say?"        year?"         expires?"        confirmed?"
+     |            |                  |             |
+     +------------+--------+---------+-------------+
+                           |
+                           v
+                 +-------------------+
+                 |  LLM writes the   |
+                 |  final answer     |
+                 +-------------------+
+```
+
+**Who decides?** At design time, people decide which question types go to which tool. At runtime, the router decides for each question: simple rules, a small classifier, or the LLM itself choosing from a list of tools. Mixed questions, like "Which documents expire this year, and what does the renewal policy say?", need an orchestrator that runs the steps in order: database first, then documents, then one combined answer. Start simple, with fixed code paths, and only let the LLM choose when the questions get too varied.
+
 Text-to-SQL needs guard rails:
 
 - **Read-only** database access. The AI reads, never writes.
@@ -98,6 +131,8 @@ List the 20 questions users ask most, and label each with the tool it needs. The
 - **API:** a way for one system to ask another for live data. *The visa appointment system.*
 - **Read-only access:** permission to read, never change. *The AI can list documents, not delete them.*
 - **NFR (non-functional requirement):** how well a system works, not what it does: cost, speed, uptime, scale. *A 3-second answer and a 20-millisecond answer can both be correct. Only one feels fast.*
+- **Router:** the step that decides which tool handles each question. *"How many" goes to SQL, "what does it say" goes to RAG.*
+- **Orchestrator:** the code or framework that runs several steps in order and combines their results. *Database list first, then policy search, then one answer.*
 
 ## Take this to your next kickoff meeting
 
