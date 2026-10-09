@@ -89,20 +89,22 @@ And tell me one last time: how many boxes did your project tick?
 
 ---
 
-**Post text to share the article:**
+**Post text (copy and paste):**
 
-> Sixteen write-ups later: should you really "just add RAG"?
->
-> Yes. With your eyes open, a real plan, and a budget for what's under the water.
->
-> Say "just add RAG" without checking the iceberg, and you pay for it in all of these at once:
-> • Accuracy and trust: confident wrong answers
-> • Security and compliance: leaks, and data in the wrong places
-> • Cost and speed: a bigger bill and slower answers than anyone planned
-> • Time: a two-week idea becomes a six-month project
->
-> Write-up 17, the final one, in my #JustAddRAG series: when RAG fits and when it doesn't, plus the whole iceberg as one 15-question checklist you can take into any kickoff meeting.
->
-> How many boxes does your project tick?
+```
+Sixteen write-ups later: should you really "just add RAG"?
 
-**Hashtags:** #AIEngineering #RAG #GenAI #EnterpriseAI #AILeadership #JustAddRAG
+Yes. With your eyes open, a real plan, and a budget for what's under the water.
+
+Say "just add RAG" without checking the iceberg, and you pay for it in all of these at once:
+• Accuracy and trust: confident wrong answers
+• Security and compliance: leaks, and data in the wrong places
+• Cost and speed: a bigger bill and slower answers than anyone planned
+• Time: a two-week idea becomes a six-month project
+
+Write-up 17, the final one, in my #JustAddRAG series: when RAG fits and when it doesn't, plus the whole iceberg as one 15-question checklist you can take into any kickoff meeting.
+
+How many boxes does your project tick?
+
+#AIEngineering #RAG #GenAI #EnterpriseAI #AILeadership #JustAddRAG
+```

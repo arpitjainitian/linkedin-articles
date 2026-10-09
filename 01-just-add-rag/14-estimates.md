@@ -106,20 +106,22 @@ Follow me for the next one. And tell me: what's the biggest gap you've seen betw
 
 ---
 
-**Post text to share the article:**
+**Post text (copy and paste):**
 
-> "The demo works! So... four more weeks?"
->
-> A demo proves the idea, not the system. The rest is the whole iceberg: documents, search, grounding, permissions, evals, cost, speed, privacy, monitoring.
->
-> Estimate from the demo, and you pay for it:
-> • Timeline: four weeks quietly becomes four months
-> • Quality: the bar was never agreed, so the finish line keeps moving
-> • Budget: expert time, reviews and integrations were never in the plan
-> • Trust: leadership loses faith after the third revised date
->
-> Write-up 15 in my #JustAddRAG series: seven estimation traps, a phased plan that tends to survive reality, and three things to take to your next kickoff meeting.
->
-> What's the biggest gap you've seen between a demo date and a go-live date?
+```
+"The demo works! So... four more weeks?"
 
-**Hashtags:** #AIEngineering #RAG #GenAI #EnterpriseAI #AILeadership #JustAddRAG
+A demo proves the idea, not the system. The rest is the whole iceberg: documents, search, grounding, permissions, evals, cost, speed, privacy, monitoring.
+
+Estimate from the demo, and you pay for it:
+• Timeline: four weeks quietly becomes four months
+• Quality: the bar was never agreed, so the finish line keeps moving
+• Budget: expert time, reviews and integrations were never in the plan
+• Trust: leadership loses faith after the third revised date
+
+Write-up 15 in my #JustAddRAG series: seven estimation traps, a phased plan that tends to survive reality, and three things to take to your next kickoff meeting.
+
+What's the biggest gap you've seen between a demo date and a go-live date?
+
+#AIEngineering #RAG #GenAI #EnterpriseAI #AILeadership #JustAddRAG
+```

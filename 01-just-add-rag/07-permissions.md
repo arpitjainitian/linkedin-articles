@@ -111,20 +111,22 @@ Follow me for the next one. And tell me: has anyone run the intern test on your 
 
 ---
 
-**Post text to share the article:**
+**Post text (copy and paste):**
 
-> An intern asks the new AI assistant: "What's the CEO's salary?"
->
-> The HR portal blocks it. The AI's search index doesn't know it should.
->
-> Enforce permissions only on the screen, and you pay for it:
-> • Security: sensitive data reaches people who should never see it
-> • Compliance: one leaked answer becomes a reportable incident
-> • Trust: one leak and leaders switch the assistant off
-> • Integrity: a single poisoned document can steer the model's answers
->
-> Write-up 8 in my #JustAddRAG series: why permissions must live in the search, not the screen, how a database row can carry instructions, and the intern test every AI assistant should pass before launch.
->
-> Has anyone run the intern test on your AI yet?
+```
+An intern asks the new AI assistant: "What's the CEO's salary?"
 
-**Hashtags:** #AIEngineering #RAG #GenAI #EnterpriseAI #AISecurity #JustAddRAG
+The HR portal blocks it. The AI's search index doesn't know it should.
+
+Enforce permissions only on the screen, and you pay for it:
+• Security: sensitive data reaches people who should never see it
+• Compliance: one leaked answer becomes a reportable incident
+• Trust: one leak and leaders switch the assistant off
+• Integrity: a single poisoned document can steer the model's answers
+
+Write-up 8 in my #JustAddRAG series: why permissions must live in the search, not the screen, how a database row can carry instructions, and the intern test every AI assistant should pass before launch.
+
+Has anyone run the intern test on your AI yet?
+
+#AIEngineering #RAG #GenAI #EnterpriseAI #AISecurity #JustAddRAG
+```

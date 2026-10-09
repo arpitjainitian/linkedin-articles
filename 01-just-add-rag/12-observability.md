@@ -106,20 +106,22 @@ Follow me for the next one. And tell me: the last time your AI was wrong, how lo
 
 ---
 
-**Post text to share the article:**
+**Post text (copy and paste):**
 
-> "Your AI said my passport is still valid. It isn't."
->
-> My log would have told me exactly what it said. Not why. The log said, very confidently: it answered.
->
-> Log only the question and the answer, and you pay for it:
-> • Time to fix: every wrong answer becomes days of guesswork
-> • Accuracy: slow drift goes unnoticed for weeks
-> • Cost: no visibility into which step burns the most tokens
-> • Trust: users report problems, and nobody can explain them
->
-> Write-up 13 in my #JustAddRAG series: traces, prompt versions, linking feedback to the full story, the five-minute test, and three things to take to your next kickoff meeting.
->
-> The last time your AI was wrong, how long did it take to find out why?
+```
+"Your AI said my passport is still valid. It isn't."
 
-**Hashtags:** #AIEngineering #RAG #GenAI #EnterpriseAI #Observability #JustAddRAG
+My log would have told me exactly what it said. Not why. The log said, very confidently: it answered.
+
+Log only the question and the answer, and you pay for it:
+• Time to fix: every wrong answer becomes days of guesswork
+• Accuracy: slow drift goes unnoticed for weeks
+• Cost: no visibility into which step burns the most tokens
+• Trust: users report problems, and nobody can explain them
+
+Write-up 13 in my #JustAddRAG series: traces, prompt versions, linking feedback to the full story, the five-minute test, and three things to take to your next kickoff meeting.
+
+The last time your AI was wrong, how long did it take to find out why?
+
+#AIEngineering #RAG #GenAI #EnterpriseAI #Observability #JustAddRAG
+```

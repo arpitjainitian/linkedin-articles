@@ -108,20 +108,22 @@ Follow me for the next one. And tell me: could your team list every place your A
 
 ---
 
-**Post text to share the article:**
+**Post text (copy and paste):**
 
-> I uploaded one passport to my RAG assistant, then traced where it went.
->
-> Seven stops: storage, an OCR service, a database, an embedding API, a vector index, the LLM on every question, and chat history. My passport has more stamps in my RAG system than in real life.
->
-> Leave privacy for "legal will sign off later", and you pay for it:
-> • Compliance: personal data in vendors and regions nobody approved
-> • Legal risk: a "delete" that misses the vectors, logs and chat history
-> • Security: every extra copy is one more place to breach
-> • Rework: changing data flows after launch costs far more than designing them first
->
-> Write-up 12 in my #JustAddRAG series: data flow maps, vendors, residency, the deletion test, and three things to take to your next kickoff meeting.
->
-> Could your team list every place your AI sends user data, without checking?
+```
+I uploaded one passport to my RAG assistant, then traced where it went.
 
-**Hashtags:** #AIEngineering #RAG #GenAI #EnterpriseAI #Privacy #JustAddRAG
+Seven stops: storage, an OCR service, a database, an embedding API, a vector index, the LLM on every question, and chat history. My passport has more stamps in my RAG system than in real life.
+
+Leave privacy for "legal will sign off later", and you pay for it:
+• Compliance: personal data in vendors and regions nobody approved
+• Legal risk: a "delete" that misses the vectors, logs and chat history
+• Security: every extra copy is one more place to breach
+• Rework: changing data flows after launch costs far more than designing them first
+
+Write-up 12 in my #JustAddRAG series: data flow maps, vendors, residency, the deletion test, and three things to take to your next kickoff meeting.
+
+Could your team list every place your AI sends user data, without checking?
+
+#AIEngineering #RAG #GenAI #EnterpriseAI #Privacy #JustAddRAG
+```

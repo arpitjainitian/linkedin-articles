@@ -106,19 +106,21 @@ Follow me for the next one. And tell me: how many versions of the same policy li
 
 ---
 
-**Post text to share the article:**
+**Post text (copy and paste):**
 
-> Two passports walk into a vector database. Neither leaves.
->
-> Upload a renewed document without a plan for versions, and you pay for it:
-> • Accuracy: the 2021 policy keeps answering in 2026
-> • Trust: the same question gets a different answer depending on which version the search ranks higher
-> • Compliance: deleted documents keep answering from the index
-> • Cost: duplicate files mean duplicate embeddings and storage
-> • Ownership: when nobody owns the collection, nobody notices any of this
->
-> Write-up 7 in my #JustAddRAG series: drafts beating finals, deleted files that keep answering, why every document collection needs a named owner, and three things to take to your next kickoff meeting.
->
-> How many versions of the same policy live in your shared drive right now?
+```
+Two passports walk into a vector database. Neither leaves.
 
-**Hashtags:** #AIEngineering #RAG #GenAI #EnterpriseAI #JustAddRAG
+Upload a renewed document without a plan for versions, and you pay for it:
+• Accuracy: the 2021 policy keeps answering in 2026
+• Trust: the same question gets a different answer depending on which version the search ranks higher
+• Compliance: deleted documents keep answering from the index
+• Cost: duplicate files mean duplicate embeddings and storage
+• Ownership: when nobody owns the collection, nobody notices any of this
+
+Write-up 7 in my #JustAddRAG series: drafts beating finals, deleted files that keep answering, why every document collection needs a named owner, and three things to take to your next kickoff meeting.
+
+How many versions of the same policy live in your shared drive right now?
+
+#AIEngineering #RAG #GenAI #EnterpriseAI #JustAddRAG
+```

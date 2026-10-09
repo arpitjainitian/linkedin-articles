@@ -110,20 +110,22 @@ Follow me for the next one. And tell me: has a model update ever changed your AI
 
 ---
 
-**Post text to share the article:**
+**Post text (copy and paste):**
 
-> Nobody touches the code. Nobody touches the prompt. And the answers can still change.
->
-> My config said "gpt-4o-mini": a name, not a version. Models have expiry dates too. Just like my passport.
->
-> Leave model versions floating, and you pay for it:
-> • Consistency: answers change after an upgrade you never asked for
-> • Availability: a retired model stops working on the vendor's date, not yours
-> • Cost: a new embedding model means re-embedding every document
-> • Lock-in: vendor code everywhere makes switching a rewrite
->
-> Write-up 14 in my #JustAddRAG series: model pinning, embedding migrations, testing a new model before users meet it, avoiding vendor lock-in, and three things to take to your next kickoff meeting.
->
-> Has a model update ever changed your AI's answers without warning?
+```
+Nobody touches the code. Nobody touches the prompt. And the answers can still change.
 
-**Hashtags:** #AIEngineering #RAG #GenAI #EnterpriseAI #LLMOps #JustAddRAG
+My config said "gpt-4o-mini": a name, not a version. Models have expiry dates too. Just like my passport.
+
+Leave model versions floating, and you pay for it:
+• Consistency: answers change after an upgrade you never asked for
+• Availability: a retired model stops working on the vendor's date, not yours
+• Cost: a new embedding model means re-embedding every document
+• Lock-in: vendor code everywhere makes switching a rewrite
+
+Write-up 14 in my #JustAddRAG series: model pinning, embedding migrations, testing a new model before users meet it, avoiding vendor lock-in, and three things to take to your next kickoff meeting.
+
+Has a model update ever changed your AI's answers without warning?
+
+#AIEngineering #RAG #GenAI #EnterpriseAI #LLMOps #JustAddRAG
+```

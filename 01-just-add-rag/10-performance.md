@@ -109,21 +109,23 @@ Follow me for the next one. And tell me: what's the longest an AI tool made you 
 
 ---
 
-**Post text to share the article:**
+**Post text (copy and paste):**
 
-> My RAG demo answered in 3 to 5 seconds. Everyone waited politely.
->
-> Real users wait two seconds, then click again. Now it's answering the same question three times.
->
-> Treat demo speed as production speed, and you pay for it:
-> • Latency: four hops per question, and every hop can slow down
-> • Cost: impatient double clicks double the bill
-> • Availability: when the AI provider is down, so is your app
-> • Scale: one user is easy, 300 at 9:30 on Monday morning is not
-> • Recovery: lose the index without a tested backup, and it's days to rebuild
->
-> Write-up 11 in my #JustAddRAG series: streaming, fallbacks, load tests, why the average hides your angriest users, and three things to take to your next kickoff meeting.
->
-> What's the longest an AI tool made you wait before you gave up?
+```
+My RAG demo answered in 3 to 5 seconds. Everyone waited politely.
 
-**Hashtags:** #AIEngineering #RAG #GenAI #EnterpriseAI #SRE #JustAddRAG
+Real users wait two seconds, then click again. Now it's answering the same question three times.
+
+Treat demo speed as production speed, and you pay for it:
+• Latency: four hops per question, and every hop can slow down
+• Cost: impatient double clicks double the bill
+• Availability: when the AI provider is down, so is your app
+• Scale: one user is easy, 300 at 9:30 on Monday morning is not
+• Recovery: lose the index without a tested backup, and it's days to rebuild
+
+Write-up 11 in my #JustAddRAG series: streaming, fallbacks, load tests, why the average hides your angriest users, and three things to take to your next kickoff meeting.
+
+What's the longest an AI tool made you wait before you gave up?
+
+#AIEngineering #RAG #GenAI #EnterpriseAI #SRE #JustAddRAG
+```

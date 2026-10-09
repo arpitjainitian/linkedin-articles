@@ -104,20 +104,22 @@ Follow me for the next one. And tell me: what made you actually keep using an AI
 
 ---
 
-**Post text to share the article:**
+**Post text (copy and paste):**
 
-> Launch day: everyone logs in and says "nice". Three weeks later: a loyal handful.
->
-> The AI works. The project still failed.
->
-> Launch without planning adoption, and you pay for it:
-> • Value: an unused AI has perfect accuracy and zero return
-> • Cost: you keep paying to run it either way
-> • Trust: one wrong answer in week one, and people don't come back
-> • Credibility: with no baseline, there's nothing to show leaders except login counts
->
-> Write-up 16 in my #JustAddRAG series: defining "worth it" before launch, putting AI where people already work, the week-two test, and three things to take to your next kickoff meeting.
->
-> What made you keep using an AI tool at work, or quietly stop?
+```
+Launch day: everyone logs in and says "nice". Three weeks later: a loyal handful.
 
-**Hashtags:** #AIEngineering #RAG #GenAI #EnterpriseAI #AIAdoption #JustAddRAG
+The AI works. The project still failed.
+
+Launch without planning adoption, and you pay for it:
+• Value: an unused AI has perfect accuracy and zero return
+• Cost: you keep paying to run it either way
+• Trust: one wrong answer in week one, and people don't come back
+• Credibility: with no baseline, there's nothing to show leaders except login counts
+
+Write-up 16 in my #JustAddRAG series: defining "worth it" before launch, putting AI where people already work, the week-two test, and three things to take to your next kickoff meeting.
+
+What made you keep using an AI tool at work, or quietly stop?
+
+#AIEngineering #RAG #GenAI #EnterpriseAI #AIAdoption #JustAddRAG
+```
