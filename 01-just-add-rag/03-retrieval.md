@@ -1,4 +1,4 @@
-# Is Your AI Hallucinating, or Just Looking in the Wrong Place?
+# 4. Is Your AI Hallucinating, or Just Looking in the Wrong Place?
 
 ![Cover](images/03-retrieval-cover.png)
 

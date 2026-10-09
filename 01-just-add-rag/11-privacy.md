@@ -1,4 +1,4 @@
-# 11. Where Did Your User's Passport Just Travel To?
+# 12. Where Did Your User's Passport Just Travel To?
 
 ![Cover](images/11-privacy-cover.png)
 
@@ -94,16 +94,16 @@ Create a test user. Upload a document. Ask a few questions. Then delete the user
 
 Your AI's privacy is only as good as its most forgetful copy.
 
-Next write-up (12): **When your AI gives a wrong answer, can you tell why?** (Observability)
+Next write-up (13): **When your AI gives a wrong answer, can you tell why?** (Observability)
 
 Follow me for the next one. And tell me: could your team list every place your AI sends user data, right now, without checking?
 
 **Earlier in this series:**
 
-0. [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
-1. [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
-2. [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
-3. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
+1. [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+2. [Why can't your AI read a PDF that a 10-year-old can?](https://www.linkedin.com/pulse/why-cant-your-ai-read-pdf-10-year-old-can-arpit-jain-fimif/)
+3. [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
+4. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
 
 ---
 
@@ -113,7 +113,7 @@ Follow me for the next one. And tell me: could your team list every place your A
 >
 > Seven stops: storage, an OCR service, a database, an embedding API, a vector index, the LLM on every question, and chat history. My passport has more stamps in my RAG system than in real life.
 >
-> Write-up 11 in my #JustAddRAG series: data flow maps, vendors, residency, the deletion test, and three things to take to your next kickoff meeting.
+> Write-up 12 in my #JustAddRAG series: data flow maps, vendors, residency, the deletion test, and three things to take to your next kickoff meeting.
 >
 > Could your team list every place your AI sends user data, without checking?
 

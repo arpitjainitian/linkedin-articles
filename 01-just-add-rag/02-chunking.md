@@ -1,4 +1,4 @@
-# What If the Answer Was in Your Docs, but You Cut It in Half?
+# 3. What If the Answer Was in Your Docs, but You Cut It in Half?
 
 ![Cover](images/02-chunking-cover.png)
 
