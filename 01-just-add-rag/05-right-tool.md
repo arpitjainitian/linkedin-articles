@@ -34,6 +34,18 @@ So "how many documents have I uploaded?" was one SQL line away. But "which docum
 - **Live information.** "Is my visa appointment confirmed?" No document knows that. *Fix: ask the system that does, through an API.*
 - **Questions about meaning.** "What does my travel policy say about lost baggage?" *This one really is RAG's job.*
 
+## It's not just about the right answer
+
+The wrong tool doesn't only risk a wrong answer. It quietly hurts every non-functional requirement too, the "how well" qualities nobody demos but every user feels:
+
+- **Cost.** RAG pays for an embedding call, a vector search and an LLM call over several chunks, every single time. A database count costs almost nothing. *Why it matters: thousands of counting questions a day turn into a real bill.*
+- **Latency.** My RAG answers took 3 to 5 seconds. A database query takes milliseconds. *Why it matters: users wait for every answer, and slow answers get abandoned.*
+- **Availability.** My RAG answer depended on OpenAI's embedding API, Qdrant and the LLM API. The database answer depends only on my own database. *Why it matters: when the AI provider is down, the counting questions can still work.*
+- **Performance at scale.** Heavy RAG work for simple counts queues up behind the real search questions. Databases are built for counts and filters, and their answers can be cached. *Why it matters: under load, everything slows down, not just the counting questions.*
+- **Accuracy and consistency.** RAG counts only what it was handed. The database checks every row, and gives the same answer every time. *Why it matters: a count that changes with each ask isn't a count.*
+
+Two honest trade-offs. The router itself adds a small step, so keep it light. And text-to-SQL uses an LLM call too, but just once, to write one precise query, instead of searching and stuffing chunks into a prompt.
+
 ## The right-tool toolkit, in plain words
 
 1. **A receptionist at the front desk**
@@ -85,6 +97,7 @@ List the 20 questions users ask most, and label each with the tool it needs. The
 - **Tool calling (or function calling):** the LLM asking code to do a job. *A date function returns the days until expiry.*
 - **API:** a way for one system to ask another for live data. *The visa appointment system.*
 - **Read-only access:** permission to read, never change. *The AI can list documents, not delete them.*
+- **NFR (non-functional requirement):** how well a system works, not what it does: cost, speed, uptime, scale. *A 3-second answer and a 20-millisecond answer can both be correct. Only one feels fast.*
 
 ## Take this to your next kickoff meeting
 
