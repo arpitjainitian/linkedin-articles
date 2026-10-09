@@ -112,6 +112,12 @@ Follow me for the next one. And tell me: what was the most surprising line on yo
 >
 > My passport answer used 245 tokens. Tiny. Now multiply: 10,000 users × 10 questions × 22 days = 2.2 million answers a month.
 >
+> Ignore cost until the invoice, and you pay for it, literally:
+> • Budget: junk context, retries and the biggest model for every question add up fast
+> • Latency: the same long prompts that cost more also answer slower
+> • Availability: no spending limit means one runaway loop can burn the month's budget
+> • Trust: finance discovers the bill before you do
+>
 > Write-up 10 in my #JustAddRAG series: the seven ways an AI bill grows quietly, how to estimate it before go-live, and three things to take to your next kickoff meeting.
 >
 > What was the most surprising line on your first AI invoice?

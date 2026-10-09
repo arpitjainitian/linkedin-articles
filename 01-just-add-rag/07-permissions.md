@@ -117,7 +117,13 @@ Follow me for the next one. And tell me: has anyone run the intern test on your 
 >
 > The HR portal blocks it. The AI's search index doesn't know it should.
 >
-> Write-up 8 in my #JustAddRAG series: why permissions must live in the search, not the screen, how a single database row can carry instructions, and the intern test every AI assistant should pass before launch.
+> Enforce permissions only on the screen, and you pay for it:
+> • Security: sensitive data reaches people who should never see it
+> • Compliance: one leaked answer becomes a reportable incident
+> • Trust: one leak and leaders switch the assistant off
+> • Integrity: a single poisoned document can steer the model's answers
+>
+> Write-up 8 in my #JustAddRAG series: why permissions must live in the search, not the screen, how a database row can carry instructions, and the intern test every AI assistant should pass before launch.
 >
 > Has anyone run the intern test on your AI yet?
 

@@ -122,6 +122,12 @@ Follow me for the next one. And tell me: how many test questions does your AI pr
 >
 > How many questions? On my demo day: one. 100% pass rate. One out of one.
 >
+> Skip real evals, and you pay for it:
+> • Accuracy: every prompt or chunking change can quietly break something else
+> • Reliability: a silent model update changes answers and nobody notices
+> • Speed of change: without a score, every release is a nervous guess
+> • Trust: leaders get "it felt good in the demo" instead of a number
+>
 > Write-up 9 in my #JustAddRAG series: building a real test set, who writes the answer key, grading with an LLM without letting it mark its own homework, and three things to take to your next kickoff meeting.
 >
 > How many test questions does your AI project have? One counts.

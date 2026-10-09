@@ -115,7 +115,14 @@ Follow me for the next one. And tell me: what's the longest an AI tool made you 
 >
 > Real users wait two seconds, then click again. Now it's answering the same question three times.
 >
-> Write-up 11 in my #JustAddRAG series: four hops per question, what happens when the AI provider is down, why the average hides your angriest users, and three things to take to your next kickoff meeting.
+> Treat demo speed as production speed, and you pay for it:
+> • Latency: four hops per question, and every hop can slow down
+> • Cost: impatient double clicks double the bill
+> • Availability: when the AI provider is down, so is your app
+> • Scale: one user is easy, 300 at 9:30 on Monday morning is not
+> • Recovery: lose the index without a tested backup, and it's days to rebuild
+>
+> Write-up 11 in my #JustAddRAG series: streaming, fallbacks, load tests, why the average hides your angriest users, and three things to take to your next kickoff meeting.
 >
 > What's the longest an AI tool made you wait before you gave up?
 
