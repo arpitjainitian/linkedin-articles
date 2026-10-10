@@ -1,56 +1,74 @@
-# 6. Is Your Chatbot Answering a Question That Needs a Database?
+# 6. Do You Need an LLM, a Database, or Both?
 
 ![Cover](images/05-right-tool-cover.png)
 
-*Just add RAG series: Picking the right tool*
+*Just add RAG series: LLM, database, or both*
 
-"Which of my documents expire this year?"
+Every AI kickoff quietly assumes the answer is an LLM. Often it's a database. Sometimes it's both.
 
-Sounds like a perfect question for an AI assistant. It isn't. It's a database query wearing a chatbot costume.
+"Which of my documents expire this year?" sounds like a perfect question for an AI assistant. It isn't. It's a database query wearing a chatbot costume. RAG finds a few relevant passages and answers from them. This question needs every document checked, every date compared, and a list counted. A simple database query does that in milliseconds.
 
-RAG is built to find a few relevant passages and answer from them. This question needs every document checked, every date compared, and a list counted. Search for meaning can't do that. A simple database query can, in milliseconds.
+But "What does my renewal policy say about lost passports?" is the opposite. No database column holds that. It needs reading and understanding. That's LLM work.
+
+And "Which documents expire this year, and what do I need to renew them?" needs both.
 
 *New to terms like text-to-SQL or query routing? Cheat sheet at the end.*
 
-## Why picking the right tool matters
+## Why this choice matters
 
-- **RAG sees a few chunks, not everything.** It answers from the top 3 results. Ask "how many?" and it counts what it was handed, not what you have.
-- **The wrong tool still sounds right.** An incomplete list arrives in perfect sentences. Nobody notices the missing items.
-- **Users don't know the difference.** They just ask. Telling a search question from a counting question is the system's job, not theirs.
-- **The right tool is often cheaper.** A database query costs almost nothing. A long LLM answer built from guesswork costs tokens and trust.
+- **An LLM sees a few chunks, not everything.** RAG answers from the top 3 results. Ask "how many?" and it counts what it was handed, not what you have.
+- **The wrong choice still sounds right.** An incomplete list arrives in perfect sentences. Nobody notices the missing items.
+- **Users don't know the difference.** They just ask. Deciding which kind of question it is, is the system's job, not theirs.
+- **It shapes cost, speed and uptime.** More on that below.
 
 ## What my assistant could, and couldn't, answer
 
 My PostgreSQL database already had a `documents` table, with each document's type, file name and upload date, and an `extractions` table holding the OCR text.
 
-So "how many documents have I uploaded?" was one SQL line away. But "which documents expire this year?" wasn't, because the expiry date lived only inside the raw text: `समाप्ति की तिथि 29/09/2024`. Not in a column anyone could query. The answer existed. It just wasn't anywhere a database could count it.
+So "how many documents have I uploaded?" was one SQL line away. No LLM needed. But "which documents expire this year?" wasn't, because the expiry date lived only inside the raw text: `समाप्ति की तिथि 29/09/2024`. Not in a column anyone could query. The answer existed. It just wasn't anywhere a database could count it.
 
-## Six kinds of questions, six different tools
+## Three lanes: database, LLM, or both
 
-- **Counting and totals.** "How many documents do I have?" RAG sees the top 3, so it may happily say three. *Fix: answer from the database, not from search.*
-- **Lists across everything.** "Which documents expire this year?" *Fix: pull the expiry date into its own column when the document arrives, then query it.*
-- **Comparisons over time.** "Did my salary go up between March and April?" *Fix: store the amounts as numbers, let the database compare, and let the LLM explain.*
-- **Calculations.** "How many days until my passport expires?" LLMs are great with words and slightly creative with arithmetic. *Fix: do the maths in code.*
-- **Live information.** "Is my visa appointment confirmed?" No document knows that. *Fix: ask the system that does, through an API.*
-- **Questions about meaning.** "What does my travel policy say about lost baggage?" *This one really is RAG's job.*
+**Database only.** Exact facts, counts, totals, lists, comparisons and lookups.
+- "How many documents do I have?"
+- "Which documents expire this year?" (once the date is in a column)
+- "Did my salary go up between March and April?"
+
+**LLM only (RAG).** Meaning, wording, summaries and explanations.
+- "What does my travel policy say about lost baggage?"
+- "Summarise the renewal rules in plain English."
+
+**Both.** The database finds, the LLM explains.
+- "Which documents expire this year, and what do I need to renew them?" The database lists the documents; the LLM reads the renewal policy and writes one answer.
+
+Two more lanes sit next to these. **Code**, for calculations like "how many days until my passport expires?", because LLMs are great with words and slightly creative with arithmetic. And **live systems through an API**, for anything no document knows, like "is my visa appointment confirmed?"
+
+## A quick test for every question
+
+1. **Is the answer an exact fact, number or list?** Use the database.
+2. **Does it need understanding or wording?** Use the LLM.
+3. **Both?** Database to find, LLM to explain.
+4. **Is it maths?** Use code. **Is it live?** Call the system that owns it.
 
 ## It's not just about the right answer
 
-The wrong tool doesn't only risk a wrong answer. It quietly hurts every non-functional requirement too, the "how well" qualities nobody demos but every user feels:
+Using an LLM where a database would do doesn't only risk a wrong answer. It quietly hurts every non-functional requirement too, the "how well" qualities nobody demos but every user feels:
 
 - **Cost.** RAG pays for an embedding call, a vector search and an LLM call over several chunks, every single time. A database count costs almost nothing. *Why it matters: thousands of counting questions a day turn into a real bill.*
 - **Latency.** My RAG answers took 3 to 5 seconds. A database query takes milliseconds. *Why it matters: users wait for every answer, and slow answers get abandoned.*
-- **Availability.** My RAG answer depended on OpenAI's embedding API, Qdrant and the LLM API. The database answer depends only on my own database. *Why it matters: when the AI provider is down, the counting questions can still work.*
-- **Performance at scale.** Heavy RAG work for simple counts queues up behind the real search questions. Databases are built for counts and filters, and their answers can be cached. *Why it matters: under load, everything slows down, not just the counting questions.*
+- **Availability.** My RAG answer depended on OpenAI's embedding API, Qdrant and the LLM API. The database answer depends only on my own database. *Why it matters: when the AI provider is down, the database questions can still work.*
+- **Performance at scale.** Heavy LLM work for simple counts queues up behind the real search questions. Databases are built for counts and filters, and their answers can be cached. *Why it matters: under load, everything slows down, not just the counting questions.*
 - **Accuracy and consistency.** RAG counts only what it was handed. The database checks every row, and gives the same answer every time. *Why it matters: a count that changes with each ask isn't a count.*
 
-Two honest trade-offs. The router itself adds a small step, so keep it light. And text-to-SQL uses an LLM call too, but just once, to write one precise query, instead of searching and stuffing chunks into a prompt.
+The reverse mistake hurts too. Forcing meaning questions into SQL gives rigid, keyword-only answers that miss what the user actually asked.
 
-## The right-tool toolkit, in plain words
+Two honest trade-offs. Deciding the lane adds a small step, so keep it light. And text-to-SQL uses an LLM call too, but just once, to write one precise query, instead of searching and stuffing chunks into a prompt.
+
+## The toolkit, in plain words
 
 1. **A receptionist at the front desk**
 
-   Every question is sent to the right counter: search, database, calculator or live system. That's **query routing**.
+   Every question is sent to the right counter: database, LLM, calculator or live system. That's **query routing**.
 2. **File the facts when the mail arrives**
 
    When a document is uploaded, pull out its key facts (expiry date, amounts, IDs) into proper columns. That's **structured extraction**.
@@ -69,7 +87,7 @@ Two honest trade-offs. The router itself adds a small step, so keep it light. An
 
 ## How it works in practice
 
-The router is the first step after the question arrives. A small model, or even a simple classifier, labels the question: search, count, calculate, live, or "can't help". Then it goes to the matching tool.
+The router is the first step after the question arrives.
 
 ```
                      User question
@@ -86,8 +104,8 @@ The router is the first step after the question arrives. A small model, or even 
      |            |                  |             |
      v            v                  v             v
 +---------+  +----------+  +--------------+  +-----------+
-| SEARCH  |  |  COUNT   |  |  CALCULATE   |  |   LIVE    |
-|  (RAG)  |  |  (SQL)   |  |   (code)     |  |   (API)   |
+| MEANING |  |  FACTS   |  |    MATHS     |  |   LIVE    |
+|  (LLM)  |  |  (SQL)   |  |   (code)     |  |   (API)   |
 +---------+  +----------+  +--------------+  +-----------+
  "What does   "Which docs   "Days until my   "Is my visa
   the policy   expire this    passport         appointment
@@ -102,7 +120,7 @@ The router is the first step after the question arrives. A small model, or even 
                  +-------------------+
 ```
 
-**Who decides?** At design time, people decide which question types go to which tool. At runtime, the router decides for each question: simple rules, a small classifier, or the LLM itself choosing from a list of tools. Mixed questions, like "Which documents expire this year, and what does the renewal policy say?", need an orchestrator that runs the steps in order: database first, then documents, then one combined answer. Start simple, with fixed code paths, and only let the LLM choose when the questions get too varied.
+**Who decides?** At design time, people decide which question types go to which lane. At runtime, the router decides for each question: simple rules, a small classifier, or the LLM itself choosing from a list of tools. Mixed questions, like "Which documents expire this year, and what do I need to renew them?", need an orchestrator that runs the steps in order: database first, then documents, then one combined answer. Start simple, with fixed code paths, and only let the LLM choose when the questions get too varied.
 
 Text-to-SQL needs guard rails:
 
@@ -114,7 +132,7 @@ Text-to-SQL needs guard rails:
 
 ## How do you know it works?
 
-List the 20 questions users ask most, and label each with the tool it needs. Then test two things: did the router pick the right tool, and was the answer right? A correct answer from the wrong tool is luck, not design.
+List the 20 questions users ask most, and label each: database, LLM, both, code or live. Then test two things: did the router pick the right lane, and was the answer right? A correct answer from the wrong lane is luck, not design.
 
 ## Cheat sheet: the words you'll hear, with examples
 
@@ -123,7 +141,7 @@ List the 20 questions users ask most, and label each with the tool it needs. The
 - **Schema:** the layout of a database: tables, columns, types. *`documents` has `doc_type`, `filename`, `created_at`.*
 - **SQL:** the standard language for asking a database questions. *"Count my documents where type is passport."*
 - **Aggregation:** combining many rows into one answer: count, sum, average. *"How many documents do I have?"*
-- **Query routing:** sending each question to the right tool. *Travel-rules question to RAG, counting question to SQL.*
+- **Query routing:** sending each question to the right lane. *Policy question to the LLM, counting question to SQL.*
 - **Intent:** what kind of question it is. *"Which expire this year?": a list, not a search.*
 - **Structured extraction:** pulling key facts into columns at upload time. *Expiry date 29/09/2024 saved as a date column.*
 - **Text-to-SQL:** an LLM turning a question into a database query. *"Which expire this year?" becomes a query on the expiry column.*
@@ -131,20 +149,20 @@ List the 20 questions users ask most, and label each with the tool it needs. The
 - **API:** a way for one system to ask another for live data. *The visa appointment system.*
 - **Read-only access:** permission to read, never change. *The AI can list documents, not delete them.*
 - **NFR (non-functional requirement):** how well a system works, not what it does: cost, speed, uptime, scale. *A 3-second answer and a 20-millisecond answer can both be correct. Only one feels fast.*
-- **Router:** the step that decides which tool handles each question. *"How many" goes to SQL, "what does it say" goes to RAG.*
+- **Router:** the step that decides which lane handles each question. *"How many" goes to SQL, "what does it say" goes to the LLM.*
 - **Orchestrator:** the code or framework that runs several steps in order and combines their results. *Database list first, then policy search, then one answer.*
 
 ## Take this to your next kickoff meeting
 
-1. List the top 20 questions users will ask, and label each: search, count, calculate, or live data.
+1. Before saying "LLM", list the top 20 questions users will ask, and label each: database, LLM, both, code or live.
 2. Pull key facts like dates, amounts and IDs into columns when documents arrive, not when questions do.
 3. Give the AI read-only, user-filtered database access, never the keys to everything.
 
-Not every question is a search. Some are just a database query with good manners.
+The best AI systems use the LLM where it shines, and a plain database everywhere else.
 
 Next write-up (7): **What happens when your AI finds two versions of the truth?** (Versions and ownership)
 
-Follow me for the next one. And tell me: what's a question your users asked a chatbot that really needed a spreadsheet?
+Follow me for the next one. And tell me: what's a question your users asked an AI that really needed a spreadsheet?
 
 **Earlier in this series:**
 
@@ -159,20 +177,20 @@ Follow me for the next one. And tell me: what's a question your users asked a ch
 **Post text (copy and paste):**
 
 ```
-"Which of my documents expire this year?"
+Every AI kickoff assumes the answer is an LLM. Often it's a database. Sometimes it's both.
 
-Sounds like a chatbot question. It's a database query wearing a chatbot costume.
+"Which of my documents expire this year?" isn't an AI question. It's a database query wearing a chatbot costume.
 
-Send it to RAG anyway, and you pay for it:
+Use an LLM where a database would do, and you pay for it:
 • Accuracy: it counts only the 3 chunks it was handed, so the list is quietly incomplete
 • Latency: seconds instead of milliseconds
 • Cost: an embedding, a search and an LLM call, for a question SQL answers almost free
 • Availability: it fails whenever the AI provider is down
 • Trust: the answer changes each time you ask
 
-Write-up 6 in my #JustAddRAG series: six kinds of questions that each need a different tool, who decides the route, and three things to take to your next kickoff meeting.
+Write-up 6 in my #JustAddRAG series: the three lanes (database, LLM, or both), a quick test for every question, who decides the route, and three things to take to your next kickoff meeting.
 
-What's a question your users asked a chatbot that really needed a spreadsheet?
+Which questions in your AI project never needed an LLM at all?
 
 #AIEngineering #RAG #GenAI #EnterpriseAI #JustAddRAG
 ```
