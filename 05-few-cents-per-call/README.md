@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | A Few Cents per Question. Why Is the Sale-Day Bill So Big? | Small numbers, multiplied by millions, stop being small. | Curtain raiser: how AI costs add up | Big sale day: 20x the questions | Planned |
+| 1 | [A Few Cents per Question. Why Is the Sale-Day Bill So Big?](01-curtain-raiser.md) | Small numbers, multiplied by millions, stop being small. | Curtain raiser: how AI costs add up | Big sale day: 20x the questions | Draft for review |
 | 2 | What Is a Token, and Why Are You Paying for It? | You pay by the word, both ways. | Tokens in and out, why long answers cost more | "Does it have dual SIM?" answered in 300 words | Planned |
 | 3 | Do You Need the Biggest Model for Every Question? | You don't send a professor to check a price tag. | Model choice, routing easy questions to cheaper models | "What colours does it come in?" sent to the most expensive model | Planned |
 | 4 | Why Pay Twice for the Same Answer? | Thousands of shoppers ask the same question. | Caching, reusing answers, prompt caching | "Is it waterproof?" asked 40,000 times | Planned |
