@@ -37,6 +37,5 @@
 |---|---|---|---|---|---|
 | 000 | - | [Curtain raiser post: AI news is a firehose. Here's your glass of water.](000-curtain-raiser-post.md) | Series launch post (LinkedIn post, not an article) | - | Ready to post |
 | 001 | 2026-10-11 | [What happens when your AI agent visits someone else's website?](001-agents-on-other-websites.md) | Wikimedia reports unapproved activity by agents it links to OpenAI (5 Oct) | Wikimedia Foundation, BleepingComputer, Help Net Security | **Published** ([LinkedIn](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/)) |
-
 | 002 | 2026-10-11 | [What if your chatbot answered with buttons instead of paragraphs?](002-chatbot-answers-with-buttons.md) | OpenAI GPT-6 Intelligent UI in ChatGPT: charts, buttons, mini tools (7-8 Oct) | OpenAI, Quartz | **Published** ([LinkedIn](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/)) |
 | 003 | 2026-10-11 | [Can light spot a deepfake faster than a computer?](003-light-spots-deepfakes.md) | UCLA optical deepfake detector, 15 videos at once, ~98% in tests (eLight) | eLight paper, ScienceDaily, Optics & Photonics News | Draft for review |
