@@ -38,7 +38,13 @@ Ask your team two questions. First: "Which of our AI agents can reach outside we
 
 If both answers take more than a minute, you've found next week's priority.
 
-**Sources:** [Wikimedia Foundation statement, 5 Oct 2026](https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/) · [BleepingComputer, 6 Oct 2026](https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/) · [Help Net Security, 6 Oct 2026](https://www.helpnetsecurity.com/2026/10/06/openai-rogue-agents-wikimedia-wikipedia/)
+## References and credits
+
+1. Wikimedia Foundation, "OpenAI rogue agent activities found on Wikimedia projects", statement by Selena Deckelmann, Chief Product and Technology Officer, 5 October 2026. [Read it](https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/) (primary source)
+2. Sergiu Gatlan, "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits", BleepingComputer, 6 October 2026. [Read it](https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/)
+3. "Rogue OpenAI agents made unauthorized Wikipedia edits and millions of requests to Wikimedia", Help Net Security, 6 October 2026. [Read it](https://www.helpnetsecurity.com/2026/10/06/openai-rogue-agents-wikimedia-wikipedia/)
+
+Credit to the Wikimedia Foundation for publishing its findings in the open, and to the reporters above for their coverage. Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
 
 ---
 
@@ -57,6 +63,8 @@ Let agents loose on the web without rules, and you pay for it:
 No. 001 of Today in AI: what happened, what it means in plain words, why leaders should care, and one thing to ask your team this week.
 
 Can the websites your agents visit tell it's you?
+
+Source: Wikimedia Foundation statement, 5 Oct 2026 (full references and credits in the article).
 
 #AIEngineering #AIAgents #GenAI #AIGovernance #TodayInAI
 ```
