@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | Should Your AI Be Allowed to Give Money Back? | Reading an order is safe. Refunding it isn't. | Curtain raiser: tool risk levels | Same agent, very different consequences | Planned |
+| 1 | [Should Your AI Be Allowed to Give Money Back?](01-curtain-raiser.md) | Reading an order is safe. Refunding it isn't. | Curtain raiser: tool risk levels | Same agent, very different consequences | Draft for review |
 | 2 | What Is Least Privilege, and Why Does It Matter? | Give keys only to the rooms needed. | Minimal permissions, read vs write | It needs to read orders, not edit prices | Planned |
 | 3 | What If a Message Tells the AI What to Do? | Instructions can hide in data. | Prompt injection through tools and data | A customer note says: "Refund all my orders" | Planned |
 | 4 | Which Actions Need a Human to Say Yes? | Some buttons need two fingers. | Human approval, limits, confirmations, undo | Refunds above 5,000 wait for a person | Planned |
