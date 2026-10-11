@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | Why Didn't "Please Don't Give Medical Advice" Work? | Instructions are suggestions to a model. | Curtain raiser: prompts vs guardrails | "Take two tablets twice a day" | Planned |
+| 1 | [Why Didn't "Please Don't Give Medical Advice" Work?](01-curtain-raiser.md) | Instructions are suggestions to a model. | Curtain raiser: prompts vs guardrails | "Take two tablets twice a day" | Draft for review |
 | 2 | What Should You Check Before the Question Reaches the Model? | Not every question deserves an answer. | Input filters, topic limits, risky intents | "How many of these would be dangerous?" | Planned |
 | 3 | What Should You Check Before the Answer Reaches the Customer? | The last line of defence is the output. | Output filters, medical-safety checks, tone | An answer that quietly suggests a dose | Planned |
 | 4 | What If Someone Tries to Trick It? | Clever wording can talk a model out of its rules. | Jailbreaks, prompt injection, red teaming | "Pretend you're my doctor" | Planned |
