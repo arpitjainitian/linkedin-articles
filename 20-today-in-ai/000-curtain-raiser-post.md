@@ -4,6 +4,12 @@ A short LinkedIn post (not an article) to announce the series. Attach the image.
 
 ![Post image](images/000-curtain-raiser-post.png)
 
+**First comment (paste after posting):**
+
+```
+No. 001: https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/
+```
+
 **Post text (copy and paste, LinkedIn-ready formatting):**
 
 ```
@@ -16,7 +22,7 @@ One AI story that matters. 5 minutes. In plain words:
 • What it means
 • What to do this week
 
-→ 𝗖𝗼𝗺𝗶𝗻𝗴 𝘀𝗼𝗼𝗻, 𝗡𝗼. 𝟬𝟬𝟭: What happens when your AI agent visits someone else's website?
+→ 𝗢𝘂𝘁 𝗻𝗼𝘄, 𝗡𝗼. 𝟬𝟬𝟭: What happens when your AI agent visits someone else's website? (Link in the first comment.)
 
 Follow along.
 
