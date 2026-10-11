@@ -28,7 +28,7 @@ Coming soon, No. 001: what happens when your AI agent visits someone else's webs
 
 Follow along, and tell me: what AI story confused you most this month?
 
-#AI #GenAI #TechNews #AIForEveryone #TodayInAI
+#AI #GenAI #TechNews #AILiteracy #TodayInAI
 ```
 
 **Alternative opening lines (pick one if you prefer):**
