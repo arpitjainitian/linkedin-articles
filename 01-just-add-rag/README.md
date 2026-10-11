@@ -11,7 +11,7 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 | 3 | [What if the answer was in your docs, but you cut it in half?](02-chunking.md) | Chunking | **Published** | [Read](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/) |
 | 4 | [Is your AI hallucinating, or just looking in the wrong place?](03-retrieval.md) | Retrieval, multilingual questions | **Published** | [Read](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/) |
 | 5 | [What does your AI say when it doesn't know?](04-grounding.md) | Grounding, citations, follow-ups, human review | **Published** | [Read](https://www.linkedin.com/pulse/5-what-does-your-ai-say-when-doesnt-know-arpit-jain-wr5bf) |
-| 6 | [Do you need an LLM, a database, or both?](05-right-tool.md) | LLM, database, or both: picking the right lane | Draft for review | |
+| 6 | [Do you need an LLM, a database, or both?](05-right-tool.md) | LLM, database, or both: picking the right lane | **Published** | [Read](https://www.linkedin.com/pulse/6-do-you-need-llm-database-both-arpit-jain-hzisf/) |
 | 7 | [What happens when your AI finds two versions of the truth?](06-versions.md) | Versions, ownership after go-live | Draft for review | |
 | 8 | [Can the intern ask your AI about the CEO's salary?](07-permissions.md) | Permissions, security, prompt injection, guardrails | Draft for review | |
 | 9 | [How many questions did you test before saying "it works"?](08-evals.md) | Evals, ground truth, test harness | Draft for review | |

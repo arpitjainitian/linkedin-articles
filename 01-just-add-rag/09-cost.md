@@ -103,6 +103,7 @@ Follow me for the next one. And tell me: what was the most surprising line on yo
 3. [What if the answer was in your docs, but you cut it in half?](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
 4. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
 5. [What does your AI say when it doesn't know?](https://www.linkedin.com/pulse/5-what-does-your-ai-say-when-doesnt-know-arpit-jain-wr5bf)
+6. [Do you need an LLM, a database, or both?](https://www.linkedin.com/pulse/6-do-you-need-llm-database-both-arpit-jain-hzisf/)
 
 ---
 
