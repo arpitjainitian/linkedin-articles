@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | Five Teams, One API Key. What Could Go Wrong? | Shared keys, shared bills, shared blame. | Curtain raiser: why a gateway | Nobody knows which team spent the budget | Planned |
+| 1 | [Five Teams, One API Key. What Could Go Wrong?](01-curtain-raiser.md) | Shared keys, shared bills, shared blame. | Curtain raiser: why a gateway | Nobody knows which team spent the budget | Draft for review |
 | 2 | Who Is Allowed to Use Which Model? | Not every team needs the most expensive one. | Access control, keys per team, model policies | HR's bot calling the priciest model for every email | Planned |
 | 3 | What Happens When One Team Floods the Provider? | One busy team can slow everyone down. | Rate limits, quotas, fair sharing | Sales' campaign blocks support's chatbot | Planned |
 | 4 | What If the AI Provider Goes Down? | Every team breaks at once. | Fallbacks, multiple providers, routing | Monday morning outage, every bot silent | Planned |
