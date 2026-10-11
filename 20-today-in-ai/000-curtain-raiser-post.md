@@ -20,7 +20,7 @@ Each post: one AI story that matters. 5 minutes. Three questions:
 2. What does it mean, in plain words?
 3. What's one thing you can do this week?
 
-It's written so a student and a CEO can read the same post, and both get something out of it.
+Simple enough for anyone curious about AI. Useful enough for anyone deciding what to do with it.
 
 No hype. No jargon. No 47-tool listicles.
 
