@@ -35,4 +35,4 @@ Follow along, and tell me: what AI story confused you most this month?
 
 - "I read the AI news for hours, so you can read it in 5 minutes."
 - "AI news is a firehose. I'm offering a glass of water."
-- "One AI story a day. The kind you can explain to your intern and your CEO."
+- "One AI story at a time. The kind you can explain to your intern and your CEO."
