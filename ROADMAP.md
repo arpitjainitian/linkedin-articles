@@ -5,26 +5,26 @@ Each topic is its own series, numbered below. Each is a sentence that sounds eas
 **Order:** technical difficulty goes up gradually, from L1 (easy) to L5 (advanced).
 **Writing:** stays as simple as possible at every level: plain words, everyday analogies, real examples.
 
-| Series | Topic ("looks simple") | Level | What it covers | Status |
-|---|---|---|---|---|
-| 1 | "Just add RAG over our docs" | L2 | A full series of write-ups, see [01-just-add-rag/](01-just-add-rag/README.md) | **In progress** |
-| 2 | "Users will love the chatbot" | L1 | A series of write-ups on trust, conversation design and the human side of AI, see [02-users-will-love-the-chatbot/](02-users-will-love-the-chatbot/README.md) | **Planned (outline ready)** |
-| 3 | "AI transformation = buy licenses + train people" | L1 | Process redesign, success metrics | Planned |
-| 4 | "The POC got a standing ovation" | L2 | The POC-to-production cliff, ownership | Planned |
-| 5 | "It's only a few cents per call" | L2 | Inference economics: tokens, caching, model choice, the total bill | Planned |
-| 6 | "The prompt works, ship it" | L2 | Evals: test cases, judge LLMs, rubrics, silent regressions | Planned |
-| 7 | "LLM output → JSON → done" | L3 | Structured output, validation | Planned |
-| 8 | "Let the LLM handle the business rules" | L3 | Deterministic rules vs a probabilistic model | Planned |
-| 9 | "Just tell it in the prompt not to do that" | L3 | Guardrails: input and output filters, PII, jailbreaks, policy | Planned |
-| 10 | "We'll just check the logs" | L3 | Observability: traces, logs, metrics, feedback | Planned |
-| 11 | "Just call the model API directly" | L4 | AI gateway: auth, routing, rate limits, caching, fallbacks across providers | Planned |
-| 12 | "Just add a knowledge graph" | L4 | GraphRAG: entities and relationships, multi-hop questions, explainable paths, and the real cost of building and maintaining the graph | Planned |
-| 13 | "Just add an MCP server" | L4 | What MCP is, why it helps, and what it doesn't solve | Planned |
-| 14 | "Connect the agent to our DB/tools" | L4 | Tool security, least privilege, prompt injection through data | Planned |
-| 15 | "Just let it remember everything" | L4 | AI memory: short-term context, summarising long chats, long-term memory stores, what to remember and what to forget, privacy of remembered facts | Planned |
-| 16 | "Let's make it agentic" | L4 | Agentic loops: plan, act, observe, reflect; when a workflow beats an agent | Planned |
-| 17 | "Let the agent decide what to search" | L5 | Agentic RAG: plan, retrieve, reason, retrieve again; loops, cost and latency, when plain RAG is enough | Planned |
-| 18 | "Add more agents, it'll get smarter" | L5 | Multi-agent systems: orchestrators, isolated context, compounding errors | Planned |
-| 19 | "The vendor ships the model, so we're done" | L5 | The agent harness: you own the loop | Planned |
+| Series | Topic ("looks simple") | Level | What it covers | Status | Why a full series, not one article |
+|---|---|---|---|---|---|
+| 1 | "Just add RAG over our docs" | L2 | A full series of write-ups, see [01-just-add-rag/](01-just-add-rag/README.md) | **In progress** | RAG hides 16 separate layers (ingestion, chunking, retrieval, permissions, cost...). Any one of them can sink the project on its own, and each needs its own explanation. |
+| 2 | "Users will love the chatbot" | L1 | A series of write-ups on trust, conversation design and the human side of AI, see [02-users-will-love-the-chatbot/](02-users-will-love-the-chatbot/README.md) | **Planned (outline ready)** | Trust is won or lost across many different moments: the first 10 seconds, a wrong answer, a handover, a language mismatch, a complaint. Each moment needs its own design. |
+| 3 | "AI transformation = buy licenses + train people" | L1 | Process redesign, success metrics | Planned | Transformation touches people, process, skills, metrics, governance and culture. Buying licences is one decision; changing how work gets done is many. |
+| 4 | "The POC got a standing ovation" | L2 | The POC-to-production cliff, ownership | Planned | The gap between demo and production is a dozen gaps, each owned by a different team: security, operations, support, finance, legal. |
+| 5 | "It's only a few cents per call" | L2 | Inference economics: tokens, caching, model choice, the total bill | Planned | An AI bill has many independent drivers: tokens, model choice, caching, retries, infrastructure, people. Each has its own trap and its own fix. |
+| 6 | "The prompt works, ship it" | L2 | Evals: test cases, judge LLMs, rubrics, silent regressions | Planned | Testing AI is a discipline, not a step: test sets, answer keys, judge models, regressions, safety tests and live monitoring each deserve their own deep dive. |
+| 7 | "LLM output → JSON → done" | L3 | Structured output, validation | Planned | Getting reliable structure out of a model touches formats, validation, retries, partial failures and changing schemas. Each fails in its own way. |
+| 8 | "Let the LLM handle the business rules" | L3 | Deterministic rules vs a probabilistic model | Planned | Where code ends and the model begins differs for eligibility, pricing, compliance and approvals. One rule of thumb doesn't fit every rule. |
+| 9 | "Just tell it in the prompt not to do that" | L3 | Guardrails: input and output filters, PII, jailbreaks, policy | Planned | Guardrails are layers, not a single prompt: input checks, output checks, personal data, jailbreaks and policy each stop a different failure. |
+| 10 | "We'll just check the logs" | L3 | Observability: traces, logs, metrics, feedback | Planned | Seeing inside an AI system needs traces, metrics, feedback, drift detection and cost tracking. Each answers a different 'why'. |
+| 11 | "Just call the model API directly" | L4 | AI gateway: auth, routing, rate limits, caching, fallbacks across providers | Planned | A gateway handles access, routing, limits, caching, fallbacks and governance. Each solves a different problem when many teams share AI. |
+| 12 | "Just add a knowledge graph" | L4 | GraphRAG: entities and relationships, multi-hop questions, explainable paths, and the real cost of building and maintaining the graph | Planned | A knowledge graph has to be designed, built, kept current and queried, and it's not always worth it. Each step is a project of its own. |
+| 13 | "Just add an MCP server" | L4 | What MCP is, why it helps, and what it doesn't solve | Planned | MCP looks like plug-and-play, but servers, discovery, permissions, versioning and third-party trust each raise different questions. |
+| 14 | "Connect the agent to our DB/tools" | L4 | Tool security, least privilege, prompt injection through data | Planned | Every tool is a new door: databases, email, payments and files each carry different risks and need different controls. |
+| 15 | "Just let it remember everything" | L4 | AI memory: short-term context, summarising long chats, long-term memory stores, what to remember and what to forget, privacy of remembered facts | Planned | Memory spans short-term context, long-term stores, what to forget, privacy and cost. Getting one right doesn't fix the others. |
+| 16 | "Let's make it agentic" | L4 | Agentic loops: plan, act, observe, reflect; when a workflow beats an agent | Planned | An agent is a loop with many moving parts: planning, tools, stopping, recovery and testing. Each fails differently. |
+| 17 | "Let the agent decide what to search" | L5 | Agentic RAG: plan, retrieve, reason, retrieve again; loops, cost and latency, when plain RAG is enough | Planned | Letting the agent search adds loops, extra cost, extra latency and new failure modes, plus the question of when plain RAG is enough. |
+| 18 | "Add more agents, it'll get smarter" | L5 | Multi-agent systems: orchestrators, isolated context, compounding errors | Planned | Many agents bring orchestration patterns, handoffs, shared context and compounding errors. Each pattern needs its own trade-offs. |
+| 19 | "The vendor ships the model, so we're done" | L5 | The agent harness: you own the loop | Planned | The harness around the model (planner, memory, tools, state, guardrails, evals) is everything you own. Each part deserves its own look. |
 
 Topics 9-11, 16, 18 and 19 were inspired by a "9 AI concepts" infographic by Brij Kishore Pandey ([@brijpandeyji](https://www.linkedin.com/in/brijpandeyji/)). Topics 12 and 17 were inspired by an "Agentic RAG vs GraphRAG" comparison infographic. Topic 15 was inspired by an "Anatomy of an AI Agent" diagram.
