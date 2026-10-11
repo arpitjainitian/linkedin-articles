@@ -35,4 +35,5 @@
 
 | No. | Date | Title | Topic | Sources | Status |
 |---|---|---|---|---|---|
+| 000 | - | [Curtain raiser post: AI changes every day. Here's the 5-minute version.](000-curtain-raiser-post.md) | Series launch post (LinkedIn post, not an article) | - | Ready to post |
 | 001 | 2026-10-11 | [What happens when your AI agent visits someone else's website?](001-agents-on-other-websites.md) | Wikimedia reports unapproved activity by agents it links to OpenAI (5 Oct) | Wikimedia Foundation, BleepingComputer, Help Net Security | Draft for review |
