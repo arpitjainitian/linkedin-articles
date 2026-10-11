@@ -7,13 +7,15 @@ A short LinkedIn post (not an article) to announce the series. Attach the image.
 **Post text (copy and paste):**
 
 ```
+📢 Announcing a new series: Today in AI
+
 AI news is a firehose. I'm offering a glass of water.
 
 New models on Monday. A big mistake on Tuesday. A "this changes everything" on Wednesday. And by Thursday, nobody remembers Monday.
 
 Most of us don't need more AI news. We need to know which story actually matters, and what to do about it.
 
-So I'm starting something small: Today in AI.
+That's what Today in AI is for.
 
 Each post: one AI story that matters. 5 minutes. Three questions:
 1. What happened? (Checked against the original source, with credits.)
