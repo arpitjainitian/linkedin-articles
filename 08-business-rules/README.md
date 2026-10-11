@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | Why Did the AI Promise a Full Refund on a Non-Refundable Ticket? | Rules need to be applied the same way every time. | Curtain raiser: deterministic vs probabilistic | "Of course! Full refund, no fees" | Planned |
+| 1 | [Why Did the AI Promise a Full Refund on a Non-Refundable Ticket?](01-curtain-raiser.md) | Rules need to be applied the same way every time. | Curtain raiser: deterministic vs probabilistic | "Of course! Full refund, no fees" | Draft for review |
 | 2 | Which Decisions Should Never Be Left to an LLM? | Money, eligibility and compliance need certainty. | Where code decides and where the LLM explains | Cancellation fee calculated differently every time | Planned |
 | 3 | How Do You Split the Work Between Code and the LLM? | Code decides, the LLM talks. | Rules engines, tool calling, the LLM as the friendly front | Code calculates the refund; the LLM explains it kindly | Planned |
 | 4 | What Happens When the Rules Change? | Rules in a prompt hide. Rules in code are visible. | Rule changes, versioning, testing rules | New monsoon waiver added to the prompt, missed in code | Planned |
