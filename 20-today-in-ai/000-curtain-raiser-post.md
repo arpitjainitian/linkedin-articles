@@ -11,25 +11,14 @@ A short LinkedIn post (not an article) to announce the series. Attach the image.
 
 AI news is a firehose. I'm offering a glass of water.
 
-New models on Monday. A big mistake on Tuesday. A "this changes everything" on Wednesday. And by Thursday, nobody remembers Monday.
-
-Most of us don't need more AI news. We need to know which story actually matters, and what to do about it.
-
-That's what Today in AI is for.
-
-𝗘𝗮𝗰𝗵 𝗽𝗼𝘀𝘁: 𝗼𝗻𝗲 𝗔𝗜 𝘀𝘁𝗼𝗿𝘆. 𝟱 𝗺𝗶𝗻𝘂𝘁𝗲𝘀. 𝗧𝗵𝗿𝗲𝗲 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀.
-
-• What happened? (Checked against the original source, with credits.)
-• What does it mean, in plain words?
-• What's one thing you can do this week?
-
-Simple enough for anyone curious about AI. Useful enough for anyone deciding what to do with it.
-
-No hype. No jargon. No 47-tool listicles.
+One AI story that matters. 5 minutes. In plain words:
+• What happened
+• What it means
+• What to do this week
 
 → 𝗖𝗼𝗺𝗶𝗻𝗴 𝘀𝗼𝗼𝗻, 𝗡𝗼. 𝟬𝟬𝟭: What happens when your AI agent visits someone else's website?
 
-Follow along, and tell me: what AI story confused you most this month?
+Follow along.
 
 #AI #GenAI #TechNews #AILiteracy #TodayInAI
 ```
