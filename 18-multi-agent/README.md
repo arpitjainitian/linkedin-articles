@@ -1,4 +1,4 @@
-# Series 18: "Add more agents, it'll get smarter"
+# Series 18: "More agents, more brains"
 
 **Theme:** More agents can mean more brains, or more confusion.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #MultiAgent (proposal)
+**Hashtag:** #MoreAgents (proposal)
 
 ## Planned write-ups
 

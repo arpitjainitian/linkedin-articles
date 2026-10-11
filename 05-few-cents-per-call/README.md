@@ -1,4 +1,4 @@
-# Series 5: "It's only a few cents per call"
+# Series 5: "What's a few cents between friends?"
 
 **Theme:** AI costs are paid per use, and use always grows, especially on sale days.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #AICostsAddUp (proposal)
+**Hashtag:** #FewCentsMore (proposal)
 
 ## Planned write-ups
 

@@ -1,4 +1,4 @@
-# Series 7: "LLM output → JSON → done"
+# Series 7: "Just ask it for JSON"
 
 **Theme:** Getting text from an LLM is easy. Getting reliable data out of it is engineering, and here, mistakes affect real people.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #StructureIsHard (proposal)
+**Hashtag:** #JustAskForJSON (proposal)
 
 ## Planned write-ups
 

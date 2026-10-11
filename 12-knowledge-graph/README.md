@@ -1,4 +1,4 @@
-# Series 12: "Just add a knowledge graph"
+# Series 12: "Just connect the dots"
 
 **Theme:** Some questions are about connections, not documents.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #GraphRAG (proposal)
+**Hashtag:** #JustConnectTheDots (proposal)
 
 ## Planned write-ups
 

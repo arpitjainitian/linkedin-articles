@@ -1,4 +1,4 @@
-# Series 10: "We'll just check the logs"
+# Series 10: "We'll know when it breaks"
 
 **Theme:** If you can't explain a wrong answer, you can't fix it.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #SeeInsideYourAI (proposal)
+**Hashtag:** #WeWillKnow (proposal)
 
 ## Planned write-ups
 

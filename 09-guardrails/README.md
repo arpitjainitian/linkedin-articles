@@ -1,4 +1,4 @@
-# Series 9: "Just tell it in the prompt not to do that"
+# Series 9: "Just tell it not to"
 
 **Theme:** A prompt is a polite request. Guardrails are the fence.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #GuardrailsMatter (proposal)
+**Hashtag:** #JustTellItNot (proposal)
 
 ## Planned write-ups
 

@@ -1,4 +1,4 @@
-# Series 17: "Let the agent decide what to search"
+# Series 17: "Let it do its own research"
 
 **Theme:** Letting AI search on its own is like a good researcher: smarter, slower, and needing supervision.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #AgenticRAG (proposal)
+**Hashtag:** #LetItResearch (proposal)
 
 ## Planned write-ups
 

@@ -1,4 +1,4 @@
-# Series 6: "The prompt works, ship it"
+# Series 6: "Works on my prompt"
 
 **Theme:** A prompt that works once is a demo. Evals prove it keeps working.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #TestYourAI (proposal)
+**Hashtag:** #WorksOnMyPrompt (proposal)
 
 ## Planned write-ups
 

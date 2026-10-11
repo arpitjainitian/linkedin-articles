@@ -1,4 +1,4 @@
-# Series 4: "The POC got a standing ovation"
+# Series 4: "It worked in the demo"
 
 **Theme:** A proof of concept proves it can work. Production proves it works every day, on every invoice.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #BeyondTheDemo (proposal)
+**Hashtag:** #ItWorkedInTheDemo (proposal)
 
 ## Planned write-ups
 

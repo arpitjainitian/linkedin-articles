@@ -1,4 +1,4 @@
-# Series 3: "AI transformation = buy licenses + train people"
+# Series 3: "We bought AI, so we're AI-first now"
 
 **Theme:** Buying AI is a purchase. Changing how work gets done is a transformation.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #BeyondTheLicence (proposal)
+**Hashtag:** #AIFirstNow (proposal)
 
 ## Planned write-ups
 

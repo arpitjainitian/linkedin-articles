@@ -1,4 +1,4 @@
-# Series 16: "Let's make it agentic"
+# Series 16: "Just make it agentic"
 
 **Theme:** An agent is a loop that plans, acts and checks. Powerful, and easy to get wrong.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #AgentsExplained (proposal)
+**Hashtag:** #JustMakeItAgentic (proposal)
 
 ## Planned write-ups
 

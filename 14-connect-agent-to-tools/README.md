@@ -1,4 +1,4 @@
-# Series 14: "Connect the agent to our DB/tools"
+# Series 14: "Give the agent the keys"
 
 **Theme:** Giving AI tools gives it hands. Decide carefully what it may touch.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #SafeAgents (proposal)
+**Hashtag:** #WhoHasTheKeys (proposal)
 
 ## Planned write-ups
 

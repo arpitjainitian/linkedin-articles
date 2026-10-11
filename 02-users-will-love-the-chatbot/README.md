@@ -1,4 +1,4 @@
-# Series 2: "Users will love the chatbot"
+# Series 2: "Build it and they will chat"
 
 **Theme:** The AI can be accurate and still fail, because of how it feels to use. With money involved, trust is everything.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #UsersWillLoveIt (proposal)
+**Hashtag:** #TheyWillChat (proposal)
 
 ## Planned write-ups
 

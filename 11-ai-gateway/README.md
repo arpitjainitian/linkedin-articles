@@ -1,4 +1,4 @@
-# Series 11: "Just call the model API directly"
+# Series 11: "Everyone gets an API key"
 
 **Theme:** When many teams use AI, someone has to be the front door.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #AIGateway (proposal)
+**Hashtag:** #OneFrontDoor (proposal)
 
 ## Planned write-ups
 

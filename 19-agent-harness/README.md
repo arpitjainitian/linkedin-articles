@@ -1,4 +1,4 @@
-# Series 19: "The vendor ships the model, so we're done"
+# Series 19: "We bought the brain, we're done"
 
 **Theme:** The model is the brain. Everything around it is yours to build.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #YouOwnTheLoop (proposal)
+**Hashtag:** #BrainNotBody (proposal)
 
 ## Planned write-ups
 

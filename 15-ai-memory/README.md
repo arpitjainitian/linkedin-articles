@@ -1,4 +1,4 @@
-# Series 15: "Just let it remember everything"
+# Series 15: "It should just remember me"
 
 **Theme:** Remembering helps. Remembering everything hurts.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #AIMemory (proposal)
+**Hashtag:** #RememberMe (proposal)
 
 ## Planned write-ups
 

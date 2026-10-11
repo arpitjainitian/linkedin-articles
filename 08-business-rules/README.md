@@ -1,4 +1,4 @@
-# Series 8: "Let the LLM handle the business rules"
+# Series 8: "Just put the rules in the prompt"
 
 **Theme:** LLMs are great with language and unreliable with rules. Know where the line is.
 

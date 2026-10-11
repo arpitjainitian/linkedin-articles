@@ -1,4 +1,4 @@
-# Series 13: "Just add an MCP server"
+# Series 13: "Just plug it in"
 
 **Theme:** A universal plug is convenient. It also fits places you didn't mean it to.
 
@@ -8,7 +8,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #MCPExplained (proposal)
+**Hashtag:** #JustPlugItIn (proposal)
 
 ## Planned write-ups
 
