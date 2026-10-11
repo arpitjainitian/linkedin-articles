@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | It Worked When You Tried It. Will It Work Tomorrow? | "I tried it and it worked" isn't a test. | Curtain raiser: why AI needs evals | Right about leave, wrong about maternity benefits | Planned |
+| 1 | [It Worked When You Tried It. Will It Work Tomorrow?](01-curtain-raiser.md) | "I tried it and it worked" isn't a test. | Curtain raiser: why AI needs evals | Right about leave, wrong about maternity benefits | Draft for review |
 | 2 | What Should Your Test Questions Look Like? | Ten easy questions prove nothing. | Building a real test set, edge cases, tricky questions | "Can I carry forward leave if I joined mid-year?" | Planned |
 | 3 | Who Writes the Right Answers? | A test needs an answer key. | Ground truth, HR expert time, keeping it current | Only two people in HR know the real answer | Planned |
 | 4 | Can an AI Grade Another AI? | Fast marking, if you check the marker. | LLM-as-judge, rubrics, calibration | The judge gives every answer 10/10 | Planned |
