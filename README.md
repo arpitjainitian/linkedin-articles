@@ -4,4 +4,5 @@ Write-ups on the parts of AI engineering that look simple and fail often in real
 
 - [ROADMAP.md](ROADMAP.md): all planned topics, in order of rising technical difficulty
 - [01-just-add-rag/](01-just-add-rag/README.md): the #JustAddRAG series and its publishing status
+- [20-today-in-ai/](20-today-in-ai/README.md): Today in AI, a daily series that never closes
 - [qna/](qna/README.md): Q&A series, one question per post: AI engineering and system design roadmaps
