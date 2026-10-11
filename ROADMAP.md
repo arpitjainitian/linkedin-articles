@@ -28,10 +28,10 @@ Each topic is its own series, numbered below. Each is a sentence that sounds eas
 | 19 | "We bought the brain, we're done" | L5 | The agent harness: you own the loop. Example: An insurance claims-processing agent. Plan: [19-agent-harness/](19-agent-harness/README.md) | **Planned (outline ready)** | The harness around the model (planner, memory, tools, state, guardrails, evals) is everything you own. Each part deserves its own look. |
 
 
-## Ongoing daily series
+## Ongoing series
 
 | Series | Topic | Cadence | What it covers | Status |
 |---|---|---|---|---|
-| 20 | Today in AI (#TodayInAI) | Daily, never closes | One trending AI development a day, verified against original sources, explained in plain words with what it means for real projects. Fixed cover frame, fresh middle design every day. Plan: [20-today-in-ai/](20-today-in-ai/README.md) | **Ready to start** |
+| 20 | Today in AI (#TodayInAI) | No fixed cadence, never closes | One trending AI development a day, verified against original sources, explained in plain words with what it means for real projects. Fixed cover frame, fresh middle design every day. Plan: [20-today-in-ai/](20-today-in-ai/README.md) | **Ready to start** |
 
 Topics 9-11, 16, 18 and 19 were inspired by a "9 AI concepts" infographic by Brij Kishore Pandey ([@brijpandeyji](https://www.linkedin.com/in/brijpandeyji/)). Topics 12 and 17 were inspired by an "Agentic RAG vs GraphRAG" comparison infographic. Topic 15 was inspired by an "Anatomy of an AI Agent" diagram.
