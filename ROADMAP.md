@@ -8,7 +8,7 @@ Each topic is its own series, numbered below. Each is a sentence that sounds eas
 | Series | Topic ("looks simple") | Level | What it covers | Status |
 |---|---|---|---|---|
 | 1 | "Just add RAG over our docs" | L2 | A full series of write-ups, see [01-just-add-rag/](01-just-add-rag/README.md) | **In progress** |
-| 2 | "Users will love the chatbot" | L1 | Trust, UX, citations, "I don't know", adoption | Planned |
+| 2 | "Users will love the chatbot" | L1 | A series of write-ups on trust, conversation design and the human side of AI, see [02-users-will-love-the-chatbot/](02-users-will-love-the-chatbot/README.md) | **Planned (outline ready)** |
 | 3 | "AI transformation = buy licenses + train people" | L1 | Process redesign, success metrics | Planned |
 | 4 | "The POC got a standing ovation" | L2 | The POC-to-production cliff, ownership | Planned |
 | 5 | "It's only a few cents per call" | L2 | Inference economics: tokens, caching, model choice, the total bill | Planned |
