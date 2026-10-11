@@ -25,10 +25,10 @@
 - **Voice:** same as every series: architect to leaders, human, polite humor, no hype, no dashes.
 - **Post text:** in a copy-paste block, with the "you pay for it" impact lines where relevant, and #TodayInAI.
 
-## Cover: a fixed frame plus a fresh design every day
+## Cover: a fixed frame plus a fresh design for every write-up
 
 - **The frame never changes:** a black news band at the top ("● TODAY IN AI" and "No. 001", no date), a kicker and the headline, and a black strip at the bottom ("What's new in AI, and what it means for your projects. In plain words. #TodayInAI"). See [cover-frame-template.png](images/cover-frame-template.png).
-- **The middle is new every day:** an original illustration or visual made for that day's topic, with humor where it fits. The accent colour can change daily too.
+- **The middle is new for every write-up:** an original illustration or visual made for that topic, with humor where it fits. The accent colour can change too.
 - Generator: `today/gen_today.py` in the local workspace (frame + a per-day slot file).
 
 ## Write-ups

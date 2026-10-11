@@ -32,6 +32,6 @@ Each topic is its own series, numbered below. Each is a sentence that sounds eas
 
 | Series | Topic | Cadence | What it covers | Status |
 |---|---|---|---|---|
-| 20 | Today in AI (#TodayInAI) | No fixed cadence, never closes | One trending AI development a day, verified against original sources, explained in plain words with what it means for real projects. Fixed cover frame, fresh middle design every day. Plan: [20-today-in-ai/](20-today-in-ai/README.md) | **Ready to start** |
+| 20 | Today in AI (#TodayInAI) | No fixed cadence, never closes | One trending AI development per write-up, verified against original sources, explained in plain words with what it means for real projects. Fixed cover frame, fresh middle design for each write-up. Plan: [20-today-in-ai/](20-today-in-ai/README.md) | **Ready to start** |
 
 Topics 9-11, 16, 18 and 19 were inspired by a "9 AI concepts" infographic by Brij Kishore Pandey ([@brijpandeyji](https://www.linkedin.com/in/brijpandeyji/)). Topics 12 and 17 were inspired by an "Agentic RAG vs GraphRAG" comparison infographic. Topic 15 was inspired by an "Anatomy of an AI Agent" diagram.

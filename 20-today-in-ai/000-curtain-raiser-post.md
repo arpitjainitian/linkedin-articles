@@ -1,6 +1,6 @@
 # Today in AI: curtain raiser post
 
-A short LinkedIn post (not an article) to announce the daily series. Attach the image.
+A short LinkedIn post (not an article) to announce the series. Attach the image.
 
 ![Post image](images/000-curtain-raiser-post.png)
 
