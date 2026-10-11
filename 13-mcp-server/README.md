@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | What Is MCP, and Why Is Everyone Talking About It? | One plug for every app. | Curtain raiser: MCP in plain words | "My laptop is slow": tickets, chat, inventory, all from one assistant | Planned |
+| 1 | [What Is MCP, and Why Is Everyone Talking About It?](01-curtain-raiser.md) | One plug for every app. | Curtain raiser: MCP in plain words | "My laptop is slow": tickets, chat, inventory, all from one assistant | Draft for review |
 | 2 | Which Systems Should Your Assistant Be Allowed to Reach? | Every connection is a new door. | Choosing tools, least privilege | It can read the HR system. Should it? | Planned |
 | 3 | Can You Trust Someone Else's MCP Server? | Plugging into a stranger's charger. | Third-party servers, trust, review | A free "ticket helper" that copies every ticket outside | Planned |
 | 4 | What Happens When a Connected Tool Changes? | The plug changes shape after an update. | Versioning, breaking changes, testing | The ticketing tool updates; every request fails | Planned |
