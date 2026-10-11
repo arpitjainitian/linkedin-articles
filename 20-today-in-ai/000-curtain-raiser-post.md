@@ -7,7 +7,7 @@ A short LinkedIn post (not an article) to announce the series. Attach the image.
 **Post text (copy and paste):**
 
 ```
-AI changes every day.
+AI news is a firehose. I'm offering a glass of water.
 
 New models on Monday. A big mistake on Tuesday. A "this changes everything" on Wednesday. And by Thursday, nobody remembers Monday.
 
@@ -34,5 +34,6 @@ Follow along, and tell me: what AI story confused you most this month?
 **Alternative opening lines (pick one if you prefer):**
 
 - "I read the AI news for hours, so you can read it in 5 minutes."
-- "AI news is a firehose. I'm offering a glass of water."
+- "AI changes every day." (the original opening)
+- "AI moves fast. Your coffee break is 5 minutes. Let's make them meet."
 - "One AI story at a time. The kind you can explain to your intern and your CEO."
