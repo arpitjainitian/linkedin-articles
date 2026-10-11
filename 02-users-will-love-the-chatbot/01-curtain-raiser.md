@@ -33,15 +33,15 @@ Most AI projects test one thing: is the answer right? Customers judge something 
 
 Think of the chatbot as a new branch teller who knows every product brochure by heart, and has never met a customer. Very polite. Very well read. Never once seen someone panic about a missing 40,000 rupees.
 
-## The iceberg
+## On stage, and backstage
 
-Above the water: a chat window and a model that can answer banking questions. That part really does take a few weeks. It also demos beautifully.
+On stage: a chat window and a model that can answer banking questions. That part really does take a few weeks. It also demos beautifully.
 
-Below the water: everything that decides whether customers come back in week three. The first ten seconds. Saying "I'm not sure" when it isn't. Recovering when the customer says "no, not that one". Handing over to a human without making them repeat everything. Speaking the way customers actually speak. Knowing when a plain button would do the job better. The cover image is the full map.
+Backstage: everything that decides whether customers come back in week three. The first ten seconds. Saying "I'm not sure" when it isn't. Recovering when the customer says "no, not that one". Handing over to a human without making them repeat everything. Speaking the way customers actually speak. Knowing when a plain button would do the job better. The cover image is the full map.
 
 ## This is a series: here's what's coming
 
-This write-up is the first in a series. Each one takes one piece of the iceberg and goes deep, with the same bank chatbot every time. A few of the questions it will answer:
+This write-up is the first in a series. Each one opens one door backstage and goes deep, with the same bank chatbot every time. A few of the questions it will answer:
 
 - Your chatbot has 10 seconds. What does it do with them? (First impressions)
 - Why does your chatbot sound so sure when it's wrong? (Confidence and tone)
@@ -85,7 +85,7 @@ Launch a chatbot that's accurate but not helpful, and you pay for it:
 • Customer experience: people reach the agent already annoyed
 • Credibility: "50,000 chats" on the dashboard, more calls in the queue
 
-Write-up 1 in my new series, Build it and they will chat (#TheyWillChat): why accurate isn't enough, the iceberg under every customer chatbot, and three things to take to your next kickoff meeting.
+Write-up 1 in my new series, Build it and they will chat (#TheyWillChat): why accurate isn't enough, what sits backstage of every customer chatbot, and three things to take to your next kickoff meeting.
 
 What made you give up on a chatbot and pick up the phone?
 

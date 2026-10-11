@@ -27,4 +27,4 @@
 - Start with why the topic matters; plain-language analogies with technical names revealed at the end; light "Fix:" pointers.
 - Polite humor, ONE real running example used in every write-up, cheat sheet at the end, three kickoff takeaways.
 - Post text in a copy-paste block, with the "you pay for it" impact of the wrong choice.
-- Cover: its own iceberg plus an original meme scene and a sticky-note punchline.
+- Cover: this series' own scene (not an iceberg), an airport. One terminal front door, check-in, security and gates for every team. Plus an original meme scene on the left and a sticky-note punchline.
