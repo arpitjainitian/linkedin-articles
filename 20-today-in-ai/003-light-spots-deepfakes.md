@@ -4,24 +4,31 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
-**In one line:** Researchers used light to check 15 videos at once for fakes, and were right about 98 times out of 100.
+**In one line:** Researchers used light and a specially shaped piece of glass to check 15 videos at once for fakes, and were right about 98 times out of 100.
 
 ## What happened
 
-A team at UCLA built a new kind of fake-video checker. Most checkers are computer programs that look at one video at a time. This one turns the videos into a pattern of light, and the light checks 15 videos together.
+A team at UCLA built a new kind of fake-video checker. Most checkers are computer programs that look at one video at a time. This one uses light, and checks 15 videos together.
 
-In tests, it was right about 98% of the time. It also used much less energy than a normal computer checker.
+In tests, it was right about 98% of the time, and used much less energy than a normal computer checker.
 
-## What it means
+## How it works: think of a coin sorter
 
-Think of an airport scanner. It checks many bags fast. Anything odd is pulled aside for a person to look at.
+You pour mixed coins into a coin sorter. Small coins drop through small holes, big coins roll on to bigger holes. The machine has no brain. The shape of the holes does all the sorting.
 
-This works the same way: a quick first check, not the final word.
+This checker works the same way:
+
+1. **Fake videos have tiny flaws,** like skin that looks too smooth or eyes that blink oddly. A small program turns each video into a short "fingerprint" that captures these details.
+2. **Real and fake videos get different fingerprints,** like small coins and big coins.
+3. **Each fingerprint is shone as a beam of light** through a specially shaped piece of glass.
+4. **The glass is the coin sorter.** Light from a real video comes out in one spot, light from a fake comes out in another. A sensor in each spot gives the answer.
+
+Light is instant, 15 videos can go through at once, and the glass needs no electricity.
 
 ## Why it matters to you
 
 - **Learning AI?** AI doesn't only run on computer chips. Light is a new way to do it.
-- **Leading a team?** Fake videos are a real risk. Tools like this help, but a person should still check the doubtful ones.
+- **Leading a team?** Fake videos are a real risk. Tools like this can do a fast first check, but a person should still look at the doubtful ones.
 
 ## One thing to do this week
 
@@ -47,9 +54,7 @@ Credit to Professor Aydogan Ozcan's team at UCLA for the research, and to Scienc
 ```
 Can light spot a deepfake faster than a computer?
 
-UCLA researchers used light to check 15 videos at once for fakes. They were right about 98 times out of 100.
-
-Like an airport scanner: a fast first check, with odd ones pulled aside for a person.
+UCLA researchers built a fake-video checker that works like a coin sorter. Each video becomes a beam of light, and a specially shaped piece of glass sorts real from fake. 15 videos at once, right about 98 times out of 100.
 
 No. 003 of Today in AI.
 
