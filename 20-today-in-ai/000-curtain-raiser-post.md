@@ -24,7 +24,7 @@ It's written so a student and a CEO can read the same post, and both get somethi
 
 No hype. No jargon. No 47-tool listicles.
 
-First up, No. 001: what happens when your AI agent visits someone else's website?
+Coming soon, No. 001: what happens when your AI agent visits someone else's website?
 
 Follow along, and tell me: what AI story confused you most this month?
 
