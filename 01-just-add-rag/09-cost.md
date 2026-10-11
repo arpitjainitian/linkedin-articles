@@ -1,4 +1,4 @@
-# 10. A Few Cents per Question: So Why Is Finance Calling?
+# 10. A Few Cents per Question: So Why Is Finance Calling? | Cost
 
 ![Cover](images/09-cost-cover.png)
 

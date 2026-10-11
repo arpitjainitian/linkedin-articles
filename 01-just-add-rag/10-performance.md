@@ -1,4 +1,4 @@
-# 11. It's Fast in the Demo, So Why Are Users Clicking Twice?
+# 11. It's Fast in the Demo, So Why Are Users Clicking Twice? | Performance and Availability
 
 ![Cover](images/10-performance-cover.png)
 

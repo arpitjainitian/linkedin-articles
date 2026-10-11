@@ -1,4 +1,4 @@
-# 2. Your Chatbot Has 10 Seconds. What Does It Do With Them?
+# 2. Your Chatbot Has 10 Seconds. What Does It Do With Them? | First Impressions
 
 ![Cover](images/02-first-10-seconds-cover.png)
 

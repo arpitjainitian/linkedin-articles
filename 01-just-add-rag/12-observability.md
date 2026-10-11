@@ -1,4 +1,4 @@
-# 13. When Your AI Gives a Wrong Answer, Can You Tell Why?
+# 13. When Your AI Gives a Wrong Answer, Can You Tell Why? | Observability
 
 ![Cover](images/12-observability-cover.png)
 

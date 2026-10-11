@@ -1,4 +1,4 @@
-# 17. So, Should You Really "Just Add RAG"?
+# 17. So, Should You Really "Just Add RAG"? | The Checklist
 
 ![Cover](images/16-finale-checklist-cover.png)
 

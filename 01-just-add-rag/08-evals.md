@@ -1,4 +1,4 @@
-# 9. How Many Questions Did You Test Before Saying "It Works"?
+# 9. How Many Questions Did You Test Before Saying "It Works"? | Evals and Ground Truth
 
 ![Cover](images/08-evals-cover.png)
 
