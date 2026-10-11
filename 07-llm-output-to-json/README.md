@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | Why Does the "Perfect" Candidate Profile Break One Time in Fifty? | Mostly right is still broken for a computer. | Curtain raiser: structured output | One missing field and the candidate vanishes from the shortlist | Planned |
+| 1 | [Why Does the "Perfect" Candidate Profile Break One Time in Fifty?](01-curtain-raiser.md) | Mostly right is still broken for a computer. | Curtain raiser: structured output | One missing field and the candidate vanishes from the shortlist | Draft for review |
 | 2 | What If the Model Invents a Skill? | "Kubernetes expert" isn't on the CV. | Schemas, validation, strict output modes | A skill the candidate never mentioned | Planned |
 | 3 | What Do You Do With "5+ Years, Approx"? | Real CVs are vague. | Missing, ambiguous and partial data, flagging for review | "2019 to present" or "5 years"? | Planned |
 | 4 | Should You Retry, Repair or Send It to a Human? | Every bad output needs a plan. | Retries, repair, fallbacks, human review | Two jobs in the same years, read as 10 years' experience | Planned |
