@@ -6,6 +6,8 @@
 
 **Running example:** **A school's homework-help bot.** 2,000 students, every evening, before every exam. Cheap per question, not cheap per term.
 
+**One example, used in every write-up of this series.** No switching mid-series.
+
 **Hashtag:** #AICostsAddUp (proposal)
 
 ## Planned write-ups

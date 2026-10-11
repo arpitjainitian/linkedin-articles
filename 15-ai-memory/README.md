@@ -4,7 +4,9 @@
 
 **Level:** L4. Written so anyone can follow it, with no domain knowledge needed.
 
-**Running example:** **Your favourite coffee shop.** A good barista remembers "the usual". A creepy one remembers everything. AI memory sits somewhere in between.
+**Running example:** **The coffee shop's ordering assistant.** An AI in the café's app that takes orders and should remember "the usual", without becoming creepy.
+
+**One example, used in every write-up of this series.** No switching mid-series.
 
 **Hashtag:** #AIMemory (proposal)
 

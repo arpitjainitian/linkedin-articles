@@ -6,6 +6,8 @@
 
 **Running example:** **A cinema ticket booth.** Students get 20% off, kids under 3 go free, Tuesdays are half price. Simple rules, until an LLM applies them.
 
+**One example, used in every write-up of this series.** No switching mid-series.
+
 **Hashtag:** #RulesNeedCode (proposal)
 
 ## Planned write-ups

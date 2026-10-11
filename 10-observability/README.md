@@ -6,6 +6,8 @@
 
 **Running example:** **A weather-answer bot.** "Do I need an umbrella today?" Simple answers, but when one is wrong, someone gets wet and wants to know why.
 
+**One example, used in every write-up of this series.** No switching mid-series.
+
 **Hashtag:** #SeeInsideYourAI (proposal)
 
 ## Planned write-ups

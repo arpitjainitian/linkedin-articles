@@ -6,6 +6,8 @@
 
 **Running example:** **A recipe-suggestion app.** "Tell me what's in your fridge, I'll suggest a dish." The demo used 5 ingredients. Real fridges are messier.
 
+**One example, used in every write-up of this series.** No switching mid-series.
+
 **Hashtag:** #BeyondTheDemo (proposal)
 
 ## Planned write-ups

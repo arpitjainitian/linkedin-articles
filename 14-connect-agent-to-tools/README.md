@@ -6,6 +6,8 @@
 
 **Running example:** **A smart home assistant.** It can switch lights, set the thermostat and, one day, unlock the front door. Simple tools, very different risks.
 
+**One example, used in every write-up of this series.** No switching mid-series.
+
 **Hashtag:** #SafeAgents (proposal)
 
 ## Planned write-ups

@@ -6,6 +6,8 @@
 
 **Running example:** **One office, many teams, one AI account.** Sales, HR, support and finance all call the same AI provider with the same key. What could go wrong?
 
+**One example, used in every write-up of this series.** No switching mid-series.
+
 **Hashtag:** #AIGateway (proposal)
 
 ## Planned write-ups

@@ -6,6 +6,8 @@
 
 **Running example:** **A neighbourhood bakery going AI.** The owner buys AI tools for 10 staff: orders, stock, social media, accounts. A business everyone understands.
 
+**One example, used in every write-up of this series.** No switching mid-series.
+
 **Hashtag:** #BeyondTheLicence (proposal)
 
 ## Planned write-ups

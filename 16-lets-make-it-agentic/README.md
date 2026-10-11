@@ -4,7 +4,9 @@
 
 **Level:** L4. Written so anyone can follow it, with no domain knowledge needed.
 
-**Running example:** **Planning a weekend trip.** Find a hotel, check the weather, book a train, suggest a restaurant. Many steps, one goal: perfect for explaining agents.
+**Running example:** **A weekend-trip planning assistant.** An AI that plans a weekend in Jaipur: hotel, weather, train, restaurant. Many steps, one goal.
+
+**One example, used in every write-up of this series.** No switching mid-series.
 
 **Hashtag:** #AgentsExplained (proposal)
 

@@ -4,7 +4,9 @@
 
 **Level:** L4. Written so anyone can follow it, with no domain knowledge needed.
 
-**Running example:** **A family tree.** "Who is my mother's cousin's daughter?" Relationships that a normal search can't follow, but a graph can.
+**Running example:** **A family-history app.** An AI that answers questions about your family tree: "Who is my mother's cousin's daughter?"
+
+**One example, used in every write-up of this series.** No switching mid-series.
 
 **Hashtag:** #GraphRAG (proposal)
 

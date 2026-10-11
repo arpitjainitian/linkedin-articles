@@ -4,7 +4,9 @@
 
 **Level:** L5. Written so anyone can follow it, with no domain knowledge needed.
 
-**Running example:** **A student researching a school project.** "Why did the Titanic sink?" A good student searches, reads, then searches again with better questions.
+**Running example:** **A homework research assistant.** An AI helping a student with a school project: "Why did the Titanic sink?" It searches, reads, then searches again with better questions.
+
+**One example, used in every write-up of this series.** No switching mid-series.
 
 **Hashtag:** #AgenticRAG (proposal)
 

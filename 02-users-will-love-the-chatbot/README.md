@@ -6,6 +6,8 @@
 
 **Running example:** **Tony's Pizza order bot.** A small pizza shop adds a chatbot to take orders and answer questions. Everyone has ordered a pizza, so nobody needs to learn a domain.
 
+**One example, used in every write-up of this series.** No switching mid-series.
+
 **Hashtag:** #UsersWillLoveIt (proposal)
 
 ## Planned write-ups

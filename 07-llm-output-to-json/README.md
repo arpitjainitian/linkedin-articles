@@ -6,6 +6,8 @@
 
 **Running example:** **Turning a grocery list into an order.** "2 kg rice, milk, and those biscuits I like" becomes items, quantities and prices.
 
+**One example, used in every write-up of this series.** No switching mid-series.
+
 **Hashtag:** #StructureIsHard (proposal)
 
 ## Planned write-ups

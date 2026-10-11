@@ -6,6 +6,8 @@
 
 **Running example:** **A library's book-finder bot.** "Find me a mystery novel for a 12-year-old." Easy to check if the answer is right, hard to check every time.
 
+**One example, used in every write-up of this series.** No switching mid-series.
+
 **Hashtag:** #TestYourAI (proposal)
 
 ## Planned write-ups

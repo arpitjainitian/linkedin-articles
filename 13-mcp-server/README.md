@@ -4,7 +4,9 @@
 
 **Level:** L4. Written so anyone can follow it, with no domain knowledge needed.
 
-**Running example:** **A universal phone charger.** One plug that fits every device. MCP is that plug for connecting AI to apps like your calendar, email and notes.
+**Running example:** **Priya's personal assistant app.** One AI assistant connected to her calendar, email, notes and shopping list through MCP. (MCP itself is like a universal phone charger: one plug that fits every app.)
+
+**One example, used in every write-up of this series.** No switching mid-series.
 
 **Hashtag:** #MCPExplained (proposal)
 

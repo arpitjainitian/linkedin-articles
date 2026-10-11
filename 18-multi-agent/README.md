@@ -4,7 +4,9 @@
 
 **Level:** L5. Written so anyone can follow it, with no domain knowledge needed.
 
-**Running example:** **Planning a wedding.** A caterer, a decorator, a photographer and a planner. More helpers can mean a better wedding, or chaos.
+**Running example:** **A wedding-planning AI team.** A planner agent coordinating a caterer agent, a decorator agent and a photographer agent. More helpers can mean a better wedding, or chaos.
+
+**One example, used in every write-up of this series.** No switching mid-series.
 
 **Hashtag:** #MultiAgent (proposal)
 

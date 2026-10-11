@@ -6,6 +6,8 @@
 
 **Running example:** **A kids' storytelling bot.** It writes bedtime stories. Parents expect it to stay safe, kind and age-appropriate, every time.
 
+**One example, used in every write-up of this series.** No switching mid-series.
+
 **Hashtag:** #GuardrailsMatter (proposal)
 
 ## Planned write-ups
