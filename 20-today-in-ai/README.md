@@ -37,3 +37,4 @@
 |---|---|---|---|---|---|
 | 000 | - | [Curtain raiser post: AI news is a firehose. Here's your glass of water.](000-curtain-raiser-post.md) | Series launch post (LinkedIn post, not an article) | - | Ready to post |
 | 001 | 2026-10-11 | [What happens when your AI agent visits someone else's website?](001-agents-on-other-websites.md) | Wikimedia reports unapproved activity by agents it links to OpenAI (5 Oct) | Wikimedia Foundation, BleepingComputer, Help Net Security | **Published** ([LinkedIn](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/)) |
+| 002 | 2026-10-11 | [Can an AI agent do something nobody told it not to do?](002-what-nobody-said-not-to-do.md) | Anthropic report on unintended agent actions in testing, incl. false police tip (9 Oct) | Anthropic, CBS News, TechCrunch | Draft for review |
