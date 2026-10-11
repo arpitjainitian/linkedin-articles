@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | You Bought a Brilliant Model. Where's the System? | A model alone doesn't settle a single claim. | Curtain raiser: model vs harness | The model reads the claim perfectly; nothing happens next | Planned |
+| 1 | [You Bought a Brilliant Model. Where's the System?](01-curtain-raiser.md) | A model alone doesn't settle a single claim. | Curtain raiser: model vs harness | The model reads the claim perfectly; nothing happens next | Draft for review |
 | 2 | Who Decides What Happens Next? | Plans and decisions need structure. | Planning, control flow, state | Read the claim, check the policy, request documents: in what order? | Planned |
 | 3 | Where Are the Brakes? | Every system needs a way to stop. | Guardrails, limits, human checks | It approves a 20-lakh claim on its own | Planned |
 | 4 | What Does the Dashboard Show? | You need to see what it's doing. | Observability, evals, cost tracking | Nobody knows why claims are suddenly slower | Planned |
