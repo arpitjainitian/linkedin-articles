@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | It Said "Arriving in 5 Minutes". It Took an Hour. Can You Tell Why? | "The AI was wrong" isn't a diagnosis. | Curtain raiser: observability for AI | Old tracking data, wrong order, or a bad prompt? | Planned |
+| 1 | [It Said "Arriving in 5 Minutes". It Took an Hour. Can You Tell Why?](01-curtain-raiser.md) | "The AI was wrong" isn't a diagnosis. | Curtain raiser: observability for AI | Old tracking data, wrong order, or a bad prompt? | Draft for review |
 | 2 | What Should You Record for Every Answer? | Question and answer aren't enough. | Traces: inputs, steps, sources, timings | The log shows the answer, not the tracking data it used | Planned |
 | 3 | Which Numbers Should You Watch Every Day? | A few numbers tell you most of the story. | Metrics, dashboards, alerts | Refund complaints double every Friday night | Planned |
 | 4 | Why Is It Slowly Getting Worse? | Quality can slide without anyone noticing. | Drift, online evaluation, sampling live answers | New restaurant partners, new menu formats | Planned |
