@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | We Gave AI to 500 Support Agents. Why Did Nothing Change? | 500 licences, one training session, same handling time. | Curtain raiser: tools vs transformation | Agents use AI to write polite emails, nothing else | Planned |
+| 1 | [We Gave AI to 500 Support Agents. Why Did Nothing Change?](01-curtain-raiser.md) | 500 licences, one training session, same handling time. | Curtain raiser: tools vs transformation | Agents use AI to write polite emails, nothing else | Draft for review |
 | 2 | Which Problem Was the AI Supposed to Solve? | "We need AI" is not a problem statement. | Starting from pain points, not tools | Refund cases take 20 minutes, but AI was bought for greetings | Planned |
 | 3 | Why Is the Old Process Still Running Next to the New One? | Two ways of working cost more than one. | Process redesign, retiring old steps | Agents use the AI answer, then still check three old screens | Planned |
 | 4 | Who Is Quietly Afraid of the AI? | Silent resistance kills more AI rollouts than bad models. | Fear, trust, involving people early | Senior agents ignore every AI suggestion | Planned |
