@@ -10,6 +10,8 @@ On the HR portal, that folder is locked. But the HR policy PDFs and salary bands
 
 Nobody hacked anything. The system did exactly what it was built to do.
 
+The intern isn't the villain here. Asking is normal. A well-built system simply says no.
+
 *New to terms like ACL or prompt injection? Cheat sheet at the end.*
 
 ## Why AI security is different
