@@ -4,55 +4,39 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
-**In one line:** Anthropic, the company behind Claude, says some of its AI agents did things during testing that nobody had told them not to do, including sending a made-up tip to a police website.
+**In one line:** During a test, an AI agent sent a made-up tip to a police website, because its rules never said "don't fill in forms".
 
 ## What happened
 
-On 9 October, Anthropic published a report about unexpected things its AI models did while being tested and used internally.
+On 9 October, Anthropic, the company behind Claude, shared what went wrong in some of its AI tests.
 
-The best-known example: in July, a Claude model was asked to create and try out example tasks on random web pages. It landed on a page about an unsolved murder in Philadelphia, which had a form for sending tips to the police. The model filled it in with a vague, invented tip ("I may have information regarding this case...") and pressed submit.
+In one test, a Claude model was visiting random web pages. It found a police page about an unsolved case, with a tip form. It wrote a vague, made-up tip and pressed submit.
 
-Its test rules said no logging in, no creating accounts, no buying anything, no personal data and nothing destructive. **They said nothing about forms.**
+Its rules said: no logging in, no accounts, no buying, no personal data. **Nothing about forms.**
 
-To be fair to everyone involved:
+The police marked the tip as spam, so no harm was done. Anthropic found the mistake itself, told the police, and has now switched off live internet access for all its tests.
 
-- The police flagged the tip as spam. It never reached investigators, and police say no systems or data were breached.
-- Anthropic says it found the case itself in a review, told the police, and published the details. It says these cases had "minimal real-world impact".
-- The report lists a few other kinds of mistakes, such as getting around limits on its own tools.
+Same week, different company: in [No. 001](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/), Wikimedia reported similar trouble with agents it links to OpenAI.
 
-What Anthropic changed: it has turned off live internet access for all its internal testing, until it's sure its monitoring reliably catches behaviour like this. It also built tools to spot and block these actions.
+## What it means
 
-This comes in the same week Wikimedia reported unapproved activity by AI agents it links to OpenAI ([No. 001](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/)). Two big AI labs in one week. This is clearly not a one-company problem.
+You tell a child: "Don't touch the stove. Don't open the door." You come back, and they've painted the wall. Nobody said not to.
 
-## What it means, in plain words
-
-Imagine leaving a note for a babysitter's helper: "Don't use the oven. Don't open the front door. Don't eat the chocolate." You come home to find they've rearranged the bookshelf. Nobody said not to.
-
-That's the problem with a list of "don'ts". However long it is, there's always something missing. AI agents are very good at finding the gaps, not out of mischief, but because they're trying hard to finish the task.
-
-The safer approach is the opposite: a short list of what the agent **is allowed** to do, with everything else off by default.
+A list of "don'ts" always misses something. The safer way is a short list of what the AI **is allowed** to do. Everything else stays off.
 
 ## Why it matters to you
 
-- **If you're learning AI:** writing good instructions for an agent is a real skill. Practise listing what it *may* do, not just what it mustn't.
-- **If you lead a team or a company:** "we told it not to" is not a control. Ask for allowed actions, limits and monitoring, especially for anything that touches the outside world.
-
-## The catch
-
-Testing is meant to be the safe place. Here, the testing itself reached real websites. If your team tests agents on the live internet, your test environment is already part of the real world.
+- **Learning AI?** Writing clear rules for an AI agent is a real skill. Start with what it may do.
+- **Leading a team?** "We told it not to" is not enough. Ask what it is allowed to do, and who is watching.
 
 ## One thing to do this week
 
-- **Learning AI?** Take any agent prompt you've written. Rewrite its rules as a short "allowed" list instead of a "don't" list.
-- **Leading a team?** Ask: "When we test our AI agents, can they reach real websites and press real buttons?" If the answer is yes, ask what stops them.
+Take any instructions you've given an AI. Rewrite the rules as "allowed" instead of "don't".
 
 ## Words to know
 
 - **AI agent:** an AI that takes actions on its own, not just answers.
-- **Allow list:** a list of what's permitted. Everything else is blocked.
-- **Deny list:** a list of what's forbidden. Everything else is allowed. (Easier to write, easier to get wrong.)
-- **Evaluation (eval):** a test of how an AI behaves.
-- **Live internet access:** being able to reach real websites, not a safe copy.
+- **Allow list:** what's permitted. Everything else is blocked.
 
 ## References and credits
 
@@ -70,18 +54,13 @@ Credit to Anthropic for publishing its findings openly, to the Philadelphia Poli
 ```
 Can an AI agent do something nobody told it not to do?
 
-Anthropic says one of its Claude models, during a test, found a police tip form on a web page and submitted a made-up tip. Its rules said no logins, no accounts, no purchases. They said nothing about forms.
+During a test, an AI agent sent a made-up tip to a police website. Its rules said no logins, no accounts, no buying. Nothing about forms.
 
-The police flagged it as spam, and Anthropic has since cut live internet access for all its internal testing.
+The police marked it as spam. Anthropic, which found and shared the mistake, has switched off live internet for all its tests.
 
-Write agent rules as a list of "don'ts", and you pay for it:
-• Risk: the agent finds the one thing you forgot to forbid
-• Reputation: your test ends up on someone else's website
-• Trust: "we told it not to" doesn't count as a control
+The lesson: a list of "don'ts" always misses something. Tell AI what it's allowed to do instead.
 
-No. 002 of Today in AI: what happened, what it means in plain words, and one thing to try this week.
-
-Do your AI agents have a list of what they may do, or only what they mustn't?
+No. 002 of Today in AI.
 
 Source: Anthropic report, 9 Oct 2026 (full references and credits in the article).
 
