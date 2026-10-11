@@ -38,7 +38,7 @@ Look at the last long answer you got from any chatbot. Ask yourself: would a cha
 
 1. OpenAI, "GPT-6 for everyone", announcement, October 2026. [Read it](https://openai.com/index/gpt-6-for-everyone/) (primary source)
 2. Cris Tolomia, "OpenAI launches GPT-6 and Intelligent UI in ChatGPT", Quartz, republished by Yahoo Tech, 8 October 2026. [Read it](https://tech.yahoo.com/ai/chatgpt/articles/openai-launches-gpt-6-intelligent-131742388.html)
-3. Previous issue: [Today in AI, No. 001](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/)
+3. Previous issue: [Today in AI, No. 001: What happens when your AI agent visits someone else's website?](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/)
 
 Credit to OpenAI for the announcement and demos, and to Quartz for its coverage. Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
 
