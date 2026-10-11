@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | What Makes an AI an Agent? | Answering is easy. Doing is different. | Curtain raiser: chatbot vs agent | "Find flights" vs "book the trip" | Planned |
+| 1 | [What Makes an AI an Agent?](01-curtain-raiser.md) | Answering is easy. Doing is different. | Curtain raiser: chatbot vs agent | "Find flights" vs "book the trip" | Draft for review |
 | 2 | How Does an Agent Decide What to Do Next? | Plan, act, look, repeat. | The agent loop, planning and reflecting | Checks the policy before picking a hotel | Planned |
 | 3 | Why Does My Agent Keep Going in Circles? | Loops need exits. | Stop conditions, step limits, budgets | Searches flights 40 times and never books | Planned |
 | 4 | When Is a Simple Workflow Better Than an Agent? | Not every task needs freedom. | Workflows vs agents, predictability | The same weekly Mumbai trip doesn't need an agent | Planned |
