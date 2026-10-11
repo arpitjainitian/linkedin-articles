@@ -4,7 +4,9 @@
 
 **Type:** an open-ended daily series. It never closes. One write-up a day, numbered No. 001, No. 002, and so on.
 
-**Level:** mixed. Whatever is trending that day, explained so anyone can follow it.
+**Audience:** young readers (students, people starting their careers) AND CXOs, in the same write-up. Simpler than the other series.
+
+**Level:** mixed. Whatever is trending that day, explained so a 16-year-old and a CEO both enjoy it.
 
 **Hashtag:** #TodayInAI (proposal)
 
@@ -12,6 +14,7 @@
 
 - **Pick:** one AI development that matters that day (a model release, a research result, a new tool, a regulation, a big outage or an industry move). One topic per write-up, not a news roundup.
 - **Verify:** check it on the day against the original source (the company's announcement, the paper, the official notice). Link the sources in the write-up, and date them. No rumours, no unconfirmed numbers.
+- **Keep it simple (user rule):** short sentences, everyday words, no jargon without a one-line explanation, one relatable analogy, light humor. Every write-up has: an "In one line" summary at the top, a "Why it matters to you" section with one line for people learning AI and one for leaders, a "One thing to do this week" with both angles, and a short "Words to know" list before the references.
 - **Shape (short, 400 to 600 words):**
   1. What happened, in two or three sentences, with the date and source.
   2. What it means, in plain words, with an everyday analogy.
