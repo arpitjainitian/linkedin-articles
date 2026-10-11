@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | Do More Agents Mean Smarter AI? | More helpers isn't always more help. | Curtain raiser: single vs multi-agent | Four agents, four different joining dates | Planned |
+| 1 | [Do More Agents Mean Smarter AI?](01-curtain-raiser.md) | More helpers isn't always more help. | Curtain raiser: single vs multi-agent | Four agents, four different joining dates | Draft for review |
 | 2 | Who Is in Charge? | Someone has to coordinate. | Orchestrator patterns, roles, handoffs | IT and facilities both order a laptop | Planned |
 | 3 | What Does Each Agent Need to Know? | Too little context, wrong work. Too much, confusion. | Sharing context, isolated tasks | Payroll never told the joining date moved | Planned |
 | 4 | Why Does One Small Mistake Become a Big One? | Errors pass from agent to agent. | Compounding errors, checks between steps | Wrong department, wrong access, wrong desk | Planned |
