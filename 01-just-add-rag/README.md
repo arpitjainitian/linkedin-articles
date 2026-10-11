@@ -12,7 +12,7 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 | 4 | [Is your AI hallucinating, or just looking in the wrong place?](03-retrieval.md) | Retrieval, multilingual questions | **Published** | [Read](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/) |
 | 5 | [What does your AI say when it doesn't know?](04-grounding.md) | Grounding, citations, follow-ups, human review | **Published** | [Read](https://www.linkedin.com/pulse/5-what-does-your-ai-say-when-doesnt-know-arpit-jain-wr5bf) |
 | 6 | [Do you need an LLM, a database, or both?](05-right-tool.md) | LLM, database, or both: picking the right lane | **Published** | [Read](https://www.linkedin.com/pulse/6-do-you-need-llm-database-both-arpit-jain-hzisf/) |
-| 7 | [What happens when your AI finds two versions of the truth?](06-versions.md) | Versions, ownership after go-live | Draft for review | |
+| 7 | [What happens when your AI finds two versions of the truth?](06-versions.md) | Versions, ownership after go-live | **Published** | [Read](https://www.linkedin.com/pulse/7-what-happens-when-your-ai-finds-two-versions-truth-arpit-jain-k5p2f/) |
 | 8 | [Can the intern ask your AI about the CEO's salary?](07-permissions.md) | Permissions, security, prompt injection, guardrails | Draft for review | |
 | 9 | [How many questions did you test before saying "it works"?](08-evals.md) | Evals, ground truth, test harness | Draft for review | |
 | 10 | [A few cents per question: so why is finance calling?](09-cost.md) | Cost, bills, caching | Draft for review | |

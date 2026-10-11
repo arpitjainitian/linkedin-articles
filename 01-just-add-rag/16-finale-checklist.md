@@ -87,6 +87,7 @@ And tell me one last time: how many boxes did your project tick?
 4. [Is your AI hallucinating, or just looking in the wrong place?](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
 5. [What does your AI say when it doesn't know?](https://www.linkedin.com/pulse/5-what-does-your-ai-say-when-doesnt-know-arpit-jain-wr5bf)
 6. [Do you need an LLM, a database, or both?](https://www.linkedin.com/pulse/6-do-you-need-llm-database-both-arpit-jain-hzisf/)
+7. [What happens when your AI finds two versions of the truth?](https://www.linkedin.com/pulse/7-what-happens-when-your-ai-finds-two-versions-truth-arpit-jain-k5p2f/)
 
 ---
 
