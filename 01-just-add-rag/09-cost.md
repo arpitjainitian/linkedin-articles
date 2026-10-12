@@ -4,6 +4,8 @@
 
 *Just add RAG series: Cost*
 
+**Published:** 12 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/10-few-cents-per-question-so-why-finance-calling-cost-arpit-jain-bqppf/)
+
 "It's only a few cents per question."
 
 True. That's exactly how it starts. Then the cents meet real usage: ten thousand users, ten questions a day, every working day, with longer documents, retries and a few extra model calls nobody counted. Finance will find it. Finance always finds it.

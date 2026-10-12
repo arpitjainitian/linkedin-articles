@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 11 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/)
+
 **In one line:** ChatGPT can now answer with charts, buttons and small tools you can play with, not just walls of text.
 
 ## What happened

@@ -4,6 +4,8 @@
 
 *Just add RAG series: Grounding and citations*
 
+**Published:** 9 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/5-what-does-your-ai-say-when-doesnt-know-arpit-jain-wr5bf)
+
 Ask a good new colleague something they don't know, and they'll say, "Let me check." Ask an LLM, and you'll usually get a fluent, confident paragraph. LLMs are trained to be helpful. Awkward silence isn't in the training plan.
 
 Imagine asking your document assistant: "Do I need a visa for the USA?" when none of your documents mention a visa. Unless it's been told what to do in that case, it will answer anyway, from general knowledge, in a tone that sounds exactly like it read it in your files. Like a very confident uncle at a family wedding.

@@ -4,6 +4,8 @@
 
 *Just add RAG series: Chunking*
 
+**Published:** 7 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/what-answer-your-docs-you-cut-half-arpit-jain-pczxf/)
+
 Your documents have the answer. Your AI still can't find it.
 
 Somewhere along the way, the document got cut into pieces. "Date of Expiry" landed in one, "29/09/2024" in the next. One knows a label, the other a date. Neither knows the answer.

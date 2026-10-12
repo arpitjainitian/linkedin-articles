@@ -4,6 +4,8 @@
 
 *Just add RAG series: Evals and ground truth*
 
+**Published:** 12 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/9-how-many-questions-did-you-test-before-saying-works-arpit-jain-vrmqf)
+
 "We tested it. It works."
 
 The most comforting sentence in an AI project. Also the one most worth a polite follow-up: how many questions did you test?

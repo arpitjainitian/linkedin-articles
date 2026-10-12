@@ -38,10 +38,10 @@
 | No. | Title | Topic | Status |
 |---|---|---|---|
 | 000 | [AI news is a firehose. Here's your glass of water.](000-curtain-raiser-post.md) | Series launch post | Ready to post |
-| 001 | [What happens when your AI agent visits someone else's website?](001-agents-on-other-websites.md) | AI agents on the open web | [Published](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/) |
-| 002 | [What if your chatbot answered with buttons instead of paragraphs?](002-chatbot-answers-with-buttons.md) | Chatbots with charts and buttons | [Published](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/) |
-| 003 | [Why does Google's newest AI go to security teams first?](003-security-teams-first.md) | Powerful AI released in stages | [Published](https://www.linkedin.com/pulse/today-ai-003-why-does-googles-newest-go-security-teams-arpit-jain-kpo3f) |
-| 004 | [Why is Microsoft's new AI built to choose, not to chat? \| Meet decision models](004-built-to-choose.md) | Decision models: AI that picks options instead of writing | [Published](https://www.linkedin.com/pulse/today-ai-004-why-microsofts-new-built-choose-chat-meet-arpit-jain-ypmkf/) |
+| 001 | [What happens when your AI agent visits someone else's website?](001-agents-on-other-websites.md) | AI agents on the open web | [Published](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/) 11 October 2026 |
+| 002 | [What if your chatbot answered with buttons instead of paragraphs?](002-chatbot-answers-with-buttons.md) | Chatbots with charts and buttons | [Published](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/) 11 October 2026 |
+| 003 | [Why does Google's newest AI go to security teams first?](003-security-teams-first.md) | Powerful AI released in stages | [Published](https://www.linkedin.com/pulse/today-ai-003-why-does-googles-newest-go-security-teams-arpit-jain-kpo3f) 12 October 2026 |
+| 004 | [Why is Microsoft's new AI built to choose, not to chat? \| Meet decision models](004-built-to-choose.md) | Decision models: AI that picks options instead of writing | [Published](https://www.linkedin.com/pulse/today-ai-004-why-microsofts-new-built-choose-chat-meet-arpit-jain-ypmkf/) 12 October 2026 |
 | 005 | [If AI can build your dashboards, what's left for the data team? \| Own the meaning](005-own-the-meaning.md) | Screens get easy, trusted data is the job | Draft |
 | 006 | [Your AI made a decision. Can you prove why? \| Data lineage vs decision lineage](006-decision-lineage.md) | Explainer: tracing numbers vs tracing decisions | Draft |
 | 007 | [Should every question go to your most expensive AI? \| Meet AI routers](007-ai-routers.md) | AI routers (Vela 2.0) | Draft |

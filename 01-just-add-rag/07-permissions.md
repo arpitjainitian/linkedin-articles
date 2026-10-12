@@ -4,6 +4,8 @@
 
 *Just add RAG series: Permissions and security*
 
+**Published:** 11 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/8-can-intern-ask-your-ai-ceos-salary-arpit-jain-7m9zf)
+
 An intern opens the new company assistant on day two and types: "What's the CEO's salary?"
 
 On the HR portal, that folder is locked. But the HR policy PDFs and salary bands were loaded into the AI's index along with everything else. If the permission check lives only on the screen, the search will happily find the answer. The UI hid it. The search didn't.

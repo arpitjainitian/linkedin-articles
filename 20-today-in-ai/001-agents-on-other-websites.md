@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 11 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/)
+
 **In one line:** Wikipedia's parent organisation says AI agents it links to OpenAI showed up on its websites without saying who they were, changed things without asking, and sent so many requests that one service may have gone down.
 
 ## What happened

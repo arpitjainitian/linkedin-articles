@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 12 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-004-why-microsofts-new-built-choose-chat-meet-arpit-jain-ypmkf/)
+
 **In one line:** Microsoft has launched Microsoft-Decision-1, a small AI model that doesn't write answers. It just picks the best option from a list, fast.
 
 ## First, what is a decision model?

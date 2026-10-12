@@ -4,6 +4,8 @@
 
 *Just add RAG series: LLM, database, or both*
 
+**Published:** 11 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/6-do-you-need-llm-database-both-arpit-jain-hzisf/)
+
 Every AI kickoff quietly assumes the answer is an LLM. Often it's a database. Sometimes it's both.
 
 "Which of my documents expire this year?" sounds like a perfect question for an AI assistant. It isn't. It's a database query wearing a chatbot costume. RAG finds a few relevant passages and answers from them. This question needs every document checked, every date compared, and a list counted. A simple database query does that in milliseconds.

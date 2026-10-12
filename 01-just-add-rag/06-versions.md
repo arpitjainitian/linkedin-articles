@@ -4,6 +4,8 @@
 
 *Just add RAG series: Versions and ownership*
 
+**Published:** 11 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/7-what-happens-when-your-ai-finds-two-versions-truth-arpit-jain-k5p2f/)
+
 Imagine I finally renew my passport and upload the new one. Now my assistant has two passports, two expiry dates, and both look equally relevant to "Can I travel?"
 
 Which one wins? Whichever the search happens to rank higher that day.

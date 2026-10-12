@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 12 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-003-why-does-googles-newest-go-security-teams-arpit-jain-kpo3f)
+
 **In one line:** Google has announced Gemini 4 Argon, its most powerful AI model yet, and it's going to cybersecurity experts first, everyone else later.
 
 ## What happened

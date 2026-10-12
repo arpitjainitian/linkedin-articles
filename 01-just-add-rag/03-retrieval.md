@@ -4,6 +4,8 @@
 
 *Just add RAG series: Retrieval*
 
+**Published:** 8 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/your-ai-hallucinating-just-looking-wrong-place-arpit-jain-byozf/)
+
 The AI gave a wrong answer. Someone in the room says the word: "hallucination". Everyone nods. Someone suggests a bigger model.
 
 But often the model didn't make anything up. It answered faithfully, from the wrong page. Like a brilliant student handed the wrong chapter before the exam.
