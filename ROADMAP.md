@@ -38,14 +38,14 @@ Each topic is its own series, numbered below. Each is a sentence that sounds eas
 
 ## 2. Today in AI
 
-| Series | Topic | Cadence | What it covers | Status |
-|---|---|---|---|---|
-| 20 | Today in AI (#TodayInAI) | No fixed cadence, never closes | One trending AI development per write-up, verified against original sources, explained in plain words with what it means for real projects. Fixed cover frame, fresh middle design for each write-up. Plan: [20-today-in-ai/](20-today-in-ai/README.md) | **Ready to start** |
+| Series | Topic | Level | What it covers | Status | Why a full series, not one article |
+|---|---|---|---|---|---|
+| 20 | "Today in AI" (#TodayInAI) | Mixed | One AI story that matters per write-up (news, plus occasional explainers), checked against original sources and explained in plain words, for both people learning AI and leaders. Fixed cover frame, fresh middle design each time. Plan and write-ups: [20-today-in-ai/](20-today-in-ai/README.md) | **In progress** (No. 001 to 003 published, 004 to 006 drafted) | AI changes every week. An ongoing series, with no fixed cadence and no end, keeps up with it one story at a time. |
 
 ## 3. AI system design
 
-| Series | Topic | Cadence | What it covers | Status |
-|---|---|---|---|---|
-| 21 | AI system design, one question per post | No fixed cadence | AI that works in a demo and now has to work in production: cost, agents, evals, reliability, scale. Plan and articles: [21-system-design/](21-system-design/README.md) | **Question 1 drafted, 2 to 6 planned** |
+| Series | Topic | Level | What it covers | Status | Why a full series, not one article |
+|---|---|---|---|---|---|
+| 21 | "It works in the demo. Now design it for production." | L3 to L5 | One AI system design question per post, the kind asked in architect interviews and design reviews: cost, agent loops, consistency, evals, architecture and scale. Plan and articles: [21-system-design/](21-system-design/README.md) | **In progress** (question 1 drafted, 2 to 6 planned) | Each production problem (cost, loops, scale, quality) is a separate design question with its own trade-offs. One question per post keeps each answer clear. |
 
 Topics 9-11, 16, 18 and 19 were inspired by a "9 AI concepts" infographic by Brij Kishore Pandey ([@brijpandeyji](https://www.linkedin.com/in/brijpandeyji/)). Topics 12 and 17 were inspired by an "Agentic RAG vs GraphRAG" comparison infographic. Topic 15 was inspired by an "Anatomy of an AI Agent" diagram.
