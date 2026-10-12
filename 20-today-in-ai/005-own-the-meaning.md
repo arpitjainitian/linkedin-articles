@@ -85,6 +85,8 @@ So the real job moves to the number inside the chart: is it right, and is it the
 
 Like a cricket score on TV, phone and stadium screen: nobody cares which screen. Everyone cares that the score is the same.
 
+Good news for data teams: less chart-drawing, more making sure the answers are right.
+
 No. 005 of Today in AI.
 
 Source: Anthropic announcement, 8 Oct 2026 (full references and credits in the article). Not sponsored by Anthropic or anyone else.
