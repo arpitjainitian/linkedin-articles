@@ -61,7 +61,11 @@ Credit to Google for the announcement and to TechCrunch for its coverage. Facts 
 - [No. 001: What happens when your AI agent visits someone else's website?](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/)
 - [No. 002: What if your chatbot answered with buttons instead of paragraphs?](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/)
 
+**Tags:** #AI #Cybersecurity #GenAI #TechNews #TodayInAI
+
 ---
+
+**People and pages to @mention** (type @ and pick from LinkedIn's list, in the article and the post): Google, Google DeepMind, Koray Kavukcuoglu, TechCrunch, Lucas Ropek
 
 **Post text (copy and paste):**
 

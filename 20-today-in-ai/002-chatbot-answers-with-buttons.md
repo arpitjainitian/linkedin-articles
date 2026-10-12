@@ -42,7 +42,11 @@ Look at the last long answer you got from any chatbot. Ask yourself: would a cha
 
 Credit to OpenAI for the announcement and demos, and to Quartz for its coverage. Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
 
+**Tags:** #AI #ChatGPT #GenAI #TechNews #TodayInAI
+
 ---
+
+**People and pages to @mention** (type @ and pick from LinkedIn's list, in the article and the post): OpenAI, Quartz
 
 **Post text (copy and paste):**
 

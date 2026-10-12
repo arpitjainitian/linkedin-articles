@@ -22,6 +22,7 @@
   4. The catch: the part that looks simple in the headline and gets hard in real projects.
   5. One thing to do, or ask, this week.
 - **References and credits (always):** every write-up ends with a "References and credits" section: numbered list of every source used (author or organisation, title, publisher, date, link, primary source marked), a credit line thanking the people or organisations whose work it draws on, a note that facts come from the sources and opinions are mine, and the cover credit (original illustration, or the credited source of any image used). The post text also names the main source in one line.
+- **Tags (always):** the article ends with a "Tags:" line of the same hashtags as the post, and each write-up lists the people and pages to @mention (the companies, researchers and reporters in the references). Mentions must be added by typing @ in LinkedIn's editor; pasted text won't link.
 - **Voice:** same as every series: architect to leaders, human, polite humor, no hype, no dashes.
 - **Post text:** in a copy-paste block, with the "you pay for it" impact lines where relevant, and #TodayInAI.
 

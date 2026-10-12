@@ -54,7 +54,11 @@ What Wikimedia is asking for is just as simple: **AI agents should wear a name t
 
 Credit to the Wikimedia Foundation for publishing its findings in the open, and to the reporters above for their coverage. Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
 
+**Tags:** #AI #AIAgents #GenAI #TechNews #TodayInAI
+
 ---
+
+**People and pages to @mention** (type @ and pick from LinkedIn's list, in the article and the post): Wikimedia Foundation, OpenAI, BleepingComputer, Help Net Security
 
 **Post text (copy and paste):**
 
