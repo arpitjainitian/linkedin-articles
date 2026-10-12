@@ -26,6 +26,18 @@ The screens can come from anyone. The scorer, who decides what the true score is
 
 For companies, the "scorer" is clean data and clear definitions: what exactly counts as "a sale", "an active customer" or "this month". If those aren't agreed and owned, three AI tools will happily give you three different numbers.
 
+## So, what's left for the data team? Plenty.
+
+The boring screen-building work shrinks. The important work grows:
+
+- **Agree what the numbers mean.** What counts as a sale, a customer, a month. Everyone, every tool, the same definition.
+- **Keep the data clean and trusted.** AI can only be as right as the data it reads.
+- **Decide who can see what.** A dashboard anyone can make is also a dashboard anyone can make with the wrong data.
+- **Check the AI's answers.** Spot when a number looks wrong, and find out why.
+- **Turn good one-offs into trusted tools.** When a quick AI dashboard proves useful, make it official and look after it.
+
+Less time drawing charts. More time making sure the answers are right. That's a promotion, not a pink slip.
+
 ## Why it matters to you
 
 - **Learning AI?** Making charts is becoming automatic. Understanding data, and defining it clearly, is the skill that stays valuable.
