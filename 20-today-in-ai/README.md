@@ -41,6 +41,6 @@
 | 002 | [What if your chatbot answered with buttons instead of paragraphs?](002-chatbot-answers-with-buttons.md) | Chatbots with charts and buttons | [Published](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/) |
 | 003 | [Why does Google's newest AI go to security teams first?](003-security-teams-first.md) | Powerful AI released in stages | [Published](https://www.linkedin.com/pulse/today-ai-003-why-does-googles-newest-go-security-teams-arpit-jain-kpo3f) |
 | 004 | [Why is Microsoft's new AI built to choose, not to chat? \| Meet decision models](004-built-to-choose.md) | Decision models: AI that picks options instead of writing | Draft |
-| 005 | [If AI can build your dashboards, what's left for the data team? \| Own the meaning](005-own-the-meaning.md) | Screens get easy, trusted data is the job | Draft (needs author name) |
+| 005 | [If AI can build your dashboards, what's left for the data team? \| Own the meaning](005-own-the-meaning.md) | Screens get easy, trusted data is the job | Draft |
 
 Sources for each write-up are listed inside the write-up, under "References and credits".

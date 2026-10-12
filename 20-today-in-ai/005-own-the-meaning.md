@@ -12,13 +12,11 @@ On 8 October, Anthropic launched Claude Dashboards in beta for paid plans. You a
 
 This follows a pattern. In [No. 002](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/), ChatGPT started answering with charts and buttons instead of paragraphs. Now Claude builds full dashboards. The screen, the part people see, is getting easy and cheap to make.
 
-## A data leader's take
+## The real question
 
-A data leader at EDB, [NAME], wrote about setting this up for their company. Their summary is the best one-liner I've seen on it:
+If any AI tool can draw a chart in seconds, the chart is no longer the hard part.
 
-> "Rent the model, rent the surface, own the meaning."
-
-Their point: the dashboard is the last small step. Their team's real job is making sure that whatever screen people use, Claude, another AI tool or an app, it returns the same trusted answer from the same trusted data.
+The hard part is the number inside it. Is it right? Is it the same number another team sees in another tool? Data teams have a name for this goal: a **single source of truth**, one agreed place and one agreed definition for each important number.
 
 ## What it means
 
@@ -40,17 +38,16 @@ Pick one number your company talks about every week, like sales or active users.
 ## Words to know
 
 - **Dashboard:** a screen of charts and numbers that shows how something is doing.
-- **Governed data:** data that's checked, agreed and owned, so everyone uses the same version.
+- **Single source of truth:** one agreed place and definition for each important number, so every screen shows the same answer.
 
 ## References and credits
 
 1. Anthropic, "Build live dashboards and animate explainers with Claude", claude.com, 8 October 2026. [Read it](https://claude.com/resources/articles/dashboards-and-motion) (primary source)
 2. TestingCatalog, "Claude launches Dashboards and Motion in beta", 8 October 2026. [Read it](https://www.testingcatalog.com/claude-launches-dashboards-and-motion-in-beta/)
-3. [NAME], [ROLE] at EDB, LinkedIn post on setting up Claude Dashboards at EDB, October 2026. [LINK]
 
-Credit to Anthropic for the announcement, to TestingCatalog for its coverage, and to [NAME] at EDB for sharing a real setup and the line "Rent the model, rent the surface, own the meaning." Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
+Credit to Anthropic for the announcement and to TestingCatalog for its coverage. Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
 
-**Not sponsored.** This write-up is not sponsored by Anthropic, EDB or anyone else. Nobody paid for it or reviewed it before publishing.
+**Not sponsored.** This write-up is not sponsored by Anthropic or anyone else. Nobody paid for it or reviewed it before publishing.
 
 **Earlier issues of Today in AI:**
 
@@ -63,7 +60,7 @@ Credit to Anthropic for the announcement, to TestingCatalog for its coverage, an
 
 ---
 
-**People and pages to @mention** (type @ and pick from LinkedIn's list, in the article and the post): Anthropic, EDB, [NAME]
+**People and pages to @mention** (type @ and pick from LinkedIn's list, in the article and the post): Anthropic, TestingCatalog
 
 **Post text (copy and paste):**
 
@@ -72,13 +69,13 @@ If AI can build your dashboards, what's left for the data team?
 
 Anthropic's Claude can now build live dashboards from company data. In No. 002, ChatGPT started answering with charts. The screen is getting easy.
 
-A data leader at EDB put it best: "Rent the model, rent the surface, own the meaning."
+So the real job moves to the number inside the chart: is it right, and is it the same everywhere?
 
 Like a cricket score on TV, phone and stadium screen: nobody cares which screen. Everyone cares that the score is the same.
 
 No. 005 of Today in AI.
 
-Source: Anthropic announcement, 8 Oct 2026 (full references and credits in the article). Not sponsored by Anthropic, EDB or anyone else.
+Source: Anthropic announcement, 8 Oct 2026 (full references and credits in the article). Not sponsored by Anthropic or anyone else.
 
 #AI #Data #GenAI #TechNews #TodayInAI
 ```
