@@ -4,7 +4,7 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
-**In one line:** Google's most powerful new AI model is going to cybersecurity experts first, and to everyone else later.
+**In one line:** Google has announced Gemini 4 Argon, its most powerful AI model yet, and it's going to cybersecurity experts first, everyone else later.
 
 ## What happened
 
@@ -62,9 +62,9 @@ Credit to Google for the announcement and to TechCrunch for its coverage. Facts 
 **Post text (copy and paste):**
 
 ```
-Why does Google's newest AI go to security teams first?
+Google has announced Gemini 4 Argon, its most powerful AI model yet. But it's going to security teams first.
 
-Google's most powerful new model, Gemini 4 Argon, is very good at finding weaknesses in software. So Google is giving it to trusted cyber defenders first. Everyone else gets it later.
+Why? Argon is very good at finding weaknesses in software. So Google is giving it to trusted cyber defenders first. Everyone else gets it later.
 
 Like a key that opens almost any lock: you give it first to the people who guard the locks.
 
