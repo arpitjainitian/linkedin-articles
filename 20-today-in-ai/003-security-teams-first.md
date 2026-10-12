@@ -14,6 +14,17 @@ But you can't use it yet. Google is giving it first to a small group of trusted 
 
 Google's reason, in its own words: releasing an AI this powerful "safely" needs "a phased approach".
 
+## Quick facts, in Google's own numbers
+
+- **Very long answers.** It can write up to about 1 million tokens (pieces of words) in one go, up from about 64,000 before. Enough to work through a whole codebase without stopping.
+- **Coding.** Google says it scored 77.9% on a well-known coding test (DeepSWE), a new best. Google is using it to help move large amounts of old code to a safer language, Rust.
+- **Security.** It tied for first place on a test of finding software weaknesses (CWE-bench).
+- **Office work.** Google says it leads tests for finance, legal and tax tasks (Vals Index) and for automating work steps (AutomationBench, #1).
+- **Long videos.** 91.7% on a test of understanding long videos (LVBench).
+- **Price, when it opens up.** $2 per million tokens in, $10 per million tokens out, as an introductory price. Later, $4 in and $20 out.
+
+These are Google's own results. Independent tests may differ.
+
 ## What it means
 
 Imagine a locksmith invents a key that can open almost any lock. Who should get it first?
@@ -44,6 +55,8 @@ Ask your security team one question: "If an AI could find weaknesses in our soft
 
 Credit to Google for the announcement and to TechCrunch for its coverage. Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
 
+**Not sponsored.** This write-up is not sponsored by Google or anyone else. Nobody paid for it or reviewed it before publishing.
+
 ---
 
 **Post text (copy and paste):**
@@ -55,9 +68,11 @@ Google's most powerful new model, Gemini 4 Argon, is very good at finding weakne
 
 Like a key that opens almost any lock: you give it first to the people who guard the locks.
 
+Google's own numbers: up to 1 million tokens in a single answer, 77.9% on a top coding test, and joint first at finding software weaknesses.
+
 No. 003 of Today in AI.
 
-Source: Google announcement, 30 Sep 2026 (full references and credits in the article).
+Source: Google announcement, 30 Sep 2026 (full references and credits in the article). Not sponsored by Google or anyone else.
 
 #AI #Cybersecurity #GenAI #TechNews #TodayInAI
 ```
