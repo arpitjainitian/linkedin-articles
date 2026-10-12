@@ -12,8 +12,8 @@
 
 In the last two issues, we saw two sides of the same shift:
 
-- **Claude Dashboards** shows the query behind every number on a chart. You can trace where the number came from.
-- **Microsoft-Decision-1**, and other new decision models, pick an option and give a score. They don't explain how they chose.
+- **Microsoft-Decision-1**, and other new decision models, pick an option and give a score. They don't explain how they chose. (Today in AI, No. 004: Why is Microsoft's new AI built to choose, not to chat? [LINK-004])
+- **Claude Dashboards** shows the query behind every number on a chart. You can trace where the number came from. (Today in AI, No. 005: If AI can build your dashboards, what's left for the data team? [LINK-005])
 
 AI is moving from showing numbers to making choices. And a choice needs a different kind of trail.
 
@@ -83,6 +83,8 @@ Pick one decision an AI makes, or helps make, in your company. Ask: "If a custom
 2. OpenLineage, an open standard for collecting data lineage, LF AI & Data Foundation. [Read it](https://openlineage.io)
 3. Anthropic, "Build live dashboards and animate explainers with Claude", claude.com, 8 October 2026. [Read it](https://claude.com/resources/articles/dashboards-and-motion)
 4. Achint Srivastava, Microsoft, "Introducing Microsoft-Decision-1, our model for fast decision-making", Microsoft Command Line, 9 October 2026. [Read it](https://commandline.microsoft.com/microsoft-decision-1-model-foundry/)
+5. Previous issue: Today in AI, No. 004: Why is Microsoft's new AI built to choose, not to chat? [LINK-004]
+6. Previous issue: Today in AI, No. 005: If AI can build your dashboards, what's left for the data team? [LINK-005]
 
 Credit to the teams behind these sources. Facts in this write-up come from these sources; the opinions, examples and the "what it means" sections are mine. The loan example is an illustration. Cover: original illustration, no third-party logos or images.
 
@@ -115,7 +117,7 @@ Like a cricket decision review: the replay shows the ball's path and the rule, n
 
 No. 006 of Today in AI, an explainer for what's coming.
 
-Sources: EU AI Act, OpenLineage, and the announcements in No. 004 and No. 005 (full references and credits in the article). Not sponsored by anyone.
+Sources: EU AI Act, OpenLineage, and Today in AI No. 004 (decision models) and No. 005 (AI dashboards) (full references and credits in the article). Not sponsored by anyone.
 
 #AI #DataGovernance #ResponsibleAI #TechNews #TodayInAI
 ```
