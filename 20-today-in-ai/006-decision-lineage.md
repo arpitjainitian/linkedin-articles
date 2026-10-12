@@ -113,6 +113,8 @@ Companies have learned to trace where a number came from. That's data lineage.
 
 As AI starts making decisions, they'll also need to trace why a decision was made: who asked, what the AI used, which rule it checked, who approved, and what it did. That's decision lineage.
 
+One home loan, two trails: where the ₹12 lakh income came from, and why the loan was approved.
+
 Like a cricket decision review: the replay shows the ball's path and the rule, not just "OUT". AI decisions will need the same replay.
 
 No. 006 of Today in AI, an explainer for what's coming.
