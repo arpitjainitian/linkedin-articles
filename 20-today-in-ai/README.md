@@ -13,6 +13,7 @@
 ## How each write-up works
 
 - **Pick:** one AI development that matters (a model release, a research result, a new tool, a regulation, a big outage or an industry move). One topic per write-up, not a news roundup.
+- **Explainers:** occasional non-news issues are welcome: an idea that's about to matter for AI, ideally tied to recent issues, clearly labelled as an explainer.
 - **Verify:** check it on the day against the original source (the company's announcement, the paper, the official notice). Link the sources in the write-up, and date them. No rumours, no unconfirmed numbers.
 - **Keep it simple (user rule):** short sentences, everyday words, no jargon without a one-line explanation, one relatable analogy, light humor. Every write-up has: an "In one line" summary at the top, a "Why it matters to you" section with one line for people learning AI and one for leaders, a "One thing to do this week" with both angles, and a short "Words to know" list before the references.
 - **Shape (short, 400 to 600 words):**
