@@ -10,7 +10,7 @@
 
 On 30 September, Google announced Gemini 4 Argon, which it calls its most powerful AI model yet. It's built for writing code, research, and especially cybersecurity. Google says it can find, check and fix serious weaknesses in software on its own.
 
-But you can't use it yet. Google is giving it first to a small group of trusted security teams. Developers, businesses and paying subscribers come next. Google hasn't said when everyone else gets it.
+But you can't use it yet. Google is giving it first to a small group of trusted security experts at partner organisations. They'll use it to find and fix weak spots in software before attackers get anything this powerful, and their feedback will help Google tighten its safety rules. Developers, businesses and paying subscribers come next. Google hasn't said when everyone else gets it.
 
 Google's reason, in its own words: releasing an AI this powerful "safely" needs "a phased approach".
 
