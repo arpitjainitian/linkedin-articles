@@ -10,7 +10,7 @@
 
 On 8 October, Anthropic launched Claude Dashboards in beta for paid plans. You ask a question in plain words, and Claude builds a live dashboard from your company's data, connecting to tools like Snowflake, BigQuery or Databricks. It keeps the charts up to date as the data changes. Each chart shows when it was last refreshed, and you can see the query behind any number.
 
-This follows a pattern. In [No. 002](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/), ChatGPT started answering with charts and buttons instead of paragraphs. Now Claude builds full dashboards. The screen, the part people see, is getting easy and cheap to make.
+This follows a pattern. In [Today in AI, No. 002: What if your chatbot answered with buttons instead of paragraphs?](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/), we saw ChatGPT started answering with charts and buttons instead of paragraphs. Now Claude builds full dashboards. The screen, the part people see, is getting easy and cheap to make.
 
 ## The real question
 
