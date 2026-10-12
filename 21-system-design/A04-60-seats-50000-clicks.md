@@ -1,6 +1,6 @@
 # System Design, A4: 60 Seats, 50,000 Clicks. How Do You Never Sell a Seat Twice?
 
-*Q&A, system design track, Series A: Classic system design.*
+*System design series, part A: classic system design.*
 
 **The question:** A train has 60 Tatkal seats and 50,000 people click "Book" in the same few seconds. How do you make sure no seat is ever sold twice?
 

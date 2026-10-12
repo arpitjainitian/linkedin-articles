@@ -1,6 +1,6 @@
 # System Design, A3: How Do You Design for a Spike That Arrives at 10:00 AM Sharp Every Day?
 
-*Q&A, system design track, Series A: Classic system design.*
+*System design series, part A: classic system design.*
 
 **The question:** Tatkal booking opens at 10:00 AM sharp. Millions of users hit login and search in the same minute, while the rest of the day is quiet. How do you design for a spike that happens at a known second every day?
 

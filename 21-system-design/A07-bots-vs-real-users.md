@@ -1,6 +1,6 @@
 # System Design, A7: Bots Book in Milliseconds, Real Users Can't Log In. How Do You Keep It Fair?
 
-*Q&A, system design track, Series A: Classic system design.*
+*System design series, part A: classic system design.*
 
 **The question:** Bots and automation scripts book Tatkal tickets in milliseconds, while real users can't get past login. How do you keep it fair without blocking genuine users?
 

@@ -1,4 +1,12 @@
-# Roadmap: AI engineering that looks simple, and fails often
+# Roadmap
+
+Three kinds of writing, all in one place:
+
+1. **AI engineering series** (1 to 19): things that look simple and fail often in AI projects.
+2. **Today in AI** (20): what's new in AI, and what it means, in plain words.
+3. **System design** (21): one design question per post, classic and AI.
+
+## 1. AI engineering series
 
 Each topic is its own series, numbered below. Each is a sentence that sounds easy in a kickoff meeting and turns out to be the hard part of an AI project.
 
@@ -28,10 +36,16 @@ Each topic is its own series, numbered below. Each is a sentence that sounds eas
 | 19 | "We bought the brain, we're done" | L5 | The agent harness: you own the loop. Example: An insurance claims-processing agent. Plan: [19-agent-harness/](19-agent-harness/README.md) | **Planned (outline ready)** | The harness around the model (planner, memory, tools, state, guardrails, evals) is everything you own. Each part deserves its own look. |
 
 
-## Ongoing series
+## 2. Today in AI
 
 | Series | Topic | Cadence | What it covers | Status |
 |---|---|---|---|---|
 | 20 | Today in AI (#TodayInAI) | No fixed cadence, never closes | One trending AI development per write-up, verified against original sources, explained in plain words with what it means for real projects. Fixed cover frame, fresh middle design for each write-up. Plan: [20-today-in-ai/](20-today-in-ai/README.md) | **Ready to start** |
+
+## 3. System design
+
+| Series | Topic | Cadence | What it covers | Status |
+|---|---|---|---|---|
+| 21 | System design, one question per post | No fixed cadence | Part A: classic system design (scale, reliability, trade-offs; IRCTC Tatkal scenarios). Part B: AI system design in production (cost, agents, evals, scale). Plan and articles: [21-system-design/](21-system-design/README.md) | **A1 to A10 and B1 drafted** |
 
 Topics 9-11, 16, 18 and 19 were inspired by a "9 AI concepts" infographic by Brij Kishore Pandey ([@brijpandeyji](https://www.linkedin.com/in/brijpandeyji/)). Topics 12 and 17 were inspired by an "Agentic RAG vs GraphRAG" comparison infographic. Topic 15 was inspired by an "Anatomy of an AI Agent" diagram.

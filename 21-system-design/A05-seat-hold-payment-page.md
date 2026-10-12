@@ -1,6 +1,6 @@
 # System Design, A5: A User Picks a Seat, Then Waits on the Payment Page. Do You Hold the Seat?
 
-*Q&A, system design track, Series A: Classic system design.*
+*System design series, part A: classic system design.*
 
 **The question:** A user picks a seat, then sits on the payment page for minutes. Should the seat be held, for how long, and what happens when the hold expires or payment fails?
 

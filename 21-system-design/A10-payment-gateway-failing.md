@@ -1,6 +1,6 @@
 # System Design, A10: The Payment Gateway Starts Failing at 10:00 AM. What Now?
 
-*Q&A, system design track, Series A: Classic system design.*
+*System design series, part A: classic system design.*
 
 **The question:** At 10:00 AM, the payment gateway starts failing for a large share of users. How do you protect the booking system and give users a fair second chance?
 
@@ -14,12 +14,12 @@ Think of a cash counter where the card machine stops working. A good shop doesn'
 
 ## The design
 
-1. **Fail fast.** A **circuit breaker** on the payment call stops the booking system from piling up behind a broken gateway (see Q2).
+1. **Fail fast.** A **circuit breaker** on the payment call stops the booking system from piling up behind a broken gateway (see A2).
 2. **Have a second route.** If possible, a **backup gateway** or another payment method, with automatic switching.
 3. **Keep the seat held.** Extend the seat hold for users whose payment failed because of the gateway, not because of them.
 4. **Queue the retries.** Put failed payments in an ordered queue and retry them as the gateway recovers, in the order users arrived.
 5. **Tell users the truth.** "Payment provider issue. Your seat is held for 15 more minutes. We'll retry automatically."
-6. **Reconcile afterwards.** Some "failed" payments may have actually gone through. Match them against the bank and confirm or refund (see Q6).
+6. **Reconcile afterwards.** Some "failed" payments may have actually gone through. Match them against the bank and confirm or refund (see A6).
 
 ## The key trade-off
 
@@ -41,8 +41,8 @@ Booking service → circuit breaker → gateway A (red, failing). A dotted line 
 
 ## Related
 
-- Q2: How do you stop one slow API from crashing your whole checkout?
-- Q6: The money is gone, the ticket isn't. How do you make sure it never happens?
+- A2: How do you stop one slow API from crashing your whole checkout?
+- A6: The money is gone, the ticket isn't. How do you make sure it never happens?
 
 ## Source
 

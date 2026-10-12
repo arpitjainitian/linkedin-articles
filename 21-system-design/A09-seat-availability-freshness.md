@@ -1,6 +1,6 @@
 # System Design, A9: How Fresh Does "Seats Available" Need to Be?
 
-*Q&A, system design track, Series A: Classic system design.*
+*System design series, part A: classic system design.*
 
 **The question:** Seat availability is shown on millions of screens and changes every second during Tatkal. How fresh does it need to be, and how do you serve it without hammering the booking database?
 
@@ -17,7 +17,7 @@ Think of a cinema's "Housefull" board outside. It might be a minute behind. Nobo
 1. **Separate reading from booking.** Bookings go to the main database. Availability is read from a fast copy or cache.
 2. **Update the cache from bookings.** Every booking or cancellation pushes the new count to the cache.
 3. **Accept a small delay.** Show availability that's a few seconds old, and say so: "Updated 5 seconds ago."
-4. **Check for real at booking time.** The final booking step always checks the true count in the main database (see Q4).
+4. **Check for real at booking time.** The final booking step always checks the true count in the main database (see A4).
 5. **Show ranges when it's tight.** "Few seats left" is more honest than an exact number that changes every second.
 
 This split between the write side and the read side is often called **CQRS**, and accepting a short delay is called **eventual consistency**.
@@ -42,7 +42,7 @@ Two paths. Write path: "Book" → main database → event → cache. Read path: 
 
 ## Related
 
-- Q4: 60 seats, 50,000 clicks. How do you never sell a seat twice?
+- A4: 60 seats, 50,000 clicks. How do you never sell a seat twice?
 
 ## Source
 

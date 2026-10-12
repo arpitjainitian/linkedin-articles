@@ -1,6 +1,6 @@
 # System Design, A8: Users Keep Hitting Refresh and "Book". How Do You Handle Retries Safely?
 
-*Q&A, system design track, Series A: Classic system design.*
+*System design series, part A: classic system design.*
 
 **The question:** Users hit refresh and "Book" repeatedly when the site is slow, multiplying the load and creating duplicate requests. How do you handle retries and double clicks safely?
 
@@ -41,7 +41,7 @@ A user clicking "Book" three times. All three requests carry the same idempotenc
 
 ## Related
 
-- Q6: The money is gone, the ticket isn't. How do you make sure it never happens?
+- A6: The money is gone, the ticket isn't. How do you make sure it never happens?
 - #JustAddRAG write-up 11: "It's fast in the demo, so why are users clicking twice?"
 
 ## Source

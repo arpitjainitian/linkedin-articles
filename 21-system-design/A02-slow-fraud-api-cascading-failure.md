@@ -1,6 +1,6 @@
 # System Design, A2: How Do You Stop One Slow API From Crashing Your Whole Checkout?
 
-*Q&A, system design track, Series A: Classic system design.*
+*System design series, part A: classic system design.*
 
 **The question:** During a holiday sale, the third-party fraud-check API your checkout depends on slows from 50 ms to 15 seconds per call. Checkout threads pile up waiting, and the whole e-commerce platform crashes. How do you stop one slow dependency from taking everything down?
 

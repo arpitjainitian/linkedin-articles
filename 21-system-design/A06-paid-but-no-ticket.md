@@ -1,6 +1,6 @@
 # System Design, A6: The Money Is Gone, the Ticket Isn't. How Do You Make Sure It Never Happens?
 
-*Q&A, system design track, Series A: Classic system design.*
+*System design series, part A: classic system design.*
 
 **The question:** Payment succeeds at the bank, but the booking confirmation never arrives because of a timeout. The money is gone, the ticket isn't. How do you design so this never leaves a user stuck?
 
@@ -41,7 +41,7 @@ Booking states as boxes: Started → Payment pending → Paid → Confirmed. Fro
 
 ## Related
 
-- Q2: How do you stop one slow API from crashing your whole checkout?
+- A2: How do you stop one slow API from crashing your whole checkout?
 
 ## Source
 
