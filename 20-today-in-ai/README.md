@@ -40,6 +40,6 @@
 | 001 | [What happens when your AI agent visits someone else's website?](001-agents-on-other-websites.md) | AI agents on the open web | [Published](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/) |
 | 002 | [What if your chatbot answered with buttons instead of paragraphs?](002-chatbot-answers-with-buttons.md) | Chatbots with charts and buttons | [Published](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/) |
 | 003 | [Why does Google's newest AI go to security teams first?](003-security-teams-first.md) | Powerful AI released in stages | [Published](https://www.linkedin.com/pulse/today-ai-003-why-does-googles-newest-go-security-teams-arpit-jain-kpo3f) |
-| 004 | [Why is Microsoft's new AI built to choose, not to chat?](004-built-to-choose.md) | AI that picks options instead of writing | Draft |
+| 004 | [Why is Microsoft's new AI built to choose, not to chat? \| Meet decision models](004-built-to-choose.md) | Decision models: AI that picks options instead of writing | Draft |
 
 Sources for each write-up are listed inside the write-up, under "References and credits".

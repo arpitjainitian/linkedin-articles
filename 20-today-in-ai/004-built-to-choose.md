@@ -1,10 +1,20 @@
-# Today in AI, No. 004: Why Is Microsoft's New AI Built to Choose, Not to Chat?
+# Today in AI, No. 004: Why Is Microsoft's New AI Built to Choose, Not to Chat? | Meet Decision Models
 
 ![Cover](images/004-built-to-choose-cover.png)
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
 **In one line:** Microsoft has launched Microsoft-Decision-1, a small AI model that doesn't write answers. It just picks the best option from a list, fast.
+
+## First, what is a decision model?
+
+Most AI tools you know, like ChatGPT, are **chat models**. You ask, they write: sentences, paragraphs, sometimes pages.
+
+A **decision model** is different. You give it a question and a short list of options. It doesn't write anything. It scores each option and picks one.
+
+Ask a chat model "Which team should handle this complaint?" and you may get a polite paragraph. Ask a decision model, and you get "Delivery team: 90%". That's it.
+
+Because it skips the writing, it's much faster and much cheaper. And a new wave of these models has just arrived.
 
 ## What happened
 
@@ -71,9 +81,11 @@ Credit to Microsoft and Satya Nadella for the announcement, and to The Decoder f
 **Post text (copy and paste):**
 
 ```
-Microsoft has launched Microsoft-Decision-1, an AI built to choose, not to chat.
+Meet decision models: AI that chooses instead of chatting.
 
-Give it a question and a list of options. It scores each option and picks one. No essay. Just a fast decision.
+A chat model writes you a paragraph. A decision model looks at a short list of options, scores each one, and picks. No essay. Just a fast decision.
+
+The latest: Microsoft has launched Microsoft-Decision-1.
 
 Like a post office sorter: it doesn't write letters, it drops each one into the right slot.
 
