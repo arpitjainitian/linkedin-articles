@@ -65,7 +65,7 @@ Look at 20 real questions your AI handles. How many really needed the most expen
 6. AWS, "Amazon Bedrock Intelligent Prompt Routing is now generally available", April 2025. [Read it](https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-bedrock-intelligent-prompt-routing-generally-available)
 7. Isaac Ong and colleagues (LMSYS, UC Berkeley, Anyscale), "RouteLLM: Learning to Route LLMs with Preference Data", 2024. [Read it](https://arxiv.org/abs/2406.18665)
 8. Not Diamond. [Read it](https://www.notdiamond.ai), Martian. [Read it](https://withmartian.com), and OpenRouter's Auto Router. [Read it](https://openrouter.ai/docs)
-9. Previous issue: Today in AI, No. 004: Why is Microsoft's new AI built to choose, not to chat? [LINK-004]
+9. Previous issue: [Today in AI, No. 004: Why is Microsoft's new AI built to choose, not to chat?](https://www.linkedin.com/pulse/today-ai-004-why-microsofts-new-built-choose-chat-meet-arpit-jain-ypmkf/)
 
 Credit to the vLLM Semantic Router team and KR Labs for releasing Vela 2.0 openly, to the teams behind the other routers named here, and to AlphaSignal for its coverage. Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover and diagram: original illustrations, no third-party logos or images.
 
@@ -76,7 +76,7 @@ Credit to the vLLM Semantic Router team and KR Labs for releasing Vela 2.0 openl
 - [No. 001: What happens when your AI agent visits someone else's website?](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/)
 - [No. 002: What if your chatbot answered with buttons instead of paragraphs?](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/)
 - [No. 003: Why does Google's newest AI go to security teams first?](https://www.linkedin.com/pulse/today-ai-003-why-does-googles-newest-go-security-teams-arpit-jain-kpo3f)
-- No. 004: Why is Microsoft's new AI built to choose, not to chat? (add the link once published)
+- [No. 004: Why is Microsoft's new AI built to choose, not to chat?](https://www.linkedin.com/pulse/today-ai-004-why-microsofts-new-built-choose-chat-meet-arpit-jain-ypmkf/)
 - No. 005: If AI can build your dashboards, what's left for the data team? (add the link once published)
 - No. 006: Your AI made a decision. Can you prove why? (add the link once published)
 
