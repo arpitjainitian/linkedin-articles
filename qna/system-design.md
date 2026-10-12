@@ -1,5 +1,12 @@
 # Q&A track 2: System design (one question per post)
 
+Two series live in this track:
+
+- **Series A: Classic system design.** Scale, reliability and trade-offs in everyday systems.
+- **Series B: AI system design in production.** The same thinking, applied to AI agents, RAG and LLM apps running for real users.
+
+## Series A: Classic system design
+
 A separate, ongoing series. Each post takes **one** system design question (the kind asked in architect interviews and design reviews) and answers it in plain words: the requirement, the key trade-off, a simple diagram idea, and a short "what I'd say in the room" answer.
 
 Questions are collected from posts and discussions shared over time. They are rephrased in my own words, and each source is credited below.
@@ -17,6 +24,14 @@ Questions are collected from posts and discussions shared over time. They are re
 | 9 | Seat availability is shown on millions of screens and changes every second during Tatkal. How fresh does it need to be, and how do you serve it without hammering the booking database? | Read/write separation, caching, eventual consistency, CQRS | L4 | | S2 | Planned |
 | 10 | At 10:00 AM, the payment gateway starts failing for a large share of users. How do you protect the booking system and give users a fair second chance? | Third-party dependency failure, circuit breaker, queue-based retry, fairness | L4 | Q2 (slow fraud API) | S2 | Planned |
 
+## Series B: AI system design in production
+
+Questions about AI systems that already work in a demo, and now have to work in production: cost, speed, reliability, safety and scale.
+
+| # | Question | Topic | Level | Related write-up | Source | Status |
+|---|---|---|---|---|---|---|
+| B1 | You have an AI agent in production. Its answers are accurate, but token usage keeps climbing every week. How would you fix it? | Token cost, context growth, agent loops, caching, model routing | L3 | #JustAddRAG write-up 10 (cost); series 5 (few cents per call) | S1 | [Drafted](ai-system-design/B01-token-usage-climbing.md) |
+
 ## Sources
 
 - **S1:** shared directly by Arpit (no link).
@@ -28,3 +43,4 @@ Questions are collected from posts and discussions shared over time. They are re
 - Questions rephrased in my words; source credited in the post.
 - Each answer covers: requirements, the core trade-off, components, what breaks at scale, and a 3-line "interview answer".
 - Link to a related AI write-up where the question touches AI systems.
+- Series B answers keep accuracy as a hard constraint: every fix must be checked with evals before and after.
