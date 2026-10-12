@@ -52,7 +52,7 @@ Think of a post office. One worker writes letters. Another just reads the addres
 
 Most AI so far has been the letter writer. This is the sorter. Many business jobs are sorting jobs: which team should handle this ticket, is this review positive or negative, should this payment be checked.
 
-Microsoft isn't alone. OpenAI, Cloudflare and a startup called Jev have released similar "decision" tools in the last few weeks.
+Microsoft isn't alone. As the timeline above shows, several companies have released decision models in the last few weeks.
 
 ## Why it matters to you
 
