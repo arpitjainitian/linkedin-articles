@@ -16,6 +16,18 @@ Ask a chat model "Which team should handle this complaint?" and you may get a po
 
 Because it skips the writing, it's much faster and much cheaper. And a new wave of these models has just arrived.
 
+## A short history of machines that choose
+
+![Machines that choose: a short history](images/004-decision-models-timeline.png)
+
+The idea isn't new. What's new is small, fast models built only for choosing.
+
+- **1958, the perceptron.** Frank Rosenblatt built a machine that learned to sort things into two groups. One of the first "yes or no" learners.
+- **1984, decision trees.** Leo Breiman and colleagues showed how a chain of simple questions can lead to an answer.
+- **2018, BERT.** Google's language model could read a sentence and pick a label, like "positive" or "negative".
+- **2023, AI as a judge.** Researchers started using big chat models to score answers and pick the better one.
+- **2026, the decision-model wave.** Jev from the startup TypeSafe (15 September), Cloudflare's Clef (1 October), OpenAI's Decisions API and Liquid AI's small d1 models (October), and Microsoft-Decision-1 (9 October). Amazon, Perplexity and H2O.ai have released their own too.
+
 ## What happened
 
 On 9 October, Microsoft introduced Microsoft-Decision-1. Satya Nadella, Microsoft's CEO, called it "our new model for fast decision-making."
@@ -62,8 +74,13 @@ List three decisions your team makes again and again by picking from a short lis
 2. Satya Nadella, LinkedIn post announcing Microsoft-Decision-1, October 2026.
 3. Microsoft, "Introducing Microsoft-Decision-1 in Microsoft Foundry for decision and classification workloads", Microsoft Community Hub, Azure AI Foundry blog, October 2026. [Read it](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for-decision-and-classific/4562742)
 4. Matthias Bastian, "Microsoft's Decision-1 model enters the fast-growing AI decision model race", The Decoder, 10 October 2026. [Read it](https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/)
+5. Frank Rosenblatt, "The perceptron: a probabilistic model for information storage and organization in the brain", Psychological Review, 1958.
+6. Leo Breiman, Jerome Friedman, Richard Olshen and Charles Stone, "Classification and Regression Trees", 1984.
+7. Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova, "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", Google, 2018. [Read it](https://arxiv.org/abs/1810.04805)
+8. Lianmin Zheng and colleagues, "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena", 2023. [Read it](https://arxiv.org/abs/2306.05685)
+9. 2026 launch dates for Jev, Clef, OpenAI's Decisions API and Liquid AI's d1 as reported by the companies and in coverage including The Decoder (above) and [The Register, 10 October 2026](https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473). Where reports differ on the exact day, only the month is given.
 
-Credit to Achint Srivastava and the Microsoft team for the announcement, to Satya Nadella for sharing it, and to The Decoder for its coverage. Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
+Credit to Achint Srivastava and the Microsoft team for the announcement, to Satya Nadella for sharing it, and to The Decoder for its coverage. Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover and timeline: original illustrations, no third-party logos or images.
 
 **Not sponsored.** This write-up is not sponsored by Microsoft or anyone else. Nobody paid for it or reviewed it before publishing.
 
