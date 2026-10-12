@@ -1,6 +1,6 @@
-# AI System Design, B1: Your AI Agent Is Accurate, But Token Usage Keeps Climbing. How Would You Fix It?
+# AI System Design, No. 1: Your AI Agent Is Accurate, But Token Usage Keeps Climbing. How Would You Fix It?
 
-*System design series, part B: AI system design in production.*
+*AI system design series: one question per post.*
 
 **The question:** You have an AI agent in production. Its answers are accurate, but token usage keeps climbing every week. How would you fix it?
 

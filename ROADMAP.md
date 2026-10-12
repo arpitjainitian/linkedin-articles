@@ -4,7 +4,7 @@ Three kinds of writing, all in one place:
 
 1. **AI engineering series** (1 to 19): things that look simple and fail often in AI projects.
 2. **Today in AI** (20): what's new in AI, and what it means, in plain words.
-3. **System design** (21): one design question per post, classic and AI.
+3. **AI system design** (21): one AI system design question per post.
 
 ## 1. AI engineering series
 
@@ -42,10 +42,10 @@ Each topic is its own series, numbered below. Each is a sentence that sounds eas
 |---|---|---|---|---|
 | 20 | Today in AI (#TodayInAI) | No fixed cadence, never closes | One trending AI development per write-up, verified against original sources, explained in plain words with what it means for real projects. Fixed cover frame, fresh middle design for each write-up. Plan: [20-today-in-ai/](20-today-in-ai/README.md) | **Ready to start** |
 
-## 3. System design
+## 3. AI system design
 
 | Series | Topic | Cadence | What it covers | Status |
 |---|---|---|---|---|
-| 21 | System design, one question per post | No fixed cadence | Part A: classic system design (scale, reliability, trade-offs; IRCTC Tatkal scenarios). Part B: AI system design in production (cost, agents, evals, scale). Plan and articles: [21-system-design/](21-system-design/README.md) | **A1 to A10 and B1 drafted** |
+| 21 | AI system design, one question per post | No fixed cadence | AI that works in a demo and now has to work in production: cost, agents, evals, reliability, scale. Plan and articles: [21-system-design/](21-system-design/README.md) | **Question 1 drafted, 2 to 6 planned** |
 
 Topics 9-11, 16, 18 and 19 were inspired by a "9 AI concepts" infographic by Brij Kishore Pandey ([@brijpandeyji](https://www.linkedin.com/in/brijpandeyji/)). Topics 12 and 17 were inspired by an "Agentic RAG vs GraphRAG" comparison infographic. Topic 15 was inspired by an "Anatomy of an AI Agent" diagram.
