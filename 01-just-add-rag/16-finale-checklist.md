@@ -89,6 +89,7 @@ And tell me one last time: how many boxes did your project tick?
 6. [Do you need an LLM, a database, or both?](https://www.linkedin.com/pulse/6-do-you-need-llm-database-both-arpit-jain-hzisf/)
 7. [What happens when your AI finds two versions of the truth?](https://www.linkedin.com/pulse/7-what-happens-when-your-ai-finds-two-versions-truth-arpit-jain-k5p2f/)
 8. [Can the intern ask your AI about the CEO's salary?](https://www.linkedin.com/pulse/8-can-intern-ask-your-ai-ceos-salary-arpit-jain-7m9zf)
+9. [How many questions did you test before saying "it works"?](https://www.linkedin.com/pulse/9-how-many-questions-did-you-test-before-saying-works-arpit-jain-vrmqf)
 
 ---
 
