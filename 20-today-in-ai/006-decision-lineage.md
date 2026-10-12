@@ -25,7 +25,18 @@ Sales on the dashboard: ₹4.2 Cr. It was calculated by this query, from this sa
 
 **Decision lineage** answers: "Why was this decision made?"
 
-A loan was approved. Which AI model made the call, and which version? What information did it see? Which rule applied? Did a person check it, and when? Follow that trail back, and you can explain the decision to a customer, an auditor or a judge.
+A loan was approved. To explain it, you need the whole journey, step by step:
+
+1. **The request.** Who asked, and were they allowed to?
+2. **The information.** What did the AI look at to decide?
+3. **The rule.** Which policy did it check, and did it pass?
+4. **The approval.** Did a person sign off, and who?
+5. **The action.** What exactly did the AI do, and when?
+6. **The result.** What happened in the end?
+
+Keep all six together for every decision, and you have a **decision record**: one place that explains the decision to a customer, an auditor or a judge, months later.
+
+Data lineage tracks how data flows. Decision lineage tracks why an action was allowed.
 
 ## What it means
 
@@ -46,6 +57,7 @@ Pick one decision an AI makes, or helps make, in your company. Ask: "If a custom
 
 - **Data lineage:** the trail showing where a number came from and how it was calculated.
 - **Decision lineage:** the trail showing how a decision was made: the inputs, the model, the rules and the people involved.
+- **Decision record:** everything about one decision kept together: who asked, what the AI used, which rule, who approved, what happened.
 - **Audit trail:** a record that lets someone check, later, what happened and why.
 
 ## References and credits
@@ -80,7 +92,7 @@ Your AI made a decision. Can you prove why?
 
 Companies have learned to trace where a number came from. That's data lineage.
 
-As AI starts making decisions, they'll also need to trace why a decision was made: which model, what it saw, which rule, who checked. That's decision lineage.
+As AI starts making decisions, they'll also need to trace why a decision was made: who asked, what the AI used, which rule it checked, who approved, and what it did. That's decision lineage.
 
 Like a cricket decision review: the replay shows the ball's path and the rule, not just "OUT". AI decisions will need the same replay.
 
