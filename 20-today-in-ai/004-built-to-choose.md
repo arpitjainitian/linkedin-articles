@@ -107,7 +107,7 @@ The latest: Microsoft has launched Microsoft-Decision-1.
 
 Like a post office sorter: it doesn't write letters, it drops each one into the right slot.
 
-Microsoft's own numbers: about 35 times faster than GPT-6 Sol on its tests, and Xbox sorted 10,000+ pieces of player feedback about 200 times cheaper.
+Microsoft's own numbers: about 35 times faster than a top chat model on its tests, and Xbox sorted 10,000+ pieces of player feedback about 200 times cheaper.
 
 No. 004 of Today in AI.
 
