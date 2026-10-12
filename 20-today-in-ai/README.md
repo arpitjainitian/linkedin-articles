@@ -44,5 +44,6 @@
 | 004 | [Why is Microsoft's new AI built to choose, not to chat? \| Meet decision models](004-built-to-choose.md) | Decision models: AI that picks options instead of writing | Draft |
 | 005 | [If AI can build your dashboards, what's left for the data team? \| Own the meaning](005-own-the-meaning.md) | Screens get easy, trusted data is the job | Draft |
 | 006 | [Your AI made a decision. Can you prove why? \| Data lineage vs decision lineage](006-decision-lineage.md) | Explainer: tracing numbers vs tracing decisions | Draft |
+| 007 | [Should every question go to your most expensive AI? \| Meet AI routers](007-ai-routers.md) | AI routers (Vela 2.0) | Draft |
 
 Sources for each write-up are listed inside the write-up, under "References and credits".
