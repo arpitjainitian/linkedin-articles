@@ -17,15 +17,17 @@ In the last two issues, we saw two sides of the same shift:
 
 AI is moving from showing numbers to making choices. And a choice needs a different kind of trail.
 
-## Two kinds of trail
+## One loan, two kinds of trail
 
-**Data lineage** answers: "Where did this number come from?"
+Imagine an AI helps a bank approve a home loan.
 
-Sales on the dashboard: ₹4.2 Cr. It was calculated by this query, from this sales table, which was loaded from the billing system at 6 AM. Follow the trail back, and you can check every step.
+**Data lineage** answers: "Where did these numbers come from?"
 
-**Decision lineage** answers: "Why was this decision made?"
+The AI used an income of ₹12 lakh a year. That figure was taken from the applicant's salary slips and checked against six months of bank statements. The credit score came from the credit bureau, fetched on 2 October. Follow the trail back, and you can check every number.
 
-A loan was approved. To explain it, you need the whole journey, step by step:
+**Decision lineage** answers: "Why was this loan approved?"
+
+To explain it, you need the whole journey, step by step:
 
 1. **The request.** Who asked, and were they allowed to?
 2. **The information.** What did the AI look at to decide?
@@ -36,7 +38,22 @@ A loan was approved. To explain it, you need the whole journey, step by step:
 
 Keep all six together for every decision, and you have a **decision record**: one place that explains the decision to a customer, an auditor or a judge, months later.
 
+The two work together. Step 2, "the information", is where decision lineage hands over to data lineage: the record says the AI used an income of ₹12 lakh, and data lineage proves where that figure came from.
+
 Data lineage tracks how data flows. Decision lineage tracks why an action was allowed.
+
+## Where you need both
+
+Anywhere an AI's choice affects a person, money or safety:
+
+- **Loans and credit cards.** Why was this application approved, or turned down?
+- **Insurance claims.** Why was this claim paid, cut or rejected?
+- **Hiring.** Why did the AI shortlist one candidate and not another?
+- **Fraud checks.** Why was this payment blocked?
+- **Customer refunds by AI agents.** Why did the agent give money back?
+- **Healthcare support.** Why did the AI flag this patient for a doctor to review?
+
+In each case, someone will eventually ask "why?". Data lineage proves the facts were right. Decision lineage proves the choice was allowed.
 
 ## What it means
 
@@ -67,7 +84,7 @@ Pick one decision an AI makes, or helps make, in your company. Ask: "If a custom
 3. Anthropic, "Build live dashboards and animate explainers with Claude", claude.com, 8 October 2026. [Read it](https://claude.com/resources/articles/dashboards-and-motion)
 4. Achint Srivastava, Microsoft, "Introducing Microsoft-Decision-1, our model for fast decision-making", Microsoft Command Line, 9 October 2026. [Read it](https://commandline.microsoft.com/microsoft-decision-1-model-foundry/)
 
-Credit to the teams behind these sources. Facts in this write-up come from these sources; the opinions, examples and the "what it means" sections are mine. The loan and sales examples are illustrations. Cover: original illustration, no third-party logos or images.
+Credit to the teams behind these sources. Facts in this write-up come from these sources; the opinions, examples and the "what it means" sections are mine. The loan example is an illustration. Cover: original illustration, no third-party logos or images.
 
 **Not sponsored.** This write-up is not sponsored by anyone. Nobody paid for it or reviewed it before publishing.
 
