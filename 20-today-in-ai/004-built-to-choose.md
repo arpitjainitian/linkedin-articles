@@ -22,7 +22,7 @@ On 9 October, Microsoft introduced Microsoft-Decision-1. Satya Nadella, Microsof
 
 You give it a question and a fixed list of options. It gives back a score for each option, like "Refund: 82%, Replace: 15%, Other: 3%". No essay, no chat.
 
-Microsoft is already using it inside the company, for things like sorting incidents, checking quality and helping with scientific work. It's available now in Microsoft Foundry, Microsoft's platform for building AI apps, and coming soon to OpenRouter.
+Microsoft is already using it inside the company, for things like sorting incidents, checking quality and helping with scientific work. It's available now in Microsoft Foundry, Microsoft's platform for building AI apps, and through OpenRouter.
 
 ## Quick facts, in Microsoft's own numbers
 
@@ -58,11 +58,12 @@ List three decisions your team makes again and again by picking from a short lis
 
 ## References and credits
 
-1. Microsoft, "Introducing Microsoft-Decision-1 in Microsoft Foundry for decision and classification workloads", Microsoft Community Hub, Azure AI Foundry blog, October 2026. [Read it](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for-decision-and-classific/4562742) (primary source)
+1. Achint Srivastava, Office of the CTO, Microsoft, "Introducing Microsoft-Decision-1, our model for fast decision-making", Microsoft Command Line, 9 October 2026. [Read it](https://commandline.microsoft.com/microsoft-decision-1-model-foundry/) (primary source, shared by Satya Nadella)
 2. Satya Nadella, LinkedIn post announcing Microsoft-Decision-1, October 2026.
-3. Matthias Bastian, "Microsoft's Decision-1 model enters the fast-growing AI decision model race", The Decoder, 10 October 2026. [Read it](https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/)
+3. Microsoft, "Introducing Microsoft-Decision-1 in Microsoft Foundry for decision and classification workloads", Microsoft Community Hub, Azure AI Foundry blog, October 2026. [Read it](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for-decision-and-classific/4562742)
+4. Matthias Bastian, "Microsoft's Decision-1 model enters the fast-growing AI decision model race", The Decoder, 10 October 2026. [Read it](https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/)
 
-Credit to Microsoft and Satya Nadella for the announcement, and to The Decoder for its coverage. Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
+Credit to Achint Srivastava and the Microsoft team for the announcement, to Satya Nadella for sharing it, and to The Decoder for its coverage. Facts in this write-up come from these sources; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
 
 **Not sponsored.** This write-up is not sponsored by Microsoft or anyone else. Nobody paid for it or reviewed it before publishing.
 
@@ -76,7 +77,7 @@ Credit to Microsoft and Satya Nadella for the announcement, and to The Decoder f
 
 ---
 
-**People and pages to @mention** (type @ and pick from LinkedIn's list, in the article and the post): Microsoft, Satya Nadella, The Decoder
+**People and pages to @mention** (type @ and pick from LinkedIn's list, in the article and the post): Microsoft, Satya Nadella, Achint Srivastava, The Decoder
 
 **Post text (copy and paste):**
 
