@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 13 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-006-your-made-decision-can-you-prove-why-data-arpit-jain-vjenf)
+
 **In one line:** Companies have learned to trace where a number came from. As AI starts making decisions, they'll also need to trace why a decision was made.
 
 *This one isn't breaking news. It's an explainer on an idea that's about to matter a lot, building on the last two issues.*
