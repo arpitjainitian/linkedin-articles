@@ -61,6 +61,18 @@ That's fine for my own documents. For a company holding customers' passports, sa
 
    Realistic but fake passports, payslips and names for development and testing. That's **synthetic test data**.
 
+## Back to my passport: a fix for every stop
+
+1. **Encrypted file storage.** Already encrypted. Add: only the owner and the system can open it, it's stored in an allowed region, and it's deleted when the user asks.
+2. **Google Document AI.** Use a processing region your rules allow, sign the vendor's data agreement, and confirm it doesn't keep or train on the scan.
+3. **PostgreSQL.** Mask the passport number before saving, unless the business truly needs it. Encrypt sensitive fields, and let each user's access rules apply here too.
+4. **OpenAI, for embeddings.** Mask personal details before embedding. Nobody searches by passport number, so the vector doesn't need it. Check the data terms: retention, region, no training.
+5. **Qdrant.** Store an ID, not a file name like "Arpit_passport.pdf". Tag every vector with its owner, so one delete request can find them all.
+6. **OpenAI again, on every question.** Send only the chunks the question needs, with numbers masked. To answer "When does my passport expire?", the expiry date is enough.
+7. **Chat history.** Set a retention period, like 90 days. Mask personal details in logs, and include chat history in the delete workflow.
+
+Seven stops, seven fixes. None of them is hard. All of them are much easier before launch than after.
+
 ## How it works in practice
 
 Privacy is designed in, not checked at the end. Before building: draw the data flow map, choose vendors and regions, and agree retention periods. During building: mask early, encrypt everywhere, log access. Before launch: run the deletion test.
@@ -127,7 +139,7 @@ Leave privacy for "legal will sign off later", and you pay for it:
 • Security: every extra copy is one more place to breach
 • Rework: changing data flows after launch costs far more than designing them first
 
-Write-up 12 in my #JustAddRAG series: data flow maps, vendors, residency, the deletion test, and three things to take to your next kickoff meeting.
+Write-up 12 in my #JustAddRAG series: data flow maps, a fix for every stop, the deletion test, and three things to take to your next kickoff meeting.
 
 Could your team list every place your AI sends user data, without checking?
 
