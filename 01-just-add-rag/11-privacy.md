@@ -4,6 +4,8 @@
 
 *Just add RAG series: Privacy and compliance*
 
+**Published:** 13 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/12-where-did-your-users-passport-just-travel-privacy-compliance-jain-hcy7f)
+
 I uploaded one passport. Then I traced where it went:
 
 1. **Encrypted file storage**, the original PDF.

@@ -107,6 +107,7 @@ Follow me for the next one. And tell me: what made you actually keep using an AI
 9. [How many questions did you test before saying "it works"?](https://www.linkedin.com/pulse/9-how-many-questions-did-you-test-before-saying-works-arpit-jain-vrmqf)
 10. [A few cents per question: so why is finance calling?](https://www.linkedin.com/pulse/10-few-cents-per-question-so-why-finance-calling-cost-arpit-jain-bqppf/)
 11. [It's fast in the demo, so why are users clicking twice?](https://www.linkedin.com/pulse/11-its-fast-demo-so-why-users-clicking-twice-performance-arpit-jain-zvcsf)
+12. [Where did your user's passport just travel to?](https://www.linkedin.com/pulse/12-where-did-your-users-passport-just-travel-privacy-compliance-jain-hcy7f)
 
 ---
 
