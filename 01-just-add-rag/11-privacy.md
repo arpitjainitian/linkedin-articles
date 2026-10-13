@@ -110,6 +110,7 @@ Follow me for the next one. And tell me: could your team list every place your A
 8. [Can the intern ask your AI about the CEO's salary?](https://www.linkedin.com/pulse/8-can-intern-ask-your-ai-ceos-salary-arpit-jain-7m9zf)
 9. [How many questions did you test before saying "it works"?](https://www.linkedin.com/pulse/9-how-many-questions-did-you-test-before-saying-works-arpit-jain-vrmqf)
 10. [A few cents per question: so why is finance calling?](https://www.linkedin.com/pulse/10-few-cents-per-question-so-why-finance-calling-cost-arpit-jain-bqppf/)
+11. [It's fast in the demo, so why are users clicking twice?](https://www.linkedin.com/pulse/11-its-fast-demo-so-why-users-clicking-twice-performance-arpit-jain-zvcsf)
 
 ---
 

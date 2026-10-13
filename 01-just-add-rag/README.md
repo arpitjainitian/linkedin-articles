@@ -16,7 +16,7 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 | 8 | [Can the intern ask your AI about the CEO's salary?](07-permissions.md) | Permissions, security, prompt injection, guardrails | **Published** 11 October 2026 | [Read](https://www.linkedin.com/pulse/8-can-intern-ask-your-ai-ceos-salary-arpit-jain-7m9zf) |
 | 9 | [How many questions did you test before saying "it works"?](08-evals.md) | Evals, ground truth, test harness | **Published** 12 October 2026 | [Read](https://www.linkedin.com/pulse/9-how-many-questions-did-you-test-before-saying-works-arpit-jain-vrmqf) |
 | 10 | [A few cents per question: so why is finance calling?](09-cost.md) | Cost, bills, caching | **Published** 12 October 2026 | [Read](https://www.linkedin.com/pulse/10-few-cents-per-question-so-why-finance-calling-cost-arpit-jain-bqppf/) |
-| 11 | [It's fast in the demo, so why are users clicking twice?](10-performance.md) | Performance, availability, backups | Draft for review | |
+| 11 | [It's fast in the demo, so why are users clicking twice?](10-performance.md) | Performance, availability, backups | **Published** 13 October 2026 | [Read](https://www.linkedin.com/pulse/11-its-fast-demo-so-why-users-clicking-twice-performance-arpit-jain-zvcsf) |
 | 12 | [Where did your user's passport just travel to?](11-privacy.md) | Privacy, residency, compliance, right to delete | Draft for review | |
 | 13 | [When your AI gives a wrong answer, can you tell why?](12-observability.md) | Observability | Draft for review | |
 | 14 | [What breaks when you change the model you never changed?](13-model-changes.md) | Model updates, consistency, vendor lock-in | Draft for review | |

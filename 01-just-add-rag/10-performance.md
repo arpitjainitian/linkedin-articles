@@ -4,6 +4,8 @@
 
 *Just add RAG series: Performance and availability*
 
+**Published:** 13 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/11-its-fast-demo-so-why-users-clicking-twice-performance-arpit-jain-zvcsf)
+
 My passport assistant answered in 3 to 5 seconds, end to end. In a demo, that's fine. Everyone watches the screen politely, someone makes a joke, the answer appears, applause.
 
 In real use, two seconds of nothing feels broken. So people click "Ask" again. And again. Now the system is answering the same question three times, which makes it slower and costs triple. Nothing got fixed, except the user's opinion of AI.
