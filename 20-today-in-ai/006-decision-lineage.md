@@ -13,7 +13,7 @@
 In the last two issues, we saw two sides of the same shift:
 
 - **Microsoft-Decision-1**, and other new decision models, pick an option and give a score. They don't explain how they chose. ([Today in AI, No. 004: Why is Microsoft's new AI built to choose, not to chat?](https://www.linkedin.com/pulse/today-ai-004-why-microsofts-new-built-choose-chat-meet-arpit-jain-ypmkf/))
-- **Claude Dashboards** shows the query behind every number on a chart. You can trace where the number came from. (Today in AI, No. 005: If AI can build your dashboards, what's left for the data team? [LINK-005])
+- **Claude Dashboards** shows the query behind every number on a chart. You can trace where the number came from. ([Today in AI, No. 005: If AI can build your dashboards, what's left for the data team?](https://www.linkedin.com/pulse/today-ai-005-can-build-your-dashboards-whats-left-data-arpit-jain-oukuf))
 
 AI is moving from showing numbers to making choices. And a choice needs a different kind of trail.
 
@@ -84,7 +84,7 @@ Pick one decision an AI makes, or helps make, in your company. Ask: "If a custom
 3. Anthropic, "Build live dashboards and animate explainers with Claude", claude.com, 8 October 2026. [Read it](https://claude.com/resources/articles/dashboards-and-motion)
 4. Achint Srivastava, Microsoft, "Introducing Microsoft-Decision-1, our model for fast decision-making", Microsoft Command Line, 9 October 2026. [Read it](https://commandline.microsoft.com/microsoft-decision-1-model-foundry/)
 5. Previous issue: [Today in AI, No. 004: Why is Microsoft's new AI built to choose, not to chat?](https://www.linkedin.com/pulse/today-ai-004-why-microsofts-new-built-choose-chat-meet-arpit-jain-ypmkf/)
-6. Previous issue: Today in AI, No. 005: If AI can build your dashboards, what's left for the data team? [LINK-005]
+6. Previous issue: [Today in AI, No. 005: If AI can build your dashboards, what's left for the data team?](https://www.linkedin.com/pulse/today-ai-005-can-build-your-dashboards-whats-left-data-arpit-jain-oukuf)
 
 Credit to the teams behind these sources. Facts in this write-up come from these sources; the opinions, examples and the "what it means" sections are mine. The loan example is an illustration. Cover: original illustration, no third-party logos or images.
 
@@ -96,7 +96,7 @@ Credit to the teams behind these sources. Facts in this write-up come from these
 - [No. 002: What if your chatbot answered with buttons instead of paragraphs?](https://www.linkedin.com/pulse/today-ai-002-what-your-chatbot-answered-buttons-instead-arpit-jain-snkcf/)
 - [No. 003: Why does Google's newest AI go to security teams first?](https://www.linkedin.com/pulse/today-ai-003-why-does-googles-newest-go-security-teams-arpit-jain-kpo3f)
 - [No. 004: Why is Microsoft's new AI built to choose, not to chat?](https://www.linkedin.com/pulse/today-ai-004-why-microsofts-new-built-choose-chat-meet-arpit-jain-ypmkf/)
-- No. 005: If AI can build your dashboards, what's left for the data team? (add the link once published)
+- [No. 005: If AI can build your dashboards, what's left for the data team?](https://www.linkedin.com/pulse/today-ai-005-can-build-your-dashboards-whats-left-data-arpit-jain-oukuf)
 
 **Tags:** #AI #DataGovernance #ResponsibleAI #TechNews #TodayInAI
 

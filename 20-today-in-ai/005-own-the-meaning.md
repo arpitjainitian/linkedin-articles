@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 13 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-005-can-build-your-dashboards-whats-left-data-arpit-jain-oukuf)
+
 **In one line:** Anthropic's Claude can now build live dashboards from company data. As screens get easy to make, the real job is making sure every screen shows the same, trusted number.
 
 ## What happened
