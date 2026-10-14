@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 14 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-007-should-every-question-go-your-most-expensive-arpit-jain-xjexf)
+
 **In one line:** A new open model called Vela 2.0 sits in front of your other AI models, sends each question to the right one, and stops unsafe ones at the door.
 
 ## What happened

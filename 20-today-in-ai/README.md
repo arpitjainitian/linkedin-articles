@@ -44,7 +44,7 @@
 | 004 | [Why is Microsoft's new AI built to choose, not to chat? \| Meet decision models](004-built-to-choose.md) | Decision models: AI that picks options instead of writing | [Published](https://www.linkedin.com/pulse/today-ai-004-why-microsofts-new-built-choose-chat-meet-arpit-jain-ypmkf/) 12 October 2026 |
 | 005 | [If AI can build your dashboards, what's left for the data team? \| Own the meaning](005-own-the-meaning.md) | Screens get easy, trusted data is the job | [Published](https://www.linkedin.com/pulse/today-ai-005-can-build-your-dashboards-whats-left-data-arpit-jain-oukuf) 13 October 2026 |
 | 006 | [Your AI made a decision. Can you prove why? \| Data lineage vs decision lineage](006-decision-lineage.md) | Explainer: tracing numbers vs tracing decisions | **Published** 13 October 2026 |
-| 007 | [Should every question go to your most expensive AI? \| Meet AI routers](007-ai-routers.md) | AI routers (Vela 2.0) | Draft |
+| 007 | [Should every question go to your most expensive AI? \| Meet AI routers](007-ai-routers.md) | AI routers (Vela 2.0) | **Published** 14 October 2026 |
 | 008 | [Why is every AI company launching a new model at once? \| The AI model race](008-ai-model-race.md) | Six weeks of model launches, a who-launched-what table, India's track | Draft |
 
 Sources for each write-up are listed inside the write-up, under "References and credits".
