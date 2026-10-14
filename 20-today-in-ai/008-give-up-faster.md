@@ -35,7 +35,7 @@ The good news is in the twist. AI that gives hints, like a good teacher, may hel
 
 ## The fine print
 
-This was a short online experiment. It doesn't show what happens after months of daily use, or whether the effect lasts. The researchers say so themselves.
+This was a short online experiment, using short, school-style problems: fractions and SAT-style reading questions, not coding, writing or real work tasks. It doesn't show what happens after months of daily use, or whether the effect lasts. The researchers say so themselves.
 
 ## One thing to do this week
 
