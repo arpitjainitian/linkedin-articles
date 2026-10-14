@@ -46,5 +46,6 @@
 | 006 | [Your AI made a decision. Can you prove why? \| Data lineage vs decision lineage](006-decision-lineage.md) | Explainer: tracing numbers vs tracing decisions | [Published](https://www.linkedin.com/pulse/today-ai-006-your-made-decision-can-you-prove-why-data-arpit-jain-vjenf) 13 October 2026 |
 | 007 | [Should every question go to your most expensive AI? \| Meet AI routers](007-ai-routers.md) | AI routers (Vela 2.0) | [Published](https://www.linkedin.com/pulse/today-ai-007-should-every-question-go-your-most-expensive-arpit-jain-xjexf) 14 October 2026 |
 | 008 | [Why is every AI company launching a new model at once? \| The AI model race](008-ai-model-race.md) | Six weeks of model launches, a who-launched-what table, India's track | Draft |
+| 009 | [Should an AI grade its own homework? \| Self-improving AI](009-self-improving-ai.md) | Explainer: AI quality fades without upkeep; self-improving AI must not mark its own work | Draft |
 
 Sources for each write-up are listed inside the write-up, under "References and credits".
