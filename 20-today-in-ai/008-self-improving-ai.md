@@ -1,6 +1,6 @@
-# Today in AI, No. 009: Should an AI Grade Its Own Homework? | Self-Improving AI
+# Today in AI, No. 008: Should an AI Grade Its Own Homework? | Self-Improving AI
 
-![Cover](images/009-self-improving-ai-cover.png)
+![Cover](images/008-self-improving-ai-cover.png)
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
@@ -67,7 +67,6 @@ Credit to Anthropic's data team and to the Darwin Gödel Machine researchers for
 - [No. 005: If AI can build your dashboards, what's left for the data team?](https://www.linkedin.com/pulse/today-ai-005-can-build-your-dashboards-whats-left-data-arpit-jain-oukuf)
 - [No. 006: Your AI made a decision. Can you prove why?](https://www.linkedin.com/pulse/today-ai-006-your-made-decision-can-you-prove-why-data-arpit-jain-vjenf)
 - [No. 007: Should every question go to your most expensive AI?](https://www.linkedin.com/pulse/today-ai-007-should-every-question-go-your-most-expensive-arpit-jain-xjexf)
-- No. 008: Why is every AI company launching a new model at once? (add the link once published)
 
 **Tags:** #AI #AIAgents #ResponsibleAI #TechNews #TodayInAI
 
@@ -88,7 +87,7 @@ Researchers built an AI that rewrites its own code. One version got a perfect sc
 
 Banks solved this long ago: whoever makes a change never approves it. Self-improving AI needs the same rule.
 
-No. 009 of Today in AI, an explainer.
+No. 008 of Today in AI, an explainer.
 
 Sources: Anthropic's data team, June 2026, and the Darwin Gödel Machine paper, 2025 (full references and credits in the article). Not sponsored by anyone.
 
