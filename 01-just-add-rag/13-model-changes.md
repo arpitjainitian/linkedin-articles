@@ -1,4 +1,4 @@
-# 14. What Breaks When You Change the Model You Never Changed? | Model Changes and Lock-in
+# 14. Nobody Touched the Code. Why Did the Answers Change? | Model Changes and Lock-in
 
 ![Cover](images/13-model-changes-cover.png)
 

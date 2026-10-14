@@ -94,7 +94,7 @@ Take one real wrong answer. Give the team five minutes and the logs, nothing els
 
 You can't fix what you can't replay.
 
-Next write-up (14): **What breaks when you change the model you never changed?** (Model changes)
+Next write-up (14): **Nobody touched the code. Why did the answers change?** (Model changes)
 
 Follow me for the next one. And tell me: the last time your AI was wrong, how long did it take to find out why?
 
