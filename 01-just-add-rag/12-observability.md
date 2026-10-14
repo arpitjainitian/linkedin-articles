@@ -4,6 +4,8 @@
 
 *Just add RAG series: Observability*
 
+**Published:** 14 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/13-when-your-ai-gives-wrong-answer-can-you-tell-why-arpit-jain-m4kff)
+
 A user complains: "Your AI said my passport is still valid. It isn't."
 
 Now what? Was it a bad scan? A chunk cut in half? The wrong document retrieved? A prompt change last Tuesday? A quiet model update? Each of these write-ups has been about one of those. When something goes wrong in production, you need to know which one, quickly.

@@ -110,6 +110,7 @@ Follow me for the next one. And tell me: what's the biggest gap you've seen betw
 10. [A few cents per question: so why is finance calling?](https://www.linkedin.com/pulse/10-few-cents-per-question-so-why-finance-calling-cost-arpit-jain-bqppf/)
 11. [It's fast in the demo, so why are users clicking twice?](https://www.linkedin.com/pulse/11-its-fast-demo-so-why-users-clicking-twice-performance-arpit-jain-zvcsf)
 12. [Where did your user's passport just travel to?](https://www.linkedin.com/pulse/12-where-did-your-users-passport-just-travel-privacy-compliance-jain-hcy7f)
+13. [When your AI gives a wrong answer, can you tell why?](https://www.linkedin.com/pulse/13-when-your-ai-gives-wrong-answer-can-you-tell-why-arpit-jain-m4kff)
 
 ---
 
