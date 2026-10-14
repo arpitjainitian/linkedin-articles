@@ -49,8 +49,9 @@ Next time you're stuck, set a three-minute timer before opening an AI tool. Then
 ## References and credits
 
 1. Grace Liu (Carnegie Mellon University), Brian Christian (UC Berkeley), Tsvetomira Dumbalska (University of Oxford), Michiel A. Bakker (MIT) and Rachit Dubey (UCLA), "AI Assistance Reduces Persistence and Hurts Independent Performance", arXiv, April 2026, revised 3 October 2026. [Read it](https://arxiv.org/abs/2604.04721) (primary source)
+2. AI Weekly, "UC Berkeley Study: 10 Minutes With ChatGPT Erodes Problem-Solving Persistence Across 1,222 Participants", October 2026. [Read it](https://aiweekly.co/alerts/uc-berkeley-study-10-minutes-with-chatgpt-erodes-problem-solving-persistence)
 
-Credit to the researchers for a careful study, and for being clear about its limits. Facts and figures in this write-up come from the paper; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
+Credit to Grace Liu, Brian Christian, Tsvetomira Dumbalska, Michiel A. Bakker and Rachit Dubey for a careful study, and for being clear about its limits, and to AI Weekly for bringing it to wider attention. Facts and figures in this write-up come from the paper; the opinions and the "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
 
 **Not sponsored.** This write-up is not sponsored by anyone. Nobody paid for it or reviewed it before publishing.
 
