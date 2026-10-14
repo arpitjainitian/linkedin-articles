@@ -18,7 +18,7 @@
 | 2 | How Does an AI Remember You Next Week? | "Welcome back" needs long-term memory. | Long-term memory stores, what gets saved | Remembers your size on your next visit | Planned |
 | 3 | What Should It Forget? | A good assistant knows what not to mention. | Choosing what to keep, expiring old facts | Still suggesting baby clothes three years later | Planned |
 | 4 | Who Can See What the AI Remembers About You? | Memory is personal data. | Privacy, consent, viewing and deleting memories | Family members see each other's "preferences" | Planned |
-| 5 | Does More Memory Mean Better Suggestions? | Too much memory adds noise and cost. | Summarising, compressing, cost of long context | It recalls 300 past orders to suggest one T-shirt | Planned |
+| 5 | Does More Memory Mean Better Suggestions? | More memory can mean worse answers, not just bigger bills. | Context rot, summarising, choosing what to load | It loads 300 past orders and forgets your size | Planned |
 | 6 | So, What Should Your AI Remember? | Five write-ups, one checklist. | Finale: the memory checklist | The shopping assistant, remembering just enough | Planned |
 
 ## Format (same as #JustAddRAG)

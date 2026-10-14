@@ -19,8 +19,8 @@
 | 3 | Why Is the Old Process Still Running Next to the New One? | Two ways of working cost more than one. | Process redesign, retiring old steps | Agents use the AI answer, then still check three old screens | Planned |
 | 4 | Who Is Quietly Afraid of the AI? | Silent resistance kills more AI rollouts than bad models. | Fear, trust, involving people early | Senior agents ignore every AI suggestion | Planned |
 | 5 | Did the Training Teach Tools or Habits? | A two-hour session doesn't change a ten-year habit. | Role-based learning, champions, practice | Everyone learned prompts; nobody learned when to use them | Planned |
-| 6 | How Do You Know It's Actually Working? | "Everyone logs in" isn't a result. | Baselines, outcome metrics, honest ROI | Handling time, repeat contacts, customer ratings: nobody measured before | Planned |
-| 7 | Who Owns the AI After the Launch Party? | Every tool needs an owner, or it becomes shelfware. | Ownership, governance, simple rules for safe use | Nobody knows who can change the AI's suggested replies | Planned |
+| 6 | Which Jobs Change, and How? | AI doesn't replace a role. It reshapes the day. | Redesigning roles, skills and career paths around AI | Agents type less and handle more angry customers: who trains them for that? | Planned |
+| 7 | Who Writes the Rules for Using AI? | Every tool needs rules, or everyone makes up their own. | AI usage policy and governance: what's allowed, what isn't, who decides | Can agents paste a customer's details into the AI? Nobody knows | Planned |
 | 8 | So, Is Your Company Transforming or Just Subscribing? | Seven write-ups, one checklist. | Finale: the transformation checklist | The support floor, six months later | Planned |
 
 ## Format (same as #JustAddRAG)

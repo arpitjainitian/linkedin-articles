@@ -15,10 +15,10 @@
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
 | 1 | [It Said "Arriving in 5 Minutes". It Took an Hour. Can You Tell Why?](01-curtain-raiser.md) | "The AI was wrong" isn't a diagnosis. | Curtain raiser: observability for AI | Old tracking data, wrong order, or a bad prompt? | Draft for review |
-| 2 | What Should You Record for Every Answer? | Question and answer aren't enough. | Traces: inputs, steps, sources, timings | The log shows the answer, not the tracking data it used | Planned |
-| 3 | Which Numbers Should You Watch Every Day? | A few numbers tell you most of the story. | Metrics, dashboards, alerts | Refund complaints double every Friday night | Planned |
-| 4 | Why Is It Slowly Getting Worse? | Quality can slide without anyone noticing. | Drift, online evaluation, sampling live answers | New restaurant partners, new menu formats | Planned |
-| 5 | How Do You Connect a Complaint to What Happened? | A thumbs-down without context is a riddle. | Linking feedback to traces, replaying problems | "Wrong!" but which answer, which order? | Planned |
+| 2 | The Bill Tripled. Nothing Errored. Where Do You Look? | Silent changes often show up in cost first. | Cache hit rate and cost as health signals | One line added to the prompt; cache hits drop, the bill triples | Planned |
+| 3 | How Do You Catch a Wrong Answer Nobody Reported? | Zero complaints can mean zero checks. | Canary questions, silent failures, refusal rate in both directions | "Where's my order?" answered with yesterday's status, and nobody complains | Planned |
+| 4 | What Happens When You Break It on Purpose? | Find the weak spot before Friday night does. | Fault injection, testing fallbacks, blast radius | The tracking service goes slow at 8 PM on a Friday | Planned |
+| 5 | Is It Up, or Is It Right? | Green dashboards, wrong answers. | Service targets for AI, incident response | 99.9% uptime, 12% wrong delivery times | Planned |
 | 6 | So, Can You See Inside Your AI? | Five write-ups, one checklist. | Finale: the observability checklist | The support bot, explained answer by answer | Planned |
 
 ## Format (same as #JustAddRAG)

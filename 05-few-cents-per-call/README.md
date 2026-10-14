@@ -1,6 +1,6 @@
 # Series 5: "What's a few cents between friends?"
 
-**Theme:** AI costs are paid per use, and use always grows, especially on sale days.
+**Theme:** AI costs are paid per use, and use always grows, especially on sale days. The basics (tokens, caching, cheaper models, runaway bills) are covered in #JustAddRAG 10, so this series is about the money decisions: pricing, build vs rent, timing, value and forecasting.
 
 **Level:** L2. Written so anyone can follow it, with no domain knowledge needed.
 
@@ -15,11 +15,11 @@
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
 | 1 | [A Few Cents per Question. Why Is the Sale-Day Bill So Big?](01-curtain-raiser.md) | Small numbers, multiplied by millions, stop being small. | Curtain raiser: how AI costs add up | Big sale day: 20x the questions | Draft for review |
-| 2 | What Is a Token, and Why Are You Paying for It? | You pay by the word, both ways. | Tokens in and out, why long answers cost more | "Does it have dual SIM?" answered in 300 words | Planned |
-| 3 | Do You Need the Biggest Model for Every Question? | You don't send a professor to check a price tag. | Model choice, routing easy questions to cheaper models | "What colours does it come in?" sent to the most expensive model | Planned |
-| 4 | Why Pay Twice for the Same Answer? | Thousands of shoppers ask the same question. | Caching, reusing answers, prompt caching | "Is it waterproof?" asked 40,000 times | Planned |
-| 5 | What Else Is Hiding on the Bill? | Tokens are only one line. | Embeddings, search, storage, logs, people | Re-indexing the whole catalogue costs more than the chats | Planned |
-| 6 | How Do You Stop a Runaway Bill? | One bug can burn a month's budget overnight. | Budgets, alerts, limits, circuit breakers | A retry loop answers the same question 2 lakh times | Planned |
+| 2 | What Should You Charge for Your AI Feature? | If every answer costs you money, someone has to pay for it. | Pricing AI features, unit economics per customer | Free for every shopper, or only for members? | Planned |
+| 3 | API or Your Own GPUs? | Renting is easy. Owning comes with its own bill. | Paying per call vs running open models yourself | Sale-day spikes on a rented API, or your own servers idle in March? | Planned |
+| 4 | Does Every Answer Need to Come Right Now? | Waiting an hour can cost half as much. | Batch processing, off-peak jobs, real-time vs later | Rewriting 50,000 product descriptions overnight | Planned |
+| 5 | Which AI Features Are Worth What They Cost? | Some features earn their bill. Some just spend it. | Cost per outcome, keep-or-kill decisions | Size advice cuts returns; "fun product facts" costs lakhs and sells nothing | Planned |
+| 6 | How Do You Forecast Next Year's AI Bill? | Last year's bill is a poor guide. | Forecasting usage, growth and price changes; budgets | Twice the shoppers, half the price per token: bigger bill or smaller? | Planned |
 | 7 | So, What Will Your AI Really Cost? | Six write-ups, one checklist. | Finale: estimate before you build | The shopping assistant's bill, predicted honestly | Planned |
 
 ## Format (same as #JustAddRAG)

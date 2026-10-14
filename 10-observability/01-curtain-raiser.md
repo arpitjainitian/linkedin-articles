@@ -16,37 +16,39 @@ The team opens the logs. They show the customer's question, the bot's answer, an
 
 Normal software fails loudly: an error, a crash, a red light. AI fails politely. It gives a confident, well-written, wrong answer, and nothing anywhere turns red.
 
-- **The answer isn't the whole story.** To explain it, you need what the bot read, which tools it called, and what it was told.
-- **A thumbs-down without context is a riddle.** "Wrong!" Which answer? Which order? Which version of the bot?
-- **Quality slides slowly.** New restaurant partners, new menu formats, a model update: answers get a little worse each week, and nobody notices until reviews do.
-- **A few numbers tell most of the story.** If nobody watches them, the story stays untold.
+- **Wrong answers don't complain.** Most customers who get a wrong delivery time don't report it. They just order elsewhere next time.
+- **The bill knows first.** A small prompt change can stop the bot reusing earlier work, and the cost triples before anyone sees a wrong answer.
+- **The systems around the bot fail too.** When the tracking service slows down at 8 PM on a Friday, what does the bot say?
+- **"Up" isn't "right".** The bot can answer every question, fast, and still get 12% of delivery times wrong.
+
+The basics (recording every step, dashboards, alerts, linking complaints to what happened) are in [write-up 13 of my #JustAddRAG series](https://www.linkedin.com/pulse/13-when-your-ai-gives-wrong-answer-can-you-tell-why-arpit-jain-m4kff). This series is about the failures those basics miss.
 
 It's a delivery map with the rider dot frozen in place and question marks along the route.
 
 ## What sits behind "we'll check the logs"
 
-A log line is the visible part. What lets you explain a wrong answer in minutes is everything behind it: recording every step of every answer, a handful of numbers watched daily, spotting quality that slowly gets worse, and connecting each complaint to exactly what happened. Teams call this **observability**. The questions on the cover are the ones your logs should be able to answer.
+A log line is the visible part. What lets you catch problems early is everything behind it: watching cost as a warning sign, testing the bot with questions you already know the answers to, breaking things on purpose before Friday night does, and measuring whether it's right, not just whether it's up. The questions on the cover are the ones your team should be able to answer.
 
 ## This is a series: here's what's coming
 
 This write-up is the first in a series. Each one takes one part of seeing inside your AI and goes deep, with the same delivery support bot every time. A few of the questions it will answer:
 
-- What should you record for every answer? (Traces)
-- Which numbers should you watch every day? (Metrics and alerts)
-- Why is it slowly getting worse? (Drift)
-- How do you connect a complaint to what happened? (Feedback and replay)
+- The bill tripled. Nothing errored. Where do you look? (Cost as a warning sign)
+- How do you catch a wrong answer nobody reported? (Canary questions)
+- What happens when you break it on purpose? (Fault testing)
+- Is it up, or is it right? (Targets and incidents)
 
 ...and a final write-up with an observability checklist.
 
 ## Take this to your next kickoff meeting
 
-1. Ask the team to explain one wrong answer from the logs, live, in five minutes.
-2. Record what the bot read and which tools it called, not just what it said.
-3. Pick three numbers to watch daily, and decide who gets the alert.
+1. Pick ten questions with known answers, and ask them every hour, all day.
+2. Put the daily AI bill on the same screen as the error count.
+3. Agree a target for right answers, not just for uptime.
 
 If you can't explain a wrong answer, you can't fix it. You can only apologise for it.
 
-Next write-up (2): **What should you record for every answer?** (Traces)
+Next write-up (2): **The bill tripled. Nothing errored. Where do you look?** (Cost as a warning sign)
 
 Follow me for the next one. And tell me: how long did it take your team to explain the last wrong AI answer?
 
@@ -63,9 +65,9 @@ Launch AI without observability, and you pay for it:
 • Time: hours of guessing for every wrong answer
 • Trust: the same mistake repeats while nobody can find the cause
 • Reputation: customers find the problem on social media before you do
-• Quality: slow decline nobody notices until the reviews do
+• Cost: a bill that triples before anyone sees a wrong answer
 
-Write-up 1 in my new series, We'll know when it breaks (#WeWillKnow): why AI fails politely, what your logs should be able to answer, and three things to take to your next kickoff meeting.
+Write-up 1 in my new series, We'll know when it breaks (#WeWillKnow): why AI fails politely, the failures normal logs miss, and three things to take to your next kickoff meeting.
 
 How long did it take your team to explain the last wrong AI answer?
 
@@ -78,7 +80,7 @@ How long did it take your team to explain the last wrong AI answer?
 📌 We'll know when it breaks: series index
 
 1. It said "arriving in 5 minutes". It took an hour. Can you tell why? (you're here)
-2. What should you record for every answer? (next write-up)
+2. The bill tripled. Nothing errored. Where do you look? (next write-up)
 
 I'll keep this comment updated with each link as it goes live.
 ```

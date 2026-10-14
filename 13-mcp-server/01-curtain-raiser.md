@@ -18,7 +18,7 @@ That's exactly why everyone is talking about it. And exactly why it deserves a s
 
 MCP really does make connecting AI to tools much easier. That's the good news, and it's real. The catch is that easy connections are easy to make without thinking.
 
-- **Every socket is a new door.** The assistant needed laptop details. Did it need to read the HR system too?
+- **Whose login is it using?** When the assistant resets a password, is it acting as you, or as the IT admin?
 - **Not every plug is yours.** A third-party MCP server sees whatever you send it. Where does that "free ticket helper" keep the tickets?
 - **Tools change shape.** The ticketing tool updates its API, and the assistant's requests start failing on a Monday morning.
 - **More tools, more confusion.** With twenty tools connected, "reset my password" can go to the laptop inventory.
@@ -28,13 +28,13 @@ A universal adapter is wonderful when travelling. You still check the voltage be
 
 ## What sits behind "just add an MCP server"
 
-The plug is the easy part. What makes it safe and useful is choosing which systems the assistant may reach and what it may do there, deciding which third-party servers to trust, handling updates without breaking everything, and helping the assistant pick the right tool for each request. The power strip on the cover shows the sockets, including the one nobody checked.
+The plug is the easy part. What makes it safe and useful is deciding whose identity the assistant uses in each system, deciding which third-party servers to trust, handling updates without breaking everything, and helping the assistant pick the right tool for each request. The power strip on the cover shows the sockets, including the one nobody checked.
 
 ## This is a series: here's what's coming
 
 This write-up is the first in a series. Each one takes one question about plugging in and goes deep, with the same IT helpdesk assistant every time. A few of the questions it will answer:
 
-- Which systems should your assistant be allowed to reach? (Least privilege)
+- Whose login does the assistant use? (Identity)
 - Can you trust someone else's MCP server? (Third-party trust)
 - What happens when a connected tool changes? (Versioning)
 - How does the assistant pick the right tool? (Tool selection)
@@ -45,11 +45,11 @@ This write-up is the first in a series. Each one takes one question about pluggi
 
 1. List every system the assistant connects to, and ask why each one is needed.
 2. Treat a third-party MCP server like any vendor: review it before plugging it in.
-3. Give each connection the smallest access it needs, read-only wherever possible.
+3. Make the assistant act as the person asking, not as an all-powerful service account.
 
 MCP makes connecting easy. It doesn't make it safe. That part is still your job.
 
-Next write-up (2): **Which systems should your assistant be allowed to reach?** (Least privilege)
+Next write-up (2): **Whose login does the assistant use?** (Identity)
 
 Follow me for the next one. And tell me: how many MCP servers is your team running, and who approved each one?
 
@@ -63,7 +63,7 @@ Follow me for the next one. And tell me: how many MCP servers is your team runni
 The IT helpdesk assistant gets plugged into ticketing, team chat, laptop inventory, the HR system, and a free "ticket helper" from the internet. Done in an afternoon.
 
 Plug in without thinking, and you pay for it:
-• Security: an assistant that can read systems it never needed
+• Security: an assistant acting with the IT admin's login
 • Privacy: tickets flowing to a third-party server nobody reviewed
 • Availability: one tool update, and every request fails
 • Accuracy: twenty tools, and requests going to the wrong one
@@ -81,7 +81,7 @@ How many MCP servers is your team running, and who approved each one?
 📌 Just plug it in: series index
 
 1. What is MCP, and why is everyone talking about it? (you're here)
-2. Which systems should your assistant be allowed to reach? (next write-up)
+2. Whose login does the assistant use? (next write-up)
 
 I'll keep this comment updated with each link as it goes live.
 ```

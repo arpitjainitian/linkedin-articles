@@ -37,7 +37,7 @@ This write-up is the first in a series. Each one takes one drawer and goes deep,
 - How does an AI remember you next week? (Long-term memory)
 - What should it forget? (Expiring old facts)
 - Who can see what the AI remembers about you? (Privacy and control)
-- Does more memory mean better suggestions? (Cost and noise)
+- Does more memory mean better suggestions? (When more memory means worse answers)
 
 ...and a final write-up with a memory checklist.
 

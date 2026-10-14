@@ -35,7 +35,7 @@ This write-up is the first in a series. Each one follows one lead and goes deep,
 
 - How does the agent decide what to search next? (Query planning)
 - Why did a simple question take two minutes? (Latency and cost)
-- When does the agent know it has enough? (Stopping rules)
+- How do you know the research is complete? (Coverage checks)
 - When is plain RAG good enough? (Choosing the simpler path)
 
 ...and a final write-up with an agentic RAG checklist.

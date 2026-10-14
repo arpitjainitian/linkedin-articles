@@ -19,7 +19,7 @@ Buying AI is a purchase. Changing how work gets done is a transformation. The fi
 - **The tool arrived, the work didn't change.** Agents still check the same three screens for a refund case. The AI just sits beside them.
 - **Nobody picked the problem.** The licence was bought for "productivity", not for the 20-minute refund case that actually hurts.
 - **People were trained on buttons, not habits.** Two hours teaches where to click. It doesn't change what an experienced agent does at 4 PM on a busy Monday.
-- **Nobody measured "before".** So nobody can prove "after".
+- **Nobody said what changes in the job.** The role description is the same as last year. So is the day.
 
 It's a gym membership. Paying for it feels like progress. The treadmill becomes a very expensive coat rack.
 
@@ -27,7 +27,7 @@ It's a gym membership. Paying for it feels like progress. The treadmill becomes 
 
 The licence is the easy part, and it's the only part that shows up in the press release.
 
-The hard part is everything that turns a tool into a new way of working: choosing the problem, redesigning the process around it, talking honestly about people's worries, building habits instead of slides, measuring the right things, and giving the whole thing an owner after the launch party ends. The whiteboard on the cover is the full plan.
+The hard part is everything that turns a tool into a new way of working: choosing the problem, redesigning the process around it, talking honestly about people's worries, building habits instead of slides, redesigning the jobs themselves, and writing simple rules for using AI. The whiteboard on the cover is the full plan.
 
 ## This is a series: here's what's coming
 
@@ -37,14 +37,14 @@ This write-up is the first in a series. Each one takes one piece of the plan and
 - Why is the old process still running next to the new one? (Process redesign)
 - Who is quietly afraid of the AI? (Fear and trust)
 - Did the training teach tools or habits? (Learning that sticks)
-- How do you know it's actually working? (Baselines and outcomes)
+- Which jobs change, and how? (Redesigning roles)
 
-...and more, through to who owns the AI after the launch party.
+...and more, through to who writes the rules for using AI.
 
 ## Take this to your next kickoff meeting
 
 1. Name the one problem the AI must fix, in numbers, before buying a single seat.
-2. Measure today's handling time and repeat contacts, so you can prove the change later.
+2. Ask which parts of each role will change, and who will help people learn the new parts.
 3. Ask what the agent's day will look like differently, step by step, after the rollout.
 
 Licences don't transform companies. Changed habits do.
@@ -66,7 +66,7 @@ The agents used AI. Mostly to sound more polite in emails.
 
 Treat a licence as a transformation, and you pay for it:
 • Cost: a full year of seats for a tool that changed nothing
-• Time: six months before anyone checks the numbers that matter
+• Time: six months of the same old day, with a new tab open
 • Credibility: the next AI idea gets a much harder "no"
 • People: agents learn that "transformation" means one more tool
 

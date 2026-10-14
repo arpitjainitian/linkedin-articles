@@ -15,10 +15,10 @@
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
 | 1 | [You Bought a Brilliant Model. Where's the System?](01-curtain-raiser.md) | A model alone doesn't settle a single claim. | Curtain raiser: model vs harness | The model reads the claim perfectly; nothing happens next | Draft for review |
-| 2 | Who Decides What Happens Next? | Plans and decisions need structure. | Planning, control flow, state | Read the claim, check the policy, request documents: in what order? | Planned |
-| 3 | Where Are the Brakes? | Every system needs a way to stop. | Guardrails, limits, human checks | It approves a 20-lakh claim on its own | Planned |
-| 4 | What Does the Dashboard Show? | You need to see what it's doing. | Observability, evals, cost tracking | Nobody knows why claims are suddenly slower | Planned |
-| 5 | Who Maintains It After Launch? | Systems need servicing. | Updates, model swaps, ownership | A new model arrives; the old checks don't fit | Planned |
+| 2 | Where Does the Agent Keep Its Place? | A claim can take three days. The agent can't hold its breath that long. | State, checkpoints, resuming after a crash | The server restarts mid-claim: start again, or carry on? | Planned |
+| 3 | Where Does It Practise Before Touching Real Claims? | Never test the brakes on the motorway. | Sandboxes, staging vs production, backups kept outside the system | A test run approves real payouts | Planned |
+| 4 | What Does the Model Actually See? | The model can only decide on what you show it. | Context engineering: what goes in, in what order, what's left out | The policy is cut off; the exclusion clause never reaches the model | Planned |
+| 5 | What Happens When Five Small Gaps Line Up? | Incidents are chains, not single causes. | Defence in layers, incident reviews | Broad access, no confirmation, backups in the same place | Planned |
 | 6 | So, Are You Building the Whole System? | Five write-ups, one checklist. | Finale: the harness checklist | The claims agent, production-ready | Planned |
 
 ## Format (same as #JustAddRAG)

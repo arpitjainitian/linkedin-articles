@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|
 | 1 | [Why Do Customers Try the Bank's Chatbot Once and Then Call the Helpline?](01-curtain-raiser.md) | Launch week: 50,000 chats. Week three: the call centre is busier than ever. | Curtain raiser: the gap between "it works" and "people use it" | Customers try the bot, then phone the helpline anyway | Draft for review |
 | 2 | [Your Chatbot Has 10 Seconds. What Does It Do With Them?](02-first-10-seconds.md) | An empty box and a blinking cursor is the scariest screen in AI. | First impressions, suggested actions, saying upfront what it can and can't do | Customer types "hi". The bot replies with a paragraph of disclaimers | Draft for review |
-| 3 | Why Does Your Chatbot Sound So Sure When It's Wrong? | A wrong answer said confidently costs more trust than a right answer said carefully. | Confidence, tone, showing sources, the price of a polite wrong answer | "Your card is blocked" when it isn't | Planned |
+| 3 | Why Does Your Chatbot Sound So Sure When It's Wrong? | A wrong answer said confidently costs more trust than a right answer said carefully. | How the answer sounds when the bot isn't sure: wording, tone, showing doubt on screen (grounding itself is in #JustAddRAG 5) | "Your card is blocked" when it isn't | Planned |
 | 4 | What Happens When the Customer Says "No, Not That One"? | Real conversations go sideways. Most bots can't steer back. | Clarifying questions, fixing misunderstandings, keeping context in a chat | "Block my card. No, the credit card, not the debit card." | Planned |
 | 5 | Why Do Customers Keep Asking the Bot Things It Can't Do? | Customers don't read the scope document. They just ask. | Setting expectations, graceful refusals, pointing somewhere useful | "Increase my credit limit to 5 lakh" | Planned |
 | 6 | When Should Your Chatbot Say "Let Me Get a Human"? | The best bots know when to stop talking. | Escalation, handing over with context, never making people repeat themselves | "Someone just took money from my account" | Planned |
@@ -24,7 +24,7 @@
 | 8 | Does Everything Need to Be a Chat Box? | Sometimes the smartest AI feature is a button. | When buttons, forms or menus beat chat; AI inside existing screens | Typing a paragraph to do what one "Block card" button does | Planned |
 | 9 | Who Actually Reads the Thumbs-Down? | Feedback buttons are easy. Reading them is the hard part. | Feedback design, closing the loop, turning complaints into fixes | Hundreds of thumbs-down on "charges" answers, nobody looked | Planned |
 | 10 | What Happens the Day Your Bank's Chatbot Embarrasses You? | Every bot has a bad day. Is the bank ready for it? | Failure moments, apologies, screenshots on social media, brand risk | The bot cheerfully explains a fee the bank doesn't charge | Planned |
-| 11 | Your Dashboard Says Customers Love It. Do They? | "1 lakh chats handled" can mean 1 lakh people gave up. | Task success, return rate, satisfaction, misleading metrics | Fewer chats escalated, more angry calls | Planned |
+| 11 | Your Dashboard Says Customers Love It. Do They? | "1 lakh chats handled" can mean 1 lakh people gave up. | Chatbot-specific: problems actually solved vs chats "handled", return rate, misleading containment numbers | Fewer chats escalated, more angry calls | Planned |
 | 12 | So, Will Customers Really Love Your Chatbot? | Eleven write-ups later, one checklist. | Finale: the user-experience checklist | The bank's bot, scored honestly | Planned |
 
 ## Format (same as #JustAddRAG)

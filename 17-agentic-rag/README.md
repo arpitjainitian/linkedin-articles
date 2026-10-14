@@ -17,7 +17,7 @@
 | 1 | [What If the AI Could Search More Than Once?](01-curtain-raiser.md) | One search rarely answers a real question. | Curtain raiser: plain RAG vs agentic RAG | One search finds 3 contracts; there are 40 | Draft for review |
 | 2 | How Does the Agent Decide What to Search Next? | Good research asks better questions as it goes. | Query planning, follow-up searches, reasoning | Finds "termination", then searches "notice period" and "exit clause" | Planned |
 | 3 | Why Did a Simple Question Take Two Minutes? | More searches mean more waiting and cost. | Latency and cost of multi-step retrieval | 30 searches for a one-line answer | Planned |
-| 4 | When Does the Agent Know It Has Enough? | Research needs an end. | Stopping rules, confidence, budgets | Still reading contracts at midnight | Planned |
+| 4 | How Do You Know the Research Is Complete? | Stop early and you miss a clause. | Coverage checks, confirming every source was read, saying what's missing | Answers from 38 of 40 contracts, and says nothing about the other 2 | Planned |
 | 5 | When Is Plain RAG Good Enough? | Most questions need one search. | Choosing the simpler path, routing | "When does the Acme contract end?" needs one lookup | Planned |
 | 6 | So, Should Your Agent Do Its Own Research? | Five write-ups, one checklist. | Finale: the agentic RAG checklist | The contract question, answered properly | Planned |
 

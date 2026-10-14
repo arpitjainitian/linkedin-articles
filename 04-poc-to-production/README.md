@@ -16,12 +16,11 @@
 |---|---|---|---|---|---|
 | 1 | [The Invoice Demo Got a Standing Ovation. Now What?](01-curtain-raiser.md) | The applause is the easy part. | Curtain raiser: the POC-to-production cliff | 10 clean invoices read perfectly; invoice 11 is a phone photo | Draft for review |
 | 2 | Why Does It Work on 10 Invoices and Fail on 10,000? | Demos are hand-picked. Suppliers aren't. | Real data, edge cases, messy formats | Multi-page invoices, handwritten notes, three currencies | Planned |
-| 3 | Who Gets Called When It Breaks at Month-End? | A POC has fans. Production needs owners. | Ownership, support, runbooks | Month-end close stuck, nobody on call | Planned |
+| 3 | Who Owns It at Month-End, and Every Month After? | A POC has fans. Production needs owners. | Ownership, on-call, runbooks, a maintenance budget | Month-end close stuck; a big supplier changes its invoice layout | Planned |
 | 4 | What Happens When 50,000 Invoices Arrive at Once? | One invoice isn't a load test. | Scale, queues, rate limits, cost at volume | Quarter-end backlog, everything slows down | Planned |
-| 5 | Is Finance Audit Seeing It for the First Time a Week Before Launch? | Late reviews become late launches. | Controls, audit, security, compliance reviews early | "Who approved this payment, the AI?" | Planned |
-| 6 | What Does It Cost When Every Invoice Goes Through It? | The demo bill is not the real bill. | Running cost, unit economics, budgets | Cents per invoice, lakhs per quarter | Planned |
-| 7 | Who Keeps It Working After Launch? | Launch isn't the finish line. | Monitoring, new supplier formats, maintenance budget | A big supplier changes its invoice layout | Planned |
-| 8 | So, Is Your POC Ready for Production? | Seven write-ups, one checklist. | Finale: the production-readiness checklist | The invoice system, launch checklist in hand | Planned |
+| 5 | How Do You Roll It Out Without Betting the Quarter? | Start small, then widen. | Limited rollout, go/no-go gates, the launch pack | 5% of suppliers first, the rest after month-end | Planned |
+| 6 | Can You Switch It Off Without Stopping Finance? | Every AI system needs an off switch and a plan B. | Kill switch, manual fallback, graceful degradation | The model provider is down on the last day of the quarter | Planned |
+| 7 | So, Is Your POC Ready for Production? | Six write-ups, one checklist. | Finale: the production-readiness checklist | The invoice system, launch checklist in hand | Planned |
 
 ## Format (same as #JustAddRAG)
 

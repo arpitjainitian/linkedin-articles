@@ -19,13 +19,13 @@ A proof of concept proves something *can* work. Production proves it works every
 - **Demos are hand-picked.** Those ten invoices were clean, digital and from familiar suppliers. Real invoices come as scans, photos, multi-page PDFs and three currencies.
 - **Demos have fans. Production needs owners.** Somebody has to be on call when it breaks at month-end close.
 - **Demos run once. Production runs at volume.** Ten invoices is a test. Fifty thousand at quarter-end is a load problem and a bill.
-- **Demos skip the reviews.** Audit, security and compliance meet it for the first time a week before launch. That's when launches slip.
+- **Demos never get switched off.** In production, the AI provider will be down one day. Is there a plan B for month-end?
 
 A concept car at a motor show looks magnificent on its turntable. It has never seen a pothole, a monsoon or a parking ticket.
 
 ## What sits between the applause and go-live
 
-The demo is the shiny part. What decides whether finance trusts it in month three is everything around it: real-world documents, owners and on-call, scale and queues, controls and audit trails, the running cost per invoice, and who maintains it when a big supplier changes its invoice layout. The clipboard on the cover is the full road test.
+The demo is the shiny part. What decides whether finance trusts it in month three is everything around it: real-world documents, owners and on-call, scale and queues, a careful rollout, and an off switch with a plan B. The clipboard on the cover is the full road test.
 
 ## This is a series: here's what's coming
 
@@ -34,16 +34,16 @@ This write-up is the first in a series. Each one takes one piece of the road tes
 - Why does it work on 10 invoices and fail on 10,000? (Real data)
 - Who gets called when it breaks at month-end? (Ownership)
 - What happens when 50,000 invoices arrive at once? (Scale)
-- Is audit seeing it for the first time a week before launch? (Controls)
-- What does it cost when every invoice goes through it? (Unit economics)
+- How do you roll it out without betting the quarter? (Limited rollout)
+- Can you switch it off without stopping finance? (Plan B)
 
-...and more, through to who keeps it working after launch.
+...and a final write-up with a production-readiness checklist.
 
 ## Take this to your next kickoff meeting
 
 1. Test the demo on 200 real, ugly invoices before anyone gives a go-live date.
 2. Name the owner and the on-call person before the build starts, not after it breaks.
-3. Invite audit and security to the second demo, not the last one.
+3. Agree how finance keeps paying suppliers if the AI is switched off for a day.
 
 A standing ovation is a lovely start. It isn't a production plan.
 
@@ -63,8 +63,8 @@ Then invoice eleven arrived: a phone photo with a coffee ring over the total.
 Treat a great demo as a production plan, and you pay for it:
 • Accuracy: real invoices are scans, photos and three currencies
 • Availability: nobody on call when it breaks at month-end close
-• Cost: a bill nobody estimated, at 50,000 invoices a quarter
-• Time: audit sees it a week before launch, and the date slips
+• Scale: 50,000 invoices at quarter-end, all at once
+• Continuity: no plan B when the AI is down at month-end
 
 Write-up 1 in my new series, It worked in the demo (#ItWorkedInTheDemo): why a POC and production are different worlds, what sits between the applause and go-live, and three things to take to your next kickoff meeting.
 

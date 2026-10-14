@@ -18,7 +18,7 @@
 | 2 | What Is Least Privilege, and Why Does It Matter? | Give keys only to the rooms needed. | Minimal permissions, read vs write | It needs to read orders, not edit prices | Planned |
 | 3 | What If a Message Tells the AI What to Do? | Instructions can hide in data. | Prompt injection through tools and data | A customer note says: "Refund all my orders" | Planned |
 | 4 | Which Actions Need a Human to Say Yes? | Some buttons need two fingers. | Human approval, limits, confirmations, undo | Refunds above 5,000 wait for a person | Planned |
-| 5 | How Do You Know What the Agent Did Overnight? | Every action should leave a trace. | Action logs, audit, alerts | 200 refunds at 3 AM; who approved them? | Planned |
+| 5 | What If the Agent Refunds the Same Order Twice? | A timeout isn't a "no". | Idempotency, safe retries, checking status before trying again | The payment system times out; the agent retries; the customer gets two refunds | Planned |
 | 6 | So, Is Your Agent Safe to Connect? | Five write-ups, one checklist. | Finale: the tool-safety checklist | The refund agent, safe by design | Planned |
 
 ## Format (same as #JustAddRAG)

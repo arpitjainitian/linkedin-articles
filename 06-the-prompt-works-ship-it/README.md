@@ -15,12 +15,11 @@
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
 | 1 | [It Worked When You Tried It. Will It Work Tomorrow?](01-curtain-raiser.md) | "I tried it and it worked" isn't a test. | Curtain raiser: why AI needs evals | Right about leave, wrong about maternity benefits | Draft for review |
-| 2 | What Should Your Test Questions Look Like? | Ten easy questions prove nothing. | Building a real test set, edge cases, tricky questions | "Can I carry forward leave if I joined mid-year?" | Planned |
-| 3 | Who Writes the Right Answers? | A test needs an answer key. | Ground truth, HR expert time, keeping it current | Only two people in HR know the real answer | Planned |
-| 4 | Can an AI Grade Another AI? | Fast marking, if you check the marker. | LLM-as-judge, rubrics, calibration | The judge gives every answer 10/10 | Planned |
-| 5 | Why Did a Tiny Prompt Change Break Everything? | Fix one thing, break another. | Regression testing, tests on every change | "Be more friendly" made it forget probation rules | Planned |
-| 6 | What Happens When the Model or the Policy Changes? | Same question, new answer. | Version pinning, re-testing, updating the answer key | New leave policy in April; answer key still from 2024 | Planned |
-| 7 | So, Is Your AI Tested or Just Tried? | Six write-ups, one checklist. | Finale: the evals checklist | The HR assistant, with a real scorecard | Planned |
+| 2 | Right Answer, Wrong Reason? | A lucky answer still fails tomorrow. | Grading each layer separately: search, rules, final answer | Right notice period, but it read the Mumbai policy for a Bengaluru employee | Planned |
+| 3 | Who Checks the AI Grader? | A judge that likes nice writing isn't a judge. | Auditing an LLM judge against people, what judges get wrong | The judge prefers a polite wrong answer to a blunt right one | Planned |
+| 4 | What Score Is Good Enough to Launch? | "Pretty good" isn't a launch rule. | Release gates, thresholds per question type | 92% overall, but 60% on maternity questions | Planned |
+| 5 | Is Your Test Set Leaking Into Your Prompt? | Tune to the test, and you only pass the test. | Overfitting to the test set, fresh held-back questions | Every test question pasted into the prompt as an example | Planned |
+| 6 | So, Is Your AI Tested or Just Tried? | Five write-ups, one checklist. | Finale: the evals checklist | The HR assistant, with a real scorecard | Planned |
 
 ## Format (same as #JustAddRAG)
 

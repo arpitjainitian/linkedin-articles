@@ -21,14 +21,14 @@ A prompt instruction is something the model *tries* to follow. Most of the time,
 - **Clever wording changes behaviour.** "Pretend", "hypothetically", "for a story I'm writing" can talk a model out of its instructions.
 - **Risky answers can be subtle.** A reply doesn't need to say "take two tablets" to suggest a dose.
 - **One instruction competes with many.** "Be helpful" and "never advise" pull in different directions, and helpful often wins.
-- **Health details are the most sensitive data there is.** A prescription pasted into a chat lands in logs, unless someone decides otherwise.
+- **Fences can trap your own team.** A guardrail strict enough for strangers can block a pharmacist during an emergency call.
 - **The opposite failure is real too.** A bot so scared it refuses to say whether paracetamol is in stock helps nobody.
 
 A polite sign on an open gate isn't security. It's décor.
 
 ## What sits behind "just tell it not to"
 
-The instruction is the visible part. Real protection comes in layers, like a castle: checking the question before it reaches the model, checking the answer before it reaches the customer, catching the clever tricks, protecting health details, and keeping it all strict enough to be safe without refusing everything. Teams call these layers **guardrails**. The castle on the cover maps them.
+The instruction is the visible part. Real protection comes in layers, like a castle: checking the question before it reaches the model, checking the answer before it reaches the customer, catching the clever tricks, letting your own staff through when it matters, and keeping it all strict enough to be safe without refusing everything. Teams call these layers **guardrails**. The castle on the cover maps them.
 
 ## This is a series: here's what's coming
 
@@ -37,7 +37,7 @@ This write-up is the first in a series. Each one takes one layer and goes deep, 
 - What should you check before the question reaches the model? (Input checks)
 - What should you check before the answer reaches the customer? (Output checks)
 - What if someone tries to trick it? (Jailbreaks and red teaming)
-- Who protects the customer's health details? (Personal data)
+- What if your guardrails lock out your own team? (Staff exceptions)
 - How strict is too strict? (Safety vs usefulness)
 
 ...and a final write-up with a guardrails checklist.
@@ -46,7 +46,7 @@ This write-up is the first in a series. Each one takes one layer and goes deep, 
 
 1. List the answers that must never go out, and check for them after the model, not only before.
 2. Spend a day trying to trick your own assistant before customers do.
-3. Decide what health details may be stored, and where, before the first chat.
+3. Decide who on your own team can get past the fence, and how each time is recorded.
 
 Telling a model what not to do is a good start. It's never the whole fence.
 
@@ -68,7 +68,7 @@ The assistant suggested a dose.
 Rely on "just tell it not to", and you pay for it:
 • Safety: harmful answers slip through on clever wording
 • Compliance: health advice your business isn't allowed to give
-• Privacy: prescriptions sitting in chat logs
+• Operations: a fence that blocks your own pharmacists
 • Usefulness: overcorrect, and it won't even confirm what's in stock
 
 Write-up 1 in my new series, Just tell it not to (#JustTellItNot): why a prompt is a request, not a rule, the layers real guardrails need, and three things to take to your next kickoff meeting.
