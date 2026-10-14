@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 14 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-008-does-using-make-you-give-up-faster-learning-arpit-jain-ppghf/)
+
 **In one line:** A new study found that people who used AI for just 10 minutes did worse, and gave up more often, once the AI was taken away.
 
 ## What happened
