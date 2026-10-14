@@ -4,6 +4,8 @@
 
 *Just add RAG series: Model changes and lock-in*
 
+**Published:** 14 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/14-nobody-touched-code-why-did-answers-change-model-changes-jain-suxrf/)
+
 Nobody touched the code. Nobody touched the prompt. Nobody touched the documents. And yet, on Thursday, the answers are a little different from Monday.
 
 Welcome to renting your brain. AI vendors improve, update and retire their models on their own schedule. The name on your config can stay the same while the model behind it changes.
