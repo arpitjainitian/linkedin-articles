@@ -1,6 +1,6 @@
-# 2. Your Chatbot Has 10 Seconds. What Does It Do With Them? | First Impressions
+# 1. Your Chatbot Has 10 Seconds. What Does It Do With Them? | First Impressions
 
-![Cover](images/02-first-10-seconds-cover.png)
+![Cover](images/01-first-10-seconds-cover.png)
 
 *Build it and they will chat series: First impressions*
 
@@ -90,13 +90,9 @@ Measure the first ten seconds directly:
 
 Customers don't read a chatbot's welcome. They decide in ten seconds whether to keep typing or start dialling.
 
-Next write-up (3): **Why does your chatbot sound so sure when it's wrong?** (Confidence and tone)
+Next write-up (2): **What happens the day your bank's chatbot embarrasses you?** (Bad days and brand risk)
 
 Follow me for the next one. And tell me: what's the worst chatbot greeting you've ever seen?
-
-**Earlier in this series:**
-
-1. Why do customers try the bank's chatbot once and then call the helpline? *(link added when published)*
 
 ---
 
@@ -115,7 +111,7 @@ Waste the first 10 seconds, and you pay for it:
 • Trust: customers who leave in 10 seconds rarely try the bot again
 • Data: "hi" tells you nothing about what customers needed
 
-Write-up 2 in my series, Build it and they will chat (#TheyWillChat): capability statements, buttons for the top five tasks, using what the app already knows, and three things to take to your next kickoff meeting.
+Write-up 1 in my new series, Build it and they will chat (#TheyWillChat): capability statements, buttons for the top five tasks, using what the app already knows, and three things to take to your next kickoff meeting.
 
 What's the worst chatbot greeting you've ever seen?
 
