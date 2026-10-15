@@ -4,6 +4,8 @@
 
 *Just add RAG series: The grand finale*
 
+**Published:** 15 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/)
+
 After thirteen write-ups about everything under the water, you might expect the answer to be "no".
 
 It isn't. I still like RAG. My passport assistant answered the question correctly on day one, and that's real. The answer is yes, with your eyes open, a real plan, and a budget for what's under the water.

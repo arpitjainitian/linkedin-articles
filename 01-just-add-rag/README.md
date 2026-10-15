@@ -20,7 +20,7 @@ A write-up is marked **Published** only once it is live on LinkedIn.
 | 12 | [Where did your user's passport just travel to?](11-privacy.md) | Privacy, residency, compliance, right to delete | **Published** 13 October 2026 | [Read](https://www.linkedin.com/pulse/12-where-did-your-users-passport-just-travel-privacy-compliance-jain-hcy7f) |
 | 13 | [When your AI gives a wrong answer, can you tell why?](12-observability.md) | Observability | **Published** 14 October 2026 | [Read](https://www.linkedin.com/pulse/13-when-your-ai-gives-wrong-answer-can-you-tell-why-arpit-jain-m4kff) |
 | 14 | [Nobody touched the code. Why did the answers change?](13-model-changes.md) | Model updates, consistency, vendor lock-in | **Published** 14 October 2026 | [Read](https://www.linkedin.com/pulse/14-nobody-touched-code-why-did-answers-change-model-changes-jain-suxrf/) |
-| 15 | [So, should you really "just add RAG"?](14-finale-checklist.md) | Finale: the checklist | Draft for review | |
+| 15 | [So, should you really "just add RAG"?](14-finale-checklist.md) | Finale: the checklist | **Published** 15 October 2026 | [Read](https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/) |
 
 Write-ups are numbered from 1 in titles and posts, for easy reference. There is no fixed schedule.
 
