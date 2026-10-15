@@ -21,7 +21,8 @@
 | 5 | Did the Training Teach Tools or Habits? | A two-hour session doesn't change a ten-year habit. | Role-based learning, champions, practice | Everyone learned prompts; nobody learned when to use them | Planned |
 | 6 | Which Jobs Change, and How? | AI doesn't replace a role. It reshapes the day. | Redesigning roles, skills and career paths around AI | Agents type less and handle more angry customers: who trains them for that? | Planned |
 | 7 | Who Writes the Rules for Using AI? | Every tool needs rules, or everyone makes up their own. | AI usage policy and governance: what's allowed, what isn't, who decides | Can agents paste a customer's details into the AI? Nobody knows | Planned |
-| 8 | So, Is Your Company Transforming or Just Subscribing? | Seven write-ups, one checklist. | Finale: the transformation checklist | The support floor, six months later | Planned |
+| 8 | How Do You Know It's Actually Working? | "Everyone logs in" isn't a result. | Baselines before launch, outcome metrics vs vanity metrics, the week-two return rate, honest ROI | Handling time and repeat contacts: nobody measured them before the rollout | Planned |
+| 9 | So, Is Your Company Transforming or Just Subscribing? | Eight write-ups, one checklist. | Finale: the transformation checklist | The support floor, six months later | Planned |
 
 ## Format (same as #JustAddRAG)
 

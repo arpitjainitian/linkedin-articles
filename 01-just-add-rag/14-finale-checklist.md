@@ -1,14 +1,14 @@
-# 17. So, Should You Really "Just Add RAG"? | The Checklist
+# 15. So, Should You Really "Just Add RAG"? | The Checklist
 
-![Cover](images/16-finale-checklist-cover.png)
+![Cover](images/14-finale-checklist-cover.png)
 
 *Just add RAG series: The checklist*
 
-After fifteen write-ups about everything that goes wrong, you might expect the answer to be "no".
+After thirteen write-ups about everything under the water, you might expect the answer to be "no".
 
 It isn't. I still like RAG. My passport assistant answered the question correctly on day one, and that's real. The answer is yes, with your eyes open, a real plan, and a budget for what's under the water.
 
-This last write-up puts the whole series on one page: when RAG fits, when it doesn't, and the checklist I'd now take into any kickoff meeting.
+This last write-up puts the whole series on one page: when RAG fits, when it doesn't, why it really takes six months, and the checklist I'd now take into any kickoff meeting.
 
 ## When RAG is a good fit
 
@@ -43,8 +43,8 @@ One question for each piece of the iceberg. If the team has a clear answer, tick
 - [ ] **Privacy:** Is there a map of every place user data goes, and has the deletion test passed?
 - [ ] **Observability:** Can the team explain a wrong answer from the logs in five minutes?
 - [ ] **Model changes:** Which exact model versions are live, and who reads the deprecation emails?
-- [ ] **Estimates:** Was every layer estimated, including expert time?
-- [ ] **Adoption:** How will we know it's worth it, and what's the week-two return rate?
+- [ ] **Plan:** Was every layer estimated, with the experts' time booked in advance?
+- [ ] **Launch:** Is there a pilot first, and how many of week one's users come back in week two?
 
 ## How to read your score
 
@@ -53,6 +53,22 @@ One question for each piece of the iceberg. If the team has a clear answer, tick
 - **Fewer than 7:** you have a very nice demo. Treat the gaps as the real plan, and budget for them.
 
 No shame in a low score on day one. Every question on that list was one I couldn't answer when my passport demo first worked.
+
+## So why 6 months, not 2 weeks?
+
+The first write-up asked it. Here's the honest answer.
+
+The demo is the tip of the iceberg. It works on clean documents, one user, friendly questions and nobody's personal data. Everything in this series is the rest: thirteen layers, each with its own work, tests and reviews.
+
+A plan that tends to survive reality:
+
+1. **Discovery:** open 50 real documents, write 50 real test questions, agree what "good" means.
+2. **A thin version of everything:** every layer working end to end, basic but measured.
+3. **Improve with tests:** fix the weakest layer first, as the scores show.
+4. **Pilot:** a small group of real users, watched closely.
+5. **Scale:** a wider rollout, with an owner and a running budget.
+
+Two things make the biggest difference. Book the experts who know the right answers, the way you'd book a meeting room. And after launch, watch one number: of the people who tried it in week one, how many came back in week two, without being reminded?
 
 ## What I'd do differently, starting again
 
@@ -101,7 +117,7 @@ And tell me one last time: how many boxes did your project tick?
 **Post text (copy and paste):**
 
 ```
-Sixteen write-ups later: should you really "just add RAG"?
+Fourteen write-ups later: should you really "just add RAG"?
 
 Yes. With your eyes open, a real plan, and a budget for what's under the water.
 
@@ -111,7 +127,7 @@ Say "just add RAG" without checking the iceberg, and you pay for it in all of th
 • Cost and speed: a bigger bill and slower answers than anyone planned
 • Time: a two-week idea becomes a six-month project
 
-Write-up 17, the final one, in my #JustAddRAG series: when RAG fits and when it doesn't, plus the whole iceberg as one 15-question checklist you can take into any kickoff meeting.
+Write-up 15, the final one, in my #JustAddRAG series: when RAG fits and when it doesn't, why it takes six months and not two weeks, plus the whole iceberg as one 15-question checklist you can take into any kickoff meeting.
 
 How many boxes does your project tick?
 

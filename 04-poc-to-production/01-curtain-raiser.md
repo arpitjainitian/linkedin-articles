@@ -34,6 +34,8 @@ This write-up is the first in a series. Each one takes one piece of the road tes
 - Why does it work on 10 invoices and fail on 10,000? (Real data)
 - Who gets called when it breaks at month-end? (Ownership)
 - What happens when 50,000 invoices arrive at once? (Scale)
+- How long will it really take? (Honest estimates)
+- Is audit seeing it for the first time a week before launch? (Early reviews)
 - How do you roll it out without betting the quarter? (Limited rollout)
 - Can you switch it off without stopping finance? (Plan B)
 

@@ -38,6 +38,7 @@ This write-up is the first in a series. Each one takes one piece of the plan and
 - Who is quietly afraid of the AI? (Fear and trust)
 - Did the training teach tools or habits? (Learning that sticks)
 - Which jobs change, and how? (Redesigning roles)
+- How do you know it's actually working? (Baselines and outcomes)
 
 ...and more, through to who writes the rules for using AI.
 

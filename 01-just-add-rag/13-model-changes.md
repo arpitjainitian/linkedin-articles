@@ -98,7 +98,7 @@ Models have expiry dates too. Just like my passport.
 
 You can rent the brain. Just don't let it move in.
 
-Next write-up (15): **The demo works, so why isn't it 4 weeks from production?** (Estimates)
+Next write-up (15), the finale: **So, should you really "just add RAG"?** (The checklist)
 
 Follow me for the next one. And tell me: has a model update ever changed your AI's answers without warning?
 
