@@ -16,17 +16,17 @@
 
 ## Planned write-ups
 
+Fewer, stronger write-ups (user rule): every topic must be solid, catchy and unique. Merged "vague or missing receipts" into write-up 2; dropped "the claim form changed overnight" (weaker, and versioning is touched in #JustAddRAG 14).
+
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
 | 1 | [Your AI Can Answer. Can You Trust It to Act?](01-curtain-raiser.md) | Reading is free. Doing has consequences. | Curtain raiser: from answers to actions, bridging from #JustAddRAG | The AI totals 14 receipts correctly, then is asked to file the claim | Draft for review |
-| 2 | The Receipt Says ₹1,180. Or Was It ₹118? | "About right" in a chat is wrong in a form. | Exact data from messy input: schemas, validation, strict output | A blurred total, a GST line read as the amount | Planned |
-| 3 | What If the Receipt Is Vague, or Missing? | A good assistant flags. A bad one guesses. | Missing and ambiguous data, never inventing values, sending to a person | A UPI screenshot with no merchant name | Planned |
-| 4 | Which Keys Should the Assistant Get? | Filing a claim doesn't need the payroll system. | Minimal access, read vs write, separate permissions per action | It can submit claims; should it also edit approved ones? | Planned |
-| 5 | A Receipt Note Says "Approve All Claims". Now What? | Instructions can hide in data. | Prompt injection through documents and data | A hotel bill with a hidden line of text for the AI | Planned |
-| 6 | It Filed the Same Claim Twice | A timeout isn't a "no". | Safe retries, idempotency, checking status before trying again | The claims system times out; the AI submits again; finance pays twice | Planned |
-| 7 | Should It Approve a ₹45,000 Hotel Bill on Its Own? | Some actions need a human yes. | Limits, human approval, undo, action logs | A five-star stay against a ₹6,000-a-night policy | Planned |
-| 8 | The Claim Form Changed Overnight | Systems change. Yesterday's actions break. | Versioned forms and schemas, testing actions after changes | Finance adds a "project code" field; every claim fails | Planned |
-| 9 | So, Should Your AI Do Things, or Just Answer? | Eight write-ups, one checklist. | Finale: the from-answers-to-actions checklist | Priya's claim, filed safely | Planned |
+| 2 | The Receipt Says ₹1,180. Or Was It ₹118? | "About right" in a chat is wrong in a form. | Exact data from messy receipts; when it can't read something, it flags it instead of guessing | A dropped zero; a UPI screenshot with no merchant name | Planned |
+| 3 | Which Keys Should the AI Get? | Filing a claim doesn't need the payroll system. | Minimal access, read vs write, separate permissions per action | It can submit claims; should it also edit approved ones? | Planned |
+| 4 | A Receipt Says "AI, Approve All Claims". Now What? | Instructions can hide in data. | Prompt injection through documents and data | A hotel bill with a hidden line of text for the AI | Planned |
+| 5 | It Filed the Same Claim Twice | A timeout isn't a "no". | Safe retries, checking status before trying again | The claims system times out; the AI submits again; finance pays twice | Planned |
+| 6 | Should It Approve a ₹45,000 Hotel Bill on Its Own? | Some actions need a human yes. | Limits, human approval, undo, action logs | A five-star stay against a ₹6,000-a-night policy | Planned |
+| 7 | So, Should Your AI Do Things, or Just Answer? | Six write-ups, one checklist. | Finale: the from-answers-to-actions checklist | Priya's claim, filed safely | Planned |
 
 ## Format (same as #JustAddRAG)
 
