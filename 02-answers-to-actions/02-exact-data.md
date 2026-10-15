@@ -4,6 +4,8 @@
 
 *Beyond Just RAG: From Answers to Actions series: Exact data*
 
+**Published:** 15 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/2-receipt-says-1180-118-exact-data-from-messy-receipts-arpit-jain-7e8pf/)
+
 Priya's taxi receipt says ₹1,180. The AI fills in the claim: ₹118.
 
 One dropped zero. The claim goes through. Priya gets ₹1,062 less, and nobody notices until her bank balance does.
