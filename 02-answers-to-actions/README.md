@@ -1,4 +1,4 @@
-# Series 2: "It answered. Now make it act."
+# Series 2: "Beyond RAG: From Answers to Actions"
 
 **Theme:** Answering is reading. Acting is doing: filling in a form, pressing submit, moving money. The moment AI starts doing things, every mistake gets more expensive.
 
@@ -10,7 +10,7 @@
 
 **One example, used in every write-up of this series.** No switching mid-series.
 
-**Hashtag:** #NowMakeItAct (proposal; check it's unused before launch)
+**Hashtags:** #BeyondRAG (series tag, used in the index and every post) + #AnswersToActions (theme tag, in every post). Check both are free on LinkedIn before launch.
 
 **Absorbs:** the old "Just ask it for JSON" (structured output) and "Give the agent the keys" (tool safety) series, now retired. Memory and agent loops stay in their own series (13 and 14) and are not repeated here.
 
