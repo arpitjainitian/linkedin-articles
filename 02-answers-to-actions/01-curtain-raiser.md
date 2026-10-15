@@ -63,7 +63,7 @@ Follow me for the next one. What's the most painful expense claim you've ever fi
 ```
 Your AI can answer. Can you trust it to act?
 
-Mine said: "Your passport has expired." Correct. It didn't renew anything.
+In my #JustAddRAG series, my AI said: "Your passport has expired." Correct. It didn't renew anything.
 
 Now picture AI filing your expense claim:
 • It reads ₹1,18 instead of ₹1,180
