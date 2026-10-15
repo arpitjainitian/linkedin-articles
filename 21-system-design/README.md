@@ -12,11 +12,14 @@ Questions are rephrased in my own words, and each source is credited below.
 | 4 | How do you know your agent is actually getting better? Which metrics go beyond "it seems to work"? | Evals | L3 | #JustAddRAG: evals | S2 | Planned |
 | 5 | A task needs retrieval, planning, reasoning and several tool calls. Single agent, multi-agent, or orchestrator, and why? | Agent architecture | L5 | Series 15: multi-agent systems | S2 | Planned |
 | 6 | Your agent works for 100 users. Now it needs 100,000. What breaks first: latency, cost, memory or tool reliability? How would you redesign? | Scale, cost, performance | L5 | #JustAddRAG: cost, performance | S2 | Planned |
+| 7 | Your RAG system works well with 10,000 documents. Now it has 1 million. What breaks first, and how would you redesign it? | Document-volume scale: index size, search speed and filtering, re-indexing time, ingestion throughput, cost | L5 | #JustAddRAG: retrieval, performance, cost | S3 | Planned |
+| 8 | A question needs facts from 5 different documents. How do you design retrieval and build the context so the answer uses all of them? | Multi-document retrieval and context construction: query splitting, reranking, deduplication, ordering, context budget | L4 | #JustAddRAG: retrieval, grounding; Series 13 (knowledge graph) and 14 (agentic RAG) go deeper | S3 | Planned |
 
 ## Sources
 
 - **S1:** shared directly by Arpit (no link).
 - **S2:** LinkedIn post by Naresh Edagotti, "I had LangGraph on my resume. The interviewer had 5 questions." https://lnkd.in/p/dZH4zR3h
+- **S3:** LinkedIn post "RAG ruined my AI interview" (promoting an AI Engineer Interview Kit, practicai.tech). Its 5 questions were checked against #JustAddRAG on 15 Oct 2026: questions 1-3 are covered, 4 partly, 5 not at all, so 7 and 8 were added here.
 
 ## Rules for this series
 
