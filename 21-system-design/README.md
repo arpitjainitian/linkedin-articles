@@ -22,6 +22,7 @@ Questions are rephrased in my own words, and each source is credited below.
 
 - One question per post. No fixed schedule.
 - Questions rephrased in my words; source credited in the post.
+- **Length:** the post takes at most 15 seconds to read (about 55 words); the article at most 2 minutes (about 400 words).
 - Each answer covers: what's really being asked, how to find the cause, the fixes, the trade-off, how to stop it coming back, a simple diagram idea, and a 3-line "what I'd say in the room" answer.
 - Accuracy is a hard constraint: every fix is checked with evals before and after.
 - Link to a related AI write-up where one exists.
