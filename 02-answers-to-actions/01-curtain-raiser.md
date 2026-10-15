@@ -8,7 +8,7 @@ In my #JustAddRAG series, my AI assistant learned to answer: "Your passport has 
 
 Correct. It didn't renew anything.
 
-That's what this series is about. Answering is reading. Acting is doing: filling in a form, pressing submit, moving money.
+Answering is reading. Acting is doing: filling in a form, pressing submit, moving money. That's this series.
 
 Meet Priya. She's back from a work trip with 14 receipts: one crumpled, one in Marathi, one just a UPI screenshot. The office AI reads them in seconds. "You spent ₹23,480." Correct again.
 
@@ -21,11 +21,11 @@ Then she asks: "Great. Can you file the claim?"
 - **Actions need keys.** Once the AI can log in to the claims system, what else can it touch?
 - **Clicks can repeat.** The submit button times out. Press it again, and finance may pay twice.
 
-Think of a new intern. Reading the travel policy is fine on day one. Spending the company's money is where you watch closely.
+Like a new intern: reading the policy is fine on day one. Spending the company's money is where you watch closely.
 
 ## What's coming
 
-One step from answering to acting, in each write-up, with Priya's claim every time:
+One step at a time, with Priya's claim every time:
 
 - The receipt says ₹1,180. Or was it ₹1,18?
 - What if a receipt is vague, or missing?
@@ -38,7 +38,6 @@ One step from answering to acting, in each write-up, with Priya's claim every ti
 
 ## Words to know
 
-- **Action:** the AI doing something in another system. *Submitting the claim.*
 - **Least privilege:** only the access it needs. *It can submit claims, not approve them.*
 - **Idempotency:** doing it twice has the same effect as doing it once. *One claim, even if submit is pressed twice.*
 - **Human in the loop:** a person says yes first. *A manager approves claims above ₹10,000.*
@@ -53,7 +52,7 @@ Reading is free. Doing has consequences.
 
 Next write-up (2): **The receipt says ₹1,180. Or was it ₹1,18?**
 
-Follow me for the next one. And tell me: what's the most painful expense claim you've ever filed?
+Follow me for the next one. What's the most painful expense claim you've ever filed?
 
 *Missed the first series? Start with [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/) or jump to [the grand finale](https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/).*
 
@@ -64,18 +63,15 @@ Follow me for the next one. And tell me: what's the most painful expense claim y
 ```
 Your AI can answer. Can you trust it to act?
 
-My last AI assistant told me: "Your passport has expired." Correct. It didn't renew anything.
+Mine said: "Your passport has expired." Correct. It didn't renew anything.
 
-Answering is reading. Acting is doing: filling in forms, pressing submit, moving money.
-
-Picture an AI filing your expense claim from 14 messy receipts. What could go wrong?
+Now picture AI filing your expense claim:
 • It reads ₹1,18 instead of ₹1,180
-• It presses submit twice, and you're paid twice
-• It approves a ₹45,000 hotel bill on its own
+• It presses submit twice. Paid twice.
 
-New series: Beyond Just RAG, from answers to actions. Write-up 1 is out.
+New series: Beyond Just RAG, from answers to actions.
 
-What's the most painful expense claim you've ever filed?
+What's your worst expense claim story?
 
 #AIEngineering #GenAI #AIAgents #BeyondJustRAG #AnswersToActions
 ```
