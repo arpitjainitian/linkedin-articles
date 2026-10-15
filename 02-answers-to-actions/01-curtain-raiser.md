@@ -73,6 +73,8 @@ New series: Beyond Just RAG, from answers to actions.
 
 What's your worst expense claim story?
 
+Missed the first series? Start with "Why does Just add RAG sound like 2 weeks but take 6 months?" https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/ or jump to the grand finale: https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/
+
 #AIEngineering #GenAI #AIAgents #BeyondJustRAG #AnswersToActions
 ```
 
