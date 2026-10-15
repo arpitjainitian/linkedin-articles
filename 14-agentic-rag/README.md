@@ -1,4 +1,4 @@
-# Series 15: "Let it do its own research"
+# Series 14: "Let it do its own research"
 
 **Theme:** Letting AI search on its own is like a good researcher: smarter, slower, and needing supervision.
 

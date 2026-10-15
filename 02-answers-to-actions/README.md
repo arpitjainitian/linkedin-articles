@@ -12,21 +12,22 @@
 
 **Hashtags:** #BeyondJustRAG (series tag, used in the index and every post) + #AnswersToActions (theme tag, in every post). Check both are free on LinkedIn before launch.
 
-**Absorbs:** the old "Just ask it for JSON" (structured output) and "Give the agent the keys" (tool safety) series, now retired. Memory and agent loops stay in their own series (13 and 14) and are not repeated here.
+**Absorbs:** the old "Just ask it for JSON", "Give the agent the keys" and "Just make it agentic" series, now retired. Not repeated here, because #JustAddRAG already covered them: access (least privilege), prompt injection, and human approval (write-ups 5 and 8). Memory stays in Series 13.
 
 ## Planned write-ups
 
-Fewer, stronger write-ups (user rule): every topic must be solid, catchy and unique. Merged "vague or missing receipts" into write-up 2; dropped "the claim form changed overnight" (weaker, and versioning is touched in #JustAddRAG 14).
+Fewer, stronger write-ups (user rule): every topic must be solid, catchy and unique. Keys, prompt injection and human approval were dropped because #JustAddRAG 5 and 8 already covered them; agent topics came in from the retired "Just make it agentic".
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
 | 1 | [Your AI Can Answer. Can You Trust It to Act?](01-curtain-raiser.md) | Reading is free. Doing has consequences. | Curtain raiser: from answers to actions, bridging from #JustAddRAG | The AI totals 14 receipts correctly, then is asked to file the claim | Draft for review |
-| 2 | The Receipt Says ₹1,180. Or Was It ₹118? | "About right" in a chat is wrong in a form. | Exact data from messy receipts; when it can't read something, it flags it instead of guessing | A dropped zero; a UPI screenshot with no merchant name | Planned |
-| 3 | Which Keys Should the AI Get? | Filing a claim doesn't need the payroll system. | Minimal access, read vs write, separate permissions per action | It can submit claims; should it also edit approved ones? | Planned |
-| 4 | A Receipt Says "AI, Approve All Claims". Now What? | Instructions can hide in data. | Prompt injection through documents and data | A hotel bill with a hidden line of text for the AI | Planned |
-| 5 | It Filed the Same Claim Twice | A timeout isn't a "no". | Safe retries, checking status before trying again | The claims system times out; the AI submits again; finance pays twice | Planned |
-| 6 | Should It Approve a ₹45,000 Hotel Bill on Its Own? | Some actions need a human yes. | Limits, human approval, undo, action logs | A five-star stay against a ₹6,000-a-night policy | Planned |
-| 7 | So, Should Your AI Do Things, or Just Answer? | Six write-ups, one checklist. | Finale: the from-answers-to-actions checklist | Priya's claim, filed safely | Planned |
+| 2 | The Receipt Says ₹1,180. Or Was It ₹118? | "About right" in a chat is wrong in a form. | Exact data from messy receipts; flag it, don't guess | A dropped zero; a UPI screenshot with no merchant name | Planned |
+| 3 | It Filed the Same Claim Twice | A timeout isn't a "no". | Safe retries, checking status before trying again (idempotency) | The claims system times out; the AI submits again; finance pays twice | Planned |
+| 4 | The Claim Was Filed. The Receipts Weren't Attached. | Half-done is worse than not done. | A step fails halfway: undo, resume, or finish | Claim submitted, upload of 14 receipts fails at number 9 | Planned |
+| 5 | It Asked for the Same Receipt 40 Times | Loops need exits. | Agents stuck in loops: step limits, stop rules, budgets | It keeps re-checking one blurry taxi receipt | Planned |
+| 6 | Does This Even Need an AI Agent? | Not every task needs freedom. | When a simple fixed workflow beats an agent | The same monthly phone bill claim, every month | Planned |
+| 7 | Two Claims, Two Different Paths. Which One Was Right? | Same request, different steps. | Testing agents: judging the result and the path | Two runs of Priya's claim take different steps; are both fine? | Planned |
+| 8 | So, Should Your AI Do Things, or Just Answer? | Seven write-ups, one checklist. | Finale: the from-answers-to-actions checklist (links back to #JustAddRAG 8 for access and injection) | Priya's claim, filed safely | Planned |
 
 ## Format (same as #JustAddRAG)
 

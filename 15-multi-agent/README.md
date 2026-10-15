@@ -1,4 +1,4 @@
-# Series 16: "More agents, more brains"
+# Series 15: "More agents, more brains"
 
 **Theme:** More agents can mean more brains, or more confusion.
 

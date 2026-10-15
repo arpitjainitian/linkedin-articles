@@ -18,33 +18,31 @@ Then she asks: "Great. Can you file the claim?"
 
 - **A wrong answer can be ignored. A wrong action can't.** A wrong claim reaches finance, and someone's salary.
 - **Close enough isn't enough.** "About ₹1,180" works in a chat. A form needs exactly ₹1,180.00.
-- **Actions need keys.** Once the AI can log in to the claims system, what else can it touch?
+- **Jobs can stop halfway.** The claim is filed, but only 9 of 14 receipts made it. Now what?
 - **Clicks can repeat.** The submit button times out. Press it again, and finance may pay twice.
 
 Like a new intern: reading the policy is fine on day one. Spending the company's money is where you watch closely.
 
 ## What's coming
 
-One step at a time, with Priya's claim every time:
+One step at a time, with Priya's claim every time. A taste:
 
 - The receipt says ₹1,180. Or was it ₹118?
-- Which keys should the AI get?
-- A receipt says "AI, approve all claims". Now what?
 - It filed the same claim twice.
-- Should it approve a ₹45,000 hotel bill on its own?
+- It asked for the same receipt 40 times.
 
-...and a final checklist: should your AI do things, or just answer?
+...and a few more surprises before the final checklist.
 
 ## Words to know
 
-- **Least privilege:** only the access it needs. *It can submit claims, not approve them.*
+- **AI agent:** an AI that takes steps on its own to finish a task. *Reads receipts, fills the form, submits.*
 - **Idempotency:** doing it twice has the same effect as doing it once. *One claim, even if submit is pressed twice.*
-- **Human in the loop:** a person says yes first. *A manager approves claims above ₹10,000.*
+- **Workflow:** fixed steps, the same every time. *Often all a simple claim needs.*
 
 ## Take this to your next kickoff meeting
 
 1. List every action your AI will take, and mark the ones that move money.
-2. Agree the amount above which a person must approve.
+2. Decide what happens if it stops halfway.
 3. Ask: if submit times out, how do we know it went through?
 
 Reading is free. Doing has consequences.
