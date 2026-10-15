@@ -7,10 +7,10 @@ Questions are rephrased in my own words, and each source is credited below.
 | # | Question | Topic | Level | Related write-up | Source | Status |
 |---|---|---|---|---|---|---|
 | 1 | You have an AI agent in production. Its answers are accurate, but token usage keeps climbing every week. How would you fix it? | Token cost, context growth, agent loops, caching, model routing | L3 | #JustAddRAG write-up 10 (cost); series 5 (few cents per call) | S1 | [Drafted](01-token-usage-climbing.md) |
-| 2 | Your AI agent keeps calling the same tool and never reaches a final answer. What do you check first, and how do you stop it happening again? | Agent loops, stop conditions | L4 | Series 16: Let's make it agentic | S2 | Planned |
+| 2 | Your AI agent keeps calling the same tool and never reaches a final answer. What do you check first, and how do you stop it happening again? | Agent loops, stop conditions | L4 | Series 2: Beyond Just RAG, from answers to actions | S2 | Planned |
 | 3 | Your agent gives different answers to the same question, and nothing in the code changed. What could cause it, and how do you debug it? | Non-determinism, model changes | L3 | #JustAddRAG: model changes, observability | S2 | Planned |
 | 4 | How do you know your agent is actually getting better? Which metrics go beyond "it seems to work"? | Evals | L3 | #JustAddRAG: evals | S2 | Planned |
-| 5 | A task needs retrieval, planning, reasoning and several tool calls. Single agent, multi-agent, or orchestrator, and why? | Agent architecture | L5 | Series 18: multi-agent systems | S2 | Planned |
+| 5 | A task needs retrieval, planning, reasoning and several tool calls. Single agent, multi-agent, or orchestrator, and why? | Agent architecture | L5 | Series 15: multi-agent systems | S2 | Planned |
 | 6 | Your agent works for 100 users. Now it needs 100,000. What breaks first: latency, cost, memory or tool reliability? How would you redesign? | Scale, cost, performance | L5 | #JustAddRAG: cost, performance | S2 | Planned |
 
 ## Sources

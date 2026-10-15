@@ -1,4 +1,4 @@
-# Series 9: "We'll know when it breaks"
+# Series 6: "We'll know when it breaks"
 
 **Theme:** If you can't explain a wrong answer, you can't fix it.
 

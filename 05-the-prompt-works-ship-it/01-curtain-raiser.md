@@ -4,6 +4,8 @@
 
 *Works on my prompt series: the curtain raiser*
 
+*After Series 4, Just tell it not to: It's fenced in. But how do you know it's right, every day?*
+
 "I tried it, and it works."
 
 Picture an HR policy assistant for a company's employees. The developer asks it, "How many leaves can I carry forward?" It answers correctly, with the right policy section. A screenshot goes into the status update. Green tick. Ship it.

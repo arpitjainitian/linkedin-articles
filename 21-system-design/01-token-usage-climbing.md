@@ -70,7 +70,7 @@ One request split into stacked bars (instructions, history, retrieved docs, tool
 ## Related
 
 - #JustAddRAG write-up 10: "A few cents per question: so why is finance calling?" (cost)
-- Series 5, "What's a few cents between friends?" (AI cost, in depth)
+- Series 8, "What's a few cents between friends?" (AI cost, in depth)
 
 ## Source
 

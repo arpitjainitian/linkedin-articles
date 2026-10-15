@@ -4,6 +4,8 @@
 
 *We bought the brain, we're done series: the curtain raiser*
 
+*After Series 15, More agents, more brains: You have a team of agents. Who builds the system around them?*
+
 "The vendor ships the model, so we're done."
 
 Picture an insurance company buying access to one of the best AI models available. In a demo, it reads a motor claim (photos, the repair estimate, the policy document) and explains, in perfect English, whether the claim looks covered and what's missing. The room is impressed. The model is genuinely brilliant.

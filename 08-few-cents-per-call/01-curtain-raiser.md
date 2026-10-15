@@ -4,6 +4,8 @@
 
 *What's a few cents between friends? series: the curtain raiser*
 
+*After Series 7, It worked in the demo: It's in production. Now finance has a question.*
+
 "It's only a few cents per question."
 
 Picture a shopping site that adds an AI assistant to every product page. Shoppers ask: "Does this phone support dual SIM?", "Will this fit a 6-foot bed?", "Is it waterproof?" In the pilot, the bill is tiny. A few cents a question. Finance barely notices.

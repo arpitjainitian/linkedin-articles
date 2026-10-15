@@ -4,6 +4,8 @@
 
 *More agents, more brains series: the curtain raiser*
 
+*After Series 14, Let it do its own research: One agent can research. Do you need a team of them?*
+
 "Add more agents. It'll get smarter."
 
 Picture new-employee onboarding at a large company. Every new joiner needs a laptop from IT, a welcome kit from HR, a salary set up by payroll, and a desk and badge from facilities. Someone proposes an elegant design: one AI agent for each department, plus an onboarding agent to coordinate them all. Five agents, each an expert.

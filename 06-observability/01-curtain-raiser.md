@@ -4,6 +4,8 @@
 
 *We'll know when it breaks series: the curtain raiser*
 
+*After Series 5, Works on my prompt: It passed the tests. So why did a real customer still get a wrong answer?*
+
 "If something goes wrong, we'll check the logs."
 
 Picture a food-delivery app's support bot. A hungry customer asks, "Where's my order?" The bot replies, "Arriving in 5 minutes." Twenty minutes later, they ask again. "Arriving in 5 minutes." The food arrives after an hour, cold, along with a one-star review and a screenshot on social media.

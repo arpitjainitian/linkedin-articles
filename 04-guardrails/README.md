@@ -1,4 +1,4 @@
-# Series 8: "Just tell it not to"
+# Series 4: "Just tell it not to"
 
 **Theme:** A prompt is a polite request. Guardrails are the fence.
 

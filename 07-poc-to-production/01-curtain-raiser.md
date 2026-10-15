@@ -4,6 +4,8 @@
 
 *It worked in the demo series: the curtain raiser*
 
+*After Series 6, We'll know when it breaks: You can see inside it. Now, can it survive real life?*
+
 "Let's just put it into production."
 
 Picture the finance town hall. The accounts payable team shows an AI that reads supplier invoices and matches them to purchase orders. Ten PDFs go in. Supplier name, invoice number, amount, tax, PO number: all correct, in seconds. Someone at the back starts clapping. Then everyone does.

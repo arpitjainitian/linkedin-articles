@@ -12,7 +12,7 @@
 
 **Hashtags:** #BeyondJustRAG (series tag, used in the index and every post) + #AnswersToActions (theme tag, in every post). Check both are free on LinkedIn before launch.
 
-**Absorbs:** the old "Just ask it for JSON", "Give the agent the keys" and "Just make it agentic" series, now retired. Not repeated here, because #JustAddRAG already covered them: access (least privilege), prompt injection, and human approval (write-ups 5 and 8). Memory stays in Series 13.
+**Absorbs:** the old "Just ask it for JSON", "Give the agent the keys" and "Just make it agentic" series, now retired. Not repeated here, because #JustAddRAG already covered them: access (least privilege), prompt injection, and human approval (write-ups 5 and 8). Memory stays in Series 12.
 
 ## Planned write-ups
 

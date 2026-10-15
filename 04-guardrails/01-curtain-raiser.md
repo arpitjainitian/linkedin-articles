@@ -4,6 +4,8 @@
 
 *Just tell it not to series: the curtain raiser*
 
+*After Series 3, Just put the rules in the prompt: It follows the rules. Now, what stops someone talking it out of them?*
+
 "Just tell it in the prompt not to do that."
 
 Picture an online pharmacy adding an AI assistant for medicine questions. "Is this in stock?", "Can I take this with my BP tablet?", "What's the generic version?" The team knows the risk, so the prompt says, firmly and politely: "Never give medical advice. Never suggest doses."

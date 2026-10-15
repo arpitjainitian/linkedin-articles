@@ -4,6 +4,8 @@
 
 *Just plug it in series: the curtain raiser*
 
+*After Series 10, Everyone gets an API key: One front door for the models. Now, how does the AI reach every app?*
+
 "Let's just add an MCP server."
 
 Picture a company's IT helpdesk. An employee types, "My laptop is slow." To help properly, an AI assistant would need to look up their open tickets, check the laptop's age in the inventory, see if there's an outage announced in team chat, and maybe check whether they're a new joiner in the HR system.

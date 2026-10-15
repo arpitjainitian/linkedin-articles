@@ -1,4 +1,4 @@
-# Series 4: "It worked in the demo"
+# Series 7: "It worked in the demo"
 
 **Theme:** A proof of concept proves it can work. Production proves it works every day, on every invoice.
 

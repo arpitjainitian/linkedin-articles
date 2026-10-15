@@ -4,6 +4,8 @@
 
 *It should just remember me series: the curtain raiser*
 
+*After Series 11, Just plug it in: It can reach every tool. But it still forgets you.*
+
 "It should just remember everything about the customer."
 
 Picture a fashion site's shopping assistant. A customer starts chatting: "Running shoes, size 9 please. And nothing orange." The assistant shows twelve lovely options in size 9.

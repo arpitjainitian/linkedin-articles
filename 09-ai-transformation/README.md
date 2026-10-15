@@ -1,4 +1,4 @@
-# Series 3: "We bought AI, so we're AI-first now"
+# Series 9: "We bought AI, so we're AI-first now"
 
 **Theme:** Buying AI is a purchase. Changing how work gets done is a transformation.
 

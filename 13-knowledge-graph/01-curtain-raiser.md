@@ -4,6 +4,8 @@
 
 *Just connect the dots series: the curtain raiser*
 
+*After Series 12, It should just remember me: It remembers you. Can it connect the dots across your business?*
+
 "Let's just add a knowledge graph."
 
 Picture a manufacturer of home appliances. Overnight, floods hit an industrial region. The COO asks the supply-chain team one urgent question: which of our products depend on a supplier there?

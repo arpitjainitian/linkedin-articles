@@ -1,4 +1,4 @@
-# Series 5: "What's a few cents between friends?"
+# Series 8: "What's a few cents between friends?"
 
 **Theme:** AI costs are paid per use, and use always grows, especially on sale days. The basics (tokens, caching, cheaper models, runaway bills) are covered in #JustAddRAG 10, so this series is about the money decisions: pricing, build vs rent, timing, value and forecasting.
 

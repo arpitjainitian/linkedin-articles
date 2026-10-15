@@ -4,6 +4,8 @@
 
 *Just put the rules in the prompt series: the curtain raiser*
 
+*After Series 2, Beyond Just RAG: From Answers to Actions: It can file claims now. But who decides what's allowed?*
+
 "We'll just put the refund rules in the prompt."
 
 Picture an airline adding an AI assistant for cancellations and refunds. The refund policy is pasted into the prompt: fare types, time windows, cancellation fees, exceptions. It's a long prompt. It looks thorough.

@@ -4,6 +4,8 @@
 
 *Let it do its own research series: the curtain raiser*
 
+*After Series 13, Just connect the dots: It connects the dots. Now, can it do its own research?*
+
 "Let the agent decide what to search."
 
 Picture a company's legal team with hundreds of vendor contracts. The general counsel asks the AI assistant: "Which of our vendor contracts let the vendor exit without notice?"

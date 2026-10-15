@@ -4,6 +4,8 @@
 
 *Everyone gets an API key series: the curtain raiser*
 
+*After Series 9, We bought AI, so we're AI-first now: Every team wants AI now. Who holds the keys?*
+
 "Just call the model's API directly. It's one line of code."
 
 Picture a 5,000-person company. Sales builds a bot to draft proposals. HR builds one for policy questions. Support builds a customer chatbot. Legal builds one to summarise contracts. Finance watches. Each team moves fast, and each one calls the same AI provider, often with the same API key, the password that lets software use the model.

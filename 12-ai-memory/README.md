@@ -1,4 +1,4 @@
-# Series 13: "It should just remember me"
+# Series 12: "It should just remember me"
 
 **Theme:** Remembering helps. Remembering everything hurts.
 

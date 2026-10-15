@@ -4,6 +4,8 @@
 
 *We bought AI, so we're AI-first now series: the curtain raiser*
 
+*After Series 8, What's a few cents between friends?: It works, and it pays. So why hasn't anyone's work changed?*
+
 "We're rolling out AI to the whole support team."
 
 Picture an e-commerce company with 500 customer-support agents. Leadership signs an annual licence for an AI assistant, one seat per agent. There's a two-hour training session, a launch email with a rocket emoji, and a dashboard that shows 500 logins by Friday.

@@ -1,4 +1,4 @@
-# Series 6: "Works on my prompt"
+# Series 5: "Works on my prompt"
 
 **Theme:** A prompt that works once is a demo. Evals prove it keeps working.
 
