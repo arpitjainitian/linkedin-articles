@@ -27,7 +27,7 @@ Like a new intern: reading the policy is fine on day one. Spending the company's
 
 One step at a time, with Priya's claim every time:
 
-- The receipt says ₹1,180. Or was it ₹1,18?
+- The receipt says ₹1,180. Or was it ₹118?
 - What if a receipt is vague, or missing?
 - Which keys should the AI get?
 - A receipt says "AI, approve all claims". Now what?
@@ -50,7 +50,7 @@ One step at a time, with Priya's claim every time:
 
 Reading is free. Doing has consequences.
 
-Next write-up (2): **The receipt says ₹1,180. Or was it ₹1,18?**
+Next write-up (2): **The receipt says ₹1,180. Or was it ₹118?**
 
 Follow me for the next one. What's the most painful expense claim you've ever filed?
 
@@ -66,7 +66,7 @@ Your AI can answer. Can you trust it to act?
 In my #JustAddRAG series, my AI said: "Your passport has expired." Correct. It didn't renew anything.
 
 Now picture AI filing your expense claim:
-• It reads ₹1,18 instead of ₹1,180
+• It reads ₹1,180 as ₹118
 • It presses submit twice. Paid twice.
 
 New series: Beyond Just RAG, from answers to actions.
@@ -84,7 +84,7 @@ Missed the first series? Start with "Why does Just add RAG sound like 2 weeks bu
 📌 Beyond Just RAG: From Answers to Actions
 
 1. Your AI can answer. Can you trust it to act? (you're here)
-2. The receipt says ₹1,180. Or was it ₹1,18? (next)
+2. The receipt says ₹1,180. Or was it ₹118? (next)
 
 New here? #JustAddRAG starts here: https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/
 ```
