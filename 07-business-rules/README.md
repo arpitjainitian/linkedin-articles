@@ -1,4 +1,4 @@
-# Series 8: "Just put the rules in the prompt"
+# Series 7: "Just put the rules in the prompt"
 
 **Theme:** LLMs are great with language and unreliable with rules. Know where the line is.
 

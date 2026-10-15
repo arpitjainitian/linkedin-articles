@@ -1,4 +1,4 @@
-# Series 16: "Just make it agentic"
+# Series 14: "Just make it agentic"
 
 **Theme:** An agent is a loop that plans, acts and checks. Powerful, and easy to get wrong.
 

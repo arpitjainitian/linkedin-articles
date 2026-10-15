@@ -1,4 +1,4 @@
-# Series 11: "Everyone gets an API key"
+# Series 10: "Everyone gets an API key"
 
 **Theme:** When many teams use AI, someone has to be the front door.
 

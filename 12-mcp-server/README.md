@@ -1,4 +1,4 @@
-# Series 13: "Just plug it in"
+# Series 12: "Just plug it in"
 
 **Theme:** A universal plug is convenient. It also fits places you didn't mean it to.
 

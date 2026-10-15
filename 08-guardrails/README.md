@@ -1,4 +1,4 @@
-# Series 9: "Just tell it not to"
+# Series 8: "Just tell it not to"
 
 **Theme:** A prompt is a polite request. Guardrails are the fence.
 
@@ -17,7 +17,7 @@
 | 1 | [Why Didn't "Please Don't Give Medical Advice" Work?](01-curtain-raiser.md) | Instructions are suggestions to a model. | Curtain raiser: prompts vs guardrails | "Take two tablets twice a day" | Draft for review |
 | 2 | What Should You Check Before the Question Reaches the Model? | Not every question deserves an answer. | Input filters, topic limits, risky intents | "How many of these would be dangerous?" | Planned |
 | 3 | What Should You Check Before the Answer Reaches the Customer? | The last line of defence is the output. | Output filters, medical-safety checks, tone | An answer that quietly suggests a dose | Planned |
-| 4 | What If a Customer Tries to Trick It? | Clever wording can talk a model out of its rules. | Jailbreaks and red-teaming user tricks (instructions hidden in data are covered in Series 14) | "Pretend you're my doctor" | Planned |
+| 4 | What If a Customer Tries to Trick It? | Clever wording can talk a model out of its rules. | Jailbreaks and red-teaming user tricks (instructions hidden in data are covered in Series 2) | "Pretend you're my doctor" | Planned |
 | 5 | What If Your Guardrails Lock Out Your Own Team? | A fence should stop strangers, not the fire brigade. | Trusted-staff exceptions, break-glass access, a vetted fallback | The pharmacist can't ask about overdose risk during an emergency call | Planned |
 | 6 | How Strict Is Too Strict? | A bot that refuses everything is useless too. | Balancing safety and usefulness, false refusals | Refuses to say whether paracetamol is in stock | Planned |
 | 7 | So, Is Your AI Fenced or Just Asked Nicely? | Six write-ups, one checklist. | Finale: the guardrails checklist | The pharmacy assistant, safe by design | Planned |

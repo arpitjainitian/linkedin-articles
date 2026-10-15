@@ -1,4 +1,4 @@
-# Series 19: "We bought the brain, we're done"
+# Series 17: "We bought the brain, we're done"
 
 **Theme:** The model is the brain. Everything around it is yours to build.
 
