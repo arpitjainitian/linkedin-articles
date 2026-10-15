@@ -2,7 +2,7 @@
 
 ![Cover](images/01-curtain-raiser-cover.png)
 
-*Beyond RAG: From Answers to Actions series: the curtain raiser*
+*Beyond Just RAG: From Answers to Actions series: the curtain raiser*
 
 In my #JustAddRAG series, I built an assistant that reads my documents. Across fifteen write-ups, it learned to answer correctly, with its source: "Your passport has expired. It says so on page 2."
 
@@ -78,7 +78,7 @@ In my last series, my AI assistant learned to answer: "Your passport has expired
 
 It didn't renew anything.
 
-New series: Beyond RAG, from answers to actions.
+New series: Beyond Just RAG, from answers to actions.
 
 The example: expense claims. 14 receipts, one crumpled, one a UPI screenshot. The AI totals them in seconds. Then someone asks: "Can you file the claim?"
 
@@ -88,17 +88,17 @@ Let AI act without a plan, and you pay for it:
 • Security: keys to the claims system, and everything behind it
 • Control: a ₹45,000 hotel bill approved by nobody
 
-Write-up 1 of my new series, Beyond RAG: From Answers to Actions (#BeyondRAG): why doing is harder than answering, and three things to take to your next kickoff meeting.
+Write-up 1 of my new series, Beyond Just RAG: From Answers to Actions (#BeyondJustRAG): why doing is harder than answering, and three things to take to your next kickoff meeting.
 
 What's the most painful expense claim you've ever filed?
 
-#AIEngineering #GenAI #AIAgents #BeyondRAG #AnswersToActions
+#AIEngineering #GenAI #AIAgents #BeyondJustRAG #AnswersToActions
 ```
 
 **Series index (post as the first comment, then pin it):**
 
 ```
-📌 Beyond RAG: From Answers to Actions: series index
+📌 Beyond Just RAG: From Answers to Actions: series index
 
 1. It found the receipt. Why can't it file the claim? (you're here)
 2. The receipt says ₹1,180. Or was it ₹1,18? (next write-up)
