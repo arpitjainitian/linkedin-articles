@@ -1,4 +1,4 @@
-# 1. It Found the Receipt. Why Can't It File the Claim? | From Answers to Actions
+# 1. Your AI Can Answer. Can You Trust It to Act? | From Answers to Actions
 
 ![Cover](images/01-curtain-raiser-cover.png)
 
@@ -74,6 +74,8 @@ Follow me for the next one. And tell me: what's the most painful expense claim y
 **Post text (copy and paste):**
 
 ```
+Your AI can answer. Can you trust it to act?
+
 In my last series, my AI assistant learned to answer: "Your passport has expired." Correct, with a source.
 
 It didn't renew anything.
@@ -100,7 +102,7 @@ What's the most painful expense claim you've ever filed?
 ```
 📌 Beyond Just RAG: From Answers to Actions: series index
 
-1. It found the receipt. Why can't it file the claim? (you're here)
+1. Your AI can answer. Can you trust it to act? (you're here)
 2. The receipt says ₹1,180. Or was it ₹1,18? (next write-up)
 
 Missed the first series? #JustAddRAG starts here: https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/

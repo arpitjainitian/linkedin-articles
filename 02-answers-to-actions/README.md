@@ -18,7 +18,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | [It Found the Receipt. Why Can't It File the Claim?](01-curtain-raiser.md) | Reading is free. Doing has consequences. | Curtain raiser: from answers to actions, bridging from #JustAddRAG | The AI totals 14 receipts correctly, then is asked to file the claim | Draft for review |
+| 1 | [Your AI Can Answer. Can You Trust It to Act?](01-curtain-raiser.md) | Reading is free. Doing has consequences. | Curtain raiser: from answers to actions, bridging from #JustAddRAG | The AI totals 14 receipts correctly, then is asked to file the claim | Draft for review |
 | 2 | The Receipt Says ₹1,180. Or Was It ₹1,18? | "About right" in a chat is wrong in a form. | Exact data from messy input: schemas, validation, strict output | A blurred total, a GST line read as the amount | Planned |
 | 3 | What If the Receipt Is Vague, or Missing? | A good assistant flags. A bad one guesses. | Missing and ambiguous data, never inventing values, sending to a person | A UPI screenshot with no merchant name | Planned |
 | 4 | Which Keys Should the Assistant Get? | Filing a claim doesn't need the payroll system. | Minimal access, read vs write, separate permissions per action | It can submit claims; should it also edit approved ones? | Planned |
