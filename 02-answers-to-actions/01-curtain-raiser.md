@@ -4,6 +4,8 @@
 
 *Beyond Just RAG: From Answers to Actions series: the curtain raiser*
 
+**Published:** 15 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/)
+
 In my #JustAddRAG series, my AI assistant learned to answer: "Your passport has expired. It says so on page 2."
 
 Correct. It didn't renew anything.
