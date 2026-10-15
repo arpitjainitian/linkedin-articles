@@ -1,4 +1,4 @@
-# 1. Your AI Can Answer. Can You Trust It to Act? | From Answers to Actions
+# 1. Your AI Can Answer. Now It Has to Act. | From Answers to Actions
 
 ![Cover](images/01-curtain-raiser-cover.png)
 
@@ -58,9 +58,11 @@ Follow me for the next one. What's the most painful expense claim you've ever fi
 **Post text (copy and paste):**
 
 ```
-Your AI can answer. Can you trust it to act?
+Your AI can answer. Now it has to act.
 
 In my #JustAddRAG series, my AI said: "Your passport has expired." Correct. It didn't renew anything.
+
+Answering is reading. Acting is doing: filling forms, pressing submit, moving money.
 
 Now picture AI filing your expense claim:
 • It reads ₹1,180 as ₹118
@@ -80,7 +82,7 @@ Missed the first series? Start with "Why does Just add RAG sound like 2 weeks bu
 ```
 📌 Beyond Just RAG: From Answers to Actions
 
-1. Your AI can answer. Can you trust it to act? (you're here)
+1. Your AI can answer. Now it has to act. (you're here)
 2. The receipt says ₹1,180. Or was it ₹118? (next)
 
 New here? #JustAddRAG starts here: https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/

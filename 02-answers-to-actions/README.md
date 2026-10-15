@@ -20,7 +20,7 @@ Fewer, stronger write-ups (user rule): every topic must be solid, catchy and uni
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | [Your AI Can Answer. Can You Trust It to Act?](01-curtain-raiser.md) | Reading is free. Doing has consequences. | Curtain raiser: from answers to actions, bridging from #JustAddRAG | The AI totals 14 receipts correctly, then is asked to file the claim | Draft for review |
+| 1 | [Your AI Can Answer. Now It Has to Act.](01-curtain-raiser.md) | Reading is free. Doing has consequences. | Curtain raiser: from answers to actions, bridging from #JustAddRAG | The AI totals 14 receipts correctly, then is asked to file the claim | Draft for review |
 | 2 | The Receipt Says ₹1,180. Or Was It ₹118? | "About right" in a chat is wrong in a form. | Exact data from messy receipts; flag it, don't guess | A dropped zero; a UPI screenshot with no merchant name | Planned |
 | 3 | It Filed the Same Claim Twice | A timeout isn't a "no". | Safe retries, checking status before trying again (idempotency) | The claims system times out; the AI submits again; finance pays twice | Planned |
 | 4 | The Claim Was Filed. The Receipts Weren't Attached. | Half-done is worse than not done. | A step fails halfway: undo, resume, or finish | Claim submitted, upload of 14 receipts fails at number 9 | Planned |
