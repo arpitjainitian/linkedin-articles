@@ -26,6 +26,7 @@
 
 ## Format (same as #JustAddRAG)
 
+- **Course companion:** every write-up also gets `NN-slug.course.md` (learning objective, deep dive, hands-on lab, quiz, checklist line, glossary, further reading, reader questions). See [COURSE.md](../COURSE.md). Never posted on LinkedIn.
 - **Length:** the post takes at most 15 seconds to read (about 55 words, 2 bullets max); the article at most 2 minutes (about 400 words). Crisp, simple, engaging for anybody.
 - Curiosity-question titles, numbered from 1, "write-up" naming, no fixed schedule.
 - Start with why the topic matters; plain-language analogies with technical names revealed at the end; light "Fix:" pointers.

@@ -31,6 +31,7 @@ Fewer, stronger write-ups (user rule): every topic must be solid, catchy and uni
 
 ## Format (same as #JustAddRAG)
 
+- **Course companion:** every write-up also gets `NN-slug.course.md` (learning objective, deep dive, hands-on lab, quiz, checklist line, glossary, further reading, reader questions). See [COURSE.md](../COURSE.md). Never posted on LinkedIn.
 - **Length:** the post takes at most 15 seconds to read (about 55 words, 2 bullets max); the article at most 2 minutes (about 400 words). Crisp, simple, engaging for anybody.
 - **Link back in every post:** every post ends (before the hashtags) with: Missed the first series? Start with "Why does Just add RAG sound like 2 weeks but take 6 months?" <link> or jump to the grand finale: <link>
 - Curiosity-question titles, numbered from 1, "write-up" naming, no fixed schedule.
