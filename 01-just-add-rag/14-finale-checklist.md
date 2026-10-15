@@ -1,8 +1,8 @@
-# 15. So, Should You Really "Just Add RAG"? | The Checklist
+# 15. So, Should You Really "Just Add RAG"? | The Grand Finale
 
 ![Cover](images/14-finale-checklist-cover.png)
 
-*Just add RAG series: The checklist*
+*Just add RAG series: The grand finale*
 
 After thirteen write-ups about everything under the water, you might expect the answer to be "no".
 
