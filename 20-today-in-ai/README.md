@@ -16,7 +16,8 @@
 - **Explainers:** occasional non-news issues are welcome: an idea that's about to matter for AI, ideally tied to recent issues, clearly labelled as an explainer.
 - **Verify:** check it on the day against the original source (the company's announcement, the paper, the official notice). Link the sources in the write-up, and date them. No rumours, no unconfirmed numbers.
 - **Keep it simple (user rule):** short sentences, everyday words, no jargon without a one-line explanation, one relatable analogy, light humor. Every write-up has: an "In one line" summary at the top, a "Why it matters to you" section with one line for people learning AI and one for leaders, a "One thing to do this week" with both angles, and a short "Words to know" list before the references.
-- **Shape (short, 400 to 600 words):**
+- **Length (user rule, 15 Oct 2026):** the post takes at most 15 seconds to read (about 55 words); the article at most 2 minutes (about 400 words of body text, references and lists excluded).
+- **Shape:**
   1. What happened, in two or three sentences, with the date and source.
   2. What it means, in plain words, with an everyday analogy.
   3. Why a leader should care: what changes for real AI projects (cost, risk, speed, teams), and what doesn't.
