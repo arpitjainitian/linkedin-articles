@@ -21,70 +21,87 @@
 
 Source: the official exam guide. Check Anthropic's certification pages for the latest version before the exam.
 
-## Running example (fictional): TailWag Pet Care
+## Running example (fictional): ParentPal
 
-**TailWag** is a made-up pet-care company: a network of 60 vet clinics plus a pet-food subscription service, with a small tech team. Every objective is shown inside one part of TailWag, so the series follows one company end to end. It's global (no country-specific details), and it deliberately doesn't reuse examples from any course material.
+**ParentPal** here is an invented parenting-coach company. Parents use an AI coach in the app for everyday questions (sleep, tantrums, picky eating, screen time). Human coaches and a nurse line handle anything sensitive. It runs on subscriptions, with courses and booked sessions, and a 6-person tech team.
 
-| TailWag part | What it is | Covers the exam's scenarios on |
+> **Name note:** real products called "ParentPal" exist (including a parenting app by Teaching Strategies, and an "AI Parenting Coach" app). This series is not about them and is not affiliated with them. Every post and article carries a one-line "fictional company" disclaimer. If the name ever becomes a problem, it's a single find-and-replace.
+
+| ParentPal part | What it does | Exam scenario |
 |---|---|---|
-| **Pet-parent help agent** | A support agent for appointments, prescription refills, missed deliveries, subscription changes and credits, with escalation to clinic staff | Customer support agents |
-| **Food research team** | A coordinator with helpers that research ingredients, vet guidelines and owner reviews before TailWag launches a new food line | Multi-agent research |
-| **Clinic paperwork** | Pulling clean data from lab reports, vaccination certificates and supplier invoices | Structured data extraction |
-| **The tech team's Claude Code setup** | How the 6-person team uses Claude Code on the TailWag apps | Code generation, developer productivity |
+| **Parent-help agent** | Answers coaching questions, books sessions with human coaches, handles subscriptions; escalates health or safety worries to the nurse line | Customer support agent |
+| **Course research team** | A coordinator with helpers that research sleep studies, children's health guidelines and parent reviews for a new "Toddler Sleep" course | Multi-agent research |
+| **Intake paperwork** | Turns family intake forms and coach session notes into a clean child profile | Structured data extraction |
+| **The tech team's Claude Code setup** | Six engineers building the ParentPal app | Code generation, developer productivity |
 | **Pull-request reviews in CI** | Automated reviews and tests on every pull request | Claude Code in CI/CD |
+
+## How many articles, and why
+
+**38 in total: 1 per objective (30), 1 checkpoint per domain (5), a curtain raiser, a mock exam and an exam-day finale.**
+
+- **One article per objective (30).** Every objective has 6 to 10 knowledge and skill points. A 2-minute article can cover all of them if each point gets one line in an "objective map", with the story carrying the 2 or 3 points the exam tests hardest. The course companion goes deep on every point.
+- **One checkpoint per domain (5).** After each domain: 6 to 8 scenario questions in the exam's style, with answers and the "why". This is where confidence comes from: practising decisions, not just reading.
+- **A mock exam (1)** across 4 ParentPal scenarios, timed like the real thing, with a score guide.
+- **Domain size follows the exam weights:** Domain 1 (27%) gets 7 + 1, Domains 3 and 4 (20% each) get 6 + 1, Domain 5 (15%) 6 + 1, Domain 2 (18%) 5 + 1.
 
 ## Planned write-ups
 
-| # | Objective | Title | TailWag moment | Status |
+| # | Objective | Title | ParentPal moment | Status |
 |---|---|---|---|---|
-| 0 | Curtain raiser | Can You Pass an Architect Exam One Pet at a Time? | Meet TailWag, and why the exam tests judgement, not trivia | Planned |
+| 0 | Curtain raiser | Can a Parenting App Teach You the Claude Architect Exam? | Meet ParentPal, the exam in one page, and why it tests judgement, not trivia | Planned |
 | **Domain 1** | **Agentic architecture and orchestration (27%)** | | | |
-| 1 | 1.1 Agentic loops | How Does an Agent Know When to Stop? | The help agent checks a missed delivery, issues a credit, and must know it's finished | Planned |
-| 2 | 1.2 Coordinator and subagents | One Coordinator, Three Helpers: Who Researches the New Dog Food? | Ingredients, vet guidelines and reviews researched by separate helpers | Planned |
-| 3 | 1.3 Subagent context passing | The Helper Never Saw the Brief | The guidelines helper doesn't know the food is for senior cats | Planned |
-| 4 | 1.4 Enforcement and handoffs | The Prompt Said "Check the Account First". The Agent Didn't. | A prescription refill sent before the pet's record was checked | Planned |
-| 5 | 1.5 Agent SDK hooks | Who Checks the Agent Before It Presses Send? | A hook blocks credits above a limit and masks owners' phone numbers | Planned |
-| 6 | 1.6 Task decomposition | One Big Ask or Five Small Ones? | "Research the new food line" vs a step-by-step plan | Planned |
-| 7 | 1.7 Session state | Pick Up Where You Left Off, or Try Two Ideas at Once? | Resuming yesterday's research; forking to compare grain-free and regular | Planned |
+| 1 | 1.1 Agentic loops | How Does an Agent Know When to Stop? | A parent asks to move a coaching session. The agent checks the calendar, books the new slot, and must know it's really finished, not just that it typed "Done!" | Planned |
+| 2 | 1.2 Coordinator and subagents | One Coordinator, Three Helpers: Who Builds the Toddler Sleep Course? | Sleep studies, health guidelines and parent reviews researched by separate helpers | Planned |
+| 3 | 1.3 Subagent context passing | The Helper Never Saw the Brief | The guidelines helper doesn't know the course is for ages 1 to 3 | Planned |
+| 4 | 1.4 Enforcement and handoffs | The Prompt Said "Check the Child's Age First". The Agent Didn't. | Newborn sleep tips sent for a 3-year-old; handing over to a human coach with a proper summary | Planned |
+| 5 | 1.5 Agent SDK hooks | Who Checks the Agent Before It Presses Send? | A hook masks children's names and blocks refunds above the limit | Planned |
+| 6 | 1.6 Task decomposition | One Big Ask or Five Small Ones? | "Build the Toddler Sleep course" vs a step-by-step plan | Planned |
+| 7 | 1.7 Session state | Pick Up Where You Left Off, or Try Two Ideas at Once? | Resuming yesterday's research; forking to compare two bedtime approaches | Planned |
+| C1 | Domain 1 checkpoint | Domain 1 Checkpoint: Could You Pass This Part Today? | 6 to 8 exam-style ParentPal questions on Agentic architecture, with answers and the why | Planned |
 | **Domain 2** | **Tool design and MCP (18%)** | | | |
-| 8 | 2.1 Tool interfaces | Two Tools, Nearly the Same Name. Guess Which One It Picked. | get_pet vs fetch_pet_record | Planned |
-| 9 | 2.2 Structured errors | "Something Went Wrong" Tells the Agent Nothing | Clinic system busy vs pet not found vs not allowed | Planned |
-| 10 | 2.3 Tool distribution and tool_choice | Should Every Agent Get Every Tool? | The research helper accidentally holds the "issue credit" tool | Planned |
-| 11 | 2.4 MCP integration | Plugging the Clinics Into Claude | An MCP server for appointment slots across 60 clinics | Planned |
-| 12 | 2.5 Built-in tools | Read, Grep, Glob or Edit: Which Tool for Which Job? | Finding every place the delivery fee is calculated | Planned |
+| 8 | 2.1 Tool interfaces | Two Tools, Nearly the Same Name. Guess Which One It Picked. | get_child vs get_child_profile | Planned |
+| 9 | 2.2 Structured errors | "Something Went Wrong" Tells the Agent Nothing | Calendar busy vs coach not found vs not allowed | Planned |
+| 10 | 2.3 Tool distribution and tool_choice | Should Every Agent Get Every Tool? | The research helper accidentally holds the "issue refund" tool | Planned |
+| 11 | 2.4 MCP integration | Plugging the Coaches' Calendar Into Claude | An MCP server for coach availability, set up for the whole team | Planned |
+| 12 | 2.5 Built-in tools | Read, Grep, Glob or Edit: Which Tool for Which Job? | Finding every place session reminders are sent | Planned |
+| C2 | Domain 2 checkpoint | Domain 2 Checkpoint: Could You Pass This Part Today? | 6 to 8 exam-style ParentPal questions on Tool design and MCP, with answers and the why | Planned |
 | **Domain 3** | **Claude Code configuration and workflows (20%)** | | | |
 | 13 | 3.1 CLAUDE.md | Stop Explaining the Codebase Every Morning | Team conventions, written once | Planned |
 | 14 | 3.2 Slash commands and skills | The Release Checklist Everyone Forgets | A /release skill for the Friday deploy | Planned |
-| 15 | 3.3 Path-specific rules | Payment Rules for Payment Files Only | Stricter rules that load only in the billing code | Planned |
-| 16 | 3.4 Plan mode vs direct execution | Plan First, or Just Build It? | Adding multi-pet households vs fixing a typo | Planned |
+| 15 | 3.3 Path-specific rules | Child-Data Rules for Child-Data Files Only | Stricter privacy rules that load only in the profile code | Planned |
+| 16 | 3.4 Plan mode vs direct execution | Plan First, or Just Build It? | Adding family accounts with several children vs fixing a typo | Planned |
 | 17 | 3.5 Iterative refinement | The First Draft Was Fine. The Third Was Right. | Tests first, then code; Claude asks the questions | Planned |
 | 18 | 3.6 Claude Code in CI/CD | The Pull-Request Reviewer That Never Sleeps | Automated review and tests on every pull request | Planned |
+| C3 | Domain 3 checkpoint | Domain 3 Checkpoint: Could You Pass This Part Today? | 6 to 8 exam-style ParentPal questions on Claude Code, with answers and the why | Planned |
 | **Domain 4** | **Prompt engineering and structured output (20%)** | | | |
 | 19 | 4.1 Explicit criteria | 40 Comments on One Pull Request | A vague review prompt vs clear criteria and severity | Planned |
-| 20 | 4.2 Few-shot prompting | Show It Three Examples, Not Thirty Rules | Sorting owner messages consistently: urgent, routine, billing | Planned |
-| 21 | 4.3 Structured output with tools | From a Blurry Lab Report to Clean JSON | Extracting blood-test results from clinic PDFs | Planned |
-| 22 | 4.4 Validation and retry loops | The JSON Was Valid. The Dose Was Wrong. | Feeding the error back for a second try | Planned |
-| 23 | 4.5 Batch processing | 10,000 Reviews by Morning, at a Lower Price | Overnight analysis of owner reviews | Planned |
-| 24 | 4.6 Multi-pass review | Why the Writer Shouldn't Check Its Own Work | Independent review of a big code change | Planned |
+| 20 | 4.2 Few-shot prompting | Show It Three Examples, Not Thirty Rules | Sorting parent messages consistently: urgent, routine, billing | Planned |
+| 21 | 4.3 Structured output with tools | From a Handwritten Intake Form to a Clean Child Profile | Extracting age, routines and goals from intake forms | Planned |
+| 22 | 4.4 Validation and retry loops | The JSON Was Valid. The Age Was Wrong. | 3 months read as 3 years; feeding the error back for a second try | Planned |
+| 23 | 4.5 Batch processing | 10,000 Session Notes by Morning, at a Lower Price | Overnight summaries of coaching notes | Planned |
+| 24 | 4.6 Multi-pass review | Why the Writer Shouldn't Check Its Own Work | An independent second review of a new course lesson | Planned |
+| C4 | Domain 4 checkpoint | Domain 4 Checkpoint: Could You Pass This Part Today? | 6 to 8 exam-style ParentPal questions on Prompting and structured output, with answers and the why | Planned |
 | **Domain 5** | **Context management and reliability (15%)** | | | |
-| 25 | 5.1 Conversation context | Forty Messages In, It Forgot the Dog's Chicken Allergy | Keeping key facts pinned in a long chat | Planned |
-| 26 | 5.2 Escalation and ambiguity | "Let Me Talk to a Vet." Now What? | Escalating on request, on risk, and when no rule fits; two pets named Max | Planned |
-| 27 | 5.3 Error propagation | One Helper Failed. The Report Said "All Good". | The reviews helper timed out; the launch report went out anyway | Planned |
-| 28 | 5.4 Large-codebase exploration | Lost in 3,000 Files | Finding how appointment reminders are scheduled | Planned |
-| 29 | 5.5 Human review and confidence | Which Answers Need a Human Look? | Routing low-confidence lab-report extractions to a vet nurse | Planned |
-| 30 | 5.6 Provenance | Two Sources, Two Protein Levels. Which One Wins? | Conflicting ingredient data in the research report | Planned |
-| 31 | Finale | Exam Day: 30 Objectives on One Page | The whole TailWag system, and a revision checklist | Planned |
+| 25 | 5.1 Conversation context | Forty Messages In, It Forgot the Twins | Keeping key facts pinned in a long chat | Planned |
+| 26 | 5.2 Escalation and ambiguity | "My Baby Has a Fever." Should the AI Answer? | Escalating on request, on risk, and when no rule fits; asking "which child?" when a family has three | Planned |
+| 27 | 5.3 Error propagation | One Helper Failed. The Report Said "All Good". | The reviews helper timed out; the course report went out anyway | Planned |
+| 28 | 5.4 Large-codebase exploration | Lost in 3,000 Files | Finding how coaching reminders are scheduled | Planned |
+| 29 | 5.5 Human review and confidence | Which Answers Need a Human Look? | Routing low-confidence intake extractions to a coach | Planned |
+| 30 | 5.6 Provenance | Two Studies, Two Answers on Screen Time. Which One Wins? | Conflicting sources in the research report | Planned |
+| C5 | Domain 5 checkpoint | Domain 5 Checkpoint: Could You Pass This Part Today? | 6 to 8 exam-style ParentPal questions on Context and reliability, with answers and the why | Planned |
+| M | Mock exam | 4 Scenarios, 20 Questions: Are You Ready? | A timed practice round across ParentPal's four systems, with a score guide | Planned |
+| 31 | Finale | Exam Day: 30 Objectives on One Page | The whole ParentPal system, and a last-night revision checklist | Planned |
 
 ## The roadmap: every exam objective, with its write-up
 
-Each objective is quoted from the official exam guide (Version 1.0, July 2026) so the write-up covers exactly what the exam expects. The write-ups themselves are in my own words, with TailWag as the example.
+Each objective is quoted from the official exam guide (Version 1.0, July 2026) so the write-up covers exactly what the exam expects. The write-ups themselves are in my own words, with ParentPal as the example.
 
 ### Domain 1: Agentic Architecture & Orchestration
 
 #### Write-up 1 · Objective 1.1: Design and implement agentic loops for autonomous task execution
 
 **Write-up:** How Does an Agent Know When to Stop?  
-**TailWag moment:** The help agent checks a missed delivery, issues a credit, and must know it's finished  
+**ParentPal moment:** A parent asks to move a coaching session. The agent checks the calendar, books the new slot, and must know it's really finished, not just that it typed "Done!"  
 **Status:** Planned
 
 **Knowledge of:**
@@ -101,8 +118,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 2 · Objective 1.2: Orchestrate multi-agent systems with coordinator-subagent patterns
 
-**Write-up:** One Coordinator, Three Helpers: Who Researches the New Dog Food?  
-**TailWag moment:** Ingredients, vet guidelines and reviews researched by separate helpers  
+**Write-up:** One Coordinator, Three Helpers: Who Builds the Toddler Sleep Course?  
+**ParentPal moment:** Sleep studies, health guidelines and parent reviews researched by separate helpers  
 **Status:** Planned
 
 **Knowledge of:**
@@ -122,7 +139,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 3 · Objective 1.3: Configure subagent invocation, context passing, and spawning
 
 **Write-up:** The Helper Never Saw the Brief  
-**TailWag moment:** The guidelines helper doesn't know the food is for senior cats  
+**ParentPal moment:** The guidelines helper doesn't know the course is for ages 1 to 3  
 **Status:** Planned
 
 **Knowledge of:**
@@ -141,8 +158,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 4 · Objective 1.4: Implement multi-step workflows with enforcement and handoff patterns
 
-**Write-up:** The Prompt Said "Check the Account First". The Agent Didn't.  
-**TailWag moment:** A prescription refill sent before the pet's record was checked  
+**Write-up:** The Prompt Said "Check the Child's Age First". The Agent Didn't.  
+**ParentPal moment:** Newborn sleep tips sent for a 3-year-old; handing over to a human coach with a proper summary  
 **Status:** Planned
 
 **Knowledge of:**
@@ -160,7 +177,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 5 · Objective 1.5: Apply Agent SDK hooks for tool call interception and data normalization
 
 **Write-up:** Who Checks the Agent Before It Presses Send?  
-**TailWag moment:** A hook blocks credits above a limit and masks owners' phone numbers  
+**ParentPal moment:** A hook masks children's names and blocks refunds above the limit  
 **Status:** Planned
 
 **Knowledge of:**
@@ -178,7 +195,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 6 · Objective 1.6: Design task decomposition strategies for complex workflows
 
 **Write-up:** One Big Ask or Five Small Ones?  
-**TailWag moment:** "Research the new food line" vs a step-by-step plan  
+**ParentPal moment:** "Build the Toddler Sleep course" vs a step-by-step plan  
 **Status:** Planned
 
 **Knowledge of:**
@@ -196,7 +213,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 7 · Objective 1.7: Manage session state, resumption, and forking
 
 **Write-up:** Pick Up Where You Left Off, or Try Two Ideas at Once?  
-**TailWag moment:** Resuming yesterday's research; forking to compare grain-free and regular  
+**ParentPal moment:** Resuming yesterday's research; forking to compare two bedtime approaches  
 **Status:** Planned
 
 **Knowledge of:**
@@ -218,7 +235,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 8 · Objective 2.1: Design effective tool interfaces with clear descriptions and boundaries
 
 **Write-up:** Two Tools, Nearly the Same Name. Guess Which One It Picked.  
-**TailWag moment:** get_pet vs fetch_pet_record  
+**ParentPal moment:** get_child vs get_child_profile  
 **Status:** Planned
 
 **Knowledge of:**
@@ -238,7 +255,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 9 · Objective 2.2: Implement structured error responses for MCP tools
 
 **Write-up:** "Something Went Wrong" Tells the Agent Nothing  
-**TailWag moment:** Clinic system busy vs pet not found vs not allowed  
+**ParentPal moment:** Calendar busy vs coach not found vs not allowed  
 **Status:** Planned
 
 **Knowledge of:**
@@ -258,7 +275,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 10 · Objective 2.3: Distribute tools appropriately across agents and configure tool choice
 
 **Write-up:** Should Every Agent Get Every Tool?  
-**TailWag moment:** The research helper accidentally holds the "issue credit" tool  
+**ParentPal moment:** The research helper accidentally holds the "issue refund" tool  
 **Status:** Planned
 
 **Knowledge of:**
@@ -278,8 +295,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 11 · Objective 2.4: Integrate MCP servers into Claude Code and agent workflows
 
-**Write-up:** Plugging the Clinics Into Claude  
-**TailWag moment:** An MCP server for appointment slots across 60 clinics  
+**Write-up:** Plugging the Coaches' Calendar Into Claude  
+**ParentPal moment:** An MCP server for coach availability, set up for the whole team  
 **Status:** Planned
 
 **Knowledge of:**
@@ -300,7 +317,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 12 · Objective 2.5: Select and apply built-in tools (Read, Write, Edit, Bash, Grep, Glob) effectively
 
 **Write-up:** Read, Grep, Glob or Edit: Which Tool for Which Job?  
-**TailWag moment:** Finding every place the delivery fee is calculated  
+**ParentPal moment:** Finding every place session reminders are sent  
 **Status:** Planned
 
 **Knowledge of:**
@@ -323,7 +340,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 13 · Objective 3.1: Configure CLAUDE.md files with appropriate hierarchy, scoping, and modular organization
 
 **Write-up:** Stop Explaining the Codebase Every Morning  
-**TailWag moment:** Team conventions, written once  
+**ParentPal moment:** Team conventions, written once  
 **Status:** Planned
 
 **Knowledge of:**
@@ -343,7 +360,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 14 · Objective 3.2: Create and configure custom slash commands and skills
 
 **Write-up:** The Release Checklist Everyone Forgets  
-**TailWag moment:** A /release skill for the Friday deploy  
+**ParentPal moment:** A /release skill for the Friday deploy  
 **Status:** Planned
 
 **Knowledge of:**
@@ -363,8 +380,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 15 · Objective 3.3: Apply path-specific rules for conditional convention loading
 
-**Write-up:** Payment Rules for Payment Files Only  
-**TailWag moment:** Stricter rules that load only in the billing code  
+**Write-up:** Child-Data Rules for Child-Data Files Only  
+**ParentPal moment:** Stricter privacy rules that load only in the profile code  
 **Status:** Planned
 
 **Knowledge of:**
@@ -382,7 +399,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 16 · Objective 3.4: Determine when to use plan mode vs direct execution
 
 **Write-up:** Plan First, or Just Build It?  
-**TailWag moment:** Adding multi-pet households vs fixing a typo  
+**ParentPal moment:** Adding family accounts with several children vs fixing a typo  
 **Status:** Planned
 
 **Knowledge of:**
@@ -402,7 +419,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 17 · Objective 3.5: Apply iterative refinement techniques for progressive improvement
 
 **Write-up:** The First Draft Was Fine. The Third Was Right.  
-**TailWag moment:** Tests first, then code; Claude asks the questions  
+**ParentPal moment:** Tests first, then code; Claude asks the questions  
 **Status:** Planned
 
 **Knowledge of:**
@@ -423,7 +440,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 18 · Objective 3.6: Integrate Claude Code into CI/CD pipelines
 
 **Write-up:** The Pull-Request Reviewer That Never Sleeps  
-**TailWag moment:** Automated review and tests on every pull request  
+**ParentPal moment:** Automated review and tests on every pull request  
 **Status:** Planned
 
 **Knowledge of:**
@@ -446,7 +463,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 19 · Objective 4.1: Design prompts with explicit criteria to improve precision and reduce false positives
 
 **Write-up:** 40 Comments on One Pull Request  
-**TailWag moment:** A vague review prompt vs clear criteria and severity  
+**ParentPal moment:** A vague review prompt vs clear criteria and severity  
 **Status:** Planned
 
 **Knowledge of:**
@@ -464,7 +481,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 20 · Objective 4.2: Apply few-shot prompting to improve output consistency and quality
 
 **Write-up:** Show It Three Examples, Not Thirty Rules  
-**TailWag moment:** Sorting owner messages consistently: urgent, routine, billing  
+**ParentPal moment:** Sorting parent messages consistently: urgent, routine, billing  
 **Status:** Planned
 
 **Knowledge of:**
@@ -484,8 +501,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 21 · Objective 4.3: Enforce structured output using tool use and JSON schemas
 
-**Write-up:** From a Blurry Lab Report to Clean JSON  
-**TailWag moment:** Extracting blood-test results from clinic PDFs  
+**Write-up:** From a Handwritten Intake Form to a Clean Child Profile  
+**ParentPal moment:** Extracting age, routines and goals from intake forms  
 **Status:** Planned
 
 **Knowledge of:**
@@ -506,8 +523,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 22 · Objective 4.4: Implement validation, retry, and feedback loops for extraction quality
 
-**Write-up:** The JSON Was Valid. The Dose Was Wrong.  
-**TailWag moment:** Feeding the error back for a second try  
+**Write-up:** The JSON Was Valid. The Age Was Wrong.  
+**ParentPal moment:** 3 months read as 3 years; feeding the error back for a second try  
 **Status:** Planned
 
 **Knowledge of:**
@@ -526,8 +543,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 23 · Objective 4.5: Design efficient batch processing strategies
 
-**Write-up:** 10,000 Reviews by Morning, at a Lower Price  
-**TailWag moment:** Overnight analysis of owner reviews  
+**Write-up:** 10,000 Session Notes by Morning, at a Lower Price  
+**ParentPal moment:** Overnight summaries of coaching notes  
 **Status:** Planned
 
 **Knowledge of:**
@@ -547,7 +564,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 24 · Objective 4.6: Design multi-instance and multi-pass review architectures
 
 **Write-up:** Why the Writer Shouldn't Check Its Own Work  
-**TailWag moment:** Independent review of a big code change  
+**ParentPal moment:** An independent second review of a new course lesson  
 **Status:** Planned
 
 **Knowledge of:**
@@ -566,8 +583,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 25 · Objective 5.1: Manage conversation context to preserve critical information across long interactions
 
-**Write-up:** Forty Messages In, It Forgot the Dog's Chicken Allergy  
-**TailWag moment:** Keeping key facts pinned in a long chat  
+**Write-up:** Forty Messages In, It Forgot the Twins  
+**ParentPal moment:** Keeping key facts pinned in a long chat  
 **Status:** Planned
 
 **Knowledge of:**
@@ -588,8 +605,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 26 · Objective 5.2: Design effective escalation and ambiguity resolution patterns
 
-**Write-up:** "Let Me Talk to a Vet." Now What?  
-**TailWag moment:** Escalating on request, on risk, and when no rule fits; two pets named Max  
+**Write-up:** "My Baby Has a Fever." Should the AI Answer?  
+**ParentPal moment:** Escalating on request, on risk, and when no rule fits; asking "which child?" when a family has three  
 **Status:** Planned
 
 **Knowledge of:**
@@ -610,7 +627,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 27 · Objective 5.3: Implement error propagation strategies across multi-agent systems
 
 **Write-up:** One Helper Failed. The Report Said "All Good".  
-**TailWag moment:** The reviews helper timed out; the launch report went out anyway  
+**ParentPal moment:** The reviews helper timed out; the course report went out anyway  
 **Status:** Planned
 
 **Knowledge of:**
@@ -630,7 +647,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 28 · Objective 5.4: Manage context effectively in large codebase exploration
 
 **Write-up:** Lost in 3,000 Files  
-**TailWag moment:** Finding how appointment reminders are scheduled  
+**ParentPal moment:** Finding how coaching reminders are scheduled  
 **Status:** Planned
 
 **Knowledge of:**
@@ -651,7 +668,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 29 · Objective 5.5: Design human review workflows and confidence calibration
 
 **Write-up:** Which Answers Need a Human Look?  
-**TailWag moment:** Routing low-confidence lab-report extractions to a vet nurse  
+**ParentPal moment:** Routing low-confidence intake extractions to a coach  
 **Status:** Planned
 
 **Knowledge of:**
@@ -670,8 +687,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 30 · Objective 5.6: Preserve information provenance and handle uncertainty in multisource synthesis
 
-**Write-up:** Two Sources, Two Protein Levels. Which One Wins?  
-**TailWag moment:** Conflicting ingredient data in the research report  
+**Write-up:** Two Studies, Two Answers on Screen Time. Which One Wins?  
+**ParentPal moment:** Conflicting sources in the research report  
 **Status:** Planned
 
 **Knowledge of:**
@@ -689,12 +706,20 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 - Requiring subagents to include publication or data collection dates in structured outputs to enable correct temporal interpretation
 - Rendering different content types appropriately in synthesis outputs—financial data as tables, news as prose, technical findings as structured lists—rather than converting everything to a uniform format
 
-## Format for every write-up
+## Format for every write-up (example: objective 1.1)
 
-- **One objective per write-up**, named at the top: "Exam objective 1.4: ..." (in my own words).
-- **Length:** post at most 15 seconds (about 55 words), article at most 2 minutes (about 400 words).
-- **Shape:** a TailWag moment that goes wrong → why → the right approach in plain words → one everyday analogy → 3 words to know → **"What the exam is really testing"** (one or two lines) → **one practice question** in my own words, answer at the end.
-- **Course companion** (`NN-slug.course.md`): deeper notes, code sketch, 3 more practice questions, links to Anthropic's official documentation.
-- **Links:** each write-up links to the related vendor-neutral series where one exists (for example 1.4 → Series 3, code decides).
-- **Sources:** the official exam guide and Anthropic's documentation only. Course slides are used only to check coverage; no slide text, diagrams or examples are reused.
-- **No affiliation:** every post says it isn't an official Anthropic resource.
+Every objective article follows the same shape, so readers always know where they are:
+
+1. **Title + objective line.** "Exam objective 1.1: Design and implement agentic loops for autonomous task execution" (exact wording from the guide).
+2. **The ParentPal moment (3 to 4 lines).** *A parent asks to move Saturday's coaching session. The agent checks the calendar, books the new slot, and replies "All done!" ... but the code stopped the loop the moment it saw the word "done", before the confirmation email tool ran.*
+3. **How it really works (plain words, one analogy).** *The loop: ask Claude → it asks for a tool (stop_reason "tool_use") → run the tool, add the result to the conversation → ask again → until stop_reason is "end_turn". Like a waiter who keeps coming back to the kitchen until the order is complete, and only the order slip says when it's complete.*
+4. **The objective map.** One line for every knowledge and skill point in the guide, so nothing is missed. *For 1.1: the lifecycle; adding tool results to history; model-driven vs fixed sequences; continue on tool_use, stop on end_turn; avoid the three anti-patterns: reading "done" in the text, iteration caps as the main stop, checking for text as a finish signal.*
+5. **Exam traps (2 or 3 lines).** What a tempting wrong answer looks like. *"Add a 10-step cap" sounds safe; the exam expects stop_reason as the primary signal, with caps only as a safety net.*
+6. **One practice question** in the exam's style, answer and reason at the end.
+7. **Confidence line.** "You can now: ..." in one sentence.
+
+**Lengths:** post at most 15 seconds (about 55 words); article at most 2 minutes (about 400 words; the objective map can be a compact list).
+
+**Course companion** (`NN-slug.course.md`): every knowledge and skill point explained, a short code sketch, 3 more practice questions, and links to Anthropic's documentation.
+
+**Sources:** the official exam guide and Anthropic's documentation only. Course slides are used only to check coverage; no slide text, diagrams or examples are reused. Every post says it isn't an official Anthropic resource and that ParentPal here is fictional.
