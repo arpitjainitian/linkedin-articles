@@ -27,12 +27,12 @@ Like a waiter going back and forth to the kitchen. The order slip says when the 
 
 Claude remembers nothing between calls. If a result isn't in the conversation, as far as Claude knows, it never happened.
 
-## Four details the exam checks
+## Four more moments the exam loves
 
-- **Two tool requests in one reply?** Run both. Send both results back together.
-- **`"max_tokens"`** means cut off, not finished. Continue, or give it more room.
-- **Model-driven beats a fixed script** for open-ended requests: Claude picks the next tool from what it just learned. But a job whose steps never change (nightly reminders) is simpler as plain code.
-- **Steps that must always happen** (check the plan before a paid booking) are enforced in code, not in the prompt. More in objective 1.4.
+- **"Check Sunday, and tell me my plan."** Claude asks for two tools in one reply. Run both, and send both results back together.
+- **A coaching summary stops mid-sentence.** `stop_reason` says `"max_tokens"`: Claude ran out of room. That's cut off, not finished. Let it continue, or give it more room.
+- **"How much is my plan?"** A fixed script (check plan, book, email) would try to book anyway. Letting Claude pick the next tool handles any request. That's a **model-driven** loop. But the nightly reminder job does the same three steps every night, so plain code is simpler there.
+- **"Always check the plan before a paid booking."** A rule that must never be broken goes in code, not in the prompt. A prompt is a strong hint; code is a lock. More in objective 1.4.
 
 ## Exam traps
 
