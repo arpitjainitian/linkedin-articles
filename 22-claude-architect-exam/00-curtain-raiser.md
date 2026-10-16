@@ -4,7 +4,7 @@
 
 *Claude Architect, One Objective at a Time: the curtain raiser*
 
-I'm preparing for the **Claude Certified Architect – Foundations** exam. This series is my study notes, written so they help you pass too.
+I'm preparing for the **Claude Certified Architect - Foundations** exam. This series is my study notes, written so they help you pass too.
 
 The exam doesn't ask "what does this setting do?". It asks: *a real system is misbehaving; what would an architect do?* So we need a real system.
 
