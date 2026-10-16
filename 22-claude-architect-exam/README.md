@@ -678,10 +678,10 @@ Every objective article follows the same shape, so readers always know where the
 4. **The objective map + coverage table.** At the end of every article, a short table lists each knowledge and skill statement from the guide (K1, K2, S1...) and the section that covers it, so readers can see nothing was skipped.
    **Objective map.** One line for every knowledge and skill point in the guide, so nothing is missed. *For 1.1: the lifecycle; adding tool results to history; model-driven vs fixed sequences; continue on tool_use, stop on end_turn; avoid the three anti-patterns: reading "done" in the text, iteration caps as the main stop, checking for text as a finish signal.*
 5. **Exam traps (2 or 3 lines).** What a tempting wrong answer looks like. *"Add a 10-step cap" sounds safe; the exam expects stop_reason as the primary signal, with caps only as a safety net.*
-6. **One practice question** in the exam's style, answer and reason at the end.
+6. **One practice question** in the exam's style, plus a **practice set of 10 questions** (optional, about 5 minutes), with answers and reasons at the end.
 7. **Confidence line.** "You can now: ..." in one sentence.
 
-**Lengths:** post at most 15 seconds (about 55 words); article at most 2 minutes (about 400 words; the objective map can be a compact list).
+**Lengths:** post at most 15 seconds (about 55 words); the main article at most 2 minutes (about 400 words). The 10-question practice set and coverage table come after the main read and don't count.
 
 **Course companion** (`NN-slug.course.md`): every knowledge and skill point explained, a short code sketch, 3 more practice questions, and links to Anthropic's documentation.
 

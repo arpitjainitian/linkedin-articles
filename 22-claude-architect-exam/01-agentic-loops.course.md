@@ -52,6 +52,8 @@ for _ in range(MAX_SAFETY_ROUNDS):          # safety net only
 
 ## More practice questions
 
+The article itself now has a 10-question practice set. Three extra ones for the course:
+
 1. Claude's reply contains "Let me check that for you." and a `tool_use` block. What should the loop do? *Run the tool, append the result, and continue. Text alone doesn't mean finished.*
 2. A team caps loops at 3 rounds "to save cost", and complex requests fail. Best change? *Make `stop_reason` the primary stop; keep a higher cap only as a safety net, and control cost with other means.*
 3. Why did the agent book the same slot twice? *The booking's tool result wasn't appended, so Claude didn't know it had succeeded.*
