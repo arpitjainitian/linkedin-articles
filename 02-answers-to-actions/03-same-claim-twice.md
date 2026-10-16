@@ -4,6 +4,8 @@
 
 *Beyond Just RAG: From Answers to Actions series: Safe retries*
 
+**Published:** 16 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/3-filed-same-claim-twice-safe-retries-arpit-jain-7ttrf)
+
 The AI pressed submit on Priya's claim. The claims system took too long and timed out.
 
 So the AI did what any of us would do. It tried again.
