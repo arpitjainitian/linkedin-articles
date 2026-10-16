@@ -52,7 +52,7 @@ How many boxes did your project tick?
 1. [Your AI can answer. Now it has to act.](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/)
 2. [The receipt says ₹1,180. Or was it ₹118?](https://www.linkedin.com/pulse/2-receipt-says-1180-118-exact-data-from-messy-receipts-arpit-jain-7e8pf/)
 3. [It filed the same claim twice.](https://www.linkedin.com/pulse/3-filed-same-claim-twice-safe-retries-arpit-jain-7ttrf)
-4. The claim was filed. The receipts weren't attached. *(link added when published)*
+4. [The claim was filed. The receipts weren't attached.](https://www.linkedin.com/pulse/4-claim-filed-receipts-werent-attached-jobs-stop-halfway-arpit-jain-ki3vf)
 5. It asked for the same receipt 40 times. *(link added when published)*
 6. Does this even need an AI agent? *(link added when published)*
 7. Two claims, two different paths. Which one was right? *(link added when published)*
@@ -85,7 +85,7 @@ Missed the first series? Start with "Why does Just add RAG sound like 2 weeks bu
 1. Your AI can answer. Now it has to act. https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/
 2. The receipt says ₹1,180. Or was it ₹118? https://www.linkedin.com/pulse/2-receipt-says-1180-118-exact-data-from-messy-receipts-arpit-jain-7e8pf/
 3. It filed the same claim twice. https://www.linkedin.com/pulse/3-filed-same-claim-twice-safe-retries-arpit-jain-7ttrf
-4. The claim was filed. The receipts weren't attached. [link]
+4. The claim was filed. The receipts weren't attached. https://www.linkedin.com/pulse/4-claim-filed-receipts-werent-attached-jobs-stop-halfway-arpit-jain-ki3vf
 5. It asked for the same receipt 40 times. [link]
 6. Does this even need an AI agent? [link]
 7. Two claims, two different paths. Which one was right? [link]

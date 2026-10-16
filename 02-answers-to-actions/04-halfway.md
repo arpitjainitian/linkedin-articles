@@ -4,6 +4,8 @@
 
 *Beyond Just RAG: From Answers to Actions series: Jobs that stop halfway*
 
+**Published:** 16 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/4-claim-filed-receipts-werent-attached-jobs-stop-halfway-arpit-jain-ki3vf)
+
 The AI filed Priya's claim. Then it started uploading her 14 receipts.
 
 After receipt 9, the upload failed. The AI told Priya: "Done!"
