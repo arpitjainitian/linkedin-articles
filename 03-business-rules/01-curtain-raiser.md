@@ -1,59 +1,59 @@
-# 1. Why Did the AI Promise a Full Refund on a Non-Refundable Ticket?
+# 1. Why Did the AI Promise a Full Refund on a Non-Refundable Ticket? | Rules Need Code
 
 ![Cover](images/01-curtain-raiser-cover.png)
 
 *Just put the rules in the prompt series: the curtain raiser*
 
-*After Series 2, Beyond Just RAG: From Answers to Actions: It can file claims now. But who decides what's allowed?*
+*After Series 2, Beyond Just RAG: From Answers to Actions: It can act now. But who decides what's allowed?*
 
 "We'll just put the refund rules in the prompt."
 
-Picture an airline adding an AI assistant for cancellations and refunds. The refund policy is pasted into the prompt: fare types, time windows, cancellation fees, exceptions. It's a long prompt. It looks thorough.
+An airline's AI assistant handles cancellations. The whole refund policy is pasted into its prompt: fare types, time windows, fees, exceptions.
 
-A passenger on a Saver fare, non-refundable, cancels two hours before departure and asks for their money back. They're polite, a little upset, and they mention a family emergency.
+Mr Sharma booked a Saver fare. Non-refundable. He cancels two hours before departure, mentions a family emergency, and asks for his money back.
 
-The AI replies warmly: "Of course! I've processed a full refund with no fees. Take care."
+The AI replies warmly: "Of course! Full refund, no fees. Take care."
 
-The policy said otherwise. The model was trying to be kind. Now the airline has a written promise, a screenshot, and a choice between honouring it and an angry customer.
+The policy said no. The AI was being kind. Now the airline has a screenshot of a promise it never meant to make.
 
-## Why rules don't belong only in a prompt
+## Why rules don't belong in a prompt
 
-Large language models are brilliant with language and unreliable with rules. They read a policy the way a friendly new employee does: they get the gist, and they bend it when someone sounds sad.
+- **Same question, different answer.** Ask twice, and the fee can change.
+- **Kindness beats policy.** A sad story pulls the AI away from the rule.
+- **Long rules get skimmed.** The exception on page three gets missed, or used where it doesn't belong.
+- **Maths isn't its strength.** Fees, percentages and deadlines are better calculated than written.
 
-- **The same question gets different answers.** Ask twice, and the cancellation fee can change.
-- **Kindness beats policy.** A sympathetic story pulls the model away from the rule.
-- **Long rules get skimmed.** The exception on page three gets missed, or applied where it doesn't belong.
-- **Arithmetic is not its strength.** Fees, percentages and time windows are better calculated than written.
-- **Nobody can prove which rule was used.** "The AI decided" is not an answer for a regulator or a customer dispute.
+The AI makes a lovely gate agent: patient, polite, great at explaining. It just shouldn't be the rulebook.
 
-The LLM makes a lovely gate agent: patient, polite, great at explaining. It just shouldn't be the rulebook.
+## What's coming
 
-## What sits behind "just put it in the prompt"
+One airline, one refund assistant, every write-up. A taste:
 
-The prompt is the visible part. What makes refunds fair and consistent is deciding which decisions code must make, letting code calculate and the model explain, handling rule changes like the new monsoon waiver in one place, applying the same fare and fee every time, and keeping proof of which rule was applied. The boarding pass on the cover lists the rules the model skipped.
+- Code decides. The AI explains.
+- The policy is 40 pages. Who turns it into rules?
+- The waiver was in the prompt. Not in the code.
 
-## This is a series: here's what's coming
+...and a final checklist: who should decide, the code or the model?
 
-This write-up is the first in a series. Each one takes one part of the line between code and model, with the same airline refund assistant every time. A few of the questions it will answer:
+## Words to know
 
-- Which decisions should never be left to an LLM? (Where certainty matters)
-- How do you split the work between code and the LLM? (Code decides, the model explains)
-- What happens when the rules change? (Keeping rules in one place)
-- How do you prove the right rule was applied? (Audit trails)
-
-...and a final write-up with a checklist for who should decide: the code or the model.
+- **Business rule:** a fixed policy, like "Saver fares are non-refundable".
+- **Deterministic:** same input, same output, every time. *What refunds need.*
+- **Probabilistic:** answers that can vary. *How AI models work.*
 
 ## Take this to your next kickoff meeting
 
-1. List every decision involving money, eligibility or compliance, and give each one to code.
-2. Let the AI explain the decision, never make it.
-3. Ask how you'll prove, six months later, which rule produced a refund.
+1. List every decision involving money, eligibility or compliance.
+2. Give each one to code. Let the AI explain it, never make it.
+3. Ask: if the same case comes in twice, will it get the same answer?
 
 AI can explain your rules beautifully. Let something boring and reliable apply them.
 
-Next write-up (2): **Which decisions should never be left to an LLM?** (Where certainty matters)
+Next write-up (2): **Code decides. The AI explains.**
 
-Follow me for the next one. And tell me: have you seen an AI promise something your policy didn't allow?
+Follow me for the next one. Have you seen an AI promise something your policy didn't allow?
+
+*Missed the last series? Start with [Your AI can answer. Now it has to act.](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/)*
 
 ---
 
@@ -62,17 +62,17 @@ Follow me for the next one. And tell me: have you seen an AI promise something y
 ```
 "We'll just put the refund rules in the prompt."
 
-A passenger on a non-refundable fare mentions a family emergency. The AI replies: "Of course! Full refund, no fees."
+A passenger on a non-refundable fare mentions a family emergency.
 
-Let an LLM apply your business rules, and you pay for it:
-• Money: refunds and waivers your policy never allowed
-• Consistency: the same case, a different fee each time
-• Compliance: no proof of which rule was applied
-• Trust: customers screenshot the promise, and you have to choose
+The AI replies: "Of course! Full refund, no fees."
 
-Write-up 1 in my new series, Just put the rules in the prompt (#RulesNeedCode): why LLMs are great with language and unreliable with rules, where code must decide, and three things to take to your next kickoff meeting.
+The policy said no. AI is a lovely gate agent. It shouldn't be the rulebook.
 
-Have you seen an AI promise something your policy didn't allow?
+New series: Just put the rules in the prompt.
+
+Has an AI ever promised you something it shouldn't have?
+
+Missed the last series? Start with "Your AI can answer. Now it has to act." https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/
 
 #AIEngineering #GenAI #EnterpriseAI #AIGovernance #RulesNeedCode
 ```
@@ -80,10 +80,10 @@ Have you seen an AI promise something your policy didn't allow?
 **Series index (post as the first comment, then pin it):**
 
 ```
-📌 Just put the rules in the prompt: series index
+📌 Just put the rules in the prompt
 
 1. Why did the AI promise a full refund on a non-refundable ticket? (you're here)
-2. Which decisions should never be left to an LLM? (next write-up)
+2. Code decides. The AI explains. (next)
 
-I'll keep this comment updated with each link as it goes live.
+New here? Start with the previous series, Beyond Just RAG: https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/
 ```
