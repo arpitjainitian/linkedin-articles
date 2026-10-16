@@ -52,11 +52,11 @@ for _ in range(MAX_SAFETY_ROUNDS):          # safety net only
 
 ## More practice questions
 
-The article itself now has a 10-question practice set. Three extra ones for the course:
+The article itself has a 10-question practice set. Three extra ones for the course, on points the article doesn't test:
 
-1. Claude's reply contains "Let me check that for you." and a `tool_use` block. What should the loop do? *Run the tool, append the result, and continue. Text alone doesn't mean finished.*
-2. A team caps loops at 3 rounds "to save cost", and complex requests fail. Best change? *Make `stop_reason` the primary stop; keep a higher cap only as a safety net, and control cost with other means.*
-3. Why did the agent book the same slot twice? *The booking's tool result wasn't appended, so Claude didn't know it had succeeded.*
+1. A response stops with `"max_tokens"`. Should the loop treat this as finished? *No. It was cut off; handle it explicitly (continue with more room, or report an error).*
+2. A tool fails (the calendar service is down). What should go back to Claude? *A tool result that clearly marks the failure and why, so Claude can decide what to do next (more in objective 2.2).*
+3. Why does the code append Claude's own reply (with its tool request) before the tool result? *So the conversation shows the request and its matching result in order; the result is linked to the request by its ID.*
 
 ## Checklist line (for the domain checkpoint)
 
