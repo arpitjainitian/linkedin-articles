@@ -19,13 +19,20 @@ But the confirmation email never went out. ParentPace's code stopped the loop th
 An agent isn't one question and one answer. It's a loop:
 
 1. **Send** the conversation to Claude.
-2. **Read `stop_reason`.** If it's `"tool_use"`, Claude wants a tool: run it (check the calendar, book the slot, send the email).
-3. **Add the tool's result** to the conversation, and send it again.
-4. **Stop** only when `stop_reason` is `"end_turn"`. Claude has finished.
+2. **Read `stop_reason`.** `"tool_use"` means Claude wants a tool. Claude only asks. **Your code** runs the tool (check the calendar, book the slot, send the email).
+3. **Add Claude's reply, then the tool's result**, linked to the request by its ID (`tool_use_id`). Send it all again.
+4. **Stop** only on `"end_turn"`. Claude has finished.
 
 Like a waiter going back and forth to the kitchen. The order slip says when the order is complete, not the waiter's cheerful "nearly there!".
 
-Claude also chooses which tool comes next, based on what it has learned so far. That's **model-driven**, not a fixed script of if/else steps.
+Claude remembers nothing between calls. If a result isn't in the conversation, as far as Claude knows, it never happened.
+
+## Four details the exam checks
+
+- **Two tool requests in one reply?** Run both. Send both results back together.
+- **`"max_tokens"`** means cut off, not finished. Continue, or give it more room.
+- **Model-driven beats a fixed script** for open-ended requests: Claude picks the next tool from what it just learned. But a job whose steps never change (nightly reminders) is simpler as plain code.
+- **Steps that must always happen** (check the plan before a paid booking) are enforced in code, not in the prompt. More in objective 1.4.
 
 ## Exam traps
 
@@ -35,14 +42,16 @@ The exam loves three wrong ways to stop:
 - **A step cap as the main stop.** "Stop after 5 rounds" ends real work early. Keep a cap only as a safety net.
 - **"There's text, so it's finished."** Claude can write text *and* ask for a tool in the same reply.
 
+If the loop's logic is wrong, a prompt rule won't fix it. Fix the code.
+
 ## Practice question
 
-ParentPace's agent sometimes finishes without sending the confirmation email. The loop exits when the reply contains "done", or after 5 rounds. What's the best fix?
+ParentPace's agent sometimes ends without sending the confirmation email. The loop exits when the reply contains "done", or after 5 rounds. What's the most effective fix?
 
-- **A.** Raise the limit to 15 rounds.
-- **B.** Keep looping while `stop_reason` is `"tool_use"`, stop on `"end_turn"`, and keep a cap only as a safety net.
-- **C.** Add "never say done until the email is sent" to the prompt.
-- **D.** Stop as soon as the reply contains any text.
+- **A.** Raise the cap to 15 rounds, since logs show the longest requests need about 12.
+- **B.** Add a rule to the system prompt and the tool description: never say "done" until the confirmation email is sent.
+- **C.** Continue while `stop_reason` is `"tool_use"`, stop on `"end_turn"`, and keep a high cap only as a safety net.
+- **D.** End the loop on the first reply that has no tool request, since that means Claude has finished.
 
 *Answer at the end.*
 
@@ -51,95 +60,97 @@ ParentPace's agent sometimes finishes without sending the confirmation email. Th
 - **Agentic loop:** ask, run tools, add results, repeat, until the model finishes.
 - **stop_reason:** the field that says why Claude stopped this turn. *"tool_use" or "end_turn".*
 - **Tool result:** what a tool returned, sent back so Claude can decide the next step.
+- **tool_use_id:** the ID that links each tool result to the request it answers.
 
 **You can now:** design a loop that stops for the right reason.
 
 ## Practice set: 10 more questions
 
-*Exam-style: a real symptom, four plausible fixes. About 10 minutes. Answers and reasons below.*
+*Exam-level: every option sounds reasonable; pick the best one. About 12 minutes. Answers and reasons below.*
 
-**1.** Logs show that 8% of reschedule requests end with "All done!" but no confirmation email. The loop code ends when the reply text contains "done". What change most effectively fixes this?
+**1.** After adding tool results, every second round fails with an API error: a tool result has no matching tool request. The code adds a user message with the `tool_result` blocks, but nothing else, after each tool runs. What's the fix?
 
-- **A.** Add a system prompt rule: "Only say done after the confirmation email is sent."
-- **B.** Keep looping while `stop_reason` is `"tool_use"`, end on `"end_turn"`, and keep a high step cap only as a safety net.
-- **C.** Add few-shot examples showing the email being sent before the final reply.
-- **D.** Before ending, check that the reply text also contains "email sent".
+- **A.** Generate `tool_use_id` values in ParentPace's code, so the IDs on the results are always valid.
+- **B.** Send the result as plain text in a user message instead of a `tool_result` block, so no ID matching is needed.
+- **C.** Add Claude's full reply (with its `tool_use` blocks) to the history first, then the user message with the matching `tool_result` blocks.
+- **D.** Send the tool definitions again with every request, so the API can match each result to its tool.
 
-**2.** In about 5% of conversations, Claude books the same slot twice. The booking tool returns success. After running a tool, the code adds Claude's reply to the conversation and calls Claude again, but adds nothing else. What's the most likely cause?
+**2.** In about 5% of conversations, Claude books the same slot twice. The booking tool returns success every time. After a tool runs, the code adds Claude's reply to the history and calls Claude again, and adds nothing else. What's the root cause?
 
-- **A.** Random variation in the model; lower the temperature.
-- **B.** The booking result is never returned as a tool result linked to Claude's tool request, so Claude doesn't know it succeeded.
-- **C.** The booking tool's description is unclear.
-- **D.** The booking system doesn't block duplicates.
+- **A.** Sampling randomness makes the model repeat actions now and then; setting temperature to 0 would make the booking decision deterministic.
+- **B.** The `book_session` description doesn't say that a second call creates a second booking, so the model treats retries as harmless.
+- **C.** The booking service has no duplicate check, so it accepts the second request instead of rejecting it.
+- **D.** The booking result never reaches the conversation as a tool result linked to the request, so Claude has no evidence that the booking happened.
 
-**3.** To control cost, every loop ends after 4 rounds. Parents with multi-part requests (reschedule, change coach, ask for a refund) get no final answer about 20% of the time. What's the best change?
+**3.** To control cost, every loop ends after 4 rounds. Parents with multi-part requests (reschedule, change coach, ask for a refund) get no final answer about 20% of the time. Finance still wants spending kept in check. What's the best change?
 
-- **A.** Raise the limit to 12 rounds.
-- **B.** End on `stop_reason: "end_turn"`, keep a much higher cap only for runaway loops, and track how many rounds requests really need.
-- **C.** Split every multi-part request into separate conversations before the agent starts.
-- **D.** Tell Claude in the prompt to finish within 4 tool calls.
+- **A.** Make `"end_turn"` the main stop, set the cap well above normal use as a safety net for runaway loops, and track rounds per request.
+- **B.** Raise the cap to 12 rounds, which covers the longest requests in last month's logs and still limits cost per conversation.
+- **C.** Split each multi-part message into separate single-issue conversations first, so each one fits within 4 rounds.
+- **D.** Keep the 4-round cap and tell Claude in the system prompt to group its work so it finishes within four tool calls.
 
-**4.** Parents sometimes receive "Let me check the coach's calendar..." as the final reply. The code returns as soon as a response contains any text. What should change?
+**4.** Parents sometimes get "Let me check the coach's calendar..." as the final reply. The code returns the first response that contains a text block. What should change?
 
-- **A.** Tell Claude not to narrate what it's about to do.
-- **B.** Decide based on `stop_reason`. Text that comes with a tool request means the loop continues.
-- **C.** Only treat replies longer than 50 characters as final.
-- **D.** Wait a moment, then call Claude again for a "real" answer.
+- **A.** Tell Claude in the system prompt not to write text in a reply that also asks for a tool, so text only appears in the final answer.
+- **B.** Decide with `stop_reason`: a reply with text and a tool request has `"tool_use"`, so run the tool and keep looping.
+- **C.** Treat text as final only when it's longer than a few sentences, since progress notes are short and real answers are longer.
+- **D.** Filter out progress phrases such as "Let me check" before replying, and send the rest of the text to the parent.
 
-**5.** ParentPace's code runs the same fixed sequence for every message: check plan, check calendar, book, email. When a parent asks "How much is my plan?", the code still tries to book a session and fails. What's the best redesign?
+**5.** ParentPace's code runs the same steps for every message: check plan, check calendar, book, email. When a parent asks "How much is my plan?", it still tries to book and fails. The plan must always be checked before any paid booking. What's the best redesign?
 
-- **A.** A model-driven loop where Claude chooses tools based on the request, with code-enforced checks only for steps that must always happen (like checking the plan before a paid booking).
-- **B.** Add an if/else branch for each type of question.
-- **C.** Add a classifier that routes each message to a different fixed sequence.
-- **D.** Keep the sequence, but tell Claude in the prompt to skip steps that aren't needed.
+- **A.** Add a classifier in front of the agent that sends each message to one of several fixed sequences, one per type of request.
+- **B.** Keep the fixed sequence, and add a system prompt rule telling Claude to skip any step the request doesn't need.
+- **C.** Switch to a model-driven loop, with a strong system prompt rule that the plan must always be checked before a paid booking.
+- **D.** Switch to a model-driven loop where Claude picks tools from context, and enforce "plan checked before paid booking" in code.
 
-**6.** *(Choose 2.)* Which make the loop's stopping decision reliable?
+**6.** *(Choose 2.)* The team is reviewing loop designs. Which TWO describe correct stopping behaviour?
 
-- **A.** Ending when `stop_reason` is `"end_turn"`.
-- **B.** Ending when Claude's text includes "finished" or "all done".
-- **C.** Keeping a maximum-rounds cap only as a safety net against runaway loops.
-- **D.** Ending as soon as a response contains any text.
+- **A.** End when Claude's text includes a phrase like "Your session is booked", since it only appears after a successful booking.
+- **B.** Continue while `stop_reason` is `"tool_use"`, and end when it is `"end_turn"`.
+- **C.** End on the first reply that has no tool request, whatever its `stop_reason`.
+- **D.** End after a fixed number of rounds, set from logs to match the average request.
+- **E.** Keep a maximum-round cap well above normal use, only to catch runaway loops.
 
-**7.** Claude's reply contains two tool requests: check the calendar and look up the parent's plan. The code runs only the first, returns its result, and calls Claude again. What should it do instead?
+**7.** One of Claude's replies asks for two tools: `check_calendar` and `get_plan`. The code runs only the first. What should it do?
 
-- **A.** Keep running only the first; Claude will ask again for the second.
-- **B.** Run both, and return both results together before calling Claude again.
-- **C.** Run both, but send each result in a separate call to Claude.
-- **D.** Ask the parent which tool to run first.
+- **A.** Run only the first and return its result; if Claude still needs the second, it will ask again next round.
+- **B.** Run both, then send each result back in its own request, so Claude handles them one at a time.
+- **C.** Run both, and return both `tool_result` blocks, each with its matching `tool_use_id`, together in the next message.
+- **D.** Tell Claude in the system prompt to ask for only one tool per reply, so the loop stays simple.
 
-**8.** Long coaching summaries are sometimes cut off mid-sentence. The loop treats every reply that isn't `"tool_use"` as finished, including ones that stop with `"max_tokens"`. What's the best fix?
+**8.** Long coaching summaries are sometimes cut off mid-sentence. The loop treats every reply that isn't `"tool_use"` as finished. What's the best fix?
 
-- **A.** Handle `"max_tokens"` explicitly (allow more room or continue the response) instead of treating it as finished.
-- **B.** Tell Claude in the prompt to write shorter summaries.
-- **C.** Add a step cap so summaries end sooner.
-- **D.** Remove the summary feature.
+- **A.** Handle `"max_tokens"` on its own: continue the reply or retry with more room, instead of treating it as finished.
+- **B.** Tell Claude in the system prompt to keep summaries under 300 words, so they never reach the limit.
+- **C.** Treat any reply that doesn't end with a full stop as unfinished, and ask Claude to complete it.
+- **D.** Set `max_tokens` to the model's maximum on every request, so summaries can never be cut off.
 
-**9.** A nightly job always does the same three steps: fetch tomorrow's sessions, draft reminder texts, queue them. The team asks whether it should be a model-driven agent loop. What's the best answer?
+**9.** A nightly job always does the same three steps: fetch tomorrow's sessions, draft reminder texts, queue them. The team asks how it should be built. What's the best answer?
 
-- **A.** Yes. Model-driven loops are always better.
-- **B.** No. A fixed sequence fits: the steps never change, and predictability matters more than flexibility here.
-- **C.** Use several agents, one per step.
-- **D.** Use a model-driven loop with a 3-round cap.
+- **A.** A model-driven loop, because letting Claude choose the steps makes the job robust to future changes.
+- **B.** A fixed sequence in code: the steps never change, and a fixed path is cheaper, faster and easier to test.
+- **C.** Three subagents and a coordinator, one per step, so each step can scale on its own.
+- **D.** A model-driven loop with a 3-round cap, which keeps it flexible and still ends on time.
 
-**10.** A loop sometimes runs 40+ rounds, calling `check_calendar` again and again. The calendar tool returns just the word "error" when the service is busy. What's the best first step?
+**10.** A developer moves tool work to a background queue. The loop sends Claude's tool request to the queue, then immediately calls Claude again with "The result is on its way." Claude replies with a made-up calendar slot. Why?
 
-- **A.** Lower the cap to 10 rounds.
-- **B.** Return a clear tool result that says what failed and whether it's worth retrying, so Claude can decide to wait, try something else or tell the parent.
-- **C.** Add a prompt rule: "Never call check_calendar more than twice."
-- **D.** End the loop whenever the same tool is called twice in a row.
+- **A.** The model needs extended thinking turned on, so it can wait for results that arrive later.
+- **B.** The tool's description doesn't say it runs in the background, so Claude didn't know it had to wait.
+- **C.** The queue should push the result into the running request when it finishes, and it didn't.
+- **D.** Claude can only use what's in the messages it receives; no tool result was there, so it answered without the data.
 
 **Answers**
 
-1. **B.** The root cause is how the loop decides to stop. A and C rely on the model's wording (probabilistic). D is the same mistake: reading text to decide.
-2. **B.** Claude only knows what's in the conversation; without the tool result, it doesn't know the booking worked. D is a useful extra safeguard, but doesn't fix the cause. A and C don't match the symptom.
-3. **B.** A still uses a cap as the main stop, just a bigger one. C is over-engineered. D is a prompt-based limit that would still cut real work short.
-4. **B.** A reply can contain text and a tool request together. A, C and D are workarounds that ignore the real signal.
-5. **A.** Fixed sequences break on requests they didn't expect. B and C keep growing rigid rules. D still forces a fixed path and relies on the prompt.
-6. **A and C.** B and D are the classic anti-patterns: reading words, and treating any text as "finished".
-7. **B.** Every tool request in a reply needs its result before the next call. A and D stall the work. C splits results that belong together.
-8. **A.** `"max_tokens"` means "cut off", not "finished". B and C hide the problem. D removes value instead of fixing the loop.
-9. **B.** Model-driven loops are for open-ended work. A fixed, repeatable job is simpler, cheaper and more predictable as a fixed sequence. C and D add complexity for no gain.
-10. **B.** The model can only make good choices with useful information. A and D cut work short without fixing the cause. C is a brittle prompt rule. (Objective 2.2 goes deeper on error results.)
+1. **C.** Every tool result must answer a request that is already in the history. A misunderstands IDs: the API creates them. B throws away the link between request and result. D is unrelated.
+2. **D.** Claude only knows what's in the conversation. C is a good extra safeguard, but Claude still wouldn't know the booking worked. A and B don't match the cause.
+3. **A.** B still uses a cap as the main stop; the next longer request breaks it. C is over-engineering and loses shared context. D is a prompt rule that still cuts real work short.
+4. **B.** A reply can hold text and a tool request together. A relies on the prompt. C and D still treat text as the finish signal; the tool never runs.
+5. **D.** Open-ended requests need Claude choosing tools, and a must-happen step needs code. C is close but relies on the prompt for a guarantee. A and B keep rigid scripts.
+6. **B and E.** A reads words. C treats a cut-off (`"max_tokens"`) reply as finished. D makes a cap the main stop.
+7. **C.** All results for one reply go back together, each linked to its request. A stalls the work. B splits results that belong together. D gives up useful parallel work.
+8. **A.** The loop wrongly treats "cut off" as "finished". B and D make it less likely but don't fix the loop. C is a fragile guess based on the text.
+9. **B.** Model-driven loops are for open-ended work. A and D add cost and unpredictability for no gain. C is over-engineering.
+10. **D.** Claude remembers nothing between calls; the result must be in the messages. C describes something the API doesn't do. A and B don't address the cause.
 
 ## Did this cover the exam objective?
 
@@ -152,7 +163,7 @@ ParentPace's agent sometimes finishes without sending the confirmation email. Th
 | S2 Add tool results between rounds | The moment (booked twice) |
 | S3 Avoid the three stopping anti-patterns | Exam traps |
 
-*Answer to the first practice question: B. A and C treat symptoms. D stops too early, because text can come with a tool request.*
+*Answer to the first practice question: C. A still makes a cap the main stop. B relies on the model's wording. D treats a cut-off ("max_tokens") reply as finished.*
 
 Next write-up (2): **One coordinator, three helpers: who builds the Calm Parenting course?** (Objective 1.2)
 

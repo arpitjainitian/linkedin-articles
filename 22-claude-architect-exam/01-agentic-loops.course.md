@@ -52,11 +52,10 @@ for _ in range(MAX_SAFETY_ROUNDS):          # safety net only
 
 ## More practice questions
 
-The article itself has a 10-question practice set. Three extra ones for the course, on points the article doesn't test:
+The article has a 10-question practice set. Two extra ones for the course:
 
-1. A response stops with `"max_tokens"`. Should the loop treat this as finished? *No. It was cut off; handle it explicitly (continue with more room, or report an error).*
-2. A tool fails (the calendar service is down). What should go back to Claude? *A tool result that clearly marks the failure and why, so Claude can decide what to do next (more in objective 2.2).*
-3. Why does the code append Claude's own reply (with its tool request) before the tool result? *So the conversation shows the request and its matching result in order; the result is linked to the request by its ID.*
+1. A tool fails (the calendar service is down). What should go back to Claude? *A tool result that clearly marks the failure and why, so Claude can decide what to do next (more in objective 2.2).*
+2. Claude asks for a tool name your code doesn't know. What should the loop do? *Return a tool result that marks it as an error ("unknown tool"), linked to the request, rather than crashing or skipping it; Claude can then choose a valid tool.*
 
 ## Checklist line (for the domain checkpoint)
 
