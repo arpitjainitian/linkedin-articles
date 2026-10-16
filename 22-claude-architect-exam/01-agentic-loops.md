@@ -59,64 +59,74 @@ ParentPace's agent sometimes finishes without sending the confirmation email. Th
 *Optional, about 5 minutes. Answers and reasons below the questions.*
 
 **1.** A response has `stop_reason: "tool_use"`. What must your code do next?
-A. Show Claude's text to the parent and stop
-B. Run the requested tool, add its result to the conversation, and call Claude again
-C. Ask Claude to summarise first
-D. Start a new conversation with only the tool result
+
+- **A.** Show Claude's text to the parent and stop
+- **B.** Run the requested tool, add its result to the conversation, and call Claude again
+- **C.** Ask Claude to summarise first
+- **D.** Start a new conversation with only the tool result
 
 **2.** Where does a tool's result go?
-A. Into the system prompt
-B. Into a new conversation
-C. Into the conversation history, as a tool result linked to Claude's tool request
-D. Nowhere; Claude remembers it automatically
+
+- **A.** Into the system prompt
+- **B.** Into a new conversation
+- **C.** Into the conversation history, as a tool result linked to Claude's tool request
+- **D.** Nowhere; Claude remembers it automatically
 
 **3.** The AI coach books a slot, but the booking result is never sent back. What's the most likely outcome?
-A. Claude knows the booking worked
-B. Claude may try to book again, because it never saw the result
-C. The loop ends correctly
-D. Nothing changes
+
+- **A.** Claude knows the booking worked
+- **B.** Claude may try to book again, because it never saw the result
+- **C.** The loop ends correctly
+- **D.** Nothing changes
 
 **4.** Which signal should be the primary way to end the loop?
-A. The reply contains "done" or "finished"
-B. 5 rounds have passed
-C. `stop_reason` is `"end_turn"`
-D. The reply contains any text
+
+- **A.** The reply contains "done" or "finished"
+- **B.** 5 rounds have passed
+- **C.** `stop_reason` is `"end_turn"`
+- **D.** The reply contains any text
 
 **5.** A reply says "Let me check the coach's calendar" and also contains a tool request. What should happen?
-A. Stop, because there's text
-B. Run the tool and continue the loop
-C. Ask the parent to wait and stop
-D. Remove the text and stop
+
+- **A.** Stop, because there's text
+- **B.** Run the tool and continue the loop
+- **C.** Ask the parent to wait and stop
+- **D.** Remove the text and stop
 
 **6.** A team stops every loop after 3 rounds "to save cost". Complex requests fail halfway. What's the best change?
-A. Stop after 2 rounds instead
-B. Make `stop_reason` the primary stop, and keep a higher cap only as a safety net
-C. Remove tools so fewer rounds are needed
-D. Ask Claude to be quicker
+
+- **A.** Stop after 2 rounds instead
+- **B.** Make `stop_reason` the primary stop, and keep a higher cap only as a safety net
+- **C.** Remove tools so fewer rounds are needed
+- **D.** Ask Claude to be quicker
 
 **7.** What does "model-driven" mean in an agentic loop?
-A. Claude chooses the next tool based on what it has learned so far
-B. Code always runs the tools in a fixed order
-C. The model runs without tools
-D. A human approves every step
+
+- **A.** Claude chooses the next tool based on what it has learned so far
+- **B.** Code always runs the tools in a fixed order
+- **C.** The model runs without tools
+- **D.** A human approves every step
 
 **8.** When can a fixed, pre-set sequence of tools be the better choice?
-A. Never
-B. When the steps are always the same and predictability matters more than flexibility
-C. When requests are very open-ended
-D. When the model is uncertain
+
+- **A.** Never
+- **B.** When the steps are always the same and predictability matters more than flexibility
+- **C.** When requests are very open-ended
+- **D.** When the model is uncertain
 
 **9.** *(Choose 2.)* Which of these are anti-patterns for ending a loop?
-A. Ending on `stop_reason: "end_turn"`
-B. Ending when the text contains "All done"
-C. Using a step cap as the main stopping rule
-D. Adding tool results back between rounds
+
+- **A.** Ending on `stop_reason: "end_turn"`
+- **B.** Ending when the text contains "All done"
+- **C.** Using a step cap as the main stopping rule
+- **D.** Adding tool results back between rounds
 
 **10.** Claude returns two tool requests in one reply: check the calendar and look up the parent's plan. What should your code do?
-A. Run only the first one
-B. Run both, and send both results back before calling Claude again
-C. Stop the loop
-D. Ask the parent which one to run
+
+- **A.** Run only the first one
+- **B.** Run both, and send both results back before calling Claude again
+- **C.** Stop the loop
+- **D.** Ask the parent which one to run
 
 **Answers**
 
