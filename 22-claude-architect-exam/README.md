@@ -23,15 +23,15 @@ Source: the official exam guide. Check Anthropic's certification pages for the l
 
 ## Running example (fictional): ParentPal
 
-**ParentPal** here is an invented parenting-coach company. Parents use an AI coach in the app for everyday questions (sleep, tantrums, picky eating, screen time). Human coaches and a nurse line handle anything sensitive. It runs on subscriptions, with courses and booked sessions, and a 6-person tech team.
+**ParentPal** here is an invented coaching company **for parents themselves**: how to stay calm instead of yelling, talk so children listen, set boundaries, share parenting with a partner, and look after their own wellbeing. Parents chat with an AI coach in the app between 1:1 sessions with human coaches. It runs on subscriptions, with courses and booked sessions, and a 6-person tech team. It coaches the parent, never diagnoses anyone, and hands over to people when it matters.
 
 > **Name note:** real products called "ParentPal" exist (including a parenting app by Teaching Strategies, and an "AI Parenting Coach" app). This series is not about them and is not affiliated with them. Every post and article carries a one-line "fictional company" disclaimer. If the name ever becomes a problem, it's a single find-and-replace.
 
 | ParentPal part | What it does | Exam scenario |
 |---|---|---|
-| **Parent-help agent** | Answers coaching questions, books sessions with human coaches, handles subscriptions; escalates health or safety worries to the nurse line | Customer support agent |
-| **Course research team** | A coordinator with helpers that research sleep studies, children's health guidelines and parent reviews for a new "Toddler Sleep" course | Multi-agent research |
-| **Intake paperwork** | Turns family intake forms and coach session notes into a clean child profile | Structured data extraction |
+| **Parent-help agent** | Coaching chats about the parent's own reactions, routines and communication; books 1:1 sessions with human coaches; handles plans and billing; hands over to a human coach (and points to helplines) when a parent is in distress | Customer support agent |
+| **Course research team** | A coordinator with helpers that research parenting studies, expert guidance and parent reviews for a new "Calm Parenting" course | Multi-agent research |
+| **Intake paperwork** | Turns parent self-assessment forms and coach session notes into a clean parent profile: goals, stress triggers, family setup | Structured data extraction |
 | **The tech team's Claude Code setup** | Six engineers building the ParentPal app | Code generation, developer productivity |
 | **Pull-request reviews in CI** | Automated reviews and tests on every pull request | Claude Code in CI/CD |
 
@@ -50,16 +50,16 @@ Source: the official exam guide. Check Anthropic's certification pages for the l
 |---|---|---|---|---|
 | 0 | Curtain raiser | Can a Parenting App Teach You the Claude Architect Exam? | Meet ParentPal, the exam in one page, and why it tests judgement, not trivia | Planned |
 | **Domain 1** | **Agentic architecture and orchestration (27%)** | | | |
-| 1 | 1.1 Agentic loops | How Does an Agent Know When to Stop? | A parent asks to move a coaching session. The agent checks the calendar, books the new slot, and must know it's really finished, not just that it typed "Done!" | Planned |
-| 2 | 1.2 Coordinator and subagents | One Coordinator, Three Helpers: Who Builds the Toddler Sleep Course? | Sleep studies, health guidelines and parent reviews researched by separate helpers | Planned |
-| 3 | 1.3 Subagent context passing | The Helper Never Saw the Brief | The guidelines helper doesn't know the course is for ages 1 to 3 | Planned |
-| 4 | 1.4 Enforcement and handoffs | The Prompt Said "Check the Child's Age First". The Agent Didn't. | Newborn sleep tips sent for a 3-year-old; handing over to a human coach with a proper summary | Planned |
-| 5 | 1.5 Agent SDK hooks | Who Checks the Agent Before It Presses Send? | A hook masks children's names and blocks refunds above the limit | Planned |
-| 6 | 1.6 Task decomposition | One Big Ask or Five Small Ones? | "Build the Toddler Sleep course" vs a step-by-step plan | Planned |
-| 7 | 1.7 Session state | Pick Up Where You Left Off, or Try Two Ideas at Once? | Resuming yesterday's research; forking to compare two bedtime approaches | Planned |
+| 1 | 1.1 Agentic loops | How Does an Agent Know When to Stop? | A parent asks to move Saturday's coaching session. The agent checks the coach's calendar, books the new slot, and must know it's really finished, not just that it typed "All done!" | Planned |
+| 2 | 1.2 Coordinator and subagents | One Coordinator, Three Helpers: Who Builds the Calm Parenting Course? | Studies, expert guidance and parent reviews researched by separate helpers | Planned |
+| 3 | 1.3 Subagent context passing | The Helper Never Saw the Brief | The studies helper doesn't know the course is for parents of teenagers | Planned |
+| 4 | 1.4 Enforcement and handoffs | The Prompt Said "Check the Plan First". The Agent Didn't. | A paid 1:1 session booked for a parent on the free plan; handing over to a human coach with a proper summary | Planned |
+| 5 | 1.5 Agent SDK hooks | Who Checks the Agent Before It Presses Send? | A hook masks family names in logs and blocks refunds above the limit | Planned |
+| 6 | 1.6 Task decomposition | One Big Ask or Five Small Ones? | "Build the Calm Parenting course" vs a step-by-step plan | Planned |
+| 7 | 1.7 Session state | Pick Up Where You Left Off, or Try Two Ideas at Once? | Resuming yesterday's research; forking to compare two coaching approaches for bedtime battles | Planned |
 | C1 | Domain 1 checkpoint | Domain 1 Checkpoint: Could You Pass This Part Today? | 6 to 8 exam-style ParentPal questions on Agentic architecture, with answers and the why | Planned |
 | **Domain 2** | **Tool design and MCP (18%)** | | | |
-| 8 | 2.1 Tool interfaces | Two Tools, Nearly the Same Name. Guess Which One It Picked. | get_child vs get_child_profile | Planned |
+| 8 | 2.1 Tool interfaces | Two Tools, Nearly the Same Name. Guess Which One It Picked. | get_parent vs get_parent_profile | Planned |
 | 9 | 2.2 Structured errors | "Something Went Wrong" Tells the Agent Nothing | Calendar busy vs coach not found vs not allowed | Planned |
 | 10 | 2.3 Tool distribution and tool_choice | Should Every Agent Get Every Tool? | The research helper accidentally holds the "issue refund" tool | Planned |
 | 11 | 2.4 MCP integration | Plugging the Coaches' Calendar Into Claude | An MCP server for coach availability, set up for the whole team | Planned |
@@ -68,26 +68,26 @@ Source: the official exam guide. Check Anthropic's certification pages for the l
 | **Domain 3** | **Claude Code configuration and workflows (20%)** | | | |
 | 13 | 3.1 CLAUDE.md | Stop Explaining the Codebase Every Morning | Team conventions, written once | Planned |
 | 14 | 3.2 Slash commands and skills | The Release Checklist Everyone Forgets | A /release skill for the Friday deploy | Planned |
-| 15 | 3.3 Path-specific rules | Child-Data Rules for Child-Data Files Only | Stricter privacy rules that load only in the profile code | Planned |
-| 16 | 3.4 Plan mode vs direct execution | Plan First, or Just Build It? | Adding family accounts with several children vs fixing a typo | Planned |
+| 15 | 3.3 Path-specific rules | Coaching-Notes Rules for Coaching-Notes Files Only | Stricter privacy rules that load only in the session-notes code | Planned |
+| 16 | 3.4 Plan mode vs direct execution | Plan First, or Just Build It? | Adding shared accounts for co-parents vs fixing a typo | Planned |
 | 17 | 3.5 Iterative refinement | The First Draft Was Fine. The Third Was Right. | Tests first, then code; Claude asks the questions | Planned |
 | 18 | 3.6 Claude Code in CI/CD | The Pull-Request Reviewer That Never Sleeps | Automated review and tests on every pull request | Planned |
 | C3 | Domain 3 checkpoint | Domain 3 Checkpoint: Could You Pass This Part Today? | 6 to 8 exam-style ParentPal questions on Claude Code, with answers and the why | Planned |
 | **Domain 4** | **Prompt engineering and structured output (20%)** | | | |
 | 19 | 4.1 Explicit criteria | 40 Comments on One Pull Request | A vague review prompt vs clear criteria and severity | Planned |
-| 20 | 4.2 Few-shot prompting | Show It Three Examples, Not Thirty Rules | Sorting parent messages consistently: urgent, routine, billing | Planned |
-| 21 | 4.3 Structured output with tools | From a Handwritten Intake Form to a Clean Child Profile | Extracting age, routines and goals from intake forms | Planned |
-| 22 | 4.4 Validation and retry loops | The JSON Was Valid. The Age Was Wrong. | 3 months read as 3 years; feeding the error back for a second try | Planned |
+| 20 | 4.2 Few-shot prompting | Show It Three Examples, Not Thirty Rules | Sorting parent messages consistently: distress, coaching question, billing | Planned |
+| 21 | 4.3 Structured output with tools | From a Self-Assessment Form to a Clean Parent Profile | Extracting goals, stress triggers and family setup from intake forms | Planned |
+| 22 | 4.4 Validation and retry loops | The JSON Was Valid. The Date Was Wrong. | 03/04 read as 3 April instead of 4 March; feeding the error back for a second try | Planned |
 | 23 | 4.5 Batch processing | 10,000 Session Notes by Morning, at a Lower Price | Overnight summaries of coaching notes | Planned |
 | 24 | 4.6 Multi-pass review | Why the Writer Shouldn't Check Its Own Work | An independent second review of a new course lesson | Planned |
 | C4 | Domain 4 checkpoint | Domain 4 Checkpoint: Could You Pass This Part Today? | 6 to 8 exam-style ParentPal questions on Prompting and structured output, with answers and the why | Planned |
 | **Domain 5** | **Context management and reliability (15%)** | | | |
-| 25 | 5.1 Conversation context | Forty Messages In, It Forgot the Twins | Keeping key facts pinned in a long chat | Planned |
-| 26 | 5.2 Escalation and ambiguity | "My Baby Has a Fever." Should the AI Answer? | Escalating on request, on risk, and when no rule fits; asking "which child?" when a family has three | Planned |
+| 25 | 5.1 Conversation context | Forty Messages In, It Forgot the Night Shifts | The parent works nights; forty messages later the advice assumes a 9-to-5 day | Planned |
+| 26 | 5.2 Escalation and ambiguity | "I'm Close to Breaking Point." Should the AI Keep Coaching? | Handing over to a person on request, on distress, and when no rule fits; asking "which child?" in a family of three | Planned |
 | 27 | 5.3 Error propagation | One Helper Failed. The Report Said "All Good". | The reviews helper timed out; the course report went out anyway | Planned |
 | 28 | 5.4 Large-codebase exploration | Lost in 3,000 Files | Finding how coaching reminders are scheduled | Planned |
-| 29 | 5.5 Human review and confidence | Which Answers Need a Human Look? | Routing low-confidence intake extractions to a coach | Planned |
-| 30 | 5.6 Provenance | Two Studies, Two Answers on Screen Time. Which One Wins? | Conflicting sources in the research report | Planned |
+| 29 | 5.5 Human review and confidence | Which Answers Need a Human Look? | Routing low-confidence intake extractions to a human coach | Planned |
+| 30 | 5.6 Provenance | Two Experts, Two Answers on Time-Outs. Which One Wins? | Conflicting sources in the research report | Planned |
 | C5 | Domain 5 checkpoint | Domain 5 Checkpoint: Could You Pass This Part Today? | 6 to 8 exam-style ParentPal questions on Context and reliability, with answers and the why | Planned |
 | M | Mock exam | 4 Scenarios, 20 Questions: Are You Ready? | A timed practice round across ParentPal's four systems, with a score guide | Planned |
 | 31 | Finale | Exam Day: 30 Objectives on One Page | The whole ParentPal system, and a last-night revision checklist | Planned |
@@ -101,7 +101,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 1 · Objective 1.1: Design and implement agentic loops for autonomous task execution
 
 **Write-up:** How Does an Agent Know When to Stop?  
-**ParentPal moment:** A parent asks to move a coaching session. The agent checks the calendar, books the new slot, and must know it's really finished, not just that it typed "Done!"  
+**ParentPal moment:** A parent asks to move Saturday's coaching session. The agent checks the coach's calendar, books the new slot, and must know it's really finished, not just that it typed "All done!"  
 **Status:** Planned
 
 **Knowledge of:**
@@ -118,8 +118,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 2 · Objective 1.2: Orchestrate multi-agent systems with coordinator-subagent patterns
 
-**Write-up:** One Coordinator, Three Helpers: Who Builds the Toddler Sleep Course?  
-**ParentPal moment:** Sleep studies, health guidelines and parent reviews researched by separate helpers  
+**Write-up:** One Coordinator, Three Helpers: Who Builds the Calm Parenting Course?  
+**ParentPal moment:** Studies, expert guidance and parent reviews researched by separate helpers  
 **Status:** Planned
 
 **Knowledge of:**
@@ -139,7 +139,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 3 · Objective 1.3: Configure subagent invocation, context passing, and spawning
 
 **Write-up:** The Helper Never Saw the Brief  
-**ParentPal moment:** The guidelines helper doesn't know the course is for ages 1 to 3  
+**ParentPal moment:** The studies helper doesn't know the course is for parents of teenagers  
 **Status:** Planned
 
 **Knowledge of:**
@@ -158,8 +158,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 4 · Objective 1.4: Implement multi-step workflows with enforcement and handoff patterns
 
-**Write-up:** The Prompt Said "Check the Child's Age First". The Agent Didn't.  
-**ParentPal moment:** Newborn sleep tips sent for a 3-year-old; handing over to a human coach with a proper summary  
+**Write-up:** The Prompt Said "Check the Plan First". The Agent Didn't.  
+**ParentPal moment:** A paid 1:1 session booked for a parent on the free plan; handing over to a human coach with a proper summary  
 **Status:** Planned
 
 **Knowledge of:**
@@ -177,7 +177,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 5 · Objective 1.5: Apply Agent SDK hooks for tool call interception and data normalization
 
 **Write-up:** Who Checks the Agent Before It Presses Send?  
-**ParentPal moment:** A hook masks children's names and blocks refunds above the limit  
+**ParentPal moment:** A hook masks family names in logs and blocks refunds above the limit  
 **Status:** Planned
 
 **Knowledge of:**
@@ -195,7 +195,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 6 · Objective 1.6: Design task decomposition strategies for complex workflows
 
 **Write-up:** One Big Ask or Five Small Ones?  
-**ParentPal moment:** "Build the Toddler Sleep course" vs a step-by-step plan  
+**ParentPal moment:** "Build the Calm Parenting course" vs a step-by-step plan  
 **Status:** Planned
 
 **Knowledge of:**
@@ -213,7 +213,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 7 · Objective 1.7: Manage session state, resumption, and forking
 
 **Write-up:** Pick Up Where You Left Off, or Try Two Ideas at Once?  
-**ParentPal moment:** Resuming yesterday's research; forking to compare two bedtime approaches  
+**ParentPal moment:** Resuming yesterday's research; forking to compare two coaching approaches for bedtime battles  
 **Status:** Planned
 
 **Knowledge of:**
@@ -235,7 +235,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 8 · Objective 2.1: Design effective tool interfaces with clear descriptions and boundaries
 
 **Write-up:** Two Tools, Nearly the Same Name. Guess Which One It Picked.  
-**ParentPal moment:** get_child vs get_child_profile  
+**ParentPal moment:** get_parent vs get_parent_profile  
 **Status:** Planned
 
 **Knowledge of:**
@@ -380,8 +380,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 15 · Objective 3.3: Apply path-specific rules for conditional convention loading
 
-**Write-up:** Child-Data Rules for Child-Data Files Only  
-**ParentPal moment:** Stricter privacy rules that load only in the profile code  
+**Write-up:** Coaching-Notes Rules for Coaching-Notes Files Only  
+**ParentPal moment:** Stricter privacy rules that load only in the session-notes code  
 **Status:** Planned
 
 **Knowledge of:**
@@ -399,7 +399,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 16 · Objective 3.4: Determine when to use plan mode vs direct execution
 
 **Write-up:** Plan First, or Just Build It?  
-**ParentPal moment:** Adding family accounts with several children vs fixing a typo  
+**ParentPal moment:** Adding shared accounts for co-parents vs fixing a typo  
 **Status:** Planned
 
 **Knowledge of:**
@@ -481,7 +481,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 20 · Objective 4.2: Apply few-shot prompting to improve output consistency and quality
 
 **Write-up:** Show It Three Examples, Not Thirty Rules  
-**ParentPal moment:** Sorting parent messages consistently: urgent, routine, billing  
+**ParentPal moment:** Sorting parent messages consistently: distress, coaching question, billing  
 **Status:** Planned
 
 **Knowledge of:**
@@ -501,8 +501,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 21 · Objective 4.3: Enforce structured output using tool use and JSON schemas
 
-**Write-up:** From a Handwritten Intake Form to a Clean Child Profile  
-**ParentPal moment:** Extracting age, routines and goals from intake forms  
+**Write-up:** From a Self-Assessment Form to a Clean Parent Profile  
+**ParentPal moment:** Extracting goals, stress triggers and family setup from intake forms  
 **Status:** Planned
 
 **Knowledge of:**
@@ -523,8 +523,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 22 · Objective 4.4: Implement validation, retry, and feedback loops for extraction quality
 
-**Write-up:** The JSON Was Valid. The Age Was Wrong.  
-**ParentPal moment:** 3 months read as 3 years; feeding the error back for a second try  
+**Write-up:** The JSON Was Valid. The Date Was Wrong.  
+**ParentPal moment:** 03/04 read as 3 April instead of 4 March; feeding the error back for a second try  
 **Status:** Planned
 
 **Knowledge of:**
@@ -583,8 +583,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 25 · Objective 5.1: Manage conversation context to preserve critical information across long interactions
 
-**Write-up:** Forty Messages In, It Forgot the Twins  
-**ParentPal moment:** Keeping key facts pinned in a long chat  
+**Write-up:** Forty Messages In, It Forgot the Night Shifts  
+**ParentPal moment:** The parent works nights; forty messages later the advice assumes a 9-to-5 day  
 **Status:** Planned
 
 **Knowledge of:**
@@ -605,8 +605,8 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 26 · Objective 5.2: Design effective escalation and ambiguity resolution patterns
 
-**Write-up:** "My Baby Has a Fever." Should the AI Answer?  
-**ParentPal moment:** Escalating on request, on risk, and when no rule fits; asking "which child?" when a family has three  
+**Write-up:** "I'm Close to Breaking Point." Should the AI Keep Coaching?  
+**ParentPal moment:** Handing over to a person on request, on distress, and when no rule fits; asking "which child?" in a family of three  
 **Status:** Planned
 
 **Knowledge of:**
@@ -668,7 +668,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 #### Write-up 29 · Objective 5.5: Design human review workflows and confidence calibration
 
 **Write-up:** Which Answers Need a Human Look?  
-**ParentPal moment:** Routing low-confidence intake extractions to a coach  
+**ParentPal moment:** Routing low-confidence intake extractions to a human coach  
 **Status:** Planned
 
 **Knowledge of:**
@@ -687,7 +687,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 30 · Objective 5.6: Preserve information provenance and handle uncertainty in multisource synthesis
 
-**Write-up:** Two Studies, Two Answers on Screen Time. Which One Wins?  
+**Write-up:** Two Experts, Two Answers on Time-Outs. Which One Wins?  
 **ParentPal moment:** Conflicting sources in the research report  
 **Status:** Planned
 
@@ -711,7 +711,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 Every objective article follows the same shape, so readers always know where they are:
 
 1. **Title + objective line.** "Exam objective 1.1: Design and implement agentic loops for autonomous task execution" (exact wording from the guide).
-2. **The ParentPal moment (3 to 4 lines).** *A parent asks to move Saturday's coaching session. The agent checks the calendar, books the new slot, and replies "All done!" ... but the code stopped the loop the moment it saw the word "done", before the confirmation email tool ran.*
+2. **The ParentPal moment (3 to 4 lines).** *A parent asks to move Saturday's coaching session. The agent checks the coach's calendar, books the new slot, and replies "All done!" ... but the code stopped the loop the moment it saw the word "done", before the confirmation email tool ran.*
 3. **How it really works (plain words, one analogy).** *The loop: ask Claude → it asks for a tool (stop_reason "tool_use") → run the tool, add the result to the conversation → ask again → until stop_reason is "end_turn". Like a waiter who keeps coming back to the kitchen until the order is complete, and only the order slip says when it's complete.*
 4. **The objective map.** One line for every knowledge and skill point in the guide, so nothing is missed. *For 1.1: the lifecycle; adding tool results to history; model-driven vs fixed sequences; continue on tool_use, stop on end_turn; avoid the three anti-patterns: reading "done" in the text, iteration caps as the main stop, checking for text as a finish signal.*
 5. **Exam traps (2 or 3 lines).** What a tempting wrong answer looks like. *"Add a 10-step cap" sounds safe; the exam expects stop_reason as the primary signal, with caps only as a safety net.*
