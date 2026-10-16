@@ -6,7 +6,7 @@
 
 The AI filed Priya's claim. Then it started uploading her 14 receipts.
 
-At receipt 9, the upload failed. The AI told Priya: "Done!"
+After receipt 9, the upload failed. The AI told Priya: "Done!"
 
 Her manager opened a ₹23,480 claim with 9 receipts. Missing proof, so: rejected. Priya had to start again, and explain why the AI said it was done.
 
@@ -59,7 +59,7 @@ Follow me for the next one. What's the most "half-done" thing a system has ever 
 **Post text (copy and paste):**
 
 ```
-The AI filed Priya's claim. The receipt upload failed at 9 of 14.
+The AI filed Priya's claim. The receipt upload stopped after 9 of 14.
 
 It said: "Done!"
 
