@@ -50,7 +50,7 @@ Source: the official exam guide. Check Anthropic's certification pages for the l
 |---|---|---|---|---|
 | 0 | Curtain raiser | [Can a Parenting App Teach You the Claude Architect Exam?](00-curtain-raiser.md) | Meet ParentPace, the exam in one page, and why it tests judgement, not trivia | Draft for review |
 | **Domain 1** | **Agentic architecture and orchestration (27%)** | | | |
-| 1 | 1.1 Agentic loops | How Does an Agent Know When to Stop? | A parent asks to move Saturday's coaching session. The agent checks the coach's calendar, books the new slot, and must know it's really finished, not just that it typed "All done!" | Planned |
+| 1 | 1.1 Agentic loops | [How Does an Agent Know When to Stop?](01-agentic-loops.md) | A parent asks to move Saturday's coaching session. The agent checks the coach's calendar, books the new slot, and must know it's really finished, not just that it typed "All done!" | Draft for review |
 | 2 | 1.2 Coordinator and subagents | One Coordinator, Three Helpers: Who Builds the Calm Parenting Course? | Studies, expert guidance and parent reviews researched by separate helpers | Planned |
 | 3 | 1.3 Subagent context passing | The Helper Never Saw the Brief | The studies helper doesn't know the course is for parents of teenagers | Planned |
 | 4 | 1.4 Enforcement and handoffs | The Prompt Said "Check the Plan First". The Agent Didn't. | A paid 1:1 session booked for a parent on the free plan; handing over to a human coach with a proper summary | Planned |
@@ -100,7 +100,7 @@ Each objective is quoted from the official exam guide (Version 1.0, July 2026) s
 
 #### Write-up 1 · Objective 1.1: Design and implement agentic loops for autonomous task execution
 
-**Write-up:** How Does an Agent Know When to Stop?  
+**Write-up:** [How Does an Agent Know When to Stop?](01-agentic-loops.md)  
 **ParentPace moment:** A parent asks to move Saturday's coaching session. The agent checks the coach's calendar, books the new slot, and must know it's really finished, not just that it typed "All done!"  
 **Status:** Planned
 
