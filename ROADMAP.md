@@ -1,10 +1,11 @@
 # Roadmap
 
-Three kinds of writing, all in one place:
+Four kinds of writing, all in one place:
 
 1. **AI engineering series** (1 to 16, in four acts): things that look simple and fail often in AI projects.
 2. **Today in AI** (20): what's new in AI, and what it means, in plain words.
 3. **AI system design** (21): one AI system design question per post.
+4. **Certification prep** (22): the Claude Certified Architect – Foundations exam, one objective per post.
 
 ## 1. AI engineering series
 
@@ -60,3 +61,9 @@ Topics 9-11, 16, 18 and 19 were inspired by a "9 AI concepts" infographic by Bri
 
 
 **Retired 2026-10-15:** "Build it and they will chat" (old series 2; its topics overlapped #JustAddRAG), "Just ask it for JSON" (old 7) and "Give the agent the keys" (old 14), both absorbed into the new Series 2. "Just make it agentic" (old 16, then 14) was also absorbed into Series 2 on 2026-10-15. Files kept in [_retired/](_retired/).
+
+## 4. Certification prep
+
+| Series | Topic | Level | What it covers | Status | Why a full series, not one article |
+|---|---|---|---|---|---|
+| 22 | "Claude Architect, One Objective at a Time" (#ClaudeArchitectPrep) | L3 to L4 | Study series for the Claude Certified Architect – Foundations exam: one write-up per exam objective (30), with a practice question each. Running example: DabbaNow, a fictional tiffin delivery startup. Plan: [22-claude-architect-exam/](22-claude-architect-exam/README.md) | **Planned (outline ready)** | The exam has 30 objectives across 5 domains; each one is a separate skill with its own practice question. |
