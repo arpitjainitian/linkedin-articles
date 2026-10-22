@@ -4,6 +4,8 @@
 
 *Beyond Just RAG: From Answers to Actions series: Agents stuck in loops*
 
+**Published:** 22 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/5-asked-same-receipt-40-times-agents-stuck-loops-arpit-jain-qcshf/)
+
 One of Priya's taxi receipts is blurry. The AI reads it, isn't sure of the amount, and asks her to upload it again.
 
 She does. Same blur. The AI asks again.
