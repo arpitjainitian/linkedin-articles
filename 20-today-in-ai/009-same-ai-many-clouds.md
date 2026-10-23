@@ -14,10 +14,19 @@
 
 ## Who hosts what (23 October 2026)
 
-- **AWS:** Claude ✅, GPT ✅, both in-country in India [1, 2, 6]. Gemini ➖.
+**Global:**
+
+- **AWS:** Claude ✅ [1], GPT ✅ [6]. Gemini ➖.
 - **Microsoft:** GPT ✅ [7], Claude ✅ [4]. Gemini ➖.
 - **Google Cloud:** Gemini ✅, Claude ✅ [5], GPT 🟡 preview [3].
 - **Oracle:** Gemini ✅ [9], GPT 🟡 announced [8], Claude ➖.
+
+**In India, with data staying in India:**
+
+- **AWS:** Claude ✅ (Opus 5, Sonnet 5, Haiku 4.5) [1], GPT ✅ (Terra, Luna) [2].
+- **Microsoft:** GPT 🟡 older models only, up to GPT-5.1 and GPT-5.4 mini [10]. Claude ➖ (global or US only) [4].
+- **Google Cloud:** Gemini ✅ (Flash, since July) [11].
+- **Oracle:** ➖.
 
 *➖ = no public listing found. Catalogs change often.*
 
@@ -29,7 +38,7 @@ Picking a model no longer means picking a cloud. For banks, hospitals and govern
 
 ## The catch
 
-New dishes reach some branches later. Claude Opus 5.5 and Sonnet 5.5 are on Microsoft and Google, but not yet in-country in India [4, 5]. OpenAI's in-India choice is Terra and Luna, not the flagship Sol [2].
+New dishes reach some branches later. Claude Opus 5.5 and Sonnet 5.5 are on Microsoft and Google, but not yet in-country in India [4, 5]. In India, OpenAI's newest options are Terra and Luna on AWS, not the flagship Sol [2, 10].
 
 ## One thing to do this week
 
@@ -52,8 +61,10 @@ New dishes reach some branches later. Claude Opus 5.5 and Sonnet 5.5 are on Micr
 7. Microsoft, "GPT-5.6 now available in Microsoft Foundry", 9 July 2026. [Read it](https://azure.microsoft.com/en-us/blog/gpt-5-6-now-available-in-microsoft-foundry/) (primary source)
 8. IT Brief, "OpenAI and Oracle to offer models on OCI Marketplace", June 2026. [Read it](https://itbrief.news/story/openai-oracle-to-offer-models-on-oci-marketplace)
 9. Oracle, "Use Google Gemini 2.5 in OCI Generative AI", release note, 1 October 2025. [Read it](https://docs.oracle.com/iaas/releasenotes/generative-ai/gemini-2-5-GA.htm) (primary source)
+10. Microsoft Learn, "Region availability for Foundry Models sold by Azure" (Standard/Regional and Regional Provisioned tables, South India), updated 19 October 2026. [Read it](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability) (primary source)
+11. IBEF, "Google expands AI infrastructure in India with local hosting of Gemini models", 9 July 2026. [Read it](https://www.ibef.org/news/google-expands-ai-infrastructure-in-india-with-local-hosting-of-gemini-models)
 
-Credit to Anthropic, OpenAI, AWS, Microsoft, Google Cloud and Oracle for their public announcements and documentation, and to the reporters at Analytics India Magazine, Business Standard, CNBC, TechWire Asia and IT Brief. Facts come from these sources, checked on 23 October 2026; the cloud list is my summary of them, and the opinions are mine. Cover: original illustration, no third-party logos or images.
+Credit to Anthropic, OpenAI, AWS, Microsoft, Google Cloud and Oracle for their public announcements and documentation, and to the reporters at Analytics India Magazine, Business Standard, CNBC, TechWire Asia and IT Brief and IBEF. Facts come from these sources, checked on 23 October 2026; the cloud list is my summary of them, and the opinions are mine. Cover: original illustration, no third-party logos or images.
 
 **Not sponsored.** This write-up is not sponsored by anyone. Nobody paid for it or reviewed it before publishing.
 
