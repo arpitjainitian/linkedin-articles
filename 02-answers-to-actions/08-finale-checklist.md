@@ -55,7 +55,7 @@ How many boxes did your project tick?
 4. [The claim was filed. The receipts weren't attached.](https://www.linkedin.com/pulse/4-claim-filed-receipts-werent-attached-jobs-stop-halfway-arpit-jain-ki3vf)
 5. [It asked for the same receipt 40 times.](https://www.linkedin.com/pulse/5-asked-same-receipt-40-times-agents-stuck-loops-arpit-jain-qcshf/)
 6. [Does this even need an AI agent?](https://www.linkedin.com/pulse/6-does-even-need-ai-agent-workflow-vs-arpit-jain-rlcif)
-7. Two claims, two different paths. Which one was right? *(link added when published)*
+7. [Two claims, two different paths. Which one was right?](https://www.linkedin.com/pulse/7-two-claims-different-paths-which-one-right-testing-agents-jain-4zouf)
 
 *Missed the first series? Start with [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/) or jump to [the grand finale](https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/).*
 
@@ -88,7 +88,7 @@ Missed the first series? Start with "Why does Just add RAG sound like 2 weeks bu
 4. The claim was filed. The receipts weren't attached. https://www.linkedin.com/pulse/4-claim-filed-receipts-werent-attached-jobs-stop-halfway-arpit-jain-ki3vf
 5. It asked for the same receipt 40 times. https://www.linkedin.com/pulse/5-asked-same-receipt-40-times-agents-stuck-loops-arpit-jain-qcshf/
 6. Does this even need an AI agent? https://www.linkedin.com/pulse/6-does-even-need-ai-agent-workflow-vs-arpit-jain-rlcif
-7. Two claims, two different paths. Which one was right? [link]
+7. Two claims, two different paths. Which one was right? https://www.linkedin.com/pulse/7-two-claims-different-paths-which-one-right-testing-agents-jain-4zouf
 8. So, should your AI do things, or just answer? (you're here)
 
 New here? #JustAddRAG starts here: https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/

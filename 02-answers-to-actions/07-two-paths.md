@@ -4,6 +4,8 @@
 
 *Beyond Just RAG: From Answers to Actions series: Testing agents*
 
+**Published:** 24 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/7-two-claims-different-paths-which-one-right-testing-agents-jain-4zouf)
+
 We ran Priya's claim through the AI twice, to test it.
 
 Run A: read the receipts, checked the travel policy, then submitted.
