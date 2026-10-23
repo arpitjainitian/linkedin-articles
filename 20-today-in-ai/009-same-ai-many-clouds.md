@@ -38,7 +38,7 @@ Picking a model no longer means picking a cloud. For banks, hospitals and govern
 
 ## The catch
 
-New dishes reach some branches later. Claude Opus 5.5 and Sonnet 5.5 are on Microsoft and Google, but not yet in-country in India [4, 5]. In India, OpenAI's newest options are Terra and Luna on AWS, not the flagship Sol [2, 10].
+New dishes reach some branches later. Claude Opus 5.5 is on AWS, Microsoft and Google, but not yet in-country in India [1, 4, 5, 12]. In India, OpenAI's newest options are Terra and Luna on AWS, not the flagship Sol [2, 10].
 
 ## One thing to do this week
 
