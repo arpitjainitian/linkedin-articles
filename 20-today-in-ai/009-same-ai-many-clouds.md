@@ -8,7 +8,7 @@
 
 ## What happened
 
-- **5 October:** Anthropic's Claude (Opus 5, Sonnet 5, Haiku 4.5) went live on Amazon Bedrock with **in-country inference** in India, in Mumbai and Hyderabad. [1]
+- **29 September:** Anthropic's Claude (Opus 5, Sonnet 5, Haiku 4.5) went live on Amazon Bedrock with **in-country inference** in India, in Mumbai and Hyderabad. Anthropic announced it on 5 October. [1]
 - **18 August:** OpenAI's GPT-5.6 Terra and Luna got the same in-India option. [2]
 - **21 October:** OpenAI said its models are coming to Google Cloud, in private preview. [3]
 
@@ -16,7 +16,7 @@
 
 **Global:**
 
-- **AWS:** Claude ✅ [1], GPT ✅ [6]. Gemini ➖.
+- **AWS:** Claude ✅ [12], GPT ✅ [6]. Gemini ➖.
 - **Microsoft:** GPT ✅ [7], Claude ✅ [4]. Gemini ➖.
 - **Google Cloud:** Gemini ✅, Claude ✅ [5], GPT 🟡 preview [3].
 - **Oracle:** Gemini ✅ [9], GPT 🟡 announced [8], Claude ➖.
@@ -25,7 +25,7 @@
 
 - **AWS:** Claude ✅ (Opus 5, Sonnet 5, Haiku 4.5) [1], GPT ✅ (Terra, Luna) [2].
 - **Microsoft:** GPT 🟡 older models only, up to GPT-5.1 and GPT-5.4 mini [10]. Claude ➖ (global or US only) [4].
-- **Google Cloud:** Gemini ✅ (Flash, since July) [11].
+- **Google Cloud:** Gemini ✅ (Gemini Flash) [11, 13].
 - **Oracle:** ➖.
 
 *➖ = no public listing found. Catalogs change often.*
@@ -52,7 +52,7 @@ New dishes reach some branches later. Claude Opus 5.5 and Sonnet 5.5 are on Micr
 
 ## References and credits
 
-1. Analytics India Magazine, "Anthropic Brings Claude In-Country Inference to India Through Amazon Bedrock", 5 October 2026. [Read it](https://analyticsindiamag.com/ai-news/anthropic-brings-claude-in-country-inference-to-india-through-amazon-bedrock). Also covered by [Business Standard](https://www.business-standard.com/technology/artificial-intelligence/anthropic-claude-india-inference-amazon-bedrock-data-residency-126100500356_1.html).
+1. AWS, "Amazon Bedrock expands Claude model availability to in-country inferencing in India", 29 September 2026. [Read it](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/) (primary source). Also covered by [Analytics India Magazine](https://analyticsindiamag.com/ai-news/anthropic-brings-claude-in-country-inference-to-india-through-amazon-bedrock) and [Business Standard](https://www.business-standard.com/technology/artificial-intelligence/anthropic-claude-india-inference-amazon-bedrock-data-residency-126100500356_1.html), 5 October 2026.
 2. AWS, "Amazon Bedrock now supports OpenAI models in India", 18 August 2026. [Read it](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/) (primary source)
 3. OpenAI, "OpenAI models are coming to Google Cloud", 21 October 2026. [Read it](https://openai.com/index/openai-models-google-cloud/) (primary source). Also covered by [CNBC](https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html) and [TechWire Asia](https://techwireasia.com/2026/10/openai-google-cloud-ai-models/).
 4. Microsoft Learn, "Claude models in Microsoft Foundry", updated 22 September 2026. [Read it](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/claude-models) (primary source). And Anthropic, "Claude in Microsoft Foundry is now generally available", 29 June 2026. [Read it](https://claude.com/blog/claude-in-microsoft-foundry)
@@ -63,6 +63,8 @@ New dishes reach some branches later. Claude Opus 5.5 and Sonnet 5.5 are on Micr
 9. Oracle, "Use Google Gemini 2.5 in OCI Generative AI", release note, 1 October 2025. [Read it](https://docs.oracle.com/iaas/releasenotes/generative-ai/gemini-2-5-GA.htm) (primary source)
 10. Microsoft Learn, "Region availability for Foundry Models sold by Azure" (Standard/Regional and Regional Provisioned tables, South India), updated 19 October 2026. [Read it](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability) (primary source)
 11. IBEF, "Google expands AI infrastructure in India with local hosting of Gemini models", 9 July 2026. [Read it](https://www.ibef.org/news/google-expands-ai-infrastructure-in-india-with-local-hosting-of-gemini-models)
+12. AWS, "Claude Opus 5.5 is now available on AWS". [Read it](https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/) (primary source)
+13. Google Cloud, "Supporting Viksit Bharat: announcing AI investments in India", 11 November 2025 (Gemini 2.5 Flash with processing in India). [Read it](https://cloud.google.com/blog/products/gcp/supporting-viksit-bharat-announcing-ai-investments-in-india) (primary source)
 
 Credit to Anthropic, OpenAI, AWS, Microsoft, Google Cloud and Oracle for their public announcements and documentation, and to the reporters at Analytics India Magazine, Business Standard, CNBC, TechWire Asia and IT Brief and IBEF. Facts come from these sources, checked on 23 October 2026; the cloud list is my summary of them, and the opinions are mine. Cover: original illustration, no third-party logos or images.
 
