@@ -43,7 +43,7 @@ Reading is free. Doing has consequences. Plan for them, and AI can do a lot of t
 
 ## Thank you
 
-To everyone who shared their worst expense claim stories: thank you. This series is better for them. The next series picks up from here: once AI can act, who decides what it's allowed to do?
+Thank you for reading, commenting and sharing along the way. The next series picks up from here: once AI can act, who decides what it's allowed to do?
 
 How many boxes did your project tick?
 
