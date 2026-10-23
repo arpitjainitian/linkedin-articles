@@ -4,6 +4,8 @@
 
 *Beyond Just RAG: From Answers to Actions series: Workflow vs agent*
 
+**Published:** 23 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/6-does-even-need-ai-agent-workflow-vs-arpit-jain-rlcif)
+
 Every month, Priya claims her phone bill. Same company. Same amount. Same category.
 
 The AI agent handles it beautifully: 12 steps, a few thoughtful checks, a polite summary. It takes a minute and costs more than it should. And twice this year, it filed the bill under "Travel" instead of "Phone".
