@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 23 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-009-same-many-clouds-where-does-your-data-actually-jain-zgc1f)
+
 **In one line:** Top AI models now run on many clouds, and in India some run without your data leaving the country. But not always the newest version.
 
 ## What happened
