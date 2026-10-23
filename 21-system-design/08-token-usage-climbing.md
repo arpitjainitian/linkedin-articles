@@ -1,4 +1,4 @@
-# AI System Design, No. 7: Your AI Agent Is Accurate, But Token Usage Keeps Climbing. How Would You Fix It?
+# AI System Design, No. 8: Your AI Agent Is Accurate, But Token Usage Keeps Climbing. How Would You Fix It?
 
 *AI system design series: one question per post.*
 
