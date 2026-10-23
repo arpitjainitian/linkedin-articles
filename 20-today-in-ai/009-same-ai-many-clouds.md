@@ -23,12 +23,12 @@
 
 **In India, with data staying in India:**
 
-- **AWS:** Claude ✅ Opus 5, Sonnet 5, Haiku 4.5 [1]. GPT ✅ GPT-5.6 Terra, Luna [2].
-- **Microsoft:** GPT 🟡 older models only, up to GPT-5.1 and GPT-5.4 mini [10]. Claude ➖ (global or US only) [4].
-- **Google Cloud:** Gemini ✅ Gemini Flash [11, 13].
-- **Oracle:** ➖.
+- **AWS:** Claude ✅ Opus 5, Sonnet 5, Haiku 4.5 [1]. GPT ✅ GPT-5.6 Terra, Luna [2]. Gemini ➖.
+- **Microsoft:** GPT 🟡 GPT-5.4 mini and GPT-5.1, on reserved capacity only (pay-as-you-go: GPT-4o, GPT-4.1 mini) [10]. Claude ➖, offered only globally or in the US [4]. Gemini ➖.
+- **Google Cloud:** Gemini ✅ Gemini 3.5 Flash, processed in Mumbai [15]. Claude ➖, no Indian region listed [16]. GPT ➖.
+- **Oracle:** Gemini 🟡 Gemini 2.5 offered in Hyderabad, but Oracle doesn't say where it's processed [17]. Claude ➖. GPT ➖.
 
-*Newest models listed, not every model. ➖ = no public listing found. Catalogs change often.*
+*Newest models listed, not every model. GPT means OpenAI's GPT models (open-weight gpt-oss not counted). ➖ = no public listing found. Catalogs change often.*
 
 ## What it means
 
@@ -66,6 +66,9 @@ New dishes reach some branches later. Claude Opus 5.5 is on AWS, Microsoft and G
 12. AWS, "Claude Opus 5.5 is now available on AWS". [Read it](https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/) (primary source)
 13. Google Cloud, "Supporting Viksit Bharat: announcing AI investments in India", 11 November 2025 (Gemini 2.5 Flash with processing in India). [Read it](https://cloud.google.com/blog/products/gcp/supporting-viksit-bharat-announcing-ai-investments-in-india) (primary source)
 14. Google Cloud, "Gemini Enterprise Agent Platform release notes" (Gemini 4 Argon GA 13 October 2026; Gemini 3.8 Flash GA 2 September 2026). [Read it](https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes) (primary source)
+15. Google Cloud, "Gemini 3.5 Flash" model page (ML processing regions include asia-south1, Mumbai). [Read it](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash) (primary source)
+16. Google Cloud, Claude model pages on Agent Platform (Sonnet 4.6: us-east5, europe-west1, asia-southeast1, global; Haiku 4.5: us-east5, europe-west1, global). [Read it](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/sonnet-4-6) (primary source)
+17. Oracle, "New Regions for Google Gemini 2.5 in OCI Generative AI", 21 January 2026 (adds India South, Hyderabad). [Read it](https://docs.oracle.com/en-us/iaas/releasenotes/generative-ai/gemini-2-5-regions.htm) (primary source)
 
 Credit to Anthropic, OpenAI, AWS, Microsoft, Google Cloud and Oracle for their public announcements and documentation, and to the reporters at Analytics India Magazine, Business Standard, CNBC, TechWire Asia and IT Brief and IBEF. Facts come from these sources, checked on 23 October 2026; the cloud list is my summary of them, and the opinions are mine. Cover: original illustration, no third-party logos or images.
 
