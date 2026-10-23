@@ -47,6 +47,7 @@
 | 006 | [Your AI made a decision. Can you prove why? \| Data lineage vs decision lineage](006-decision-lineage.md) | Explainer: tracing numbers vs tracing decisions | [Published](https://www.linkedin.com/pulse/today-ai-006-your-made-decision-can-you-prove-why-data-arpit-jain-vjenf) 13 October 2026 |
 | 007 | [Should every question go to your most expensive AI? \| Meet AI routers](007-ai-routers.md) | AI routers (Vela 2.0) | [Published](https://www.linkedin.com/pulse/today-ai-007-should-every-question-go-your-most-expensive-arpit-jain-xjexf) 14 October 2026 |
 | 008 | [Does using AI make you give up faster? \| AI and learning](008-give-up-faster.md) | Study: AI help lowers persistence once the AI is gone; hints may not | [Published](https://www.linkedin.com/pulse/today-ai-008-does-using-make-you-give-up-faster-learning-arpit-jain-ppghf/) 14 October 2026 |
-| 009 | [Would you send your AI twin to a job interview? \| AI twins in hiring](009-ai-twin-interview.md) | AI twins that recruiters question before a real interview | Draft |
+| 009 | [Same AI, many clouds. Where does your data actually go? \| In-country AI](009-same-ai-many-clouds.md) | Claude and OpenAI models now on every big cloud; in-country inference in India on Amazon Bedrock | Draft |
+| 010 | [Would you send your AI twin to a job interview? \| AI twins in hiring](010-ai-twin-interview.md) | AI twins that recruiters question before a real interview | Draft |
 
 Sources for each write-up are listed inside the write-up, under "References and credits".
