@@ -55,7 +55,7 @@ Each topic is its own series, numbered below. Each is a sentence that sounds eas
 
 | Series | Topic | Level | What it covers | Status | Why a full series, not one article |
 |---|---|---|---|---|---|
-| 21 | "It works in the demo. Now design it for production." | L3 to L5 | One AI system design question per post, the kind asked in architect interviews and design reviews: cost, agent loops, consistency, evals, architecture, scale to millions of documents and multi-document answers. Plan and articles: [21-system-design/](21-system-design/README.md) | **In progress** (question 1 drafted, 2 to 8 planned) | Each production problem (cost, loops, scale, quality) is a separate design question with its own trade-offs. One question per post keeps each answer clear. |
+| 21 | "It works in the demo. Now design it for production." | L3 to L5 | One AI system design question per post, the kind asked in AI engineer and architect interviews: 28 questions in 8 areas (RAG and retrieval, cost and latency, agents and memory, output quality and evals, safety, training, serving, observability). Plan and articles: [21-system-design/](21-system-design/README.md) | **In progress** (question 7 drafted, the rest planned) | Each production problem (cost, loops, scale, quality) is a separate design question with its own trade-offs. One question per post keeps each answer clear. |
 
 Topics 9-11, 16, 18 and 19 were inspired by a "9 AI concepts" infographic by Brij Kishore Pandey ([@brijpandeyji](https://www.linkedin.com/in/brijpandeyji/)). Topics 12 and 17 were inspired by an "Agentic RAG vs GraphRAG" comparison infographic. Topic 15 was inspired by an "Anatomy of an AI Agent" diagram.
 
