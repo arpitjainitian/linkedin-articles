@@ -18,12 +18,11 @@ Three moves in a few weeks:
 
 | | AWS (Bedrock) | Microsoft (Foundry) | Google Cloud (Vertex AI) | Oracle (OCI) |
 |---|---|---|---|---|
-| **Claude** (Anthropic) | ✅ In India: in-country | ✅ | ✅ | Not found |
-| **GPT** (OpenAI) | ✅ In India: in-country (Terra, Luna) | ✅ Main partner | 🟡 Private preview | ✅ US marketplace |
-| **Gemini** (Google) | ❌ | ❌ | ✅ Home | ✅ Gemini 2.5 |
-| **Grok** (xAI) | Not found | ✅ | Not found | ✅ |
+| **Claude** (Anthropic) | ✅ In India: in-country (Opus 5, Sonnet 5, Haiku 4.5) [1] | ✅ Including Opus 5.5 [4] | ✅ Including Opus 5.5 [5] | ➖ |
+| **GPT** (OpenAI) | ✅ GPT-5.6 [6]. In India: in-country (Terra, Luna) [2] | ✅ Main partner [7] | 🟡 Private preview, from 21 Oct [3] | 🟡 Announced June 2026 [8] |
+| **Gemini** (Google) | ➖ | ➖ | ✅ Home | ✅ Gemini 2.5 [9] |
 
-*From public announcements and model catalogs [1-7]. Catalogs change often, so check before you build.*
+*➖ = no public listing found when checked on 23 October 2026. Catalogs change often, so check before you build.*
 
 ## What it means
 
@@ -38,7 +37,7 @@ For years, picking an AI model also meant picking a cloud. That's ending. You ca
 
 ## The catch
 
-New dishes reach some branches later. Anthropic's newest models, Opus 5.5 and Sonnet 5.5 (September 2026), aren't on the India in-country list yet [1, 5]. On Bedrock in India, OpenAI's in-country choice is Terra and Luna, not the flagship Sol [2]. And "available on cloud X" can mean different things: on Microsoft Foundry, Claude can run on Anthropic's own infrastructure or on Azure's, with different data rules [4].
+New dishes reach some branches later. Anthropic's newest models, Opus 5.5 and Sonnet 5.5 (September 2026), aren't on the India in-country list yet, though Microsoft and Google already offer them [1, 4, 5]. On Bedrock in India, OpenAI's in-country choice is Terra and Luna, not the flagship Sol [2]. And "available on cloud X" can mean different things: on Microsoft Foundry, Claude can run on Anthropic's own infrastructure or on Azure's, with different data rules [4].
 
 So the real question isn't "is the model on my cloud?" It's "which version, in which region, with my data going where?"
 
@@ -55,15 +54,17 @@ So the real question isn't "is the model on my cloud?" It's "which version, in w
 
 ## References and credits
 
-1. Business Standard, "Anthropic brings in-country Claude inference to India via Amazon Bedrock", October 2026. [Read it](https://www.business-standard.com/technology/artificial-intelligence/anthropic-claude-india-inference-amazon-bedrock-data-residency-126100500356_1.html). Also covered by [Analytics India Magazine](https://analyticsindiamag.com/ai-news/anthropic-brings-claude-in-country-inference-to-india-through-amazon-bedrock).
-2. AWS, "Amazon Bedrock now supports OpenAI models in India", August 2026. [Read it](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/) (primary source). And AWS, "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India". [Read it](https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/)
-3. OpenAI, "OpenAI models are coming to Google Cloud", 21 October 2026. [Read it](https://openai.com/index/openai-models-google-cloud/) (primary source). Also covered by [CNBC](https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html) and [TechWire Asia](https://techwireasia.com/2026/10/openai-google-cloud-ai-models/), which also notes OpenAI's Oracle availability.
-4. Microsoft Learn, "Claude models in Microsoft Foundry". [Read it](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/claude-models) (primary source). And Anthropic, "Claude in Microsoft Foundry is now generally available", June 2026. [Read it](https://claude.com/blog/claude-in-microsoft-foundry)
-5. Anthropic, "Claude on Google Cloud", Claude Platform docs. [Read it](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai) (primary source)
-6. AWS, "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock", July 2026. [Read it](https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/) (primary source)
-7. Oracle, "What's New in Oracle AI? October 2026 Edition". [Read it](https://blogs.oracle.com/ai-and-datascience/whats-new-in-oracle-ai-october-2026). And Microsoft, Foundry model catalog. [Read it](https://ai.azure.com/catalog/models)
+1. Analytics India Magazine, "Anthropic Brings Claude In-Country Inference to India Through Amazon Bedrock", 5 October 2026. [Read it](https://analyticsindiamag.com/ai-news/anthropic-brings-claude-in-country-inference-to-india-through-amazon-bedrock). Also covered by [Business Standard](https://www.business-standard.com/technology/artificial-intelligence/anthropic-claude-india-inference-amazon-bedrock-data-residency-126100500356_1.html).
+2. AWS, "Amazon Bedrock now supports OpenAI models in India", 18 August 2026. [Read it](https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/) (primary source)
+3. OpenAI, "OpenAI models are coming to Google Cloud", 21 October 2026. [Read it](https://openai.com/index/openai-models-google-cloud/) (primary source). Also covered by [CNBC](https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html) and [TechWire Asia](https://techwireasia.com/2026/10/openai-google-cloud-ai-models/).
+4. Microsoft Learn, "Claude models in Microsoft Foundry", updated 22 September 2026. [Read it](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/claude-models) (primary source). And Anthropic, "Claude in Microsoft Foundry is now generally available", 29 June 2026. [Read it](https://claude.com/blog/claude-in-microsoft-foundry)
+5. Anthropic, "Claude Models on Google Cloud", Claude Platform docs (model ID table). [Read it](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai) (primary source)
+6. AWS, "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock", 13 July 2026. [Read it](https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/) (primary source)
+7. Microsoft, "GPT-5.6 now available in Microsoft Foundry", 9 July 2026. [Read it](https://azure.microsoft.com/en-us/blog/gpt-5-6-now-available-in-microsoft-foundry/) (primary source)
+8. IT Brief, "OpenAI and Oracle to offer models on OCI Marketplace", June 2026. [Read it](https://itbrief.news/story/openai-oracle-to-offer-models-on-oci-marketplace)
+9. Oracle, "Use Google Gemini 2.5 in OCI Generative AI", release note, 1 October 2025. [Read it](https://docs.oracle.com/iaas/releasenotes/generative-ai/gemini-2-5-GA.htm) (primary source)
 
-Credit to Anthropic, OpenAI, AWS, Microsoft, Google Cloud and Oracle for their public announcements and documentation, and to the reporters at Business Standard, Analytics India Magazine, CNBC and TechWire Asia. Facts come from these sources, checked on 23 October 2026; the table is my summary of them, and the opinions are mine. Cover: original illustration, no third-party logos or images.
+Credit to Anthropic, OpenAI, AWS, Microsoft, Google Cloud and Oracle for their public announcements and documentation, and to the reporters at Analytics India Magazine, Business Standard, CNBC, TechWire Asia and IT Brief. Facts come from these sources, checked on 23 October 2026; the table is my summary of them, and the opinions are mine. Cover: original illustration, no third-party logos or images.
 
 **Not sponsored.** This write-up is not sponsored by anyone. Nobody paid for it or reviewed it before publishing.
 
