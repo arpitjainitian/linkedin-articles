@@ -24,7 +24,7 @@
 **In India, with data staying in India:**
 
 - **AWS:** Claude ✅ Opus 5, Sonnet 5, Haiku 4.5 [1]. GPT ✅ GPT-5.6 Terra, Luna [2]. Gemini ➖.
-- **Microsoft:** GPT 🟡 GPT-5.4 mini and GPT-5.1, on reserved capacity only (pay-as-you-go: GPT-4o, GPT-4.1 mini) [10]. Claude ➖, offered only globally or in the US [4]. Gemini ➖.
+- **Microsoft:** GPT 🟡 GPT-5.4 mini and GPT-5.1, only on a dedicated plan where you pre-book capacity (pay-per-use: GPT-4o, GPT-4.1 mini) [10]. Claude ➖, offered only globally or in the US [4]. Gemini ➖.
 - **Google Cloud:** Gemini ✅ Gemini 3.5 Flash, processed in Mumbai [15]. Claude ➖, no Indian region listed [16]. GPT ➖.
 - **Oracle:** Gemini 🟡 Gemini 2.5 offered in Hyderabad, but Oracle doesn't say where it's processed [17]. Claude ➖. GPT ➖.
 
