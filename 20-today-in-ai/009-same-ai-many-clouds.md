@@ -4,52 +4,42 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
-**In one line:** The best AI models are no longer tied to one cloud, and in India some of them now run without your data leaving the country. But "available" and "available here, today, in its newest version" are not the same thing.
+**In one line:** Top AI models now run on many clouds, and in India some run without your data leaving the country. But not always the newest version.
 
 ## What happened
 
-Three moves in a few weeks:
+- **5 October:** Anthropic's Claude (Opus 5, Sonnet 5, Haiku 4.5) went live on Amazon Bedrock with **in-country inference** in India, in Mumbai and Hyderabad. [1]
+- **18 August:** OpenAI's GPT-5.6 Terra and Luna got the same in-India option. [2]
+- **21 October:** OpenAI said its models are coming to Google Cloud, in private preview. [3]
 
-- **5 October 2026:** Anthropic's Claude Opus 5, Sonnet 5 and Haiku 4.5 became available on Amazon Bedrock with **in-country inference** in India. Requests are processed in AWS's Mumbai and Hyderabad regions. [1]
-- **18 August 2026:** OpenAI's GPT-5.6 Terra and Luna got the same in-India option on Amazon Bedrock. [2]
-- **21 October 2026:** OpenAI announced its models are coming to Google Cloud, in private preview for now. Microsoft stays its main partner. [3]
+## Who hosts what (23 October 2026)
 
-## Who hosts what, as of 23 October 2026
+- **AWS:** Claude ✅, GPT ✅, both in-country in India [1, 2, 6]. Gemini ➖.
+- **Microsoft:** GPT ✅ [7], Claude ✅ [4]. Gemini ➖.
+- **Google Cloud:** Gemini ✅, Claude ✅ [5], GPT 🟡 preview [3].
+- **Oracle:** Gemini ✅ [9], GPT 🟡 announced [8], Claude ➖.
 
-- **AWS (Bedrock):** Claude ✅ and GPT ✅ [1, 6], both with an in-India, in-country option (Claude: Opus 5, Sonnet 5, Haiku 4.5. GPT: Terra and Luna) [1, 2]. Gemini ➖.
-- **Microsoft (Foundry):** GPT ✅, OpenAI's main partner [7]. Claude ✅, including Opus 5.5 [4]. Gemini ➖.
-- **Google Cloud (Vertex AI):** Gemini ✅, its home. Claude ✅, including Opus 5.5 [5]. GPT 🟡, private preview from 21 October [3].
-- **Oracle (OCI):** Gemini 2.5 ✅ [9]. GPT 🟡, announced June 2026 [8]. Claude ➖.
-
-*➖ = no public listing found when checked on 23 October 2026. Catalogs change often, so check before you build.*
+*➖ = no public listing found. Catalogs change often.*
 
 ## What it means
 
-Think of a restaurant chain. The same brand opens branches in many cities. "In-country" means the kitchen is in your city: your order never leaves town.
+Think of a restaurant chain. In-country means the kitchen is in your city: your order never leaves town.
 
-For years, picking an AI model also meant picking a cloud. That's ending. You can now keep the cloud you already trust, with its contracts, security and bills, and still use the model you want.
-
-## Why it matters to you
-
-- **Learning AI?** Learn the ideas (prompts, tools, evals), not one cloud's buttons. The same models now appear everywhere.
-- **Leading a team?** For banks, hospitals and government work, data residency was often the blocker. India's DPDP Act raised the stakes. In-country inference removes a big "no" from the risk review.
+Picking a model no longer means picking a cloud. For banks, hospitals and government work under India's DPDP Act, that removes a big "no" from the risk review.
 
 ## The catch
 
-New dishes reach some branches later. Anthropic's newest models, Opus 5.5 and Sonnet 5.5 (September 2026), aren't on the India in-country list yet, though Microsoft and Google already offer them [1, 4, 5]. On Bedrock in India, OpenAI's in-country choice is Terra and Luna, not the flagship Sol [2]. And "available on cloud X" can mean different things: on Microsoft Foundry, Claude can run on Anthropic's own infrastructure or on Azure's, with different data rules [4].
-
-So the real question isn't "is the model on my cloud?" It's "which version, in which region, with my data going where?"
+New dishes reach some branches later. Claude Opus 5.5 and Sonnet 5.5 are on Microsoft and Google, but not yet in-country in India [4, 5]. OpenAI's in-India choice is Terra and Luna, not the flagship Sol [2].
 
 ## One thing to do this week
 
-- **Learners:** call the same model through two different providers and compare the setup. You'll see what really changes.
-- **Leaders:** ask your team for one table: each AI feature, which model and version, which region, and whether data leaves the country.
+- **Learners:** call one model through two clouds. See what changes.
+- **Leaders:** ask for one table: each AI feature, its model version, its region, and whether data leaves the country.
 
 ## Words to know
 
-- **Inference:** the AI answering a request. Every question you ask is one inference.
-- **In-country inference:** that answering happens on servers inside your country.
-- **Data residency:** rules about where data must be stored and processed.
+- **Inference:** the AI answering a request.
+- **Data residency:** rules about where data is stored and processed.
 
 ## References and credits
 
@@ -63,7 +53,7 @@ So the real question isn't "is the model on my cloud?" It's "which version, in w
 8. IT Brief, "OpenAI and Oracle to offer models on OCI Marketplace", June 2026. [Read it](https://itbrief.news/story/openai-oracle-to-offer-models-on-oci-marketplace)
 9. Oracle, "Use Google Gemini 2.5 in OCI Generative AI", release note, 1 October 2025. [Read it](https://docs.oracle.com/iaas/releasenotes/generative-ai/gemini-2-5-GA.htm) (primary source)
 
-Credit to Anthropic, OpenAI, AWS, Microsoft, Google Cloud and Oracle for their public announcements and documentation, and to the reporters at Analytics India Magazine, Business Standard, CNBC, TechWire Asia and IT Brief. Facts come from these sources, checked on 23 October 2026; the table is my summary of them, and the opinions are mine. Cover: original illustration, no third-party logos or images.
+Credit to Anthropic, OpenAI, AWS, Microsoft, Google Cloud and Oracle for their public announcements and documentation, and to the reporters at Analytics India Magazine, Business Standard, CNBC, TechWire Asia and IT Brief. Facts come from these sources, checked on 23 October 2026; the cloud list is my summary of them, and the opinions are mine. Cover: original illustration, no third-party logos or images.
 
 **Not sponsored.** This write-up is not sponsored by anyone. Nobody paid for it or reviewed it before publishing.
 
