@@ -16,19 +16,19 @@
 
 **Global:**
 
-- **AWS:** Claude ✅ [12], GPT ✅ [6]. Gemini ➖.
-- **Microsoft:** GPT ✅ [7], Claude ✅ [4]. Gemini ➖.
-- **Google Cloud:** Gemini ✅, Claude ✅ [5], GPT 🟡 preview [3].
-- **Oracle:** Gemini ✅ [9], GPT 🟡 announced [8], Claude ➖.
+- **AWS:** Claude ✅ Opus 5.5, Opus 5, Sonnet 5, Haiku 4.5 [1, 12]. GPT ✅ GPT-5.6 Sol, Terra, Luna [6]. Gemini ➖.
+- **Microsoft:** GPT ✅ GPT-5.6 Sol, Terra, Luna [7]. Claude ✅ Opus 5.5, Sonnet 5.5, Haiku 5.5 [4]. Gemini ➖.
+- **Google Cloud:** Gemini ✅ Gemini 4 Argon, Gemini 3.8 Flash [14]. Claude ✅ Opus 5.5, Sonnet 5.5, Haiku 5.5 [5]. GPT 🟡 GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna, private preview [3].
+- **Oracle:** Gemini ✅ Gemini 2.5 Pro, Flash, Flash-Lite [9]. GPT 🟡 GPT-5.5, announced [8]. Claude ➖.
 
 **In India, with data staying in India:**
 
-- **AWS:** Claude ✅ (Opus 5, Sonnet 5, Haiku 4.5) [1], GPT ✅ (Terra, Luna) [2].
+- **AWS:** Claude ✅ Opus 5, Sonnet 5, Haiku 4.5 [1]. GPT ✅ GPT-5.6 Terra, Luna [2].
 - **Microsoft:** GPT 🟡 older models only, up to GPT-5.1 and GPT-5.4 mini [10]. Claude ➖ (global or US only) [4].
-- **Google Cloud:** Gemini ✅ (Gemini Flash) [11, 13].
+- **Google Cloud:** Gemini ✅ Gemini Flash [11, 13].
 - **Oracle:** ➖.
 
-*➖ = no public listing found. Catalogs change often.*
+*Newest models listed, not every model. ➖ = no public listing found. Catalogs change often.*
 
 ## What it means
 
@@ -65,6 +65,7 @@ New dishes reach some branches later. Claude Opus 5.5 is on AWS, Microsoft and G
 11. IBEF, "Google expands AI infrastructure in India with local hosting of Gemini models", 9 July 2026. [Read it](https://www.ibef.org/news/google-expands-ai-infrastructure-in-india-with-local-hosting-of-gemini-models)
 12. AWS, "Claude Opus 5.5 is now available on AWS". [Read it](https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/) (primary source)
 13. Google Cloud, "Supporting Viksit Bharat: announcing AI investments in India", 11 November 2025 (Gemini 2.5 Flash with processing in India). [Read it](https://cloud.google.com/blog/products/gcp/supporting-viksit-bharat-announcing-ai-investments-in-india) (primary source)
+14. Google Cloud, "Gemini Enterprise Agent Platform release notes" (Gemini 4 Argon GA 13 October 2026; Gemini 3.8 Flash GA 2 September 2026). [Read it](https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes) (primary source)
 
 Credit to Anthropic, OpenAI, AWS, Microsoft, Google Cloud and Oracle for their public announcements and documentation, and to the reporters at Analytics India Magazine, Business Standard, CNBC, TechWire Asia and IT Brief and IBEF. Facts come from these sources, checked on 23 October 2026; the cloud list is my summary of them, and the opinions are mine. Cover: original illustration, no third-party logos or images.
 
