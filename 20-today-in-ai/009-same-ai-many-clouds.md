@@ -11,16 +11,15 @@
 Three moves in a few weeks:
 
 - **5 October 2026:** Anthropic's Claude Opus 5, Sonnet 5 and Haiku 4.5 became available on Amazon Bedrock with **in-country inference** in India. Requests are processed in AWS's Mumbai and Hyderabad regions. [1]
-- **August 2026:** OpenAI's GPT-5.6 Terra and Luna got the same in-India option on Amazon Bedrock. [2]
+- **18 August 2026:** OpenAI's GPT-5.6 Terra and Luna got the same in-India option on Amazon Bedrock. [2]
 - **21 October 2026:** OpenAI announced its models are coming to Google Cloud, in private preview for now. Microsoft stays its main partner. [3]
 
 ## Who hosts what, as of 23 October 2026
 
-| | AWS (Bedrock) | Microsoft (Foundry) | Google Cloud (Vertex AI) | Oracle (OCI) |
-|---|---|---|---|---|
-| **Claude** (Anthropic) | ✅ In India: in-country (Opus 5, Sonnet 5, Haiku 4.5) [1] | ✅ Including Opus 5.5 [4] | ✅ Including Opus 5.5 [5] | ➖ |
-| **GPT** (OpenAI) | ✅ GPT-5.6 [6]. In India: in-country (Terra, Luna) [2] | ✅ Main partner [7] | 🟡 Private preview, from 21 Oct [3] | 🟡 Announced June 2026 [8] |
-| **Gemini** (Google) | ➖ | ➖ | ✅ Home | ✅ Gemini 2.5 [9] |
+- **AWS (Bedrock):** Claude ✅ and GPT ✅ [1, 6], both with an in-India, in-country option (Claude: Opus 5, Sonnet 5, Haiku 4.5. GPT: Terra and Luna) [1, 2]. Gemini ➖.
+- **Microsoft (Foundry):** GPT ✅, OpenAI's main partner [7]. Claude ✅, including Opus 5.5 [4]. Gemini ➖.
+- **Google Cloud (Vertex AI):** Gemini ✅, its home. Claude ✅, including Opus 5.5 [5]. GPT 🟡, private preview from 21 October [3].
+- **Oracle (OCI):** Gemini 2.5 ✅ [9]. GPT 🟡, announced June 2026 [8]. Claude ➖.
 
 *➖ = no public listing found when checked on 23 October 2026. Catalogs change often, so check before you build.*
 
