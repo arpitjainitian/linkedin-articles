@@ -40,6 +40,7 @@ This write-up is the first in a series. Each one takes one part of the harness a
 - Where does the agent keep its place? (State and checkpoints)
 - Where does it practise before touching real claims? (Sandboxes and staging)
 - What does the model actually see? (Context engineering)
+- What's the worst thing your agent is allowed to do? (Action permissions)
 - What happens when five small gaps line up? (Incidents as chains)
 
 ...and a final write-up with a harness checklist.
