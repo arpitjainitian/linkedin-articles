@@ -53,7 +53,7 @@ How many boxes did your project tick?
 3. The policy is 40 pages. Who turns it into rules? *(link added when published)*
 4. The waiver was in the prompt. Not in the code. *(link added when published)*
 
-*Missed the last series? Start with [Your AI can answer. Now it has to act.](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/)*
+*Missed the last series? Start with [Your AI can answer. Now it has to act.](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/) or jump to [the finale](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf).*
 
 ---
 
@@ -70,7 +70,7 @@ The finale has a 9-point checklist to score your AI.
 
 How many boxes does your project tick?
 
-Missed the last series? Start with "Your AI can answer. Now it has to act." https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/
+Missed the last series? Start with "Your AI can answer. Now it has to act." https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/ or jump to the finale: https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf
 
 #AIEngineering #GenAI #EnterpriseAI #AIGovernance #RulesNeedCode
 ```

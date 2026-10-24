@@ -51,7 +51,7 @@ Follow me for the next one. What's the vaguest line you've seen in a company pol
 1. Why did the AI promise a full refund on a non-refundable ticket? *(link added when published)*
 2. Code decides. The AI explains. *(link added when published)*
 
-*Missed the last series? Start with [Your AI can answer. Now it has to act.](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/)*
+*Missed the last series? Start with [Your AI can answer. Now it has to act.](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/) or jump to [the finale](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf).*
 
 ---
 
@@ -68,7 +68,7 @@ AI can draft the rules. People must approve them.
 
 What's the vaguest line in your company's policy?
 
-Missed the last series? Start with "Your AI can answer. Now it has to act." https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/
+Missed the last series? Start with "Your AI can answer. Now it has to act." https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/ or jump to the finale: https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf
 
 #AIEngineering #GenAI #EnterpriseAI #AIGovernance #RulesNeedCode
 ```

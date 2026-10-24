@@ -53,7 +53,7 @@ Next write-up (2): **Code decides. The AI explains.**
 
 Follow me for the next one. Have you seen an AI promise something your policy didn't allow?
 
-*Missed the last series? Start with [Your AI can answer. Now it has to act.](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/)*
+*Missed the last series? Start with [Your AI can answer. Now it has to act.](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/) or jump to [the finale](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf).*
 
 ---
 
@@ -72,7 +72,7 @@ New series: Just put the rules in the prompt.
 
 Has an AI ever promised you something it shouldn't have?
 
-Missed the last series? Start with "Your AI can answer. Now it has to act." https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/
+Missed the last series? Start with "Your AI can answer. Now it has to act." https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/ or jump to the finale: https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf
 
 #AIEngineering #GenAI #EnterpriseAI #AIGovernance #RulesNeedCode
 ```

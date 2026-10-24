@@ -52,7 +52,7 @@ Follow me for the next one. Ever been promised one price and charged another?
 2. Code decides. The AI explains. *(link added when published)*
 3. The policy is 40 pages. Who turns it into rules? *(link added when published)*
 
-*Missed the last series? Start with [Your AI can answer. Now it has to act.](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/)*
+*Missed the last series? Start with [Your AI can answer. Now it has to act.](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/) or jump to [the finale](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf).*
 
 ---
 
@@ -71,7 +71,7 @@ Keep each rule in one place, with a start and an end date.
 
 Ever been promised one price and charged another?
 
-Missed the last series? Start with "Your AI can answer. Now it has to act." https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/
+Missed the last series? Start with "Your AI can answer. Now it has to act." https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/ or jump to the finale: https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf
 
 #AIEngineering #GenAI #EnterpriseAI #AIGovernance #RulesNeedCode
 ```

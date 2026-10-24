@@ -27,7 +27,7 @@ Fewer, stronger write-ups (user rule): every topic must be solid, catchy and uni
 | 5 | [It Asked for the Same Receipt 40 Times](05-forty-times.md) | Loops need exits. | Agents stuck in loops: step limits, stop rules, budgets | It keeps re-checking one blurry taxi receipt | [Published](https://www.linkedin.com/pulse/5-asked-same-receipt-40-times-agents-stuck-loops-arpit-jain-qcshf/) 22 October 2026 |
 | 6 | [Does This Even Need an AI Agent?](06-need-an-agent.md) | Not every task needs freedom. | When a simple fixed workflow beats an agent | The same monthly phone bill claim, every month | [Published](https://www.linkedin.com/pulse/6-does-even-need-ai-agent-workflow-vs-arpit-jain-rlcif) 23 October 2026 |
 | 7 | [Two Claims, Two Different Paths. Which One Was Right?](07-two-paths.md) | Same request, different steps. | Testing agents: judging the result and the path | Two runs of Priya's claim take different steps; are both fine? | [Published](https://www.linkedin.com/pulse/7-two-claims-different-paths-which-one-right-testing-agents-jain-4zouf) 24 October 2026 |
-| 8 | [So, Should Your AI Do Things, or Just Answer?](08-finale-checklist.md) | Seven write-ups, one checklist. | Finale: the from-answers-to-actions checklist (links back to #JustAddRAG 8 for access and injection) | Priya's claim, filed safely | Draft for review |
+| 8 | [So, Should Your AI Do Things, or Just Answer?](08-finale-checklist.md) | Seven write-ups, one checklist. | Finale: the from-answers-to-actions checklist (links back to #JustAddRAG 8 for access and injection) | Priya's claim, filed safely | [Published](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf) 24 October 2026 |
 
 ## Format (same as #JustAddRAG)
 

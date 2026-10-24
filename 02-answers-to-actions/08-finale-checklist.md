@@ -4,6 +4,8 @@
 
 *Beyond Just RAG: From Answers to Actions series: The finale*
 
+**Published:** 24 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf)
+
 Priya's claim is filed. Correct amounts, every receipt attached, paid once, checked on the way.
 
 It took more than "just let the AI do it". It took a checklist.
