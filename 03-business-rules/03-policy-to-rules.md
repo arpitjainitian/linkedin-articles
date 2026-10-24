@@ -61,7 +61,6 @@ Follow me for the next one. What's the vaguest line you've seen in a company pol
 The refund policy is 40 pages. Page 31: "Fees may be waived in exceptional circumstances."
 
 What's exceptional? Code can't run "discretion".
-
 An AI turned the policy into 60 neat rules in a minute. Three weren't in the policy at all.
 
 AI can draft the rules. People must approve them.

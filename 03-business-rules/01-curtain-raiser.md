@@ -63,10 +63,10 @@ Follow me for the next one. Have you seen an AI promise something your policy di
 "We'll just put the refund rules in the prompt."
 
 A passenger on a non-refundable fare mentions a family emergency.
-
 The AI replies: "Of course! Full refund, no fees."
+The policy said no.
 
-The policy said no. AI is a lovely gate agent. It shouldn't be the rulebook.
+AI is a lovely gate agent. It shouldn't be the rulebook.
 
 New series: Just put the rules in the prompt.
 

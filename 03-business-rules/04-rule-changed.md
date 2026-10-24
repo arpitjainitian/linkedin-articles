@@ -62,10 +62,10 @@ Follow me for the next one. Ever been promised one price and charged another?
 Monsoon in Mumbai. The airline waives cancellation fees for a week.
 
 Someone adds it to the AI's prompt, but not the code.
-
 The AI says: "No fee." The code charges ₹3,000.
-
 And in December, the waiver was still in the prompt.
+
+Two price tags, one shirt.
 
 Keep each rule in one place, with a start and an end date.
 

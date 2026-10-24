@@ -58,7 +58,6 @@ Follow me for the next one. Would you rather hear "no" kindly, or "yes" wrongly?
 
 ```
 Same passenger. Same non-refundable fare. Same family emergency.
-
 This time, code decided the refund: ₹1,240 in taxes. The AI explained it kindly, and offered to pass on an exception request.
 
 Code is the referee. AI is the commentator. Never let the commentator blow the whistle.
