@@ -1,0 +1,102 @@
+# 18. How Can a Small AI Make a Big AI Faster? | Speculative decoding
+
+![Cover](images/18-speculative-decoding-cover.png)
+
+*Explain It Like Hello World series: Speculative decoding*
+
+"Speculative decoding." One of the tricks behind faster AI answers. It sounds like gambling.
+
+## The hello world
+
+A fast intern drafts the next five words of a letter. The expert reads the draft and says: "first three are fine, fix the fourth." The expert checked five words in about the time it takes to write one.
+
+That's the hello world: a small, fast model **guesses ahead**, and the big model **checks** the guesses in one go.
+
+## One step further
+
+Writing normally means the big model produces one token at a time (write-up 3), which is slow. Checking several tokens at once is much faster for it than writing them one by one.
+
+So the small model drafts a few tokens, the big model verifies them together, keeps the ones it agrees with, and corrects the first one it doesn't. The final text is what the big model would have written anyway, just faster.
+
+## Where you've already met it
+
+AI apps that suddenly got noticeably faster without changing models. Many serving systems use this or similar tricks.
+
+## The real name
+
+**Speculative decoding**.
+
+- **Draft model:** the small, fast model that guesses ahead.
+- **Target model:** the big model that checks and decides.
+- **Decoding:** producing the output, token by token.
+
+## What it's not
+
+It doesn't lower quality or change the answer; the big model still has the final say. It only helps when the small model's guesses are often right.
+
+## Take this to your next meeting
+
+1. Know that speed gains don't always mean a weaker model.
+2. Ask your provider which speed tricks they use before assuming quality changed.
+3. Expect the biggest gains on predictable text, like code and forms.
+
+The intern drafts. The expert checks. Faster, same answer.
+
+Next write-up (19): **Why Does AI Run on Gaming Chips?**
+
+Follow me for the next one. Have you noticed your AI tools getting faster lately?
+
+**Earlier in this series:**
+
+1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+2. How Does an AI Read a Word? *(link added when published)*
+3. How Does an AI Write a Sentence? *(link added when published)*
+4. How Does an AI Know "King" Is Close to "Queen"? *(link added when published)*
+5. How Does an AI Know What "It" Means? *(link added when published)*
+6. Why Does an AI Forget the Start of a Long Chat? *(link added when published)*
+7. Why Does the Same Question Get Different Answers? *(link added when published)*
+8. What Does "70B" Actually Mean? *(link added when published)*
+9. Is the AI Learning While You Chat With It? *(link added when published)*
+10. How Do You Teach an AI Something New? *(link added when published)*
+11. How Did the AI Learn to Be Polite? *(link added when published)*
+12. How Does a Small AI Learn From a Big One? *(link added when published)*
+13. Can an AI Learn From Data Another AI Wrote? *(link added when published)*
+14. Why Did Bigger AI Keep Getting Better? *(link added when published)*
+15. How Do You Fit a Giant AI on a Laptop? *(link added when published)*
+16. Why Doesn't the Whole AI Wake Up for Every Question? *(link added when published)*
+17. Why Doesn't the AI Re-Read Everything for Every Word? *(link added when published)*
+
+**Previous series:**
+
+- **Series 1, #JustAddRAG:** [start here](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/) or jump to [the grand finale](https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/)
+- **Series 2, Beyond Just RAG: From Answers to Actions:** [start here](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/) or jump to [the finale](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf)
+
+---
+
+**Post text (copy and paste):**
+
+```
+An expert writes one word at a time. Slow.
+An intern drafts five words ahead. The expert just checks.
+
+That's speculative decoding: guess ahead, check in one go.
+
+Same answer, faster.
+
+Have you noticed your AI tools getting faster lately?
+
+#AI #GenAI #LearnAI #ExplainItLikeHelloWorld
+```
+
+**Series index (post as the first comment):**
+
+```
+Explain It Like Hello World
+
+Start here: 1. AI words everyone uses. Nobody explains. [link]
+Previous: 17. Why Doesn't the AI Re-Read Everything for Every Word? [link]
+You're here: 18. How Can a Small AI Make a Big AI Faster?
+Next: 19. Why Does AI Run on Gaming Chips?
+
+Full list: in the curtain raiser post.
+```
