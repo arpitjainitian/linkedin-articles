@@ -4,30 +4,41 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
-**In one line:** Google announced a way to give every AI agent its own small, locked computer that pauses while the agent waits and wakes up exactly where it left off.
+**In one line:** Google wants every AI agent to get its own small, locked computer that pauses while the agent waits.
 
 ## What happened
 
 On 22 October 2026, Google Cloud announced **Agent Compute Engine**. [1]
 
-A coding agent writes code, installs tools, runs tests, then waits for the AI to decide the next step. Today, teams either shut its computer down after every step (and rebuild it each time) or leave it running all session (and pay for idle time).
+A coding agent writes code, runs tests, then waits for the AI's next decision. Google gives it a tiny virtual computer, a **microVM**, that pauses while it waits and resumes from a snapshot. [1]
 
-Google's answer: each agent gets its own tiny virtual computer, a **microVM**. When the agent goes quiet, Google saves its exact state and pauses it. When work arrives, it resumes from that snapshot. [1]
+## How it's done today
 
-## Three ideas worth knowing
+- **On a laptop.** Simple, but next to your real files and passwords.
+- **In a throwaway container.** Cheap, but rebuilt every step, with thinner walls.
+- **In a machine left running.** Nothing rebuilt, but you pay while it waits.
+- **In tiny virtual computers.** AWS's Firecracker starts one in under 125 ms [2]. E2B already pauses and resumes agent sandboxes [3].
 
-- **Pause, don't restart.** Like pausing a video game instead of replaying the level.
-- **Share what's the same.** Many agents use the same system and libraries. One shared copy in memory; each agent gets a private copy only of what it changes. [1]
-- **Keep the keys outside.** Each agent runs walled off, with its own identity. Long-lived passwords stay outside its computer, and a gateway checks what it sends out. [1]
+## Today vs Google's approach
 
-## Why it matters to you
+- **While waiting:** today, rebuilt or left running. Google: paused, resumed from a snapshot.
+- **Walls:** today, often a shared core system. Google: each agent gets its own, hardware-isolated. [1]
+- **Memory:** today, a full copy per agent. Google: shared, copying only what changes. [1]
+- **Passwords:** today, often inside, where a tricked agent can read them. Google: kept outside. [1]
+- **Who builds it:** today, mostly you. Google: managed, with an ID per agent. [1]
 
-- **Learning AI?** An agent is more than a model. It needs somewhere to run, a memory of its work, and limits on what it can reach.
-- **Leading a team?** The question used to be "what will the AI decide?" Now add: "where does it run, what does it keep, and what can it touch?"
+So the idea isn't new. The packaging and scale are.
+
+## Who benefits
+
+- **Teams building coding and data agents:** long tasks resume in place instead of starting over.
+- **Security teams:** passwords out of reach, one ID per agent, every outbound call checked.
+- **Platform and finance teams running thousands of agents:** fewer machines sitting idle.
+- **Not everyone:** an agent that only calls a few APIs doesn't need its own computer.
 
 ## The catch
 
-It isn't available yet: Google says preview "in the coming months", and today it powers Google's own Gemini agent. [1] The post gives no numbers for this product. And not every agent needs it: one that only calls a few APIs is fine without its own computer.
+Not available yet: preview "in the coming months" [1]. No numbers for this product, and the benefits are Google's claims, not yet tested by customers.
 
 ## One thing to do this week
 
@@ -36,15 +47,16 @@ It isn't available yet: Google says preview "in the coming months", and today it
 
 ## Words to know
 
-- **Sandbox:** a walled-off space where an agent can run things without touching anything else.
-- **MicroVM:** a very small virtual computer that starts fast.
-- **Snapshot:** a saved copy of a computer's exact state, so it can resume later.
+- **Sandbox:** a walled-off space where an agent runs things safely.
+- **Snapshot:** a saved copy of a computer's exact state.
 
 ## References and credits
 
 1. Nirav Mehta, Michael Bachman and Kevin Hutchins, Google Cloud, "Introducing Agent Compute Engine and expanded agent governance", Google Cloud Blog, 22 October 2026. [Read it](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance) (primary source)
+2. Firecracker project, "Secure and fast microVMs for serverless computing" (boots in under 125 ms; powers AWS Lambda). [Read it](https://firecracker-microvm.github.io/) (primary source)
+3. E2B, "Sandbox persistence" documentation (pause and resume with memory and files kept). [Read it](https://e2b.dev/docs/sandbox/persistence) (primary source)
 
-Credit to the Google Cloud team for a clear write-up of the design. This is a vendor announcement: the claims come from Google and haven't been independently tested. Facts come from the source; the opinions and "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
+Credit to the Google Cloud team for a clear write-up of the design, and to the Firecracker and E2B teams for their public documentation. This is a vendor announcement: the claims come from Google and haven't been independently tested. Facts come from the source; the opinions and "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
 
 **Not sponsored.** This write-up is not sponsored by anyone. Nobody paid for it or reviewed it before publishing.
 
@@ -71,15 +83,15 @@ Credit to the Google Cloud team for a clear write-up of the design. This is a ve
 ```
 Where does your AI agent do its work?
 
-A coding agent writes code, runs tests, then waits. Its computer sits idle, or gets rebuilt every step.
+Today: on a laptop, in a container rebuilt every step, or a machine left running while the agent waits.
 
-Google's new Agent Compute Engine gives each agent its own small, locked computer. It pauses while the agent waits, and wakes up exactly where it left off.
+Google's new Agent Compute Engine gives each agent its own small, locked computer that pauses while it waits, with passwords kept outside.
 
 Like pausing a game instead of replaying the level.
 
 Not available yet: preview "in the coming months".
 
-No. 010 of Today in AI. Source in the article. Not sponsored.
+No. 010 of Today in AI. Sources in the article. Not sponsored.
 
 #AI #AIAgents #CloudComputing #AISecurity #TodayInAI
 ```
