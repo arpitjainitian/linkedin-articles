@@ -56,7 +56,7 @@ Not available yet: preview "in the coming months" [1]. No numbers for this produ
 2. Firecracker project, "Secure and fast microVMs for serverless computing" (boots in under 125 ms; powers AWS Lambda). [Read it](https://firecracker-microvm.github.io/) (primary source)
 3. E2B, "Sandbox persistence" documentation (pause and resume with memory and files kept). [Read it](https://e2b.dev/docs/sandbox/persistence) (primary source)
 
-Credit to the Google Cloud team for a clear write-up of the design, and to the Firecracker and E2B teams for their public documentation. This is a vendor announcement: the claims come from Google and haven't been independently tested. Facts come from the source; the opinions and "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
+Credit to the Google Cloud team for a clear write-up of the design, and to the Firecracker and E2B teams for their public documentation. This is a vendor announcement: the claims come from Google and haven't been independently tested. Facts come from these sources; the opinions and "what it means" sections are mine. Cover: original illustration, no third-party logos or images.
 
 **Not sponsored.** This write-up is not sponsored by anyone. Nobody paid for it or reviewed it before publishing.
 
