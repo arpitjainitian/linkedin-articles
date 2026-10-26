@@ -69,7 +69,7 @@ Credit to Fortune for the reporting. Facts in this write-up come from this repor
 - [No. 007: Should every question go to your most expensive AI?](https://www.linkedin.com/pulse/today-ai-007-should-every-question-go-your-most-expensive-arpit-jain-xjexf)
 - [No. 008: Does using AI make you give up faster?](https://www.linkedin.com/pulse/today-ai-008-does-using-make-you-give-up-faster-learning-arpit-jain-ppghf/)
 - [No. 009: Same AI, many clouds. Where does your data actually go?](https://www.linkedin.com/pulse/today-ai-009-same-many-clouds-where-does-your-data-actually-jain-zgc1f)
-- No. 010: Where does your AI agent do its work? *(link added when published)*
+- No. 010: Your AI agent is waiting. Are you still paying? *(link added when published)*
 
 **Tags:** #AI #Hiring #FutureOfWork #HRTech #TodayInAI
 

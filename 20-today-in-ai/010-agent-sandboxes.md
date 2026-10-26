@@ -1,4 +1,4 @@
-# Today in AI, No. 010: Where Does Your AI Agent Do Its Work? | Agent Sandboxes
+# Today in AI, No. 010: Your AI Agent Is Waiting. Are You Still Paying? | Agent Sandboxes
 
 ![Cover](images/010-agent-sandboxes-cover.png)
 
@@ -83,7 +83,7 @@ Credit to the Google Cloud team for a clear write-up of the design, and to the F
 **Post text (copy and paste):**
 
 ```
-Where does your AI agent do its work?
+Your AI agent is waiting. Are you still paying?
 
 Today: on a laptop, in a container rebuilt every step, or a machine left running while the agent waits.
 
