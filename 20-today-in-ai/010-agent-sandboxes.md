@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 26 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-010-your-agent-waiting-you-still-paying-sandboxes-arpit-jain-07qvf)
+
 **In one line:** While an AI agent waits for the AI, its computer usually keeps running or gets rebuilt. Google wants to pause it instead.
 
 ## What happened
