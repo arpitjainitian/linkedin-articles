@@ -4,6 +4,8 @@
 
 *Just put the rules in the prompt series: the curtain raiser*
 
+**Published:** 26 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f)
+
 *After Series 2, Beyond Just RAG: From Answers to Actions: It can act now. But who decides what's allowed?*
 
 "We'll just put the refund rules in the prompt."
