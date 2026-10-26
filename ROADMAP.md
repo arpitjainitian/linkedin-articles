@@ -6,6 +6,7 @@ Four kinds of writing, all in one place:
 2. **Today in AI** (20): what's new in AI, and what it means, in plain words.
 3. **AI system design** (21): one AI system design question per post.
 4. **Certification prep** (22): the Claude Certified Architect – Foundations exam, one objective per post.
+5. **Explainers** (23): trending AI ideas explained the "hello world" way, no code.
 
 ## 1. AI engineering series
 
@@ -67,3 +68,9 @@ Topics 9-11, 16, 18 and 19 were inspired by a "9 AI concepts" infographic by Bri
 | Series | Topic | Level | What it covers | Status | Why a full series, not one article |
 |---|---|---|---|---|---|
 | 22 | "Claude Architect, One Objective at a Time" (#ClaudeArchitectPrep) | L3 to L4 | Study series for the Claude Certified Architect – Foundations exam: one write-up per exam objective (30), with a practice question each. Running example: ParentPace, a fictional parenting-coach company. 38 articles: 30 objectives, 5 domain checkpoints, curtain raiser, mock exam, exam-day finale. Plan: [22-claude-architect-exam/](22-claude-architect-exam/README.md) | **Planned (outline ready)** | The exam has 30 objectives across 5 domains; each one is a separate skill with its own practice question. |
+
+## 5. Explainers
+
+| Series | Topic | Level | What it covers | Status | Why a full series, not one article |
+|---|---|---|---|---|---|
+| 23 | "Explain It Like Hello World" (#ExplainItLikeHelloWorld) | L1 to L2 | Trending AI ideas (tokens, embeddings, attention, quantization, mixture of experts, reasoning models, diffusion, A2A and more), each explained through the smallest example that shows it working. No code. 33 write-ups in 5 parts, ending with an AI dictionary. Topics covered by other series (RAG, MCP, agents, guardrails, memory, evals, cost) are linked, not repeated. Plan: [23-explain-like-hello-world/](23-explain-like-hello-world/README.md) | **Planned** (curtain raiser drafted) | Each AI word is its own idea with its own hello-world example; readers can share one explainer at a time. |
