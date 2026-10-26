@@ -86,13 +86,13 @@ Credit to the Google Cloud team for a clear write-up of the design, and to the F
 Your AI agent is waiting. Are you still paying?
 
 Today, its computer keeps running while it waits, or gets rebuilt every step.
-Google's new Agent Compute Engine pauses it instead: memory and files saved, the server freed for other agents, passwords kept outside.
+On 22 October, Google Cloud announced Agent Compute Engine. It pauses the agent instead: memory and files saved, the server freed for other agents, passwords kept outside.
 
 Like hibernating a laptop.
 
 Not available yet: preview "in the coming months".
 
-No. 010 of Today in AI. Sources in the article. Not sponsored.
+No. 010 of Today in AI. Source: Google Cloud blog, "Introducing Agent Compute Engine and expanded agent governance", 22 Oct 2026 (full references in the article). Not sponsored.
 
 #AI #AIAgents #CloudComputing #AISecurity #TodayInAI
 ```
