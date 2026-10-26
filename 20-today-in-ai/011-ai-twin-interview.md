@@ -1,6 +1,6 @@
-# Today in AI, No. 010: Would You Send Your AI Twin to a Job Interview? | AI Twins in Hiring
+# Today in AI, No. 011: Would You Send Your AI Twin to a Job Interview? | AI Twins in Hiring
 
-![Cover](images/010-ai-twin-interview-cover.png)
+![Cover](images/011-ai-twin-interview-cover.png)
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
@@ -69,6 +69,7 @@ Credit to Fortune for the reporting. Facts in this write-up come from this repor
 - [No. 007: Should every question go to your most expensive AI?](https://www.linkedin.com/pulse/today-ai-007-should-every-question-go-your-most-expensive-arpit-jain-xjexf)
 - [No. 008: Does using AI make you give up faster?](https://www.linkedin.com/pulse/today-ai-008-does-using-make-you-give-up-faster-learning-arpit-jain-ppghf/)
 - [No. 009: Same AI, many clouds. Where does your data actually go?](https://www.linkedin.com/pulse/today-ai-009-same-many-clouds-where-does-your-data-actually-jain-zgc1f)
+- No. 010: Where does your AI agent do its work? *(link added when published)*
 
 **Tags:** #AI #Hiring #FutureOfWork #HRTech #TodayInAI
 
@@ -87,7 +88,7 @@ Like a movie trailer: it can show what a résumé can't, like a career break or 
 
 The questions that matter: Does your twin say only what you'd say? Who owns it? And if, one day, a company's AI interviews your AI, who checks either of them?
 
-No. 010 of Today in AI.
+No. 011 of Today in AI.
 
 Source: Fortune, 12 Oct 2026 (full references and credits in the article). Not sponsored by anyone.
 
