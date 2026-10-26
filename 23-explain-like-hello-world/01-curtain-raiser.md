@@ -66,7 +66,7 @@ New series: Explain It Like Hello World. One AI idea at a time, through the smal
 
 Which AI word do you nod along to most?
 
-#AI #GenAI #AIForEveryone #LearnAI #ExplainItLikeHelloWorld
+#AI #GenAI #LearnAI #ExplainItLikeHelloWorld
 ```
 
 **Series index (post as the first comment, then pin it):**
