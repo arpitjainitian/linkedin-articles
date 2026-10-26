@@ -1,0 +1,121 @@
+# 37. Why Can an AI Ace the Practice Test and Fail the Real One? | Overfitting
+
+![Cover](images/037-overfitting-cover.png)
+
+*Explain It Like Hello World series: Overfitting*
+
+"The model is overfitting." Data scientists say it often. It's one of the oldest problems in machine learning.
+
+## The hello world
+
+A student memorises the exact answers to last year's exam paper. They score 100% on that paper. Then the real exam has different questions, and they fail.
+
+That's the hello world: **overfitting** is an AI memorising its training examples instead of learning the general pattern.
+
+## One step further
+
+A model can get so good at its training data that it learns the noise too: accidental details that won't repeat. It looks brilliant in testing on familiar data and disappoints on new cases.
+
+The fix is to always test on data it has never seen, use more varied examples, and stop training before it starts memorising.
+
+## Where you've already met it
+
+AI projects that worked perfectly in the demo and stumbled on real customers. Benchmark scores that don't match real-world performance (write-up 97).
+
+## The real name
+
+**Overfitting**.
+
+- **Overfitting:** memorising examples instead of learning patterns.
+- **Test set:** data held back to check the model fairly.
+- **Generalisation:** doing well on new, unseen cases.
+
+## What it's not
+
+Overfitting isn't the model being too smart. It's the model learning the wrong lesson: the examples, not the pattern.
+
+## Take this to your next meeting
+
+1. Always test on data the model never saw.
+2. Be suspicious of near-perfect scores.
+3. Use varied, real examples, not just clean demo cases.
+
+Memorising last year's paper isn't learning the subject.
+
+Next write-up (38): **Why Did Bigger AI Keep Getting Better?**
+
+Follow me for the next one. Have you seen an AI shine in the demo and stumble in real life?
+
+**Earlier in this series:**
+
+1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+2. What Actually Counts as AI? *(link added when published)*
+3. How Does a Computer Learn Without Being Told the Rules? *(link added when published)*
+4. What's "Deep" About Deep Learning? *(link added when published)*
+5. Is a Neural Network Really Like a Brain? *(link added when published)*
+6. What Makes AI "Generative"? *(link added when published)*
+7. Why Are They Called Foundation Models? *(link added when published)*
+8. What Would It Mean for AI to Be "General"? *(link added when published)*
+9. What Is Superintelligence, and Should We Worry? *(link added when published)*
+10. How Does an AI Read a Word? *(link added when published)*
+11. How Does an AI Write a Sentence? *(link added when published)*
+12. How Does an AI Know "King" Is Close to "Queen"? *(link added when published)*
+13. How Does an AI Know What "It" Means? *(link added when published)*
+14. What Is the "T" in GPT? *(link added when published)*
+15. Why Does an AI Forget the Start of a Long Chat? *(link added when published)*
+16. Why Does the Same Question Get Different Answers? *(link added when published)*
+17. Why Does the Way You Ask Change the Answer? *(link added when published)*
+18. Is Prompt Engineering a Real Skill? *(link added when published)*
+19. What's the Hidden Instruction Behind Every Chatbot? *(link added when published)*
+20. Can an AI Do a Task It Was Never Shown? *(link added when published)*
+21. Why Do Examples Help an AI So Much? *(link added when published)*
+22. Why Does "Think Step by Step" Work? *(link added when published)*
+23. Is Context Engineering the New Prompt Engineering? *(link added when published)*
+24. How Do You Get an AI to Fill In a Form? *(link added when published)*
+25. Why Does the AI Type Its Answer Word by Word? *(link added when published)*
+26. What Does "70B" Actually Mean? *(link added when published)*
+27. How Does an AI Go to School? *(link added when published)*
+28. What Happens When You Hit Send? *(link added when published)*
+29. How Does an AI Learn Language in the First Place? *(link added when published)*
+30. How Do You Teach an AI Your Way of Doing Things? *(link added when published)*
+31. How Do You Customise an AI Without Retraining It? *(link added when published)*
+32. How Did the AI Learn to Be Polite? *(link added when published)*
+33. Can an AI Follow a Written Set of Principles? *(link added when published)*
+34. How Does a Small AI Learn From a Big One? *(link added when published)*
+35. Can an AI Learn From Data Another AI Wrote? *(link added when published)*
+36. Who Teaches the AI What's Right? *(link added when published)*
+
+**Previous series:**
+
+- **Series 1, #JustAddRAG:** [start here](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/) or jump to [the grand finale](https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/)
+- **Series 2, Beyond Just RAG: From Answers to Actions:** [start here](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/) or jump to [the finale](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf)
+
+---
+
+**Post text (copy and paste):**
+
+```
+A student memorises last year's exam paper. 100%.
+The real exam has new questions.
+
+That's overfitting: memorising examples instead of learning the pattern.
+
+Always test on data it has never seen.
+
+Have you seen an AI shine in the demo and stumble in real life?
+
+#AI #GenAI #LearnAI #ExplainItLikeHelloWorld
+```
+
+**Series index (post as the first comment):**
+
+```
+Explain It Like Hello World
+
+Start here: 1. AI words everyone uses. Nobody explains. [link]
+Previous: 36. Who Teaches the AI What's Right? [link]
+You're here: 37. Why Can an AI Ace the Practice Test and Fail the Real One?
+Next: 38. Why Did Bigger AI Keep Getting Better?
+
+Full list: in the curtain raiser post.
+```

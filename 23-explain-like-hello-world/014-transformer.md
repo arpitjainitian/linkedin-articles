@@ -1,0 +1,98 @@
+# 14. What Is the "T" in GPT? | Transformer
+
+![Cover](images/014-transformer-cover.png)
+
+*Explain It Like Hello World series: Transformer*
+
+GPT stands for Generative Pre-trained Transformer. Most people know the first two words. The third is the one that changed everything.
+
+## The hello world
+
+Old AI read a sentence like someone reading through a keyhole: one word at a time, left to right, forgetting the start by the end.
+
+A **transformer** lays the whole sentence out on a table and lets every word look at every other word at once (that's attention, write-up 13). That's the hello world: read everything together, not one word at a time.
+
+## One step further
+
+A transformer is a stack of layers. In each layer, every token (write-up 10) gathers information from the others through attention, then refines it. Dozens of layers later, the model has a rich picture of the text and predicts the next token.
+
+Because all words are processed together, transformers train well on GPUs (write-up 46), which is why they could be scaled to today's huge models. The design was published by Google researchers in 2017 in a paper called "Attention Is All You Need".
+
+## Where you've already met it
+
+Every major chatbot, translator and coding assistant. Many image, speech and video models use transformers too.
+
+## The real name
+
+The **transformer** architecture.
+
+- **Architecture:** the overall design of a model.
+- **Layer:** one round of attention and refinement.
+- **GPT:** Generative Pre-trained Transformer.
+
+## What it's not
+
+A transformer isn't a specific product or a robot. It's a design, like "suspension bridge" is a design, used by many different models.
+
+## Take this to your next meeting
+
+1. Read "transformer" as "the design behind modern AI".
+2. Remember why long inputs cost more: every word looks at every other word.
+3. Expect new designs to challenge it; none has replaced it yet.
+
+Read the whole sentence at once. That's a transformer.
+
+Next write-up (15): **Why Does an AI Forget the Start of a Long Chat?**
+
+Follow me for the next one. Did you know what the T in GPT stood for?
+
+**Earlier in this series:**
+
+1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+2. What Actually Counts as AI? *(link added when published)*
+3. How Does a Computer Learn Without Being Told the Rules? *(link added when published)*
+4. What's "Deep" About Deep Learning? *(link added when published)*
+5. Is a Neural Network Really Like a Brain? *(link added when published)*
+6. What Makes AI "Generative"? *(link added when published)*
+7. Why Are They Called Foundation Models? *(link added when published)*
+8. What Would It Mean for AI to Be "General"? *(link added when published)*
+9. What Is Superintelligence, and Should We Worry? *(link added when published)*
+10. How Does an AI Read a Word? *(link added when published)*
+11. How Does an AI Write a Sentence? *(link added when published)*
+12. How Does an AI Know "King" Is Close to "Queen"? *(link added when published)*
+13. How Does an AI Know What "It" Means? *(link added when published)*
+
+**Previous series:**
+
+- **Series 1, #JustAddRAG:** [start here](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/) or jump to [the grand finale](https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/)
+- **Series 2, Beyond Just RAG: From Answers to Actions:** [start here](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/) or jump to [the finale](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf)
+
+---
+
+**Post text (copy and paste):**
+
+```
+Old AI read through a keyhole: one word at a time.
+By the end of the sentence, it forgot the start.
+
+A transformer lays the whole sentence out and reads it all at once.
+
+It's the T in GPT.
+
+Did you know what the T in GPT stood for?
+
+#AI #GenAI #LearnAI #ExplainItLikeHelloWorld
+```
+
+**Series index (post as the first comment):**
+
+```
+Explain It Like Hello World
+
+Start here: 1. AI words everyone uses. Nobody explains. [link]
+Previous: 13. How Does an AI Know What "It" Means? [link]
+You're here: 14. What Is the "T" in GPT?
+Next: 15. Why Does an AI Forget the Start of a Long Chat?
+
+Full list: in the curtain raiser post.
+```

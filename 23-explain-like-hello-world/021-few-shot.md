@@ -1,0 +1,108 @@
+# 21. Why Do Examples Help an AI So Much? | Few-shot
+
+![Cover](images/021-few-shot-cover.png)
+
+*Explain It Like Hello World series: Few-shot*
+
+"Few-shot prompting." A simple trick that often beats long instructions.
+
+## The hello world
+
+You want product names turned into short codes. Instead of explaining the rules, you show:
+"Blue Cotton Shirt → BLU-SHT"
+"Red Wool Scarf → RED-SCF"
+"Green Linen Trousers → ?"
+
+The AI answers "GRN-TRS". That's the hello world: **few-shot** means showing a few examples in the prompt so the AI copies the pattern.
+
+## One step further
+
+Examples show format, tone and edge cases faster than words can describe them. Two to five good examples usually do the job.
+
+Choose them carefully: the AI copies everything, including mistakes and accidental patterns. If all examples are short, answers will be short.
+
+## Where you've already met it
+
+Prompt templates that include "Example 1, Example 2". Spreadsheet AI features that learn from the first few rows you fill in.
+
+## The real name
+
+**Few-shot** prompting, also called **in-context learning**.
+
+- **Few-shot:** a handful of examples in the prompt.
+- **In-context learning:** learning a pattern from the prompt, without retraining.
+- **Edge case:** an unusual example worth showing.
+
+## What it's not
+
+Few-shot doesn't retrain or change the model. It only guides this one answer. Remove the examples, and the effect is gone.
+
+## Take this to your next meeting
+
+1. Show 2 to 5 examples instead of long rules.
+2. Include one tricky case among them.
+3. Check your examples are correct; they will be copied.
+
+Show, don't explain.
+
+Next write-up (22): **Why Does "Think Step by Step" Work?**
+
+Follow me for the next one. Have examples ever fixed a prompt for you?
+
+**Earlier in this series:**
+
+1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+2. What Actually Counts as AI? *(link added when published)*
+3. How Does a Computer Learn Without Being Told the Rules? *(link added when published)*
+4. What's "Deep" About Deep Learning? *(link added when published)*
+5. Is a Neural Network Really Like a Brain? *(link added when published)*
+6. What Makes AI "Generative"? *(link added when published)*
+7. Why Are They Called Foundation Models? *(link added when published)*
+8. What Would It Mean for AI to Be "General"? *(link added when published)*
+9. What Is Superintelligence, and Should We Worry? *(link added when published)*
+10. How Does an AI Read a Word? *(link added when published)*
+11. How Does an AI Write a Sentence? *(link added when published)*
+12. How Does an AI Know "King" Is Close to "Queen"? *(link added when published)*
+13. How Does an AI Know What "It" Means? *(link added when published)*
+14. What Is the "T" in GPT? *(link added when published)*
+15. Why Does an AI Forget the Start of a Long Chat? *(link added when published)*
+16. Why Does the Same Question Get Different Answers? *(link added when published)*
+17. Why Does the Way You Ask Change the Answer? *(link added when published)*
+18. Is Prompt Engineering a Real Skill? *(link added when published)*
+19. What's the Hidden Instruction Behind Every Chatbot? *(link added when published)*
+20. Can an AI Do a Task It Was Never Shown? *(link added when published)*
+
+**Previous series:**
+
+- **Series 1, #JustAddRAG:** [start here](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/) or jump to [the grand finale](https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/)
+- **Series 2, Beyond Just RAG: From Answers to Actions:** [start here](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/) or jump to [the finale](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf)
+
+---
+
+**Post text (copy and paste):**
+
+```
+"Blue Cotton Shirt: BLU-SHT. Red Wool Scarf: RED-SCF.
+Green Linen Trousers: ?"
+
+The AI answers GRN-TRS. That's few-shot: show a few examples, it copies the pattern.
+
+Often better than a page of rules.
+
+Have examples ever fixed a prompt for you?
+
+#AI #GenAI #LearnAI #ExplainItLikeHelloWorld
+```
+
+**Series index (post as the first comment):**
+
+```
+Explain It Like Hello World
+
+Start here: 1. AI words everyone uses. Nobody explains. [link]
+Previous: 20. Can an AI Do a Task It Was Never Shown? [link]
+You're here: 21. Why Do Examples Help an AI So Much?
+Next: 22. Why Does "Think Step by Step" Work?
+
+Full list: in the curtain raiser post.
+```
