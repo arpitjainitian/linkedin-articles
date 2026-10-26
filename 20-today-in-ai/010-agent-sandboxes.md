@@ -12,7 +12,7 @@ On 22 October 2026, Google Cloud announced **Agent Compute Engine**. [1]
 
 A coding agent writes code, runs tests, then waits for the AI's next decision. Google gives it a tiny virtual computer, a **microVM**, that pauses while it waits. [1]
 
-Pausing is like hibernating a laptop: memory, open programs and files are saved, the computer is freed for others, and it wakes up exactly where it left off. It saves two things: idle machines, and rebuilding before every step.
+Pausing is like hibernating a laptop: memory, open programs and files are saved, and the server's processor and memory go to other agents' computers until it wakes up exactly where it left off. Nobody else ever uses its computer. It saves two things: idle machines, and rebuilding before every step.
 
 ## How it's done today
 
