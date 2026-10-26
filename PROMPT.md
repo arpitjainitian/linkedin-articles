@@ -1,9 +1,9 @@
-# Master prompt: roadmap, series plan and one article
+# Master prompt: roadmap, series plan, article, cover and course companion
 
 Copy everything inside the box into any AI assistant. Fill in the `<...>` placeholders first.
 
 ```
-You are my writing partner for a LinkedIn article programme on AI engineering. I'm an architect writing for two audiences at once: people learning AI and business leaders (CXOs). Produce three Markdown files, in this order, following every rule below exactly.
+You are my writing partner for a LinkedIn article programme on AI engineering. I'm an architect writing for two audiences at once: people learning AI and business leaders (CXOs). Produce five files, in this order, following every rule below exactly.
 
 INPUTS
 - Programme theme: <e.g. "things that look simple and fail often in AI projects">
@@ -64,6 +64,32 @@ Structure:
     - No emoji markers (no 👉 ✅ 🚀), no Unicode bold, no em or en dashes.
 11. "**Series index (post as the first comment, then pin it):**" in a code block: "📌 <Series name>", then "1. <title> (you're here)" and "2. <title> (next)".
 
+FILE 4: images/01-curtain-raiser-cover.html (the cover)
+A single self-contained HTML file that renders the cover at exactly 1920 x 1080 pixels, no external images, fonts or scripts.
+- Look: bright, bold colours (yellow, sky blue, green, coral, hot pink accents) on a warm cream background; thick black outlines and offset black shadows on cards; system sans-serif font, very bold headline.
+- Top: a small letter-spaced tag line "<SERIES NAME> · THE CURTAIN RAISER" in the accent colour, then the headline (the article title, about 70 to 76 px), with the key phrase highlighted in yellow.
+- Middle: an original illustration that explains the idea at a glance, built from HTML/CSS or inline SVG only. Use the series' own visual metaphor (e.g. an iceberg: "2 weeks" above the waterline, the hidden factors below it). A meme FORMAT is welcome where it fits (e.g. "Expectation vs reality", "Me explaining X to my manager", "Everyone nods. Nobody asks.") but redraw it with simple stick figures and shapes; never use real meme images, real people, or logos.
+- If the series is about problems and fixes: show the problems only, plus a highlight banner such as "THE FIXES ARE INSIDE THE ARTICLE" and a stamp "EACH ONE, WITH ITS FIX". Never show the actual fixes on the cover.
+- Bottom: a full-width bar with the series' one-line promise and the series hashtag.
+- Every word on the cover must match the article; no claims the article doesn't make. No em or en dashes.
+- Readable on a phone: nothing smaller than about 20 px, no more than about 40 words in total besides the headline.
+- After the HTML, give the command to turn it into a PNG with headless Chrome:
+  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --disable-gpu --hide-scrollbars --window-size=1920,1080 --screenshot=01-curtain-raiser-cover.png 01-curtain-raiser-cover.html
+
+FILE 5: 01-curtain-raiser.course.md (the course companion, never posted on LinkedIn)
+These series will later become an online course: each series is a module, each write-up a lesson. The companion holds everything the 2-minute article had to leave out.
+Sections, in this order:
+1. "# Lesson <module>.<lesson>: <Topic> (course companion)" and the line "*Module <N>: <name>. Not for LinkedIn.*"
+2. "## Learning objective": one line, "After this lesson, you can ...".
+3. "## The story": one line pointing to the article file, plus the running example in two sentences.
+4. "## Deep dive": the full explanation the article cut, about 800 to 1,200 words, still in plain words, with sub-headings.
+5. "## Hands-on lab": a short exercise on the running example (steps a learner can follow; code only here, never in the article).
+6. "## Quiz": 3 to 5 questions, each followed by its answer in italics.
+7. "## Checklist line": the one question this lesson adds to the series finale checklist, as "- [ ] ...".
+8. "## Glossary": the article's "Words to know", one line each.
+9. "## Further reading": the original sources (official docs, papers), with links.
+10. "## Reader questions": left empty, with "(to be filled from LinkedIn comments)".
+
 QUALITY CHECK BEFORE YOU ANSWER
 - No em or en dashes anywhere. Search for them.
 - Each article stays within its length.
@@ -71,8 +97,10 @@ QUALITY CHECK BEFORE YOU ANSWER
 - Only about 3 topics are teased in the curtain raiser.
 - No topic repeats another series.
 - Every uncertain fact is marked [CHECK].
+- The cover shows no fixes, no logos, no real meme images, and every word on it appears in the article.
+- The course companion has all 10 sections and the article has no code.
 
-Output the three files one after another, each starting with its file path as a heading.
+Output the five files one after another, each starting with its file path as a heading.
 ```
 
 **Reference files in this repo:**
