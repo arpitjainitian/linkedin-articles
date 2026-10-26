@@ -29,7 +29,7 @@
 | # | Topic | Hello-world angle | Status |
 |---|---|---|---|
 | 1 | Curtain raiser: [AI Words Everyone Uses. Nobody Explains.](01-curtain-raiser-post.md) (post with cover only, no article) | Hello world, but for AI ideas | Draft for review |
-| 2 | Tokens | How an AI reads "unbelievable" as three pieces | Planned |
+| 2 | Tokens: How Does an AI Read a Word? | How an AI reads "unbelievable" as three pieces | Cover ready (meme format), article to write |
 | 3 | How an LLM writes | Guessing the next word, again and again | Planned |
 | 4 | Embeddings | Words placed on a map by meaning | Planned |
 | 5 | Attention (transformers) | Every word glancing at every other word to work out "it" | Planned |
