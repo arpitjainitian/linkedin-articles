@@ -4,9 +4,9 @@
 
 *Explain It Like Hello World series: the curtain raiser*
 
-In a meeting last week, someone said: "We'll use a quantized mixture-of-experts model with a bigger context window."
+Picture a meeting. Someone says: "We'll use a quantized mixture-of-experts model with a bigger context window."
 
-Everyone nodded. Nobody asked.
+Everyone nods. Nobody asks.
 
 AI has a vocabulary problem. The words arrive faster than the explanations.
 
@@ -56,9 +56,9 @@ Follow me for the next one. Which AI word do you nod along to most?
 **Post text (copy and paste):**
 
 ```
-"We'll use a quantized mixture-of-experts model with a bigger context window."
+Picture a meeting. Someone says: "We'll use a quantized mixture-of-experts model with a bigger context window."
 
-Everyone nodded. Nobody asked.
+Everyone nods. Nobody asks.
 
 AI words arrive faster than the explanations.
 
