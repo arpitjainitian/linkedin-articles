@@ -10,7 +10,9 @@
 
 On 22 October 2026, Google Cloud announced **Agent Compute Engine**. [1]
 
-A coding agent writes code, runs tests, then waits for the AI's next decision. Google gives it a tiny virtual computer, a **microVM**, that pauses while it waits and resumes from a snapshot. [1]
+A coding agent writes code, runs tests, then waits for the AI's next decision. Google gives it a tiny virtual computer, a **microVM**, that pauses while it waits. [1]
+
+Pausing is like hibernating a laptop: memory, open programs and files are saved, the computer is freed for others, and it wakes up exactly where it left off. It saves two things: idle machines, and rebuilding before every step.
 
 ## How it's done today
 
@@ -33,12 +35,12 @@ So the idea isn't new. The packaging and scale are.
 
 - **Teams building coding and data agents:** long tasks resume in place instead of starting over.
 - **Security teams:** passwords out of reach, one ID per agent, every outbound call checked.
-- **Platform and finance teams running thousands of agents:** fewer machines sitting idle.
+- **Teams running thousands of agents:** fewer idle machines.
 - **Not everyone:** an agent that only calls a few APIs doesn't need its own computer.
 
 ## The catch
 
-Not available yet: preview "in the coming months" [1]. No numbers for this product, and the benefits are Google's claims, not yet tested by customers.
+Not available yet: preview "in the coming months" [1]. Still unclear: how fast a pause and resume is, what it costs, and whether open connections survive a pause. The benefits are Google's claims, not yet tested by customers.
 
 ## One thing to do this week
 
@@ -48,7 +50,7 @@ Not available yet: preview "in the coming months" [1]. No numbers for this produ
 ## Words to know
 
 - **Sandbox:** a walled-off space where an agent runs things safely.
-- **Snapshot:** a saved copy of a computer's exact state.
+- **Snapshot:** the saved copy made when it pauses.
 
 ## References and credits
 
