@@ -4,7 +4,7 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
-**In one line:** Google wants every AI agent to get its own small, locked computer that pauses while the agent waits.
+**In one line:** While an AI agent waits for the AI, its computer usually keeps running or gets rebuilt. Google wants to pause it instead.
 
 ## What happened
 
@@ -85,11 +85,10 @@ Credit to the Google Cloud team for a clear write-up of the design, and to the F
 ```
 Your AI agent is waiting. Are you still paying?
 
-Today: on a laptop, in a container rebuilt every step, or a machine left running while the agent waits.
+Today, its computer keeps running while it waits, or gets rebuilt every step.
+Google's new Agent Compute Engine pauses it instead: memory and files saved, the server freed for other agents, passwords kept outside.
 
-Google's new Agent Compute Engine gives each agent its own small, locked computer that pauses while it waits, with passwords kept outside.
-
-Like pausing a game instead of replaying the level.
+Like hibernating a laptop.
 
 Not available yet: preview "in the coming months".
 
