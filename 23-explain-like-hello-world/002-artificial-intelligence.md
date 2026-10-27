@@ -1,4 +1,4 @@
-# 2. What Actually Counts as AI? | Artificial intelligence
+# 2. What Actually Counts as Artificial Intelligence? | Artificial intelligence
 
 ![Cover](images/002-artificial-intelligence-cover.png)
 
@@ -42,7 +42,7 @@ AI isn't one technology, and it isn't a mind. "AI-powered" on a label can mean a
 
 AI is the umbrella. The interesting part is what's under it.
 
-Next write-up (3): **How Does a Computer Learn Without Being Told the Rules?**
+Next write-up (3): **How Does Machine Learning Learn Without Being Told the Rules?**
 
 Follow me for the next one. What's the silliest "AI-powered" product you've seen?
 
@@ -63,7 +63,7 @@ Follow me for the next one. What's the silliest "AI-powered" product you've seen
 A calculator adds numbers. Nobody calls it intelligent.
 Your phone recognises your face in the dark. That feels different.
 
-AI is a computer doing something we'd say needs human intelligence.
+Artificial intelligence (AI) is a computer doing something we'd say needs human intelligence.
 
 It's an umbrella word. What's under it matters more.
 
@@ -78,8 +78,8 @@ What's the silliest "AI-powered" product you've seen?
 Explain It Like Hello World
 
 Start here: 1. AI words everyone uses. Nobody explains. [link]
-You're here: 2. What Actually Counts as AI?
-Next: 3. How Does a Computer Learn Without Being Told the Rules?
+You're here: 2. What Actually Counts as Artificial Intelligence?
+Next: 3. How Does Machine Learning Learn Without Being Told the Rules?
 
 Full list: in the curtain raiser post.
 ```

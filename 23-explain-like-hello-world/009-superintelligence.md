@@ -42,20 +42,20 @@ It doesn't exist today, and nobody knows if or when it will. It also isn't "evil
 
 Smarter than the best of us, at almost everything. If it ever comes.
 
-Next write-up (10): **How Does an AI Read a Word?**
+Next write-up (10): **What Are Tokens, and Why Does an AI Read in Pieces?**
 
 Follow me for the next one. Does superintelligence excite you or worry you?
 
 **Earlier in this series:**
 
 1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
-2. What Actually Counts as AI? *(link added when published)*
-3. How Does a Computer Learn Without Being Told the Rules? *(link added when published)*
+2. What Actually Counts as Artificial Intelligence? *(link added when published)*
+3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
 5. Is a Neural Network Really Like a Brain? *(link added when published)*
-6. What Makes AI "Generative"? *(link added when published)*
+6. What Makes Generative AI "Generative"? *(link added when published)*
 7. Why Are They Called Foundation Models? *(link added when published)*
-8. What Would It Mean for AI to Be "General"? *(link added when published)*
+8. What Is AGI, and What Would Make AI "General"? *(link added when published)*
 
 **Previous series:**
 
@@ -85,9 +85,9 @@ Does superintelligence excite you or worry you?
 Explain It Like Hello World
 
 Start here: 1. AI words everyone uses. Nobody explains. [link]
-Previous: 8. What Would It Mean for AI to Be "General"? [link]
+Previous: 8. What Is AGI, and What Would Make AI "General"? [link]
 You're here: 9. What Is Superintelligence, and Should We Worry?
-Next: 10. How Does an AI Read a Word?
+Next: 10. What Are Tokens, and Why Does an AI Read in Pieces?
 
 Full list: in the curtain raiser post.
 ```

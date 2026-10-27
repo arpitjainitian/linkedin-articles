@@ -22,7 +22,7 @@ Explain artificial intelligence to someone non-technical in under one minute, us
 
 ## Quiz
 
-1. What is the hello-world example for artificial intelligence? *AI is a computer doing something we'd say needs human intelligence.*
+1. What is the hello-world example for artificial intelligence? *Artificial intelligence (AI) is a computer doing something we'd say needs human intelligence.*
 2. What is it not? *AI isn't one technology, and it isn't a mind. "AI-powered" on a label can mean anything from a simple rule to a large language model. Ask what it actually does.*
 3. Name one place you've already met it. *Face unlock, spam filters, maps that reroute around traffic, voice assistants, chatbots.*
 

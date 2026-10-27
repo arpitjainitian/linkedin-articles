@@ -22,7 +22,7 @@ Explain voice cloning to someone non-technical in under one minute, using your o
 
 ## Quiz
 
-1. What is the hello-world example for voice cloning? *A few seconds of audio can be enough to clone a voice.*
+1. What is the hello-world example for voice cloning? *Voice cloning can copy a voice from a few seconds of audio.*
 2. What is it not? *A familiar voice on a call is no longer proof of identity. Don't use voice alone to approve payments or access.*
 3. Name one place you've already met it. *AI dubbing of videos, audiobook narration, and news of "family emergency" scam calls.*
 

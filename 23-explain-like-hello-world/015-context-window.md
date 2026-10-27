@@ -1,4 +1,4 @@
-# 15. Why Does an AI Forget the Start of a Long Chat? | Context window
+# 15. What Is a Context Window, and Why Does an AI Forget? | Context window
 
 ![Cover](images/015-context-window-cover.png)
 
@@ -42,26 +42,26 @@ The context window isn't memory. When the chat ends, the desk is cleared. Rememb
 
 The AI only knows what's on its desk right now.
 
-Next write-up (16): **Why Does the Same Question Get Different Answers?**
+Next write-up (16): **Why Does Temperature Change the AI's Answer?**
 
 Follow me for the next one. Has an AI ever forgotten something you told it earlier?
 
 **Earlier in this series:**
 
 1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
-2. What Actually Counts as AI? *(link added when published)*
-3. How Does a Computer Learn Without Being Told the Rules? *(link added when published)*
+2. What Actually Counts as Artificial Intelligence? *(link added when published)*
+3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
 5. Is a Neural Network Really Like a Brain? *(link added when published)*
-6. What Makes AI "Generative"? *(link added when published)*
+6. What Makes Generative AI "Generative"? *(link added when published)*
 7. Why Are They Called Foundation Models? *(link added when published)*
-8. What Would It Mean for AI to Be "General"? *(link added when published)*
+8. What Is AGI, and What Would Make AI "General"? *(link added when published)*
 9. What Is Superintelligence, and Should We Worry? *(link added when published)*
-10. How Does an AI Read a Word? *(link added when published)*
-11. How Does an AI Write a Sentence? *(link added when published)*
-12. How Does an AI Know "King" Is Close to "Queen"? *(link added when published)*
-13. How Does an AI Know What "It" Means? *(link added when published)*
-14. What Is the "T" in GPT? *(link added when published)*
+10. What Are Tokens, and Why Does an AI Read in Pieces? *(link added when published)*
+11. How Does an LLM Write a Sentence? *(link added when published)*
+12. How Do Embeddings Know "King" Is Close to "Queen"? *(link added when published)*
+13. How Does Attention Help an AI Know What "It" Means? *(link added when published)*
+14. What Is a Transformer, the "T" in GPT? *(link added when published)*
 
 **Previous series:**
 
@@ -91,9 +91,9 @@ Has an AI ever forgotten something you told it earlier?
 Explain It Like Hello World
 
 Start here: 1. AI words everyone uses. Nobody explains. [link]
-Previous: 14. What Is the "T" in GPT? [link]
-You're here: 15. Why Does an AI Forget the Start of a Long Chat?
-Next: 16. Why Does the Same Question Get Different Answers?
+Previous: 14. What Is a Transformer, the "T" in GPT? [link]
+You're here: 15. What Is a Context Window, and Why Does an AI Forget?
+Next: 16. Why Does Temperature Change the AI's Answer?
 
 Full list: in the curtain raiser post.
 ```

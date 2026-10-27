@@ -1,4 +1,4 @@
-# 22. Why Does "Think Step by Step" Work? | Chain of thought
+# 22. Why Does Chain of Thought ("Think Step by Step") Work? | Chain of thought
 
 ![Cover](images/022-chain-of-thought-cover.png)
 
@@ -49,26 +49,26 @@ Follow me for the next one. Do you ask AI to show its working?
 **Earlier in this series:**
 
 1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
-2. What Actually Counts as AI? *(link added when published)*
-3. How Does a Computer Learn Without Being Told the Rules? *(link added when published)*
+2. What Actually Counts as Artificial Intelligence? *(link added when published)*
+3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
 5. Is a Neural Network Really Like a Brain? *(link added when published)*
-6. What Makes AI "Generative"? *(link added when published)*
+6. What Makes Generative AI "Generative"? *(link added when published)*
 7. Why Are They Called Foundation Models? *(link added when published)*
-8. What Would It Mean for AI to Be "General"? *(link added when published)*
+8. What Is AGI, and What Would Make AI "General"? *(link added when published)*
 9. What Is Superintelligence, and Should We Worry? *(link added when published)*
-10. How Does an AI Read a Word? *(link added when published)*
-11. How Does an AI Write a Sentence? *(link added when published)*
-12. How Does an AI Know "King" Is Close to "Queen"? *(link added when published)*
-13. How Does an AI Know What "It" Means? *(link added when published)*
-14. What Is the "T" in GPT? *(link added when published)*
-15. Why Does an AI Forget the Start of a Long Chat? *(link added when published)*
-16. Why Does the Same Question Get Different Answers? *(link added when published)*
-17. Why Does the Way You Ask Change the Answer? *(link added when published)*
+10. What Are Tokens, and Why Does an AI Read in Pieces? *(link added when published)*
+11. How Does an LLM Write a Sentence? *(link added when published)*
+12. How Do Embeddings Know "King" Is Close to "Queen"? *(link added when published)*
+13. How Does Attention Help an AI Know What "It" Means? *(link added when published)*
+14. What Is a Transformer, the "T" in GPT? *(link added when published)*
+15. What Is a Context Window, and Why Does an AI Forget? *(link added when published)*
+16. Why Does Temperature Change the AI's Answer? *(link added when published)*
+17. What Is a Prompt, and Why Does the Way You Ask Matter? *(link added when published)*
 18. Is Prompt Engineering a Real Skill? *(link added when published)*
-19. What's the Hidden Instruction Behind Every Chatbot? *(link added when published)*
-20. Can an AI Do a Task It Was Never Shown? *(link added when published)*
-21. Why Do Examples Help an AI So Much? *(link added when published)*
+19. What's in a System Prompt, the Hidden Instruction Behind Every Chatbot? *(link added when published)*
+20. What Is Zero-Shot, and Can an AI Do a Task It Was Never Shown? *(link added when published)*
+21. Why Does Few-Shot Prompting Work So Well? *(link added when published)*
 
 **Previous series:**
 
@@ -98,8 +98,8 @@ Do you ask AI to show its working?
 Explain It Like Hello World
 
 Start here: 1. AI words everyone uses. Nobody explains. [link]
-Previous: 21. Why Do Examples Help an AI So Much? [link]
-You're here: 22. Why Does "Think Step by Step" Work?
+Previous: 21. Why Does Few-Shot Prompting Work So Well? [link]
+You're here: 22. Why Does Chain of Thought ("Think Step by Step") Work?
 Next: 23. Is Context Engineering the New Prompt Engineering?
 
 Full list: in the curtain raiser post.

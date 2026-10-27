@@ -22,7 +22,7 @@ Explain parameters to someone non-technical in under one minute, using your own 
 
 ## Quiz
 
-1. What is the hello-world example for parameters? *70B means 70 billion tiny knobs, each tuned during training.*
+1. What is the hello-world example for parameters? *70B means 70 billion parameters: tiny knobs, each tuned during training.*
 2. What is it not? *More parameters isn't automatically better. Newer small models often beat older big ones, because training data and methods matter as much as size (write-up 38).*
 3. Name one place you've already met it. *Model names like "Llama 3 70B" or "8B". When an AI runs on your phone, it's usually one with a few billion knobs, not hundreds of billions.*
 

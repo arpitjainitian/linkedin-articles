@@ -1,4 +1,4 @@
-# 6. What Makes AI "Generative"? | Generative AI
+# 6. What Makes Generative AI "Generative"? | Generative AI
 
 ![Cover](images/006-generative-ai-cover.png)
 
@@ -49,8 +49,8 @@ Follow me for the next one. What's the first thing you ever generated with AI?
 **Earlier in this series:**
 
 1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
-2. What Actually Counts as AI? *(link added when published)*
-3. How Does a Computer Learn Without Being Told the Rules? *(link added when published)*
+2. What Actually Counts as Artificial Intelligence? *(link added when published)*
+3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
 5. Is a Neural Network Really Like a Brain? *(link added when published)*
 
@@ -83,7 +83,7 @@ Explain It Like Hello World
 
 Start here: 1. AI words everyone uses. Nobody explains. [link]
 Previous: 5. Is a Neural Network Really Like a Brain? [link]
-You're here: 6. What Makes AI "Generative"?
+You're here: 6. What Makes Generative AI "Generative"?
 Next: 7. Why Are They Called Foundation Models?
 
 Full list: in the curtain raiser post.

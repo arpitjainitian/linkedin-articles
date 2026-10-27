@@ -22,7 +22,7 @@ Explain diffusion model to someone non-technical in under one minute, using your
 
 ## Quiz
 
-1. What is the hello-world example for diffusion model? *Now run it backwards. That's how AI draws: diffusion.*
+1. What is the hello-world example for diffusion model? *Now run it backwards. That's how a diffusion model draws.*
 2. What is it not? *The AI isn't searching for an existing picture and copying it. But it learned from existing images, which is why copyright and artist consent are real debates.*
 3. Name one place you've already met it. *AI image generators and the newer AI video tools. "Remove background" and "fill in this area" photo features often use the same idea.*
 

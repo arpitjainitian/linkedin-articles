@@ -42,15 +42,15 @@ It's loosely inspired by the brain, not a copy of one. Real brain cells are far 
 
 Tiny voters, billions of them, adding numbers.
 
-Next write-up (6): **What Makes AI "Generative"?**
+Next write-up (6): **What Makes Generative AI "Generative"?**
 
 Follow me for the next one. Did you picture a brain when you heard "neural network"?
 
 **Earlier in this series:**
 
 1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
-2. What Actually Counts as AI? *(link added when published)*
-3. How Does a Computer Learn Without Being Told the Rules? *(link added when published)*
+2. What Actually Counts as Artificial Intelligence? *(link added when published)*
+3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
 
 **Previous series:**
@@ -83,7 +83,7 @@ Explain It Like Hello World
 Start here: 1. AI words everyone uses. Nobody explains. [link]
 Previous: 4. What's "Deep" About Deep Learning? [link]
 You're here: 5. Is a Neural Network Really Like a Brain?
-Next: 6. What Makes AI "Generative"?
+Next: 6. What Makes Generative AI "Generative"?
 
 Full list: in the curtain raiser post.
 ```

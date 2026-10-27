@@ -1,4 +1,4 @@
-# 14. What Is the "T" in GPT? | Transformer
+# 14. What Is a Transformer, the "T" in GPT? | Transformer
 
 ![Cover](images/014-transformer-cover.png)
 
@@ -42,25 +42,25 @@ A transformer isn't a specific product or a robot. It's a design, like "suspensi
 
 Read the whole sentence at once. That's a transformer.
 
-Next write-up (15): **Why Does an AI Forget the Start of a Long Chat?**
+Next write-up (15): **What Is a Context Window, and Why Does an AI Forget?**
 
 Follow me for the next one. Did you know what the T in GPT stood for?
 
 **Earlier in this series:**
 
 1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
-2. What Actually Counts as AI? *(link added when published)*
-3. How Does a Computer Learn Without Being Told the Rules? *(link added when published)*
+2. What Actually Counts as Artificial Intelligence? *(link added when published)*
+3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
 5. Is a Neural Network Really Like a Brain? *(link added when published)*
-6. What Makes AI "Generative"? *(link added when published)*
+6. What Makes Generative AI "Generative"? *(link added when published)*
 7. Why Are They Called Foundation Models? *(link added when published)*
-8. What Would It Mean for AI to Be "General"? *(link added when published)*
+8. What Is AGI, and What Would Make AI "General"? *(link added when published)*
 9. What Is Superintelligence, and Should We Worry? *(link added when published)*
-10. How Does an AI Read a Word? *(link added when published)*
-11. How Does an AI Write a Sentence? *(link added when published)*
-12. How Does an AI Know "King" Is Close to "Queen"? *(link added when published)*
-13. How Does an AI Know What "It" Means? *(link added when published)*
+10. What Are Tokens, and Why Does an AI Read in Pieces? *(link added when published)*
+11. How Does an LLM Write a Sentence? *(link added when published)*
+12. How Do Embeddings Know "King" Is Close to "Queen"? *(link added when published)*
+13. How Does Attention Help an AI Know What "It" Means? *(link added when published)*
 
 **Previous series:**
 
@@ -90,9 +90,9 @@ Did you know what the T in GPT stood for?
 Explain It Like Hello World
 
 Start here: 1. AI words everyone uses. Nobody explains. [link]
-Previous: 13. How Does an AI Know What "It" Means? [link]
-You're here: 14. What Is the "T" in GPT?
-Next: 15. Why Does an AI Forget the Start of a Long Chat?
+Previous: 13. How Does Attention Help an AI Know What "It" Means? [link]
+You're here: 14. What Is a Transformer, the "T" in GPT?
+Next: 15. What Is a Context Window, and Why Does an AI Forget?
 
 Full list: in the curtain raiser post.
 ```

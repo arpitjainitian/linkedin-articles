@@ -1,4 +1,4 @@
-# 3. How Does a Computer Learn Without Being Told the Rules? | Machine learning
+# 3. How Does Machine Learning Learn Without Being Told the Rules? | Machine learning
 
 ![Cover](images/003-machine-learning-cover.png)
 
@@ -49,7 +49,7 @@ Follow me for the next one. Where did machine learning surprise you, for better 
 **Earlier in this series:**
 
 1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
-2. What Actually Counts as AI? *(link added when published)*
+2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 
 **Previous series:**
 
@@ -79,8 +79,8 @@ Where did machine learning surprise you, for better or worse?
 Explain It Like Hello World
 
 Start here: 1. AI words everyone uses. Nobody explains. [link]
-Previous: 2. What Actually Counts as AI? [link]
-You're here: 3. How Does a Computer Learn Without Being Told the Rules?
+Previous: 2. What Actually Counts as Artificial Intelligence? [link]
+You're here: 3. How Does Machine Learning Learn Without Being Told the Rules?
 Next: 4. What's "Deep" About Deep Learning?
 
 Full list: in the curtain raiser post.
