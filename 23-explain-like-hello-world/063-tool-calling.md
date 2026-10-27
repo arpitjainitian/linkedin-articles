@@ -48,7 +48,7 @@ Follow me for the next one. Which tool would you give your AI first?
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -138,7 +138,7 @@ Which tool would you give your AI first?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 62. What Does "Agentic AI" Really Mean? [link]
 You're here: 63. How Does Tool Calling Let an AI Check the Weather?
 Next: 64. What Is MCP, and Why Is Everyone Talking About It?

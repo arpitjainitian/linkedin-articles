@@ -2,7 +2,9 @@
 
 *Explain It Like Hello World series: the curtain raiser. **A post with the cover image only, no article.***
 
-**Image:** [images/01-curtain-raiser-cover.png](images/01-curtain-raiser-cover.png)
+**Published:** 27 October 2026 on [LinkedIn](https://lnkd.in/p/d8abaPhq)
+
+![Cover](images/01-curtain-raiser-cover.png)
 
 **Post text (copy and paste):**
 

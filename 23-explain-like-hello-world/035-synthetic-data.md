@@ -48,7 +48,7 @@ Follow me for the next one. Would you trust a model trained on AI-written data?
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -110,7 +110,7 @@ Would you trust a model trained on AI-written data?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 34. What Is Distillation, and How Does a Small AI Learn From a Big One? [link]
 You're here: 35. What Is Synthetic Data, and Can an AI Learn From AI-Written Data?
 Next: 36. What Is Data Labelling, and Who Teaches the AI What's Right?

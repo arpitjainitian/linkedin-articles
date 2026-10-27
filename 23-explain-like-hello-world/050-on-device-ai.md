@@ -48,7 +48,7 @@ Follow me for the next one. Which AI feature on your phone works in aeroplane mo
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -125,7 +125,7 @@ Which AI feature on your phone works in aeroplane mode?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 49. Can a Small Language Model Be Good Enough? [link]
 You're here: 50. What Is On-Device AI, and Can an AI Live on Your Phone?
 Next: 51. What Is Latency, and Why Does the AI Take So Long to Answer?

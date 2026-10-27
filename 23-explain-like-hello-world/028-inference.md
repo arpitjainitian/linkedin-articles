@@ -48,7 +48,7 @@ Follow me for the next one. Did you think the AI was learning from your chats?
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -103,7 +103,7 @@ Did you think the AI was learning from your chats?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 27. What Happens During Training, When an AI Goes to School? [link]
 You're here: 28. What Is Inference, and What Happens When You Hit Send?
 Next: 29. What Is Pretraining, and How Does an AI Learn Language?

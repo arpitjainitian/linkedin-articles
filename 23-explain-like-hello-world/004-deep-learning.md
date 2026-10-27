@@ -48,7 +48,7 @@ Follow me for the next one. Did you think "deep" meant something more mysterious
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 
@@ -79,7 +79,7 @@ Did you think "deep" meant something more mysterious?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 3. How Does Machine Learning Learn Without Being Told the Rules? [link]
 You're here: 4. What's "Deep" About Deep Learning?
 Next: 5. Is a Neural Network Really Like a Brain?

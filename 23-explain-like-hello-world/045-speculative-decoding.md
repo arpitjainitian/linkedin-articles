@@ -48,7 +48,7 @@ Follow me for the next one. Have you noticed your AI tools getting faster lately
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -120,7 +120,7 @@ Have you noticed your AI tools getting faster lately?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 44. How Does Prompt Caching Make Repeated Prompts Cheaper? [link]
 You're here: 45. How Does Speculative Decoding Make a Big AI Faster?
 Next: 46. Why Does AI Run on a GPU, a Gaming Chip?

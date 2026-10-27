@@ -48,7 +48,7 @@ Follow me for the next one. Have you ever been surprised a voice was an AI?
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -149,7 +149,7 @@ Have you ever been surprised a voice was an AI?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 73. How Does a Diffusion Model Draw a Picture From Noise? [link]
 You're here: 74. How Does Voice AI Talk Back Without a Pause?
 Next: 75. How Does Text-to-Video Make a Video From a Sentence?

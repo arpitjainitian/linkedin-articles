@@ -48,7 +48,7 @@ Follow me for the next one. How many test questions did your AI pass before laun
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -163,7 +163,7 @@ How many test questions did your AI pass before launch?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 87. What Is Red Teaming, and Who Attacks an AI on Purpose? [link]
 You're here: 88. What Are Evals, and How Do You Know an AI Is Getting Better?
 Next: 89. What Is LLM-as-a-Judge, and Can One AI Mark Another AI's Homework?

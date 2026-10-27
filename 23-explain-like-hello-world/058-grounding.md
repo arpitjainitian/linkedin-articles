@@ -48,7 +48,7 @@ Follow me for the next one. Do your AI answers say where they came from?
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -133,7 +133,7 @@ Do your AI answers say where they came from?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 57. What Is GraphRAG, and How Does an AI Answer About a Whole Pile of Documents? [link]
 You're here: 58. What Is Grounding, and How Do You Keep an AI Tied to the Facts?
 Next: 59. How Do Citations Show Where an AI Got Its Answer?

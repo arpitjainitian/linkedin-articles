@@ -48,7 +48,7 @@ Follow me for the next one. Did you know AIs keep notes while they write?
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -118,7 +118,7 @@ Did you know AIs keep notes while they write?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 42. What Is a Mixture of Experts, and Why Doesn't the Whole AI Wake Up? [link]
 You're here: 43. What Is a KV Cache, and Why Doesn't the AI Re-Read Everything?
 Next: 44. How Does Prompt Caching Make Repeated Prompts Cheaper?

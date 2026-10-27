@@ -48,7 +48,7 @@ Follow me for the next one. Do you usually give the AI examples, or just ask?
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -95,7 +95,7 @@ Do you usually give the AI examples, or just ask?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 19. What's in a System Prompt, the Hidden Instruction Behind Every Chatbot? [link]
 You're here: 20. What Is Zero-Shot, and Can an AI Do a Task It Was Never Shown?
 Next: 21. Why Does Few-Shot Prompting Work So Well?

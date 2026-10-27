@@ -48,7 +48,7 @@ Follow me for the next one. What's the silliest "AI-powered" product you've seen
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 
 **Previous series:**
 
@@ -77,7 +77,7 @@ What's the silliest "AI-powered" product you've seen?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 You're here: 2. What Actually Counts as Artificial Intelligence?
 Next: 3. How Does Machine Learning Learn Without Being Told the Rules?
 

@@ -48,7 +48,7 @@ Follow me for the next one. Can you still tell AI video from real video?
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -150,7 +150,7 @@ Can you still tell AI video from real video?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 74. How Does Voice AI Talk Back Without a Pause? [link]
 You're here: 75. How Does Text-to-Video Make a Video From a Sentence?
 Next: 76. What Is a Deepfake, and How Can a Video of Someone Be Fake?

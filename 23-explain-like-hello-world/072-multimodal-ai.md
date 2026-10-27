@@ -48,7 +48,7 @@ Follow me for the next one. What's the most useful thing you've shown an AI a ph
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -147,7 +147,7 @@ What's the most useful thing you've shown an AI a photo of?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 71. What Is a Reasoning Model, and Why Does the AI Think Before It Answers? [link]
 You're here: 72. What Is Multimodal AI, and How Can One AI Read, See and Listen?
 Next: 73. How Does a Diffusion Model Draw a Picture From Noise?

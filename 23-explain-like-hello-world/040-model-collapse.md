@@ -48,7 +48,7 @@ Follow me for the next one. How much of what you read online do you think is AI-
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -115,7 +115,7 @@ How much of what you read online do you think is AI-written?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 39. Are Emergent Abilities Real, or Does Bigger AI Just Seem to Learn New Tricks? [link]
 You're here: 40. What Is Model Collapse, and What Happens When AI Learns From AI?
 Next: 41. What Is Quantization, and How Does a Giant AI Fit on a Laptop?

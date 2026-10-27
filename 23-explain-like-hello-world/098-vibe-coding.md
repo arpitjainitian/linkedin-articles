@@ -48,7 +48,7 @@ Follow me for the next one. Have you built something without writing code?
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -173,7 +173,7 @@ Have you built something without writing code?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 97. What Do Benchmarks Mean, Like "Scored 90%"? [link]
 You're here: 98. What Is Vibe Coding, and Can You Build an App by Describing It?
 Next: 99. What Is AI Slop, and Why Is the Internet Filling Up With It?

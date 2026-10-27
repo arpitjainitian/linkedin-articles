@@ -48,7 +48,7 @@ Follow me for the next one. Does your company know how much it spends on AI, by 
 
 **Earlier in this series:**
 
-1. AI words everyone uses. Nobody explains. (the curtain raiser post) *(link added when published)*
+1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. What Actually Counts as Artificial Intelligence? *(link added when published)*
 3. How Does Machine Learning Learn Without Being Told the Rules? *(link added when published)*
 4. What's "Deep" About Deep Learning? *(link added when published)*
@@ -178,7 +178,7 @@ Does your company know how much it spends on AI, by team?
 ```
 Explain It Like Hello World
 
-Start here: 1. AI words everyone uses. Nobody explains. [link]
+Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 102. What Is LLMOps, and Who Keeps an AI Running After Launch? [link]
 You're here: 103. What Is an AI Gateway, the Front Door to Your AI?
 Next: 104. What Is Model Routing, and Should Every Question Go to the Biggest AI?
