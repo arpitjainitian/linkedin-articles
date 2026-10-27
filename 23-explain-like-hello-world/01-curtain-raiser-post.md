@@ -13,9 +13,9 @@ Everyone nods. Nobody asks.
 
 AI words arrive faster than the explanations.
 
-New series: Explain It Like Hello World. One AI idea at a time, through the smallest example that makes it click. No code. No maths.
+New series: Explain It Like Hello World. One AI word at a time, through the smallest example that makes it click. No code. No maths.
 
-One AI word per write-up. First up: artificial intelligence. What actually counts as AI?
+First up: artificial intelligence. What actually counts as AI?
 
 Which AI word do you nod along to most?
 
