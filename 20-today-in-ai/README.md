@@ -49,7 +49,7 @@
 | 008 | [Does using AI make you give up faster? \| AI and learning](008-give-up-faster.md) | Study: AI help lowers persistence once the AI is gone; hints may not | [Published](https://www.linkedin.com/pulse/today-ai-008-does-using-make-you-give-up-faster-learning-arpit-jain-ppghf/) 14 October 2026 |
 | 009 | [Same AI, many clouds. Where does your data actually go? \| In-country AI](009-same-ai-many-clouds.md) | Claude and OpenAI models now on every big cloud; in-country inference in India on Amazon Bedrock | [Published](https://www.linkedin.com/pulse/today-ai-009-same-many-clouds-where-does-your-data-actually-jain-zgc1f) 23 October 2026 |
 | 010 | [Your AI agent is waiting. Are you still paying? \| Agent sandboxes](010-agent-sandboxes.md) | Google's Agent Compute Engine: a paused, isolated computer for each agent | [Published](https://www.linkedin.com/pulse/today-ai-010-your-agent-waiting-you-still-paying-sandboxes-arpit-jain-07qvf) 26 October 2026 |
-| 011 | [An AI voice that fits on your phone. No internet needed. \| On-device voice](011-on-device-voice.md) | Gradium Phonon text-to-speech, now in Ollama on Macs | Draft |
+| 011 | [AI text-to-speech that fits on your phone. No internet needed. \| Text-to-speech](011-on-device-voice.md) | Gradium Phonon text-to-speech, now in Ollama on Macs | Draft |
 | 012 | [Would you send your AI twin to a job interview? \| AI twins in hiring](012-ai-twin-interview.md) | AI twins that recruiters question before a real interview | Draft |
 
 Sources for each write-up are listed inside the write-up, under "References and credits".

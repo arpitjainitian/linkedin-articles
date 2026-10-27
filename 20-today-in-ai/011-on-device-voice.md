@@ -1,4 +1,4 @@
-# Today in AI, No. 011: An AI Voice That Fits on Your Phone. No Internet Needed. | On-Device Voice
+# Today in AI, No. 011: AI Text-to-Speech That Fits on Your Phone. No Internet Needed. | Text-to-Speech
 
 ![Cover](images/011-on-device-voice-cover.png)
 
@@ -71,7 +71,7 @@ Credit to the Gradium and Ollama teams for their public announcements and docume
 **Post text (copy and paste):**
 
 ```
-An AI voice that fits on your phone. No internet needed.
+AI text-to-speech that fits on your phone. No internet needed.
 
 Gradium's new Phonon reads text aloud right on your device. Ollama just added it for Macs.
 
