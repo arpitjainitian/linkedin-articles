@@ -4,6 +4,8 @@
 
 *Just put the rules in the prompt series: Code decides, the AI explains*
 
+**Published:** 27 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/2-code-decides-ai-explains-splitting-work-arpit-jain-ebeif)
+
 Same passenger, same Saver fare, same family emergency. This time, the airline split the job.
 
 Code checked the rules: non-refundable fare, cancelled 2 hours before. Refund: airport taxes only, ₹1,240.

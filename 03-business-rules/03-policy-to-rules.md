@@ -49,7 +49,7 @@ Follow me for the next one. What's the vaguest line you've seen in a company pol
 **Earlier in this series:**
 
 1. [Why did the AI promise a full refund on a non-refundable ticket?](https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f)
-2. Code decides. The AI explains. *(link added when published)*
+2. [Code decides. The AI explains.](https://www.linkedin.com/pulse/2-code-decides-ai-explains-splitting-work-arpit-jain-ebeif)
 
 **Previous series:**
 
@@ -81,7 +81,7 @@ Missed the last series? Start with "Your AI can answer. Now it has to act." http
 📌 Just put the rules in the prompt
 
 1. Why did the AI promise a full refund on a non-refundable ticket? https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f
-2. Code decides. The AI explains. [link]
+2. Code decides. The AI explains. https://www.linkedin.com/pulse/2-code-decides-ai-explains-splitting-work-arpit-jain-ebeif
 3. The policy is 40 pages. Who turns it into rules? (you're here)
 4. The waiver was in the prompt. Not in the code. (next)
 
