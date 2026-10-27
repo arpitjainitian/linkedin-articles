@@ -23,6 +23,6 @@ Which AI word have you always nodded along to? Drop it below. It might be next.
 ```
 Explain It Like Hello World
 
-1. AI words everyone uses. Nobody explains. (you're here)
+Now: AI words everyone uses. Nobody explains.
 Next: the word you're most curious about. Tell me in the comments.
 ```
