@@ -9,7 +9,6 @@
 ```
 Monday standup.
 The tech lead says: "We'll use a quantized mixture-of-experts model with a bigger context window."
-Five heads nod.
 
 Everyone nods. Nobody asks.
 
