@@ -7,15 +7,13 @@
 **Post text (copy and paste):**
 
 ```
-Picture a meeting. Someone says: "We'll use a quantized mixture-of-experts model with a bigger context window."
+"We'll use a quantized mixture-of-experts model with a bigger context window."
 
 Everyone nods. Nobody asks.
 
-AI words arrive faster than the explanations.
+New series: Explain It Like Hello World. One AI word at a time. No code. No maths.
 
-New series: Explain It Like Hello World. One AI word at a time, through the smallest example that makes it click. No code. No maths.
-
-Which AI word do you want explained first? Drop it in the comments. The most-asked word goes first.
+Which AI word have you always nodded along to? Drop it below. It might be next.
 
 #AI #GenAI #LearnAI #ExplainItLikeHelloWorld
 ```
@@ -26,5 +24,5 @@ Which AI word do you want explained first? Drop it in the comments. The most-ask
 Explain It Like Hello World
 
 1. AI words everyone uses. Nobody explains. (you're here)
-2. The word you pick in the comments (next)
+Next: the word you're most curious about. Tell me in the comments.
 ```
