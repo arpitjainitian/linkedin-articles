@@ -11,7 +11,7 @@
 
 Everyone nods. Nobody asks.
 
-New series: Explain It Like Hello World. One AI word at a time. No code. No maths.
+So I'm starting a new series: Explain It Like Hello World. Every one of these buzzwords gets its own article, explained through the simplest example. No code. No maths.
 
 Which AI word have you always nodded along to? Drop it below. It might be next.
 
