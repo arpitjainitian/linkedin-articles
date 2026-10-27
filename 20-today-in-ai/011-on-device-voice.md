@@ -1,21 +1,21 @@
-# Today in AI, No. 011: Can Your Laptop Talk Back Without the Internet? | On-Device Voice
+# Today in AI, No. 011: An AI Voice That Fits on Your Phone. No Internet Needed. | On-Device Voice
 
 ![Cover](images/011-on-device-voice-cover.png)
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
-**In one line:** A free AI voice small enough to fit in 64 MB now runs on your own computer. Nothing you type leaves it.
+**In one line:** A free AI voice, small enough for a phone, now reads text aloud right on your device. Nothing you type leaves it.
 
 ## What happened
 
-- **20 October 2026:** voice AI company Gradium released **Phonon**, small text-to-speech models anyone can download. [1]
+- **20 October 2026:** voice AI company Gradium released **Phonon**, small text-to-speech models (they turn written text into a spoken voice) that anyone can download. Gradium says they run on phones, laptops and even in a web browser. [1]
 - **26 October 2026:** Ollama, a popular free app for running AI on your own computer, added Phonon. Your local AI can now read its answers aloud. [2, 3]
 
 ## What it means
 
 Most AI voices live in the cloud: your text travels to a company's servers, and a voice comes back.
 
-Phonon is more like a radio you own. It plays right there on your laptop. No internet, no fee per word, and your text never leaves the room.
+Phonon is more like a radio you own. It plays right there on your phone or laptop. No internet, no fee per word, and your text never leaves the room.
 
 And it's tiny. Chat AIs have billions of parameters. Phonon's English model has 31 million, smaller than many phone apps. [1]
 
@@ -71,13 +71,13 @@ Credit to the Gradium and Ollama teams for their public announcements and docume
 **Post text (copy and paste):**
 
 ```
-Your laptop can now talk back. No internet needed.
+An AI voice that fits on your phone. No internet needed.
 
-Gradium's new Phonon voice runs inside Ollama, right on your own computer.
+Gradium's new Phonon reads text aloud right on your device. Ollama just added it for Macs.
 
-Your text never leaves the room.
+Your text never leaves your device.
 
-The English model is just 64 MB. The catch: other languages are non-commercial only, and it's Mac-first.
+The English model is just 64 MB. The catch: other languages are non-commercial only.
 
 No. 011 of Today in AI. Sources in the article. Not sponsored.
 
