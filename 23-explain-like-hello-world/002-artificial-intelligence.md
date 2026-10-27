@@ -4,6 +4,8 @@
 
 *Explain It Like Hello World series: Artificial intelligence*
 
+**Published:** 27 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/2-what-actually-counts-artificial-intelligence-arpit-jain-su9lf)
+
 Everything is "AI" now: phones, washing machines, toothbrushes. The word is so stretched it barely means anything.
 
 ## The hello world

@@ -30,7 +30,7 @@ One word per write-up. Season 1 covers the AI words in use so far; later seasons
 |---|---|---|---|
 | 1 | Curtain raiser: [AI Words Everyone Uses. Nobody Explains.](01-curtain-raiser-post.md) (post with cover only, no article) | Hello world, but for AI ideas | [Published](https://lnkd.in/p/d8abaPhq) 27 October 2026 |
 | | **Part 0: The basics** | | |
-| 2 | [What Actually Counts as Artificial Intelligence?](002-artificial-intelligence.md) (Artificial intelligence) | Artificial intelligence (AI) is a computer doing something we'd say needs human intelligence. | Draft for review |
+| 2 | [What Actually Counts as Artificial Intelligence?](002-artificial-intelligence.md) (Artificial intelligence) | Artificial intelligence (AI) is a computer doing something we'd say needs human intelligence. | [Published](https://www.linkedin.com/pulse/2-what-actually-counts-artificial-intelligence-arpit-jain-su9lf) 27 October 2026 |
 | 3 | [How Does Machine Learning Learn Without Being Told the Rules?](003-machine-learning.md) (Machine learning) | Machine learning learns the patterns from examples instead. | Draft for review |
 | 4 | [What's "Deep" About Deep Learning?](004-deep-learning.md) (Deep learning) | Deep learning learns in layers, just like that. | Draft for review |
 | 5 | [Is a Neural Network Really Like a Brain?](005-neural-network.md) (Neural network) | A neural network is billions of tiny voters adding up numbers. | Draft for review |

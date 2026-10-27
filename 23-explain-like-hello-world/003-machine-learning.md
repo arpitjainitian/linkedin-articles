@@ -49,7 +49,7 @@ Follow me for the next one. Where did machine learning surprise you, for better 
 **Earlier in this series:**
 
 1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
-2. What Actually Counts as Artificial Intelligence? *(link added when published)*
+2. [What Actually Counts as Artificial Intelligence?](https://www.linkedin.com/pulse/2-what-actually-counts-artificial-intelligence-arpit-jain-su9lf)
 
 **Previous series:**
 
@@ -79,7 +79,7 @@ Where did machine learning surprise you, for better or worse?
 Explain It Like Hello World
 
 Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
-Previous: 2. What Actually Counts as Artificial Intelligence? [link]
+Previous: 2. What Actually Counts as Artificial Intelligence? https://www.linkedin.com/pulse/2-what-actually-counts-artificial-intelligence-arpit-jain-su9lf
 You're here: 3. How Does Machine Learning Learn Without Being Told the Rules?
 Next: 4. What's "Deep" About Deep Learning?
 
