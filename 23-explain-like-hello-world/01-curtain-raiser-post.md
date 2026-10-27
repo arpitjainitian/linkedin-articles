@@ -7,13 +7,15 @@
 **Post text (copy and paste):**
 
 ```
-"We'll use a quantized mixture-of-experts model with a bigger context window."
+Monday standup.
+The tech lead says: "We'll use a quantized mixture-of-experts model with a bigger context window."
+Five heads nod.
 
 Everyone nods. Nobody asks.
 
-So I'm starting a new series: Explain It Like Hello World. Every one of these buzzwords gets its own article, explained through the simplest example. No code. No maths.
+So I'm starting a new series: Explain It Like Hello World. Every AI buzzword gets its own article, in plain words. No code. No maths.
 
-Which AI word have you always nodded along to? Drop it below. It might be next.
+Which AI word should I explain? Drop it in the comments, and I'll cover it in the series.
 
 #AI #GenAI #LearnAI #ExplainItLikeHelloWorld
 ```
