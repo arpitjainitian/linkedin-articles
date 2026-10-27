@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 27 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-011-text-to-speech-fits-your-phone-internet-needed-jain-1ipuf)
+
 **In one line:** A free AI voice, small enough for a phone, now reads text aloud right on your device. Nothing you type leaves it.
 
 ## What happened
