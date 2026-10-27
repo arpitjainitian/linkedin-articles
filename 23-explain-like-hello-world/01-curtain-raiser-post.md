@@ -15,9 +15,7 @@ AI words arrive faster than the explanations.
 
 New series: Explain It Like Hello World. One AI word at a time, through the smallest example that makes it click. No code. No maths.
 
-First up: artificial intelligence. What actually counts as AI?
-
-Which AI word do you nod along to most?
+Which AI word do you want explained first? Drop it in the comments. The most-asked word goes first.
 
 #AI #GenAI #LearnAI #ExplainItLikeHelloWorld
 ```
@@ -28,5 +26,5 @@ Which AI word do you nod along to most?
 Explain It Like Hello World
 
 1. AI words everyone uses. Nobody explains. (you're here)
-2. What actually counts as artificial intelligence? (next)
+2. The word you pick in the comments (next)
 ```
