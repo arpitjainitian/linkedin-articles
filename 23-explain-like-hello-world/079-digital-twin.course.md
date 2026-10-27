@@ -24,7 +24,7 @@ Explain digital twin to someone non-technical in under one minute, using your ow
 
 1. What is the hello-world example for digital twin? *A digital twin is a live copy you can safely experiment on.*
 2. What is it not? *A twin is only as good as its data. An outdated or simplified twin can give confident wrong answers about the real thing.*
-3. Name one place you've already met it. *Manufacturing and city-planning dashboards, and the AI twins that recruiters can question (my Today in AI No. 011 covers one).*
+3. Name one place you've already met it. *Manufacturing and city-planning dashboards, and the AI twins that recruiters can question (my Today in AI No. 012 covers one).*
 
 ## Glossary
 

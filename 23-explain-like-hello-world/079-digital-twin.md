@@ -20,7 +20,7 @@ The term is now also used for AI copies of people that answer like them, such as
 
 ## Where you've already met it
 
-Manufacturing and city-planning dashboards, and the AI twins that recruiters can question (my Today in AI No. 011 covers one).
+Manufacturing and city-planning dashboards, and the AI twins that recruiters can question (my Today in AI No. 012 covers one).
 
 ## The real name
 
