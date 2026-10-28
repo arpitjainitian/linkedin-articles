@@ -50,7 +50,7 @@ Follow me for the next one. Ever been promised one price and charged another?
 
 1. [Why did the AI promise a full refund on a non-refundable ticket?](https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f)
 2. [Code decides. The AI explains.](https://www.linkedin.com/pulse/2-code-decides-ai-explains-splitting-work-arpit-jain-ebeif)
-3. The policy is 40 pages. Who turns it into rules? *(link added when published)*
+3. [The policy is 40 pages. Who turns it into rules?](https://www.linkedin.com/pulse/3-policy-40-pages-who-turns-rules-from-arpit-jain-u509f)
 
 **Previous series:**
 
@@ -86,7 +86,7 @@ Missed the last series? Start with "Your AI can answer. Now it has to act." http
 
 1. Why did the AI promise a full refund on a non-refundable ticket? https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f
 2. Code decides. The AI explains. https://www.linkedin.com/pulse/2-code-decides-ai-explains-splitting-work-arpit-jain-ebeif
-3. The policy is 40 pages. Who turns it into rules? [link]
+3. The policy is 40 pages. Who turns it into rules? https://www.linkedin.com/pulse/3-policy-40-pages-who-turns-rules-from-arpit-jain-u509f
 4. The waiver was in the prompt. Not in the code. (you're here)
 5. So, who should decide: the code or the model? (next)
 

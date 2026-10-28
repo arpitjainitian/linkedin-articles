@@ -4,6 +4,8 @@
 
 *Just put the rules in the prompt series: From policy to rules*
 
+**Published:** 28 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/3-policy-40-pages-who-turns-rules-from-arpit-jain-u509f)
+
 "Code decides" sounds simple. Then someone opens the refund policy.
 
 It's 40 pages, written by lawyers, for people. Page 31 says: "Fees may be waived in exceptional circumstances, at the airline's discretion."
