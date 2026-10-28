@@ -4,6 +4,8 @@
 
 *Explain It Like Hello World series: Machine learning*
 
+**Published:** 28 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/3-how-does-machine-learning-learn-without-being-told-rules-arpit-jain-ppdyf)
+
 "Machine learning" was the buzzword before "AI" took over. It's still the engine underneath most of it.
 
 ## The hello world
