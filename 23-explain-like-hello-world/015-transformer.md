@@ -16,7 +16,7 @@ A **transformer** lays the whole sentence out on a table and lets every word loo
 
 A transformer is a stack of layers. In each layer, every token (write-up 11) gathers information from the others through attention, then refines it. Dozens of layers later, the model has a rich picture of the text and predicts the next token.
 
-Because all words are processed together, transformers train well on GPUs (write-up 51), which is why they could be scaled to today's huge models. The design was published by Google researchers in 2017 in a paper called "Attention Is All You Need".
+Because all words are processed together, transformers train well on GPUs (write-up 53), which is why they could be scaled to today's huge models. The design was published by Google researchers in 2017 in a paper called "Attention Is All You Need".
 
 ## Where you've already met it
 

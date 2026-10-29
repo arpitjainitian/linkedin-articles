@@ -12,7 +12,7 @@ The edge of a map that explorers are still drawing. Beyond it, nobody has been y
 
 ## One step further
 
-Frontier models are usually the newest, largest foundation models (write-up 7) from a handful of labs, trained with huge amounts of computing power (write-up 42 explains why scale helped). They lead on benchmarks (write-up 109) and often get new abilities first.
+Frontier models are usually the newest, largest foundation models (write-up 7) from a handful of labs, trained with huge amounts of computing power (write-up 44 explains why scale helped). They lead on benchmarks (write-up 116) and often get new abilities first.
 
 Because they are the most powerful, safety rules and voluntary commitments often focus on them. The frontier also moves: today's frontier model is next year's ordinary one.
 
@@ -23,7 +23,7 @@ Explain frontier model to someone non-technical in under one minute, using your 
 ## Quiz
 
 1. What is the hello-world example for frontier model? *A frontier model is AI at that edge: the most capable models right now.*
-2. What is it not? *Frontier doesn't mean best for your task. A smaller, cheaper model (write-up 54) often does a simple job just as well.*
+2. What is it not? *Frontier doesn't mean best for your task. A smaller, cheaper model (write-up 56) often does a simple job just as well.*
 3. Name one place you've already met it. *The flagship models that AI labs announce with big launch events, and the top tier in a chatbot's model menu.*
 
 ## Glossary

@@ -14,7 +14,7 @@ A grandmaster plays chess better than any of us. Now imagine something that out-
 
 It's the step after AGI (write-up 9). Some researchers think an AI that can improve AI research could speed itself up. Others think progress will stay gradual and bumpy.
 
-The debate is about control: how do you make sure something smarter than you does what you intended? That's the core of AI alignment (write-up 103).
+The debate is about control: how do you make sure something smarter than you does what you intended? That's the core of AI alignment (write-up 110).
 
 ## Exercise
 

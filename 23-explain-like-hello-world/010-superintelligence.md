@@ -16,7 +16,7 @@ That's the hello world: **superintelligence** means AI far smarter than the best
 
 It's the step after AGI (write-up 9). Some researchers think an AI that can improve AI research could speed itself up. Others think progress will stay gradual and bumpy.
 
-The debate is about control: how do you make sure something smarter than you does what you intended? That's the core of AI alignment (write-up 103).
+The debate is about control: how do you make sure something smarter than you does what you intended? That's the core of AI alignment (write-up 110).
 
 ## Where you've already met it
 

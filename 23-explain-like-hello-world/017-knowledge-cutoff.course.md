@@ -12,9 +12,9 @@ An encyclopedia printed last year. Everything in it was true when it went to pri
 
 ## One step further
 
-A model learns from a snapshot of text collected up to a certain date (write-up 32). Training takes months, so a model is often released well after its cutoff, and then used for a long time.
+A model learns from a snapshot of text collected up to a certain date (write-up 34). Training takes months, so a model is often released well after its cutoff, and then used for a long time.
 
-To know newer things, the AI needs fresh information at question time: web search, your documents (write-up 58), or tools (write-up 70). Without them, it may guess, and guesses can sound sure (write-up 92).
+To know newer things, the AI needs fresh information at question time: web search, your documents (write-up 60), or tools (write-up 75). Without them, it may guess, and guesses can sound sure (write-up 99).
 
 ## Exercise
 

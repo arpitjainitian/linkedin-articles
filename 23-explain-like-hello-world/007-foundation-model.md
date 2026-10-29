@@ -14,7 +14,7 @@ That's the hello world: a **foundation model** is one big model trained on broad
 
 ## One step further
 
-Before, companies trained a separate model for each job: one for translation, one for summaries, one for support emails. A foundation model learns general skills once, at great cost. Then teams adapt it cheaply with prompts (write-up 19) or fine-tuning (write-up 33).
+Before, companies trained a separate model for each job: one for translation, one for summaries, one for support emails. A foundation model learns general skills once, at great cost. Then teams adapt it cheaply with prompts (write-up 20) or fine-tuning (write-up 35).
 
 The term was popularised by Stanford researchers in 2021. GPT, Claude, Gemini and Llama are all foundation models.
 

@@ -14,9 +14,9 @@ That's the hello world: the **knowledge cutoff** is the date after which a model
 
 ## One step further
 
-A model learns from a snapshot of text collected up to a certain date (write-up 32). Training takes months, so a model is often released well after its cutoff, and then used for a long time.
+A model learns from a snapshot of text collected up to a certain date (write-up 34). Training takes months, so a model is often released well after its cutoff, and then used for a long time.
 
-To know newer things, the AI needs fresh information at question time: web search, your documents (write-up 58), or tools (write-up 70). Without them, it may guess, and guesses can sound sure (write-up 92).
+To know newer things, the AI needs fresh information at question time: web search, your documents (write-up 60), or tools (write-up 75). Without them, it may guess, and guesses can sound sure (write-up 99).
 
 ## Where you've already met it
 
@@ -42,7 +42,7 @@ It isn't a bug a quick update fixes. Retraining is expensive, so fresh facts usu
 
 A printed encyclopedia, however clever, stops at its print date.
 
-Next write-up (18): **Why Does Temperature Change the AI's Answer?**
+Next write-up (18): **What Is Context Rot, and Why Do Long Chats Get Worse?**
 
 Follow me for the next one. Has an AI ever given you out-of-date facts with total confidence?
 
@@ -96,7 +96,7 @@ Explain It Like Hello World
 Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 16. What Is a Context Window, and Why Does an AI Forget? [link]
 You're here: 17. What's a Knowledge Cutoff, and Why Is the AI Behind on News?
-Next: 18. Why Does Temperature Change the AI's Answer?
+Next: 18. What Is Context Rot, and Why Do Long Chats Get Worse?
 
 Full list: in the curtain raiser post.
 ```
