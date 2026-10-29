@@ -14,7 +14,7 @@ Generative AI takes the words "a cat wearing a raincoat" and **makes** a new pic
 
 ## One step further
 
-It learns the patterns of huge amounts of existing content, then produces new content that fits those patterns. LLMs (write-up 11) generate text a token at a time; diffusion models (write-up 73) generate images from noise.
+It learns the patterns of huge amounts of existing content, then produces new content that fits those patterns. LLMs (write-up 12) generate text a token at a time; diffusion models (write-up 82) generate images from noise.
 
 The output is new, not copied, but shaped entirely by what it learned from, which is why questions about quality, bias and copyright come with it.
 
@@ -32,7 +32,7 @@ ChatGPT, Claude and Gemini writing text; image generators; AI music tools; codin
 
 ## What it's not
 
-Generative isn't "creative" the way people are, and it isn't a search engine. It produces likely-looking content, which can be wrong (write-up 83).
+Generative isn't "creative" the way people are, and it isn't a search engine. It produces likely-looking content, which can be wrong (write-up 92).
 
 ## Take this to your next meeting
 

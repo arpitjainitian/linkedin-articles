@@ -14,7 +14,7 @@ That's the hello world: a **foundation model** is one big model trained on broad
 
 ## One step further
 
-Before, companies trained a separate model for each job: one for translation, one for summaries, one for support emails. A foundation model learns general skills once, at great cost. Then teams adapt it cheaply with prompts (write-up 17) or fine-tuning (write-up 30).
+Before, companies trained a separate model for each job: one for translation, one for summaries, one for support emails. A foundation model learns general skills once, at great cost. Then teams adapt it cheaply with prompts (write-up 19) or fine-tuning (write-up 33).
 
 The term was popularised by Stanford researchers in 2021. GPT, Claude, Gemini and Llama are all foundation models.
 
@@ -42,7 +42,7 @@ A foundation model isn't a finished product. It needs adapting, testing and guar
 
 One strong foundation, many buildings on top.
 
-Next write-up (8): **What Is AGI, and What Would Make AI "General"?**
+Next write-up (8): **What Is a Frontier Model, and Who Decides?**
 
 Follow me for the next one. How many products do you use that sit on the same few foundation models?
 
@@ -86,7 +86,7 @@ Explain It Like Hello World
 Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
 Previous: 6. What Makes Generative AI "Generative"? [link]
 You're here: 7. Why Are They Called Foundation Models?
-Next: 8. What Is AGI, and What Would Make AI "General"?
+Next: 8. What Is a Frontier Model, and Who Decides?
 
 Full list: in the curtain raiser post.
 ```

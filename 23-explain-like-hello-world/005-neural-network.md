@@ -14,7 +14,7 @@ That's the hello world: a **neural network** is lots of tiny voters, called neur
 
 ## One step further
 
-Each tiny neuron takes numbers in, multiplies them by its weights (how much to trust each input), adds them up and passes the result on. Training adjusts those weights (write-up 26) until the final answer comes out right.
+Each tiny neuron takes numbers in, multiplies them by its weights (how much to trust each input), adds them up and passes the result on. Training adjusts those weights (write-up 28) until the final answer comes out right.
 
 One neuron is trivial. Billions of them, in many layers (write-up 4), can recognise faces or write essays.
 

@@ -12,7 +12,7 @@ Picture a team voting on "Is this a cat?". Each member looks at one small clue a
 
 ## One step further
 
-Each tiny neuron takes numbers in, multiplies them by its weights (how much to trust each input), adds them up and passes the result on. Training adjusts those weights (write-up 26) until the final answer comes out right.
+Each tiny neuron takes numbers in, multiplies them by its weights (how much to trust each input), adds them up and passes the result on. Training adjusts those weights (write-up 28) until the final answer comes out right.
 
 One neuron is trivial. Billions of them, in many layers (write-up 4), can recognise faces or write essays.
 

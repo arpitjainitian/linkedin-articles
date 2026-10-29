@@ -14,7 +14,7 @@ How do you recognise a cat? You don't think "pointed ears AND whiskers AND fur".
 
 Each layer is part of a neural network (write-up 5). Early layers learn simple things like edges or sounds. Later layers combine them into faces, words or meanings.
 
-It needs lots of data and computing power, which is why it took off around 2012, when GPUs (write-up 46) and huge image collections met. Today's LLMs are deep learning at enormous scale.
+It needs lots of data and computing power, which is why it took off around 2012, when GPUs (write-up 51) and huge image collections met. Today's LLMs are deep learning at enormous scale.
 
 ## Exercise
 
