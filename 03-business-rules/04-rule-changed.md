@@ -4,6 +4,8 @@
 
 *Just put the rules in the prompt series: When rules change*
 
+**Published:** 29 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/4-waiver-prompt-code-when-rules-change-arpit-jain-9j7sf)
+
 Heavy monsoon rain in Mumbai. The airline announces free cancellation on all Mumbai flights this week.
 
 Someone quickly adds a line to the AI's prompt: "Cancellation fees are waived for Mumbai flights."
