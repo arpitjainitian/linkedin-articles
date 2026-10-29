@@ -51,7 +51,7 @@ Follow me for the next one. Did you picture a brain when you heard "neural netwo
 1. [AI words everyone uses. Nobody explains.](https://lnkd.in/p/d8abaPhq) (the curtain raiser post)
 2. [What Actually Counts as Artificial Intelligence?](https://www.linkedin.com/pulse/2-what-actually-counts-artificial-intelligence-arpit-jain-su9lf)
 3. [How Does Machine Learning Learn Without Being Told the Rules?](https://www.linkedin.com/pulse/3-how-does-machine-learning-learn-without-being-told-rules-arpit-jain-ppdyf)
-4. What's "Deep" About Deep Learning? *(link added when published)*
+4. [What's "Deep" About Deep Learning?](https://www.linkedin.com/pulse/4-whats-deep-learning-arpit-jain-rvlff)
 
 **Previous series:**
 
@@ -82,7 +82,7 @@ Did you picture a brain when you heard "neural network"?
 Explain It Like Hello World
 
 Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
-Previous: 4. What's "Deep" About Deep Learning? [link]
+Previous: 4. What's "Deep" About Deep Learning? https://www.linkedin.com/pulse/4-whats-deep-learning-arpit-jain-rvlff
 You're here: 5. Is a Neural Network Really Like a Brain?
 Next: 6. What Makes Generative AI "Generative"?
 

@@ -14,7 +14,7 @@ Use [05-finale-checklist.md](05-finale-checklist.md): the refund assistant, fixe
 
 **The three-way split.** Code (decisions), model (language), people (meaning, exceptions, changes). Most failures come from blurring one of these lines: the model deciding, code holding rules nobody owns, or people changing rules without a trace.
 
-**Mapping to the module.** Decisions in code and untouched numbers (3.2); policy to rules and vague words (3.3); one place and dated changes (3.4); proof links to decision lineage (Today in AI No. 006).
+**Mapping to the module.** Decisions in code and untouched numbers (3.2); policy to rules and vague words (3.3); one place and dated changes (3.4); proof links to decision lineage ([Today in AI No. 006](https://www.linkedin.com/pulse/today-ai-006-your-made-decision-can-you-prove-why-data-arpit-jain-vjenf)).
 
 ## Capstone lab
 
@@ -34,7 +34,7 @@ Rule ownership, decision record.
 
 ## Further reading
 
-- All lessons in Module 3; Today in AI No. 006.
+- All lessons in Module 3; [Today in AI No. 006](https://www.linkedin.com/pulse/today-ai-006-your-made-decision-can-you-prove-why-data-arpit-jain-vjenf).
 
 ## Reader questions
 

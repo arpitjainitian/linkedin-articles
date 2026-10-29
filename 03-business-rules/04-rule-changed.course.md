@@ -22,7 +22,7 @@ Use [04-rule-changed.md](04-rule-changed.md): a monsoon waiver added to the prom
 
 **Prompt hygiene.** Periodically scan prompts for rule-like statements (amounts, dates, "always", "never", "waived") and move them into the rules store.
 
-**Related.** Proving which rule version applied to a past decision is covered in Today in AI No. 006 (decision lineage).
+**Related.** Proving which rule version applied to a past decision is covered in [Today in AI No. 006](https://www.linkedin.com/pulse/today-ai-006-your-made-decision-can-you-prove-why-data-arpit-jain-vjenf) (decision lineage).
 
 ## Hands-on lab
 
@@ -46,7 +46,7 @@ Single source of truth, effective dates, rule version, drift.
 
 ## Further reading
 
-- Today in AI No. 006 (decision lineage).
+- [Today in AI No. 006](https://www.linkedin.com/pulse/today-ai-006-your-made-decision-can-you-prove-why-data-arpit-jain-vjenf) (decision lineage).
 
 ## Reader questions
 

@@ -4,6 +4,8 @@
 
 *Explain It Like Hello World series: Deep learning*
 
+**Published:** 29 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/4-whats-deep-learning-arpit-jain-rvlff)
+
 "Deep learning" sounds philosophical. It's the reason AI suddenly got good at seeing, hearing and writing in the last decade.
 
 ## The hello world
