@@ -24,7 +24,7 @@ Explain AI agent to someone non-technical in under one minute, using your own ev
 
 1. What is the hello-world example for AI agent? *A chatbot is the librarian. An AI agent is the assistant who gets it done.*
 2. What is it not? *An agent isn't just a chatbot with a new name, and it doesn't need to be autonomous for everything. Many tasks are better as a fixed workflow.*
-3. Name one place you've already met it. *Coding assistants that edit files and run tests. Assistants that book, order or file things for you.*
+3. Name one place you've already met it. *Coding assistants that edit files and run tests. Assistants that book, order or file things for you. My [Today in AI No. 001](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/) asks what happens when your agent visits someone else's website.*
 
 ## Glossary
 

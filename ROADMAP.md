@@ -50,7 +50,7 @@ Each topic is its own series, numbered below. Each is a sentence that sounds eas
 
 | Series | Topic | Level | What it covers | Status | Why a full series, not one article |
 |---|---|---|---|---|---|
-| 20 | "Today in AI" (#TodayInAI) | Mixed | One AI story that matters per write-up (news, plus occasional explainers), checked against original sources and explained in plain words, for both people learning AI and leaders. Fixed cover frame, fresh middle design each time. Plan and write-ups: [20-today-in-ai/](20-today-in-ai/README.md) | **In progress** (No. 001 to 008 published) | AI changes every week. An ongoing series, with no fixed cadence and no end, keeps up with it one story at a time. |
+| 20 | "Today in AI" (#TodayInAI) | Mixed | One AI story that matters per write-up (news, plus occasional explainers), checked against original sources and explained in plain words, for both people learning AI and leaders. Fixed cover frame, fresh middle design each time. Plan and write-ups: [20-today-in-ai/](20-today-in-ai/README.md) | **In progress** (No. 001 to 011 published) | AI changes every week. An ongoing series, with no fixed cadence and no end, keeps up with it one story at a time. |
 
 ## 3. AI system design
 

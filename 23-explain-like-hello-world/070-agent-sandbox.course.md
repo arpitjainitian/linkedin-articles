@@ -14,7 +14,7 @@ A child learning chemistry gets a toy lab kit in a tray, not the keys to the sch
 
 When an agent writes code, installs packages or browses websites (write-up 68), anything could go wrong: a bad command, a malicious web page, a runaway loop. In a sandbox, the damage stays inside: separate files, limited network access, no real passwords.
 
-Newer designs give each agent its own small virtual computer that can pause while the agent waits (my Today in AI No. 010 covers Google's approach).
+Newer designs give each agent its own small virtual computer that can pause while the agent waits (my [Today in AI No. 010](https://www.linkedin.com/pulse/today-ai-010-your-agent-waiting-you-still-paying-sandboxes-arpit-jain-07qvf) covers Google's approach).
 
 ## Exercise
 

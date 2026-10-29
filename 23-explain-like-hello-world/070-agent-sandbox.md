@@ -16,7 +16,7 @@ That's the hello world: an **agent sandbox** is a walled-off computer where an A
 
 When an agent writes code, installs packages or browses websites (write-up 68), anything could go wrong: a bad command, a malicious web page, a runaway loop. In a sandbox, the damage stays inside: separate files, limited network access, no real passwords.
 
-Newer designs give each agent its own small virtual computer that can pause while the agent waits (my Today in AI No. 010 covers Google's approach).
+Newer designs give each agent its own small virtual computer that can pause while the agent waits (my [Today in AI No. 010](https://www.linkedin.com/pulse/today-ai-010-your-agent-waiting-you-still-paying-sandboxes-arpit-jain-07qvf) covers Google's approach).
 
 ## Where you've already met it
 
@@ -122,6 +122,7 @@ Follow me for the next one. Where do the AI agents in your team run code today?
 
 - **Series 1, #JustAddRAG:** [start here](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/) or jump to [the grand finale](https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/)
 - **Series 2, Beyond Just RAG: From Answers to Actions:** [start here](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/) or jump to [the finale](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf)
+- **Series 20, Today in AI** (ongoing): [start here](https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/) or read [the latest issue](https://www.linkedin.com/pulse/today-ai-011-text-to-speech-fits-your-phone-internet-needed-jain-1ipuf)
 
 ---
 

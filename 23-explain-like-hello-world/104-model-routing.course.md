@@ -23,7 +23,7 @@ Explain model routing to someone non-technical in under one minute, using your o
 ## Quiz
 
 1. What is the hello-world example for model routing? *Model routing sends each AI question to the right-sized model.*
-2. What is it not? *Routing isn't just "always use the cheapest". It's matching each question to a good-enough model, and checking that quality didn't drop. (My Today in AI No. 007 covers AI routers.)*
+2. What is it not? *Routing isn't just "always use the cheapest". It's matching each question to a good-enough model, and checking that quality didn't drop. (My [Today in AI No. 007](https://www.linkedin.com/pulse/today-ai-007-should-every-question-go-your-most-expensive-arpit-jain-xjexf) covers AI routers.)*
 3. Name one place you've already met it. *AI apps with an "auto" model setting. Chatbots that quickly answer simple questions and take longer on hard ones.*
 
 ## Glossary

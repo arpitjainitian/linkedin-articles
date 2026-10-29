@@ -24,7 +24,7 @@ Explain copilot to someone non-technical in under one minute, using your own eve
 
 1. What is the hello-world example for copilot? *An AI copilot suggests. You decide. An agent acts.*
 2. What is it not? *A copilot isn't a replacement for the person, and its suggestions aren't automatically right. Reviewing them is part of the job.*
-3. Name one place you've already met it. *GitHub Copilot suggesting code, Microsoft Copilot in Office apps, AI writing help in email.*
+3. Name one place you've already met it. *GitHub Copilot suggesting code, Microsoft Copilot in Office apps, AI writing help in email. My [Today in AI No. 008](https://www.linkedin.com/pulse/today-ai-008-does-using-make-you-give-up-faster-learning-arpit-jain-ppghf/) asks whether using AI makes you give up faster.*
 
 ## Glossary
 

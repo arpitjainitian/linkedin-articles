@@ -24,7 +24,7 @@ Explain on-device AI to someone non-technical in under one minute, using your ow
 
 1. What is the hello-world example for on-device AI? *That's on-device AI: answers without the call.*
 2. What is it not? *On-device doesn't always mean private. Check whether a feature quietly sends harder requests to the cloud.*
-3. Name one place you've already met it. *Offline voice typing, photo clean-up, notification summaries and live captions that work in aeroplane mode.*
+3. Name one place you've already met it. *Offline voice typing, photo clean-up, notification summaries and live captions that work in aeroplane mode. My [Today in AI No. 011](https://www.linkedin.com/pulse/today-ai-011-text-to-speech-fits-your-phone-internet-needed-jain-1ipuf) covers a text-to-speech model small enough for a phone.*
 
 ## Glossary
 

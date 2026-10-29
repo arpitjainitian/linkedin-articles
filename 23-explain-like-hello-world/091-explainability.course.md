@@ -24,7 +24,7 @@ Explain explainability to someone non-technical in under one minute, using your 
 
 1. What is the hello-world example for explainability? *Explainability is being able to say why, in plain words.*
 2. What is it not? *An AI's confident explanation isn't proof of its reasoning. And "it's a black box" isn't an excuse for decisions that affect people.*
-3. Name one place you've already met it. *Loan, insurance and hiring decisions where you have a right to a reason. "Why am I seeing this?" buttons on ads and feeds.*
+3. Name one place you've already met it. *Loan, insurance and hiring decisions where you have a right to a reason. "Why am I seeing this?" buttons on ads and feeds. My [Today in AI No. 006](https://www.linkedin.com/pulse/today-ai-006-your-made-decision-can-you-prove-why-data-arpit-jain-vjenf) asks how you prove why an AI made a decision.*
 
 ## Glossary
 

@@ -14,7 +14,7 @@ Many countries keep their own power plants, even if electricity could be importe
 
 The reasons: data staying within borders, models that understand local languages and culture, independence from other countries' decisions, and economic opportunity. It can mean national compute centres, home-grown models trained on local languages, or requiring AI to run in-country.
 
-India's IndiaAI Mission, for example, funds computing capacity and Indian language models. In-country AI hosting (my Today in AI No. 009) is a related idea.
+India's IndiaAI Mission, for example, funds computing capacity and Indian language models. In-country AI hosting (my [Today in AI No. 009](https://www.linkedin.com/pulse/today-ai-009-same-many-clouds-where-does-your-data-actually-jain-zgc1f)) is a related idea.
 
 ## Exercise
 
