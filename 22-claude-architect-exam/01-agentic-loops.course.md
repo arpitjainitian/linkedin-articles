@@ -23,24 +23,23 @@ After this lesson, you can implement an agentic loop that runs tools while Claud
 - An arbitrary iteration cap as the primary stop. A cap is fine as a safety net against runaway loops, not as the main signal.
 - Treating "the reply contains text" as completion. A response can contain text and `tool_use` blocks together.
 
-**Other stop reasons.** The API can also stop with reasons such as `"max_tokens"`. Handle them explicitly (for example, continue or raise an error) rather than treating them as "finished". The exam objective focuses on `"tool_use"` vs `"end_turn"`.
+**Other stop reasons.** The API can also stop with `max_tokens`, `pause_turn`, `refusal` and `model_context_window_exceeded`. The practice loop handles them: it retries `max_tokens` once with a higher limit, sends `pause_turn` back so Claude continues, and stops with a note for the rest. The exam objective focuses on `"tool_use"` vs `"end_turn"`.
 
 ## Code sketch (Python, simplified)
 
 ```python
 messages = [{"role": "user", "content": "Can we move Saturday's session to Sunday?"}]
-for _ in range(MAX_SAFETY_ROUNDS):          # safety net only
-    response = client.messages.create(model=MODEL, tools=TOOLS, messages=messages, max_tokens=1024)
-    messages.append({"role": "assistant", "content": response.content})
-    if response.stop_reason == "end_turn":
-        break                                  # primary stop signal
-    if response.stop_reason == "tool_use":
-        results = []
-        for block in response.content:
-            if block.type == "tool_use":
-                output = run_tool(block.name, block.input)
-                results.append({"type": "tool_result", "tool_use_id": block.id, "content": output})
-        messages.append({"role": "user", "content": results})
+for turn in range(1, MAX_TURNS + 1):                  # safety net only
+    llm_response = client.messages.create(model=MODEL, tools=TOOLS, messages=messages, max_tokens=1024)
+    if llm_response.stop_reason != "tool_use":        # end_turn: the primary stop signal
+        return "".join(b.text for b in llm_response.content if b.type == "text")
+    tool_results = []
+    for block in llm_response.content:
+        if block.type == "tool_use":
+            result = run_tool(block.name, block.input)
+            tool_results.append({"type": "tool_result", "tool_use_id": block.id, "content": json.dumps(result)})
+    messages.append({"role": "assistant", "content": llm_response.content})
+    messages.append({"role": "user", "content": tool_results})
 ```
 
 ## Hands-on lab
