@@ -6,6 +6,8 @@
 
 *After Series 3, Just put the rules in the prompt: It follows the rules. Now, what stops someone talking it out of them?*
 
+*Missed Series 3? Start with [Why did the AI promise a full refund on a non-refundable ticket?](https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f) or jump to [the finale](https://www.linkedin.com/pulse/5-so-who-should-decide-code-model-finale-arpit-jain-qodgf).*
+
 "Just tell it in the prompt not to do that."
 
 Picture an online pharmacy adding an AI assistant for medicine questions. "Is this in stock?", "Can I take this with my BP tablet?", "What's the generic version?" The team knows the risk, so the prompt says, firmly and politely: "Never give medical advice. Never suggest doses."

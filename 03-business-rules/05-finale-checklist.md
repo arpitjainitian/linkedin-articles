@@ -4,6 +4,8 @@
 
 *Just put the rules in the prompt series: The finale*
 
+**Published:** 30 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/5-so-who-should-decide-code-model-finale-arpit-jain-qodgf)
+
 Mr Sharma got his ₹1,240 in taxes, a kind explanation, and a real person to hear his exception request. The Mumbai waiver switched itself off on 20 October. The 40-page policy became a table the policy team signed.
 
 No promises the airline didn't mean.
@@ -88,7 +90,7 @@ Missed the last series? Start with "Your AI can answer. Now it has to act." http
 2. Code decides. The AI explains. https://www.linkedin.com/pulse/2-code-decides-ai-explains-splitting-work-arpit-jain-ebeif
 3. The policy is 40 pages. Who turns it into rules? https://www.linkedin.com/pulse/3-policy-40-pages-who-turns-rules-from-arpit-jain-u509f
 4. The waiver was in the prompt. Not in the code. https://www.linkedin.com/pulse/4-waiver-prompt-code-when-rules-change-arpit-jain-9j7sf
-5. So, who should decide: the code or the model? (you're here)
+5. So, who should decide: the code or the model? https://www.linkedin.com/pulse/5-so-who-should-decide-code-model-finale-arpit-jain-qodgf (you're here)
 
 New here? Start with the previous series, Beyond Just RAG: https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/
 ```

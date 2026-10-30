@@ -55,6 +55,16 @@ Next write-up (2): **Code decides. The AI explains.**
 
 Follow me for the next one. Have you seen an AI promise something your policy didn't allow?
 
+## The full series
+
+All 5 write-ups, now complete:
+
+1. [Why did the AI promise a full refund on a non-refundable ticket?](https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f)
+2. [Code decides. The AI explains.](https://www.linkedin.com/pulse/2-code-decides-ai-explains-splitting-work-arpit-jain-ebeif)
+3. [The policy is 40 pages. Who turns it into rules?](https://www.linkedin.com/pulse/3-policy-40-pages-who-turns-rules-from-arpit-jain-u509f)
+4. [The waiver was in the prompt. Not in the code.](https://www.linkedin.com/pulse/4-waiver-prompt-code-when-rules-change-arpit-jain-9j7sf)
+5. [So, who should decide: the code or the model? (the finale)](https://www.linkedin.com/pulse/5-so-who-should-decide-code-model-finale-arpit-jain-qodgf)
+
 **Previous series:**
 
 - **Series 1, #JustAddRAG:** [start here](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/) or jump to [the grand finale](https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/)
