@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | [A Few Cents per Question. Why Is the Sale-Day Bill So Big?](01-curtain-raiser-post.md) | Small numbers, multiplied by millions, stop being small. | Curtain raiser: how AI costs add up | Big sale day: 20x the questions | Draft for review |
+| 1 | [A Few Cents per Question. Why Is the Sale-Day Bill So Big?](01-curtain-raiser-post.md) | Small numbers, multiplied by millions, stop being small. | Why small AI costs stop being small; the money decisions behind the bill; three things for your kickoff meeting. | "It's only a few cents per question." Then the sale brings twenty times the traffic, all answered live at full price. | Draft for review |
 | 2 | What Should You Charge for Your AI Feature? | If every answer costs you money, someone has to pay for it. | Pricing AI features, unit economics per customer | Free for every shopper, or only for members? | Planned |
 | 3 | API or Your Own GPUs? | Renting is easy. Owning comes with its own bill. | Paying per call vs running open models yourself | Sale-day spikes on a rented API, or your own servers idle in March? | Planned |
 | 4 | Does Every Answer Need to Come Right Now? | Waiting an hour can cost half as much. | Batch processing, off-peak jobs, real-time vs later | Rewriting 50,000 product descriptions overnight | Planned |

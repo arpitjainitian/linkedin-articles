@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | [It Worked When You Tried It. Will It Work Tomorrow?](01-curtain-raiser-post.md) | "I tried it and it worked" isn't a test. | Curtain raiser: why AI needs evals | Right about leave, wrong about maternity benefits | Draft for review |
+| 1 | [It Worked When You Tried It. Will It Work Tomorrow?](01-curtain-raiser-post.md) | "I tried it, and it works" isn't a test. | Why trying an AI isn't testing it; what good evals check; three things for your kickoff meeting. | One question, asked once on a laptop. Three weeks later: the wrong city's notice period, marked 10/10 by the AI grader. | Draft for review |
 | 2 | Right Answer, Wrong Reason? | A lucky answer still fails tomorrow. | Grading each layer separately: search, rules, final answer | Right notice period, but it read the Mumbai policy for a Bengaluru employee | Planned |
 | 3 | Who Checks the AI Grader? | A judge that likes nice writing isn't a judge. | Auditing an LLM judge against people, what judges get wrong | The judge prefers a polite wrong answer to a blunt right one | Planned |
 | 4 | What Score Is Good Enough to Launch? | "Pretty good" isn't a launch rule. | Release gates, thresholds per question type | 92% overall, but 60% on maternity questions | Planned |
