@@ -77,6 +77,8 @@ Rely on "just tell it not to", and you pay for it:
 
 Write-up 1 in my new series, Just tell it not to (#JustTellItNot): why a prompt is a request, not a rule, the layers real guardrails need, and three things to take to your next kickoff meeting.
 
+Missed the last series? Start with "Why did the AI promise a full refund on a non-refundable ticket?" https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f or jump to the finale: https://www.linkedin.com/pulse/5-so-who-should-decide-code-model-finale-arpit-jain-qodgf
+
 What's the cleverest way you've seen someone talk an AI out of its rules?
 
 #AIEngineering #GenAI #AISafety #Guardrails #JustTellItNot
