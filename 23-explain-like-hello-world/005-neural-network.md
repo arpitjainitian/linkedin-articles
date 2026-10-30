@@ -4,6 +4,8 @@
 
 *Explain It Like Hello World series: Neural network*
 
+**Published:** 30 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/5-neural-network-really-like-brain-arpit-jain-jpigf)
+
 "Neural network." It sounds like a digital brain. The truth is simpler, and still impressive.
 
 ## The hello world

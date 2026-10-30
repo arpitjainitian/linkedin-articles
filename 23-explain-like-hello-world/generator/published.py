@@ -1,6 +1,7 @@
 PUB={2:("https://www.linkedin.com/pulse/2-what-actually-counts-artificial-intelligence-arpit-jain-su9lf","27 October 2026"),
 3:("https://www.linkedin.com/pulse/3-how-does-machine-learning-learn-without-being-told-rules-arpit-jain-ppdyf","28 October 2026"),
-4:("https://www.linkedin.com/pulse/4-whats-deep-learning-arpit-jain-rvlff","29 October 2026")}
+4:("https://www.linkedin.com/pulse/4-whats-deep-learning-arpit-jain-rvlff","29 October 2026"),
+5:("https://www.linkedin.com/pulse/5-neural-network-really-like-brain-arpit-jain-jpigf","30 October 2026")}
 # Today in AI issues cited in Series 23: issue number -> LinkedIn URL (add new ones when published)
 TIA={4:"https://www.linkedin.com/pulse/today-ai-004-why-microsofts-new-built-choose-chat-meet-arpit-jain-ypmkf/",
 1:"https://www.linkedin.com/pulse/today-ai-001-what-happens-when-your-agent-visits-someone-arpit-jain-2vqmf/",
