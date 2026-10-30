@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | [The Invoice Demo Got a Standing Ovation. Now What?](01-curtain-raiser.md) | The applause is the easy part. | Curtain raiser: the POC-to-production cliff | 10 clean invoices read perfectly; invoice 11 is a phone photo | Draft for review |
+| 1 | [The Invoice Demo Got a Standing Ovation. Now What?](01-curtain-raiser-post.md) | The applause is the easy part. | Curtain raiser: the POC-to-production cliff | 10 clean invoices read perfectly; invoice 11 is a phone photo | Draft for review |
 | 2 | Why Does It Work on 10 Invoices and Fail on 10,000? | Demos are hand-picked. Suppliers aren't. | Real data, edge cases, messy formats | Multi-page invoices, handwritten notes, three currencies | Planned |
 | 3 | Who Owns It at Month-End, and Every Month After? | A POC has fans. Production needs owners. | Ownership, on-call, runbooks, a maintenance budget | Month-end close stuck; a big supplier changes its invoice layout | Planned |
 | 4 | What Happens When 50,000 Invoices Arrive at Once? | One invoice isn't a load test. | Scale, queues, rate limits, cost at volume | Quarter-end backlog, everything slows down | Planned |
