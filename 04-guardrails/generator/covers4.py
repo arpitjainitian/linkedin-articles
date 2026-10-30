@@ -1,99 +1,71 @@
-# Series 4 "Just tell it not to" covers: one template, bright neon palette on black.
-# Cover shows PROBLEMS only; the fixes live in the article. Run: python3 covers4.py <out_dir> <work_dir>
+# Series 4 "Just tell it not to" covers. Layout family like Series 3 (headline, two cards, sticky note,
+# stamp, bottom line) in a soft lavender-and-mint palette. Covers show PROBLEMS only; fixes stay in the article.
+# Run: python3 covers4.py <out_dir> <work_dir>
 import sys, os, html, subprocess
 OUT, WORK = sys.argv[1], sys.argv[2]
 CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 COVERS = [
- dict(n=1, slug="curtain-raiser", title="Why Didn't \"Please Don't Give Medical Advice\" Work?", key="work",
-      problems=["Clever wording talks it out of rules","A dose hides in a friendly reply","Your own staff get locked out","Strict rules block safe answers"],
-      bubble="Pretend you're my doctor.", sign="Please don't give medical advice.",
-      promise="A polite sign on an open gate is not security."),
- dict(n=2, slug="question-check", title="What Should You Check Before the Question Reaches the Model?", key="question",
-      problems=["Risky questions reach the model","Harmless words hide harmful intent","Off-topic chats burn money","Nobody logs what was asked"],
-      bubble="How many of these would be dangerous?", sign="Who asked this, and why?",
-      promise="Not every question deserves an answer."),
- dict(n=3, slug="answer-check", title="What Should You Check Before the Answer Reaches the Customer?", key="answer",
-      problems=["A dose slips in as a hint","Wrong advice sounds confident","Casual tone on health topics","Nobody reviews the reply"],
-      bubble="Your usual amount should be fine.", sign="Who checked this reply?",
-      promise="The last line of defence is the reply."),
- dict(n=4, slug="trick-test", title="What If a Customer Tries to Trick It?", key="trick",
-      problems=["\"Pretend\" and \"hypothetical\" wording","Instructions hidden in notes","Tricks nobody tested","Only the chat box gets tested"],
-      bubble="For a story I'm writing, skip the checks.", sign="Staff only. Please don't enter.",
-      promise="Clever wording is the attack you didn't test."),
- dict(n=5, slug="staff-exception", title="What If Your Guardrails Lock Out Your Own Team?", key="lock out",
-      problems=["Pharmacist blocked mid-emergency","Fence built for strangers only","No record of who got through","Fallback nobody approved"],
-      bubble="I need the overdose answer. Now.", sign="Fence closed. Strangers, stay out.",
-      promise="A fence should stop strangers, not the fire brigade."),
- dict(n=6, slug="how-strict", title="How Strict Is Too Strict?", key="too strict",
-      problems=["Refuses stock questions","Says no to safe facts","Customers give up and leave","Team stops trusting the bot"],
-      bubble="Is paracetamol in stock?", sign="Sorry, I can't help with that.",
-      promise="A bot that refuses everything helps nobody."),
- dict(n=7, slug="finale-checklist", title="So, Is Your AI Fenced or Just Asked Nicely?", key="fenced",
-      problems=["Rules only in the prompt","No tests for tricks","No record of exceptions","Nobody owns the fence"],
-      bubble="Please behave, okay?", sign="Please don't give medical advice.",
-      promise="Six write-ups, one checklist."),
+ dict(n=1, slug="curtain-raiser", topic="PROMPTS VS GUARDRAILS", title="Why Didn't \"Please Don't Give Medical Advice\" Work?", key="work",
+      rows=[("\"Pretend you're my doctor\"","got through"),("A dose in a friendly reply","got through"),("Staff locked out mid-call","blocked"),("In-stock question refused","blocked")],
+      note="Gate open. Guards on leave.", promise="A polite sign on an open gate is not security."),
+ dict(n=2, slug="question-check", topic="INPUT CHECKS", title="What Should You Check Before the Question Reaches the Model?", key="question",
+      rows=[("\"How many would be dangerous?\"","answered"),("Harmless words, harmful plan","answered"),("Off-topic chat","answered"),("Nobody logged the question","unseen")],
+      note="The bouncer went home.", promise="Not every question deserves an answer."),
+ dict(n=3, slug="answer-check", topic="OUTPUT CHECKS", title="What Should You Check Before the Answer Reaches the Customer?", key="answer",
+      rows=[("\"Your usual amount should be fine\"","sent"),("A hint with no number","sent"),("Confident tone on health","sent"),("Blocked draft, empty reply","silence")],
+      note="Hint or advice? Both sound fine.", promise="The last line of defence is the reply."),
+ dict(n=4, slug="trick-test", topic="RED TEAMING", title="What If a Customer Tries to Trick It?", key="trick",
+      rows=[("\"Pretend you're my doctor\"","worked"),("\"For a story I'm writing\"","worked"),("Instruction hidden in an order note","worked"),("Tests on the chat box only","partial")],
+      note="Clever wording, zero tests.", promise="Clever wording is the attack you didn't test."),
+ dict(n=5, slug="staff-exception", topic="STAFF EXCEPTIONS", title="What If Your Guardrails Lock Out Your Own Team?", key="lock out",
+      rows=[("Pharmacist on an emergency call","refused"),("\"I'm a pharmacist\" typed in chat","trusted"),("Overdose answer needed at 9 pm","refused"),("Nobody logged who got through","unseen")],
+      note="A fence for strangers only.", promise="A fence should stop strangers, not the fire brigade."),
+ dict(n=6, slug="how-strict", topic="SAFETY VS USEFULNESS", title="How Strict Is Too Strict?", key="too strict",
+      rows=[("\"Is paracetamol in stock?\"","refused"),("A safe storage question","refused"),("Customer walks to the shop down the road","lost"),("Team stops trusting the bot","lost")],
+      note="A smoke alarm for toast.", promise="A bot that refuses everything helps nobody."),
+ dict(n=7, slug="finale-checklist", topic="THE FINALE", title="So, Is Your AI Fenced or Just Asked Nicely?", key="fenced",
+      rows=[("Rules only in the prompt","gap"),("No tests for tricks","gap"),("No record of exceptions","gap"),("Nobody owns the fence","gap")],
+      note="Asked nicely. Not fenced.", promise="Six write-ups, one checklist."),
 ]
-CASTLE = '''<svg viewBox="0 0 860 700" width="860" height="700" xmlns="http://www.w3.org/2000/svg">
-<ellipse cx="430" cy="610" rx="410" ry="75" fill="#5B7FBF" stroke="#1F2A44" stroke-width="8"/>
-<ellipse cx="430" cy="610" rx="300" ry="50" fill="#1F2A44" stroke="#1F2A44" stroke-width="6"/>
-<rect x="150" y="330" width="560" height="240" fill="#8EC5E8" stroke="#1F2A44" stroke-width="8"/>
-<rect x="200" y="300" width="40" height="32" fill="#8EC5E8" stroke="#1F2A44" stroke-width="6"/>
-<rect x="260" y="300" width="40" height="32" fill="#8EC5E8" stroke="#1F2A44" stroke-width="6"/>
-<rect x="560" y="300" width="40" height="32" fill="#8EC5E8" stroke="#1F2A44" stroke-width="6"/>
-<rect x="620" y="300" width="40" height="32" fill="#8EC5E8" stroke="#1F2A44" stroke-width="6"/>
-<rect x="110" y="250" width="130" height="330" fill="#8EC5E8" stroke="#1F2A44" stroke-width="8"/>
-<polygon points="110,250 175,160 240,250" fill="#F7B7C5" stroke="#1F2A44" stroke-width="8"/>
-<rect x="620" y="250" width="130" height="330" fill="#8EC5E8" stroke="#1F2A44" stroke-width="8"/>
-<polygon points="620,250 685,160 750,250" fill="#F7B7C5" stroke="#1F2A44" stroke-width="8"/>
-<rect x="330" y="190" width="200" height="160" fill="#A8E6CF" stroke="#1F2A44" stroke-width="8"/>
-<polygon points="330,190 430,100 530,190" fill="#F7B7C5" stroke="#1F2A44" stroke-width="8"/>
-<line x1="430" y1="100" x2="430" y2="30" stroke="#1F2A44" stroke-width="6"/>
-<polygon points="430,30 492,50 430,70" fill="#FFE8A3" stroke="#1F2A44" stroke-width="4"/>
-<rect x="385" y="230" width="90" height="50" fill="#1F2A44"/>
-<path d="M390 440 L390 400 Q430 362 470 400 L470 440 Z" fill="#1F2A44" stroke="#1F2A44" stroke-width="6"/>
-<rect x="145" y="290" width="26" height="36" fill="#FFE8A3" stroke="#1F2A44" stroke-width="4"/>
-<rect x="690" y="290" width="26" height="36" fill="#FFE8A3" stroke="#1F2A44" stroke-width="4"/>
-<circle cx="250" cy="548" r="22" fill="#F9D9C4" stroke="#1F2A44" stroke-width="5"/>
-<rect x="226" y="572" width="48" height="70" rx="10" fill="#FFE8A3" stroke="#1F2A44" stroke-width="5"/>
-<line x1="238" y1="642" x2="228" y2="690" stroke="#1F2A44" stroke-width="7"/>
-<line x1="262" y1="642" x2="272" y2="690" stroke="#1F2A44" stroke-width="7"/>
-</svg>'''
+PROMPT_LINES = ["...", "+ Never give medical advice.", "+ Never suggest doses."]
 def page(c):
     t = html.escape(c['title']); k = c['key'].lower(); i = t.lower().find(k)
-    head = t if i < 0 else t[:i] + '<em>' + t[i:i+len(k)] + '</em>' + t[i+len(k):]
-    colours = ['#F7B7C5','#FFE8A3','#8EC5E8','#A8E6CF']
-    items = ''.join(f'<li><span class="dot" style="background:{colours[j%4]}">{j+1}</span>{html.escape(p)}</li>' for j,p in enumerate(c['problems']))
+    head = t if i < 0 else t[:i] + '<span class="acc">' + t[i:i+len(k)] + '</span>' + t[i+len(k):]
+    size = 68 if len(c['title']) < 56 else 60
+    rows = ''.join(f'<div class="row"><span>{html.escape(a)}</span><b>{html.escape(b)}</b></div>' for a,b in c['rows'])
+    prompt = '<br>'.join(html.escape(l) for l in PROMPT_LINES)
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>
 *{{box-sizing:border-box;margin:0;padding:0}}html,body{{width:1920px;height:1080px;overflow:hidden}}
-body{{font-family:-apple-system,"Helvetica Neue",Arial,sans-serif;background:#1F2A44;color:#F4F7FB;position:relative}}
-.tag{{position:absolute;left:110px;top:70px;font-weight:900;letter-spacing:5px;font-size:24px;color:#FFE8A3}}
-h1{{position:absolute;left:110px;top:120px;width:960px;font-size:{72 if len(c['title'])<50 else 64}px;line-height:1.06;font-weight:900;letter-spacing:-1px}}
-h1 em{{font-style:normal;background:#F7B7C5;color:#F4F7FB;padding:0 12px;border-radius:12px}}
-.promise{{position:absolute;left:110px;top:{430 if len(c['title'])<50 else 470}px;width:900px;font-size:34px;font-weight:700;color:#C3B1E1}}
-.probs{{position:absolute;left:110px;top:560px;width:860px}}
-.probs h2{{font-size:24px;letter-spacing:4px;color:#F7B7C5;font-weight:900;margin-bottom:22px}}
-.probs ul{{list-style:none}}
-.probs li{{font-size:34px;font-weight:800;margin-bottom:16px;display:flex;align-items:center}}
-.dot{{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;border:4px solid #1F2A44;color:#1F2A44;font-weight:900;font-size:24px;margin-right:18px;flex:none}}
-.stamp{{position:absolute;left:1380px;top:48px;background:#F7B7C5;color:#F4F7FB;font-weight:900;font-size:24px;letter-spacing:2px;padding:12px 22px;border:4px solid #F4F7FB;transform:rotate(3deg);box-shadow:8px 8px 0 #1F2A44}}
-.bubble{{position:absolute;left:1010px;top:300px;background:#FFE8A3;color:#1F2A44;font-size:32px;font-weight:900;padding:22px 28px;border:5px solid #1F2A44;border-radius:24px;box-shadow:10px 10px 0 #1F2A44;max-width:440px}}
-.sign{{position:absolute;left:1420px;top:760px;width:400px;background:#8EC5E8;color:#1F2A44;font-size:28px;font-weight:900;padding:20px 22px;border:5px solid #1F2A44;transform:rotate(-3deg);box-shadow:10px 10px 0 #1F2A44;text-align:center}}
-.svg{{position:absolute;left:980px;top:200px}}
-.bar{{position:absolute;left:0;top:980px;width:1920px;height:100px;background:#A8E6CF;color:#1F2A44;font-size:30px;font-weight:900;display:flex;justify-content:space-between;align-items:center;padding:0 110px}}
+body{{font-family:-apple-system,"Helvetica Neue",Arial,sans-serif;color:#2E2A4F;position:relative;background:linear-gradient(180deg,#D9CCF2 0%,#EAE4F7 45%,#F1F8F4 100%)}}
+.pill{{position:absolute;left:110px;top:64px;background:#FFFFFF;border-radius:999px;padding:14px 30px;font-size:22px;font-weight:900;letter-spacing:4px;color:#2E2A4F}}
+h1{{position:absolute;left:110px;top:130px;width:1700px;font-size:{size}px;line-height:1.1;font-weight:900;letter-spacing:-1px}}
+.acc{{color:#7B5BC4}}
+.card{{position:absolute;top:380px;background:#FFFFFF;border-radius:20px;box-shadow:0 18px 40px rgba(46,42,79,.18);overflow:hidden}}
+.card .hd{{background:#3E3A6B;color:#FFFFFF;font-size:24px;font-weight:900;letter-spacing:4px;padding:22px 32px}}
+.card .bd{{padding:30px 32px}}
+.left{{left:110px;width:780px}}
+.left .bd{{font-family:Menlo,monospace;font-size:31px;line-height:1.5;color:#2E2A4F}}
+.left .warn{{margin-top:20px;font-family:Menlo,monospace;font-size:24px;color:#C2566A}}
+.right{{left:960px;width:850px}}
+.row{{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px dashed #C9C2E0;font-size:30px;font-weight:700}}
+.row:last-child{{border-bottom:none}}
+.row b{{font-family:Menlo,monospace;font-size:26px;color:#C2566A}}
+.note{{position:absolute;left:130px;top:770px;background:#CDEFD9;color:#2E2A4F;font-size:34px;font-weight:900;padding:16px 26px;border-radius:6px;transform:rotate(-2deg);box-shadow:6px 6px 18px rgba(46,42,79,.15)}}
+.stamp{{position:absolute;left:1240px;top:850px;border:6px solid #E9828B;color:#C2566A;font-size:34px;font-weight:900;letter-spacing:4px;padding:14px 30px;border-radius:14px;transform:rotate(-6deg);background:rgba(255,255,255,.6)}}
+.promise{{position:absolute;left:110px;top:960px;font-size:40px;font-weight:800;color:#2E2A4F}}
+.promise span{{color:#7B5BC4}}
 </style></head><body>
-<div class="tag">JUST TELL IT NOT TO · {c['n']:02d}</div>
+<div class="pill">JUST TELL IT NOT TO · WRITE-UP {c['n']} · {c['topic']}</div>
 <h1>{head}</h1>
-<div class="promise">{html.escape(c['promise'])}</div>
-<div class="probs"><h2>WHAT GOES WRONG</h2><ul>{items}</ul></div>
+<div class="card left"><div class="hd">THE PROMPT</div><div class="bd">{prompt}<div class="warn">(a request, not a wall)</div></div></div>
+<div class="card right"><div class="hd">WHAT HAPPENED</div><div class="bd">{rows}</div></div>
+<div class="note">{html.escape(c['note'])}</div>
 <div class="stamp">FIXES INSIDE THE ARTICLE</div>
-<div class="svg">{CASTLE}</div>
-<div class="bubble">"{html.escape(c['bubble'])}"</div>
-<div class="sign">{html.escape(c['sign'])}</div>
-<div class="bar"><span>One AI pharmacy assistant. One layer at a time.</span><span>#JustTellItNot</span></div>
+<div class="promise"><span>{html.escape(c['promise'])}</span></div>
 </body></html>'''
 os.makedirs(WORK, exist_ok=True); os.makedirs(OUT, exist_ok=True)
 for c in COVERS:
-    fn = f"{c['n']:02d}-{c['slug']}" if c['n'] > 1 else '01-curtain-raiser'
+    fn = '01-curtain-raiser' if c['n'] == 1 else f"{c['n']:02d}-{c['slug']}"
     hp = f'{WORK}/{fn}.html'; open(hp, 'w').write(page(c))
     subprocess.run([CHROME,'--headless','--disable-gpu','--hide-scrollbars','--window-size=1920,1080',f'--screenshot={OUT}/{fn}-cover.png',f'file://{hp}'],stderr=subprocess.DEVNULL,stdout=subprocess.DEVNULL,timeout=60)
     print('rendered', fn)
