@@ -5,9 +5,10 @@ import sys, os, html, subprocess
 OUT, WORK = sys.argv[1], sys.argv[2]
 CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 COVERS = [
- dict(n=1, slug="curtain-raiser", topic="PROMPTS VS GUARDRAILS", title="Why Didn't \"Never Refund More Than the Order Price\" Work?", key="work",
-      rows=[("\"I'm the store manager\"","got through"),("$500 refund issued","got through"),("Supervisor locked out mid-call","blocked"),("Fair $120 refund refused","blocked")],
-      note="Gate open. Guards on leave.", promise="A polite sign on an open gate is not security."),
+ dict(n=1, slug="curtain-raiser", topic="PROMPTS VS GUARDRAILS", title="Why Didn't \"Please Don't Give Medical Advice\" Work?", key="work",
+ rows=[("\"Pretend you're my doctor\"","got through"),("A dose in a friendly reply","got through"),("Staff locked out mid-call","blocked"),("In-stock question refused","blocked")],
+      note="Gate open. Guards on leave.", promise="A polite sign on an open gate is not security.",
+      prompt=["...", "+ Never give medical advice.", "+ Never suggest doses."]),
  dict(n=2, slug="question-check", topic="INPUT CHECKS", title="What Should You Check Before the Question Reaches the Model?", key="question",
       rows=[("\"Email of the last 20 buyers?\"","answered"),("Harmless words, risky plan","answered"),("Off-topic chat","answered"),("Nobody logged the question","unseen")],
       note="The bouncer went home.", promise="Not every question deserves an answer."),
@@ -33,7 +34,7 @@ def page(c):
     head = t if i < 0 else t[:i] + '<span class="acc">' + t[i:i+len(k)] + '</span>' + t[i+len(k):]
     size = 68 if len(c['title']) < 56 else 60
     rows = ''.join(f'<div class="row"><span>{html.escape(a)}</span><b>{html.escape(b)}</b></div>' for a,b in c['rows'])
-    prompt = '<br>'.join(html.escape(l) for l in PROMPT_LINES)
+    prompt = '<br>'.join(html.escape(l) for l in c.get('prompt', PROMPT_LINES))
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>
 *{{box-sizing:border-box;margin:0;padding:0}}html,body{{width:1920px;height:1080px;overflow:hidden}}
 body{{font-family:-apple-system,"Helvetica Neue",Arial,sans-serif;color:#2E2A4F;position:relative;background:linear-gradient(180deg,#D9CCF2 0%,#EAE4F7 45%,#F1F8F4 100%)}}
