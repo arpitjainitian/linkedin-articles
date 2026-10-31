@@ -4,6 +4,8 @@
 
 *Explain It Like Hello World series: Generative AI*
 
+**Published:** 31 October 2026 on [LinkedIn](https://www.linkedin.com/pulse/6-what-makes-generative-ai-arpit-jain-q2rkf)
+
 "GenAI." It's in every job title and strategy deck since 2023. What made it different from the AI before it?
 
 ## The hello world

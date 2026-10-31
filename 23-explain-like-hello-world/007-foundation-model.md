@@ -53,7 +53,7 @@ Follow me for the next one. How many products do you use that sit on the same fe
 3. [How Does Machine Learning Learn Without Being Told the Rules?](https://www.linkedin.com/pulse/3-how-does-machine-learning-learn-without-being-told-rules-arpit-jain-ppdyf)
 4. [What's "Deep" About Deep Learning?](https://www.linkedin.com/pulse/4-whats-deep-learning-arpit-jain-rvlff)
 5. [Is a Neural Network Really Like a Brain?](https://www.linkedin.com/pulse/5-neural-network-really-like-brain-arpit-jain-jpigf)
-6. What Makes Generative AI "Generative"? *(link added when published)*
+6. [What Makes Generative AI "Generative"?](https://www.linkedin.com/pulse/6-what-makes-generative-ai-arpit-jain-q2rkf)
 
 **Previous series:**
 
@@ -84,7 +84,7 @@ How many products do you use that sit on the same few foundation models?
 Explain It Like Hello World
 
 Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
-Previous: 6. What Makes Generative AI "Generative"? [link]
+Previous: 6. What Makes Generative AI "Generative"? https://www.linkedin.com/pulse/6-what-makes-generative-ai-arpit-jain-q2rkf
 You're here: 7. Why Are They Called Foundation Models?
 Next: 8. What Is a Frontier Model, and Who Decides?
 
