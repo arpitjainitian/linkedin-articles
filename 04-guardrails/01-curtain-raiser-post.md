@@ -2,6 +2,8 @@
 
 *Post with cover only. No article. The cover lists every topic in the series.*
 
+**Published:** 31 October 2026 on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7522116495976529920/)
+
 ![Cover](images/01-curtain-raiser-cover.png)
 
 **Post text (copy and paste):**
