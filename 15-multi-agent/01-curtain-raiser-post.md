@@ -7,15 +7,15 @@
 **Post text (copy and paste):**
 
 ```
-Five AI agents for onboarding: IT, HR, payroll, facilities, and a coordinator.
+Five AI agents for one order: order, shipping, refund, fraud and email.
 
-The joining date moved. HR heard. IT didn't. Facilities read an old message. Day one: two welcome emails, no badge, no laptop.
+Order 9931 is delayed. The shipping agent says "in transit". The refund agent says "eligible". The email agent sends "your order is lost". The customer gets three answers.
 
 Add agents without coordination, and you pay for it:
 • Accuracy: one small mistake passed from agent to agent
 • Cost: five agents, five times the calls
 • Speed: every handoff adds waiting
-• Experience: a new joiner's first impression, ruined
+• Experience: a customer who stops trusting the store
 
 Write-up 1 in my new series, More agents, more brains (#MoreAgents): why more agents can mean more confusion, what makes an AI team work, and three things to take to your next kickoff meeting.
 

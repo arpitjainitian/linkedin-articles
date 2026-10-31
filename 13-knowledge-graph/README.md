@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | [A Flood Hit One Region. Which of Your Products Are at Risk?](01-curtain-raiser-post.md) | Some questions need connections, not paragraphs. | Why some questions are about connections; what a knowledge graph really takes; three things for your kickoff meeting. | A flood hits one region. Search finds the supplier, not the chain of valve, pump and washing machine that depends on it. | Draft for review |
+| 1 | [A Flood Hit One Region. Which of Your Products Are at Risk?](01-curtain-raiser-post.md) | Some questions need connections, not paragraphs. | Why some questions are about connections; what a knowledge graph really takes; three things for your kickoff meeting. | A flood hits one port: which orders and refunds depend on that route? | Draft for review |
 | 2 | What Is a Knowledge Graph, Really? | Dots and lines, with meaning. | Entities, relationships, how GraphRAG answers | Suppliers, parts and products as dots; "supplies" and "used in" as lines | Planned |
 | 3 | Who Builds the Graph, and How? | Graphs don't draw themselves. | Extracting entities and relationships, cleaning duplicates | "ABC Pvt Ltd", "ABC Private Limited", "ABC Ltd": same supplier? | Planned |
 | 4 | What Happens When Suppliers Change? | New supplier, new part, new risk. | Keeping the graph current, versioning | A part moves to a new supplier; the graph still points to the old one | Planned |

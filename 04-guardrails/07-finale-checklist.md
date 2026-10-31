@@ -4,37 +4,45 @@
 
 *Just tell it not to series: the finale*
 
-Back to the sign on the gate: "Please don't give medical advice."
+Back to the sign on the gate: "Never refund more than the order price."
 
-It's polite. It's clear. It's also the first thing a clever customer walks past.
+It's clear. It's also the first thing a clever customer walks past.
 
-Over six write-ups we've built the fence, one layer at a time, around an online pharmacy assistant. Here is the whole fence on one page.
+Over six write-ups we built the fence around one store's refund assistant. Here is the whole fence on one page, and where each layer lives in the repo.
 
 ## The layers, in order
 
-1. **The bouncer (write-up 2).** The question is screened before the model sees it. Off-topic and risky questions get a safe route, and each block is logged.
-2. **The final check (write-up 3).** The draft is checked before the customer sees it. Hints count as advice, and a safe fallback replaces a blocked draft.
-3. **The trick test (write-up 4).** Your own team attacks the assistant before launch, through the chat, documents, notes and tools. The attack list runs again after every change.
-4. **The staff door (write-up 5).** Verified staff get a proper way through, with a login, an expiry time and a log that someone reviews.
-5. **The right strictness (write-up 6).** Each topic has its own dial, measured with two numbers: missed harm and false refusals.
+1. **The bouncer (write-up 2).** The question is screened before the model. A word list is the start; a classifier can follow.
+2. **The final check (write-up 3).** The draft is checked before the customer sees it. Promises the policy didn't approve get replaced.
+3. **The trick test (write-up 4).** Attacks are tests. The refund-before-check attack runs on every change.
+4. **The staff door (write-up 5).** Exceptions go to a person with a five-field summary, and the log records who decided.
+5. **The right strictness (write-up 6).** One dial per rule, measured with missed harm and false refusals.
 
-The prompt sits inside all of this as a good intention, not as the wall.
+Underneath all of it, the rules that must never break are code, not prompt text. The repo's hook registry lists them in one place:
+
+```python
+HOOKS = {
+    "PreToolUse": [
+        ("issue_refund", refund_only_after_policy_check),   # no refund before the policy says eligible
+        ("issue_refund", refund_not_above_price),           # never more than the order price
+    ],
+    "PostToolUse": [
+        ("*", hide_customer_email),                          # private data never reaches the model
+    ],
+}
+```
 
 ## The guardrails checklist
 
 Use this on any AI project. A "no" on any line is a gap to close.
 
-- [ ] The important rules live in code or fixed checks, not only in the prompt.
-- [ ] Questions are screened before the model, and blocked questions are logged.
+- [ ] The rules that must never break live in code, not only in the prompt.
+- [ ] Questions are screened before the model, and blocked ones are logged.
 - [ ] Answers are checked before the customer sees them, including hints.
 - [ ] Attacks are tested through every input: chat, documents, notes and tools.
 - [ ] Staff exceptions use a login, an expiry time and a log, reviewed regularly.
-- [ ] Missed harm and false refusals are both measured, per topic.
-- [ ] One named person owns the fence, and the test set is re-run after every change.
-
-## What the checklist can't promise
-
-No checklist makes an AI safe for good. Attackers adapt, your topics change, and new products bring new doors. The checklist tells you where the fence has holes today. The work is keeping the list short, testing it, and fixing what the tests find.
+- [ ] Missed harm and false refusals are both measured, per rule.
+- [ ] One named person owns the fence, and the test set re-runs after every change.
 
 ## Take this to your next kickoff meeting
 
@@ -50,8 +58,6 @@ This series took a sign on a gate and turned it into a fence. Which layer would 
 
 **Previous series:**
 
-**Previous series:**
-
 - **Series 1, #JustAddRAG:** [start here](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/) or jump to [the grand finale](https://www.linkedin.com/pulse/15-so-should-you-really-just-add-rag-grand-finale-arpit-jain-ninmf/)
 - **Series 2, Beyond Just RAG: From Answers to Actions:** [start here](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/) or jump to [the finale](https://www.linkedin.com/pulse/8-so-should-your-ai-do-things-just-answer-finale-arpit-jain-x7cxf)
 - **Series 3, Just put the rules in the prompt:** [start here](https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f) or jump to [the finale](https://www.linkedin.com/pulse/5-so-who-should-decide-code-model-finale-arpit-jain-qodgf)
@@ -62,13 +68,13 @@ This series took a sign on a gate and turned it into a fence. Which layer would 
 **Post text (copy and paste):**
 
 ```
-"Please don't give medical advice."
+"Never refund more than the order price."
 
-It's polite. It's clear. It's also the first thing a clever customer walks past.
+It's clear. It's also the first thing a clever customer walks past.
 
 A sign asks nicely. A fence is what keeps it safe.
 
-The finale of my series, Just tell it not to (#JustTellItNot): five layers and a seven-line checklist you can use on any AI project.
+The finale of my series, Just tell it not to (#JustTellItNot): five layers, a seven-line checklist, and the code that enforces the one rule that must never break.
 
 Missed the last series? Start with "Why did the AI promise a full refund on a non-refundable ticket?" https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f or jump to the finale: https://www.linkedin.com/pulse/5-so-who-should-decide-code-model-finale-arpit-jain-qodgf
 
@@ -82,7 +88,7 @@ Which layer would you build first in your own assistant?
 ```
 📌 Just tell it not to: series index
 
-1. Why didn't "Please don't give medical advice" work?
+1. Why didn't "Never refund more than the order price" work?
 2. What should you check before the question reaches the model?
 3. What should you check before the answer reaches the customer?
 4. What if a customer tries to trick it?

@@ -4,49 +4,45 @@
 
 *Just tell it not to series: staff exceptions*
 
-It's 9 pm. A pharmacist is on an emergency call and needs an answer about overdose risk, fast.
+It's 9 pm. A store supervisor is on a call with a VIP customer. The customer's headphones arrived broken, and the supervisor wants to approve a $120 refund now.
 
-The assistant refuses. It's the right refusal for a customer typing into a shop chat. For a pharmacist on a live call, it's the wrong door, locked at the wrong moment.
+The refund agent says no. The order is past its refund rules. For the supervisor on a live call, it's the wrong door, locked at the wrong moment.
 
-The fence was built for strangers. Nobody remembered the fire brigade.
+The fence was built for customers. Nobody remembered the staff.
 
 ## The fire door in the castle wall
 
-A castle needs a way for its own people in and out, especially in an emergency. A wall with no gate for the fire brigade doesn't protect the castle. It just traps the people inside.
+A wall with no gate for the fire brigade doesn't protect the castle. It traps the people inside. Guardrails have the same problem. A rule strict enough to stop customers can stop your own staff too.
 
-Guardrails have the same problem. A rule strict enough to stop strangers can also stop your own staff. The fix is not to remove the fence. It's to build a proper door for the people who should use it.
+The fix is not to remove the fence. It's to build a proper door for the people who should use it.
 
-## Three parts of a good staff door
+## Hello world: the staff door is a human
 
-- **Identity comes from a login, not from a sentence.** "I'm a pharmacist" typed into a chat proves nothing, because anyone can type it. Staff should sign in, and the system should check their role.
-- **Break-glass access for emergencies.** A time-limited path that a verified person can open in an emergency. It is logged, and it expires on its own.
-- **A vetted fallback.** When the bot can't answer, it should route to a human pharmacist or to emergency services, and show information from approved sources only.
+The repo's safe route is `escalate_to_human`. The agent can't approve the exception, but it can hand the case to a person with a summary that stands alone:
+
+```python
+escalate_to_human(
+    order_id="9931",
+    customer_issue="Headphones arrived broken; VIP customer asks for a $120 refund",
+    actions_taken="Policy said eligible (3 days after delivery); supervisor on call",
+    recommended_action="Approve the $120 refund after a photo check",
+    escalation_reason="Exception needed above the agent's limit",
+)
+```
+
+All five fields are required, so the person never has to ask "what happened?" The supervisor's login, the time limit and the log are the rest of the staff door. They live outside the agent, in your identity system.
 
 ## Every override needs a record
 
-Each exception should answer four questions in the log: who, when, why, and what was answered. Then review the log regularly. An override that nobody reviews slowly becomes the back door everyone uses.
-
-This is also where people quietly cheat. If staff get annoyed by the fence, they share a login, or they type a fake job title. Good design makes the honest path easy, so nobody needs the dishonest one.
-
-## What a staff door can't do
-
-A staff door is a weak point, so it needs more care than the front gate. Keep exceptions narrow, test them the same way you test the front door (write-up 4), and take them away when a person changes role.
-
-## This is a series: here's what's coming
-
-The same pharmacy assistant, one layer at a time. Next:
-
-- How strict is too strict? (Safety vs usefulness)
-
-...and a finale with a guardrails checklist.
+Each exception should answer four questions in the log: who, when, why, and what was decided. Review the log regularly. An override nobody reviews slowly becomes the back door everyone uses.
 
 ## Take this to your next kickoff meeting
 
 1. Decide who can get past the fence, and make them prove it with a login, not a typed sentence.
 2. Give every emergency override an expiry time and a log entry.
-3. Review the override log every week, and remove access the moment someone changes role.
+3. Remove access the moment someone changes role.
 
-A fence should stop strangers, not the fire brigade.
+A fence should stop customers, not the fire brigade.
 
 Next write-up (6): **How strict is too strict?** (Safety vs usefulness)
 
@@ -64,11 +60,11 @@ Follow me for the next one. Who in your team would need a way through the fence 
 **Post text (copy and paste):**
 
 ```
-9 pm. A pharmacist on an emergency call needs an answer, fast.
+9 pm. A supervisor on a call with a VIP customer needs a refund approved, now.
 
-The assistant refuses. The fence was built for strangers.
+The agent says no. The fence was built for customers.
 
-A fence should stop strangers, not the fire brigade.
+A fence should stop customers, not the fire brigade.
 
 Write-up 5 in my series, Just tell it not to (#JustTellItNot): how to give your own team a proper staff door, with a login, an expiry time and a log.
 
@@ -84,7 +80,7 @@ Who in your team would need a way through the fence in an emergency?
 ```
 📌 Just tell it not to: series index
 
-1. Why didn't "Please don't give medical advice" work?
+1. Why didn't "Never refund more than the order price" work?
 2. What should you check before the question reaches the model?
 3. What should you check before the answer reaches the customer?
 4. What if a customer tries to trick it?

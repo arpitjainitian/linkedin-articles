@@ -7,9 +7,9 @@
 **Post text (copy and paste):**
 
 ```
-Sales, HR, Support, Legal. Four bots. One AI provider. Often one API key.
+Sales, Support, Refunds, Marketing. Four bots. One AI provider. One API key.
 
-Then one Monday: Sales floods the provider, Support's chatbot crawls, a short outage silences every bot, and finance gets one big invoice with no names on it.
+Then one Monday: the marketing campaign floods the provider, the refund bot goes silent, and finance gets one big invoice with no names on it.
 
 Let every team call the model directly, and you pay for it:
 • Availability: one provider outage takes down every bot at once
@@ -31,7 +31,7 @@ How many API keys does your company have for the same AI provider?
 ```
 📌 Everyone gets an API key: series index
 
-1. Five teams, one API key. What could go wrong? (you're here)
+1. Four bots, one API key. What could go wrong? (you're here)
 2. Who is allowed to use which model? (next write-up)
 
 I'll keep this comment updated with each link as it goes live.

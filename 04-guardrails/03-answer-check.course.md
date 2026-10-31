@@ -8,28 +8,28 @@ After this lesson, you can design an output check that catches advice, hints and
 
 ## The story
 
-Read the article: [03-answer-check.md](03-answer-check.md). Running example: an online pharmacy's medicine-question assistant. The draft "your usual amount should be fine" has no number, yet it gives health advice that a pharmacist would not give unchecked.
+Read the article: [03-answer-check.md](03-answer-check.md). Running example: an online electronics store's refund assistant. The draft "your refund is approved and will reach you by tomorrow" has no amount, yet it promises money the policy never approved.
 
 ## Deep dive
 
-An output check is the last step before a reply leaves the system. It reads the draft and decides: send it, rewrite it, or replace it with a safe fallback. It is the counter check at the pharmacy: a final look before the bag is sealed.
+An output check is the last step before a reply leaves the system. It reads the draft and decides: send it, rewrite it, or replace it with a safe fallback. It is the final look before the reply leaves the store.
 
 **Why check outputs when inputs are screened?** Because a clean question can still get an unsafe answer. The model has its own tendencies, and the screen cannot see the answer before it is written. Only a check on the draft can catch what the model said.
 
 **What counts as a problem?** Be specific, because vague rules miss things:
 
-- **Explicit advice:** doses, durations, diagnoses, instructions to start, stop or combine medicines.
-- **Hints:** wording that implies advice without stating it, such as "your usual amount should be fine", "that's safe with your tablet", or "you don't need to see anyone".
-- **False confidence:** a firm answer to a question that needs a professional's judgement.
-- **Tone:** casual or dismissive language on health topics, even when the facts are right.
+- **Explicit promises:** refund amounts, dates, discounts and approvals the policy did not give.
+- **Hints:** wording that implies a promise without stating it, such as "should land soon", "that's sorted", or "don't worry about the policy".
+- **False confidence:** a firm answer to a question that needs a person's judgement.
+- **Tone:** casual or dismissive language on refund or complaint topics, even when the facts are right.
 
 **How to detect them.** Three methods work together:
 
-1. **Pattern rules** for clear cases, such as numbers near medicine names or phrases that make promises about health.
+1. **Pattern rules** for clear cases, such as amounts near refund words or phrases that make promises about money.
 2. **A reviewer model** that scores the draft against a written definition of advice. It catches hints that rules miss. It can also agree with a bad draft, so it is one signal, not the verdict.
 3. **Sampling by a person.** A reviewer reads a sample of drafts each week and labels them. Their labels become the test set for the other two methods.
 
-**The safe fallback.** When a draft fails, do not send a half-fixed version. Send a short, complete, safe reply that still helps: say what the assistant cannot do, name who can help now (a pharmacist, the counter number), and offer the next step the customer can take. A blocked draft that leaves the customer with nothing is a failure too, and it feeds the false-refusal count from write-up 6.
+**The safe fallback.** When a draft fails, do not send a half-fixed version. Send a short, complete, safe reply that still helps: say what the assistant cannot do, name who can help now (a store adviser, the support line), and offer the next step the customer can take. A blocked draft that leaves the customer with nothing is a failure too, and it feeds the false-refusal count from write-up 6.
 
 **Limits.** A check looks only for what it was built to find. A new style of hint passes until someone adds it. A reviewer model can be fooled in the same way as the assistant, so the human sample is what keeps the system honest. Output checks also rely on the other layers: the input screen before, and red teaming (write-up 4) to find gaps.
 
@@ -45,7 +45,7 @@ An output check is the last step before a reply leaves the system. It reads the 
 ## Quiz
 
 1. Why is an output check needed even when the input is screened? *Because a clean question can still produce an unsafe answer, which only a check on the draft can catch.*
-2. What is a hint, in this context? *Wording that implies advice without stating it, such as "your usual amount should be fine".*
+2. What is a hint, in this context? *Wording that implies a promise without stating it, such as "should land soon".*
 3. Why should a blocked draft be replaced with a helpful fallback? *So the customer still gets a next step, instead of nothing, which keeps false refusals low.*
 4. What is the role of a weekly human sample? *It labels real drafts, checks the other methods, and supplies the test set.*
 

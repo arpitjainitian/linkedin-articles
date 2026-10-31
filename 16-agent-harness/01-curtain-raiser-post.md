@@ -9,13 +9,13 @@
 ```
 "The vendor ships the model, so we're done."
 
-The model reads an insurance claim perfectly. Then: what stops a 20-lakh approval? What if the server restarts mid-claim? Does the model even see the exclusion clause?
+The model reads "headphones arrived broken" perfectly. Then: what stops a $500 refund? What if the server restarts mid-refund? Does the model even see the policy?
 
 Treat the model as the whole system, and you pay for it:
-• Risk: decisions with no brakes and no human check
-• Reliability: claims restarted from scratch, or paid twice
-• Accuracy: decisions made without the clause that mattered
-• Safety: tests that touch real payouts
+• Risk: refunds with no brakes and no human check
+• Reliability: refunds restarted from scratch, or paid twice
+• Accuracy: decisions made without the policy that mattered
+• Safety: tests that touch real money
 
 Write-up 1 in my new series, We bought the brain, we're done (#BrainNotBody): why the model isn't the system, what the harness around it does, and three things to take to your next kickoff meeting.
 
@@ -23,7 +23,7 @@ Coming up: all 7 write-ups are on the cover.
 
 What share of your last AI project was the model, and what share was everything around it?
 
-#AIEngineering #GenAI #AIAgents #InsurTech #BrainNotBody
+#AIEngineering #GenAI #AIAgents #Refunds #BrainNotBody
 ```
 
 **Series index (post as the first comment, then pin it):**

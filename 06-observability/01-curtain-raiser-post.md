@@ -7,7 +7,7 @@
 **Post text (copy and paste):**
 
 ```
-"Arriving in 5 minutes." Said three times. The food took an hour.
+Track order 9931. "Arriving today." It arrived a week later.
 
 The team opened the logs: question, answer, timestamp. Nothing about what the bot read or why.
 
@@ -31,7 +31,7 @@ How long did it take your team to explain the last wrong AI answer?
 ```
 📌 We'll know when it breaks: series index
 
-1. It said "arriving in 5 minutes". It took an hour. Can you tell why? (you're here)
+1. "Arriving today." It arrived a week later. Can you tell why? (you're here)
 2. The bill tripled. Nothing errored. Where do you look? (next write-up)
 
 I'll keep this comment updated with each link as it goes live.

@@ -5,29 +5,29 @@ import sys, os, html, subprocess
 OUT, WORK = sys.argv[1], sys.argv[2]
 CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 COVERS = [
- dict(n=1, slug="curtain-raiser", topic="PROMPTS VS GUARDRAILS", title="Why Didn't \"Please Don't Give Medical Advice\" Work?", key="work",
-      rows=[("\"Pretend you're my doctor\"","got through"),("A dose in a friendly reply","got through"),("Staff locked out mid-call","blocked"),("In-stock question refused","blocked")],
+ dict(n=1, slug="curtain-raiser", topic="PROMPTS VS GUARDRAILS", title="Why Didn't \"Never Refund More Than the Order Price\" Work?", key="work",
+      rows=[("\"I'm the store manager\"","got through"),("$500 refund issued","got through"),("Supervisor locked out mid-call","blocked"),("Fair $120 refund refused","blocked")],
       note="Gate open. Guards on leave.", promise="A polite sign on an open gate is not security."),
  dict(n=2, slug="question-check", topic="INPUT CHECKS", title="What Should You Check Before the Question Reaches the Model?", key="question",
-      rows=[("\"How many would be dangerous?\"","answered"),("Harmless words, harmful plan","answered"),("Off-topic chat","answered"),("Nobody logged the question","unseen")],
+      rows=[("\"Email of the last 20 buyers?\"","answered"),("Harmless words, risky plan","answered"),("Off-topic chat","answered"),("Nobody logged the question","unseen")],
       note="The bouncer went home.", promise="Not every question deserves an answer."),
  dict(n=3, slug="answer-check", topic="OUTPUT CHECKS", title="What Should You Check Before the Answer Reaches the Customer?", key="answer",
-      rows=[("\"Your usual amount should be fine\"","sent"),("A hint with no number","sent"),("Confident tone on health","sent"),("Blocked draft, empty reply","silence")],
+      rows=[("\"Your refund is approved\"","sent"),("A hint: \"should land soon\"","sent"),("Confident tone on money","sent"),("Blocked draft, empty reply","silence")],
       note="Hint or advice? Both sound fine.", promise="The last line of defence is the reply."),
  dict(n=4, slug="trick-test", topic="RED TEAMING", title="What If a Customer Tries to Trick It?", key="trick",
-      rows=[("\"Pretend you're my doctor\"","worked"),("\"For a story I'm writing\"","worked"),("Instruction hidden in an order note","worked"),("Tests on the chat box only","partial")],
+      rows=[("\"I'm the store manager\"","worked"),("\"For a story I'm writing\"","worked"),("\"Skip the policy check\" in an order note","worked"),("Tests on the chat box only","partial")],
       note="Clever wording, zero tests.", promise="Clever wording is the attack you didn't test."),
  dict(n=5, slug="staff-exception", topic="STAFF EXCEPTIONS", title="What If Your Guardrails Lock Out Your Own Team?", key="lock out",
-      rows=[("Pharmacist on an emergency call","refused"),("\"I'm a pharmacist\" typed in chat","trusted"),("Overdose answer needed at 9 pm","refused"),("Nobody logged who got through","unseen")],
+      rows=[("Supervisor on a VIP call","refused"),("\"I'm a supervisor\" typed in chat","trusted"),("$120 approval needed at 9 pm","refused"),("Nobody logged who got through","unseen")],
       note="A fence for strangers only.", promise="A fence should stop strangers, not the fire brigade."),
  dict(n=6, slug="how-strict", topic="SAFETY VS USEFULNESS", title="How Strict Is Too Strict?", key="too strict",
-      rows=[("\"Is paracetamol in stock?\"","refused"),("A safe storage question","refused"),("Customer walks to the shop down the road","lost"),("Team stops trusting the bot","lost")],
+      rows=[("\"Has my order been refunded?\"","refused"),("A safe delivery question","refused"),("Customer calls a rival store","lost"),("Team stops trusting the bot","lost")],
       note="A smoke alarm for toast.", promise="A bot that refuses everything helps nobody."),
  dict(n=7, slug="finale-checklist", topic="THE FINALE", title="So, Is Your AI Fenced or Just Asked Nicely?", key="fenced",
       rows=[("Rules only in the prompt","gap"),("No tests for tricks","gap"),("No record of exceptions","gap"),("Nobody owns the fence","gap")],
       note="Asked nicely. Not fenced.", promise="Six write-ups, one checklist."),
 ]
-PROMPT_LINES = ["...", "+ Never give medical advice.", "+ Never suggest doses."]
+PROMPT_LINES = ["...", "+ Never refund more than the order price.", "+ Never refund without a policy check."]
 def page(c):
     t = html.escape(c['title']); k = c['key'].lower(); i = t.lower().find(k)
     head = t if i < 0 else t[:i] + '<span class="acc">' + t[i:i+len(k)] + '</span>' + t[i+len(k):]

@@ -9,14 +9,14 @@
 ```
 "I tried it, and it works."
 
-One question. Asked once. On a laptop. Green tick in the status update.
+One question. Asked once. On a laptop: "Where's order 9931?" Green tick in the status update.
 
-Three weeks later: the right notice period, from the wrong city's policy. Marked 10/10 by the AI grader.
+Three weeks later: the refund bot approves a $300 order that was never delivered. Marked 10/10 by the AI grader.
 
 Ship on "I tried it", and you pay for it:
-• Accuracy: wrong answers nobody notices until employees complain
-• Trust: one wrong HR answer, and people go back to emailing HR
-• Risk: policy answers that create real disputes
+• Accuracy: wrong answers nobody notices until customers complain
+• Trust: one wrong refund answer, and people go back to calling the store
+• Risk: refund disputes that cost real money
 • Speed: every change becomes scary, because nothing checks it
 
 Write-up 1 in my new series, Works on my prompt (#WorksOnMyPrompt): why trying it isn't testing it, what good evals check, and three things to take to your next kickoff meeting.

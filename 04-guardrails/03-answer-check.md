@@ -4,49 +4,37 @@
 
 *Just tell it not to series: output checks*
 
-The customer asks a simple question about a headache tablet. The assistant's draft says: "Your usual amount should be fine."
+A customer asks about refunds for order 4471, a laptop stand that hasn't been delivered yet. The assistant's draft says: "Good news, your refund is approved and will reach you by tomorrow."
 
-That sentence has no number in it. No dose, no brand, no instruction. Yet it still tells a person what to do with their health, with a confidence no pharmacist would give without checking first.
+The refund policy said no. Not eligible: not delivered yet. The question screen let the question through. The draft is the problem now.
 
-The question screen (write-up 2) let the question through. The draft is the problem now.
+## The last check before the reply
 
-## The last check at the counter
+An output check reads the draft before the customer does. It asks three questions:
 
-Think of a pharmacist's final check before the bag is sealed. The label, the name and the advice all get a second look before the customer walks out. That check is the last line of defence, and an AI assistant needs one too.
+- **Does it promise what the rules didn't approve?** Refunds, dates, discounts.
+- **Does it hint instead of saying?** "Should land soon" is a promise without the words.
+- **Is it confident where it should be careful?** Money replies should say what happens next, and offer a person when unsure.
 
-An output check reads the reply before it reaches the customer, and asks three questions:
+## Hello world: the smallest final check
 
-- **Does it give advice it shouldn't?** Doses, diagnoses, promises that a medicine is "safe for you".
-- **Does it hint instead of saying?** "Your usual amount should be fine" is a hint. Number-only filters miss it.
-- **Is it confident where it should be careful?** A health answer should sound calm and clear about its limits, and point to a person when unsure.
+The repo already keeps the eligibility answer for each run, in `state`. The output check reads it:
 
-## How to check the draft
+```python
+PROMISES = ["approved", "will reach you", "guaranteed"]
 
-Most teams use a mix:
+def check_draft(draft: str, state: dict, order_id: str) -> str:
+    promised = any(word in draft.lower() for word in PROMISES)
+    if promised and not state.get("eligible", {}).get(order_id):
+        return "I can't confirm a refund for this order. I've passed your case to our team."
+    return draft
+```
 
-- **Rules for clear cases.** Block drafts that name doses or make promises about a person's health.
-- **A second model as a reviewer.** It reads the draft and scores the risk, with a clear list of what counts as advice. It catches hints that rules miss, but it can make mistakes too.
-- **A safe fallback.** If the draft fails the check, don't send a half-fixed guess. Send a safe reply: "I can't advise on doses. A pharmacist can help you now," with the counter number.
-
-## What the checks can't do
-
-A checker only looks for what you taught it to look for. A new kind of hint slips past until someone adds it. And a reviewer model can agree with a bad draft, just like the assistant can.
-
-So output checks need the other layers around them: the question screen before, and tests that try to break the whole thing (write-up 4). They also need a log of blocked drafts, so you can see what the assistant tried to say.
-
-## This is a series: here's what's coming
-
-Same online pharmacy assistant, one layer at a time. Next:
-
-- What if a customer tries to trick it? (Jailbreaks and red teaming)
-- What if your guardrails lock out your own team? (Staff exceptions)
-- How strict is too strict? (Safety vs usefulness)
-
-...and a finale with a guardrails checklist.
+The fallback is safe and still useful: it names a next step. Word lists miss new phrasings, so a second reviewer model can be added, but it can make mistakes too.
 
 ## Take this to your next kickoff meeting
 
-1. List the sentences your assistant must never send, including the hints, not just the numbers.
+1. List the promises your assistant must never make, including the hints.
 2. Send a safe, useful fallback when a draft is blocked. Never leave the customer with nothing.
 3. Read a sample of blocked drafts every week, and tune the checks from what you find.
 
@@ -68,13 +56,13 @@ Follow me for the next one. Have you ever seen an AI answer sound sure when it s
 **Post text (copy and paste):**
 
 ```
-"Your usual amount should be fine."
+"Your refund is approved and will reach you by tomorrow."
 
-No number. No brand. Still advice a pharmacist would never give unchecked.
+The refund policy said no. The reply said yes.
 
 The last line of defence is the reply.
 
-Write-up 3 in my series, Just tell it not to (#JustTellItNot): the final check before an answer reaches the customer, and why hints slip past simple filters.
+Write-up 3 in my series, Just tell it not to (#JustTellItNot): the final check before an answer reaches the customer, in about 8 lines of code.
 
 Missed the last series? Start with "Why did the AI promise a full refund on a non-refundable ticket?" https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f or jump to the finale: https://www.linkedin.com/pulse/5-so-who-should-decide-code-model-finale-arpit-jain-qodgf
 
@@ -88,7 +76,7 @@ Have you ever seen an AI answer sound sure when it shouldn't?
 ```
 📌 Just tell it not to: series index
 
-1. Why didn't "Please don't give medical advice" work?
+1. Why didn't "Never refund more than the order price" work?
 2. What should you check before the question reaches the model?
 3. What should you check before the answer reaches the customer? (you're here)
 4. What if a customer tries to trick it? (next write-up)

@@ -21,18 +21,18 @@
 
 Source: the official exam guide. Check Anthropic's certification pages for the latest version before the exam.
 
-## Running example (fictional): ParentPace
+## Running example (fictional): an online electronics store
 
-**ParentPace** here is an invented coaching company **for parents themselves**: how to stay calm instead of yelling, talk so children listen, set boundaries, share parenting with a partner, and look after their own wellbeing. Parents chat with an AI coach in the app between 1:1 sessions with human coaches. It runs on subscriptions, with courses and booked sessions, and a 6-person tech team. It coaches the parent, never diagnoses anyone, and hands over to people when it matters.
+**The store** here is an invented online electronics shop. Customers ask about orders, delivery and refunds through an AI support agent. The agent works from order records, a refund policy (30 days after delivery) and a human support queue. It never refunds more than the order price, and it hands a case to a person when it can't settle it.
 
-> **Name note:** ParentPace is fictional. A web search (October 2026) found no app or company with this exact name; it was chosen to avoid clashing with existing parenting apps (for example "ParentPace"). Every post still carries a one-line "fictional company" note.
+> **Fictional note:** the store is invented for this series. It mirrors the [agentic-ai-hello-world repo](https://github.com/arpit-jain-mygit/agentic-ai-hello-world): one support agent with order, refund and escalation tools.
 
-| ParentPace part | What it does | Exam scenario |
+| Store part | What it does | Exam scenario |
 |---|---|---|
-| **Parent-help agent** | Coaching chats about the parent's own reactions, routines and communication; books 1:1 sessions with human coaches; handles plans and billing; hands over to a human coach (and points to helplines) when a parent is in distress | Customer support agent |
-| **Course research team** | A coordinator with helpers that research parenting studies, expert guidance and parent reviews for a new "Calm Parenting" course | Multi-agent research |
-| **Intake paperwork** | Turns parent self-assessment forms and coach session notes into a clean parent profile: goals, stress triggers, family setup | Structured data extraction |
-| **The tech team's Claude Code setup** | Six engineers building the ParentPace app | Code generation, developer productivity |
+| **Support agent** | Answers order-status questions, checks the refund policy, refunds up to the order price, and hands a case to a human with a summary | Customer support agent |
+| **Product research team** | A coordinator with helpers that research reviews, warranty terms and supplier notes for a buying guide | Multi-agent research |
+| **Returns paperwork** | Turns return forms and customer notes into a clean case record: order, issue, photos, requested action | Structured data extraction |
+| **The engineering team's Claude Code setup** | Engineers building the store's refund tools | Code generation, developer productivity |
 | **Pull-request reviews in CI** | Automated reviews and tests on every pull request | Claude Code in CI/CD |
 
 ## How many articles, and why
@@ -46,11 +46,11 @@ Source: the official exam guide. Check Anthropic's certification pages for the l
 
 ## Planned write-ups
 
-| # | Objective | Title | ParentPace moment | Status |
+| # | Objective | Title | Store moment | Status |
 |---|---|---|---|---|
-| 0 | Curtain raiser | [Can a Parenting App Teach You the Claude Architect Exam?](00-curtain-raiser-post.md) | The exam on one page: 60 questions, 5 domains, 30 objectives, one write-up for each | Draft for review |
+| 0 | Curtain raiser | [Can a Refund Bot Teach You the Claude Architect Exam?](00-curtain-raiser-post.md) | The exam on one page: 60 questions, 5 domains, 30 objectives, one write-up for each | Draft for review |
 | **Domain 1** | **Agentic architecture and orchestration (27%)** | | | |
-| 1 | 1.1 Agentic loops | [How Does an Agent Know When to Stop?](01-agentic-loops.md) | A parent asks to move Saturday's coaching session. The agent checks the coach's calendar, books the new slot, and must know it's really finished, not just that it typed "All done!" | Draft for review |
+| 1 | 1.1 Agentic loops | [How Does an Agent Know When to Stop?](01-agentic-loops.md) | A customer asks for a refund on order 9931. The agent checks the policy and must know it's really finished, not just that it typed "All done!" | Draft for review |
 | 2 | 1.2 Coordinator and subagents | One Coordinator, Three Helpers: Who Builds the Calm Parenting Course? | Studies, expert guidance and parent reviews researched by separate helpers | Planned |
 | 3 | 1.3 Subagent context passing | The Helper Never Saw the Brief | The studies helper doesn't know the course is for parents of teenagers | Planned |
 | 4 | 1.4 Enforcement and handoffs | The Prompt Said "Check the Plan First". The Agent Didn't. | A paid 1:1 session booked for a parent on the free plan; handing over to a human coach with a proper summary | Planned |

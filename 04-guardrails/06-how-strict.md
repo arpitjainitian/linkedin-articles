@@ -4,55 +4,41 @@
 
 *Just tell it not to series: safety vs usefulness*
 
-"Is paracetamol in stock?"
+"Has my headphone order 9931 been refunded yet? It arrived broken."
 
 "Sorry, I can't help with that."
 
-A safe question, a simple answer, and the bot refuses. The customer shrugs, walks to the counter, and buys from a shop down the road. Nothing dangerous happened. Something useful was lost.
+A safe question, a simple answer, and the bot refuses. The customer shrugs and calls a rival store. Nothing dangerous happened. Something useful was lost.
 
-We've talked about the bouncer, the final check and the staff door. Every one of them can be too strict. A fence that refuses everything is a fence that keeps the customers out.
+Every guardrail we built can be too strict. A fence that refuses everything keeps the customers out.
 
 ## The smoke alarm that goes off for toast
 
-A smoke alarm is a good thing. An alarm that sounds every time someone makes toast is a different thing. People learn to switch it off, and then it's useless in a real fire.
-
-Guardrails that refuse safe questions teach customers and staff the same lesson: ignore the bot. Once that happens, your real warnings get ignored too.
+An alarm that sounds for every piece of toast teaches people to switch it off. Then it's useless in a real fire. Guardrails that refuse safe questions teach the same lesson.
 
 ## Two numbers, not one
 
-Most teams only measure the harm: "Did a bad answer get through?" That's half the picture. You need two numbers side by side:
+You need two numbers side by side:
 
 - **Missed harm:** how often a risky request gets a harmful answer.
 - **False refusal:** how often a safe request gets refused.
 
-Tuning one without the other is how you end up with a bot that is either reckless or useless. A good change moves both numbers in the right direction, or at least trades a tiny bit of one for a big gain in the other.
+## Hello world: the dial is one line
 
-## Set the strictness by topic
+The refund rule has a dial. This line decides how long after delivery a refund is allowed:
 
-One dial for every topic is the mistake. Stock levels, opening hours and storage advice are safe to answer. Dosing, diagnosis and "should I take this with that?" need a much stricter route. Set the fence per topic, and test each topic against both numbers.
+```python
+# tools/functions.py: check_refund_policy()
+return {"eligible": order["days_since_delivery"] <= 30, "rule": "Refunds allowed within 30 days of delivery"}
+```
 
-## Refuse well, not just firmly
-
-A refusal can still help. Compare:
-
-- "I can't help with that."
-- "I can't advise on doses. A pharmacist can answer this now. Here's the counter number, and here's how to find the nearest open pharmacy."
-
-The second one is still a refusal, but the customer has a next step. That's what separates a fence from a wall with no door.
-
-## What strictness can't fix
-
-Strictness is one knob. A bot can be strict and still wrong, and a loose bot can still be right on easy questions. Measure, adjust, and measure again, using the same test set that you used for red teaming (write-up 4).
-
-## This is a series: here's what's coming
-
-The last write-up in the series is a finale. It brings all six layers together into one checklist you can use on any AI project.
+Set `30` to `2` and order 9931 (delivered 3 days ago) gets refused: a false refusal. Set it to `365` and old orders get refunded: missed harm. Change the number, then measure both numbers on the same test set.
 
 ## Take this to your next kickoff meeting
 
-1. Track two numbers from day one: missed harm and false refusals.
+1. Track both numbers from day one: missed harm and false refusals.
 2. Set the strictness topic by topic, not with one global setting.
-3. Make every refusal offer a safe next step.
+3. Make every refusal offer a next step, such as "I've passed this to our team".
 
 A bot that refuses everything helps nobody.
 
@@ -72,15 +58,15 @@ Follow me for the finale. Which of your bot's refusals would you change first?
 **Post text (copy and paste):**
 
 ```
-"Is paracetamol in stock?"
+"Has my headphone order been refunded? It arrived broken."
 
 "Sorry, I can't help with that."
 
-The customer walked to the shop down the road. Nothing dangerous happened. Something useful was lost.
+The customer called a rival store. Nothing dangerous happened. Something useful was lost.
 
 A bot that refuses everything helps nobody.
 
-Write-up 6 in my series, Just tell it not to (#JustTellItNot): why you need two numbers, missed harm and false refusals, and how to refuse with a next step.
+Write-up 6 in my series, Just tell it not to (#JustTellItNot): why you need two numbers, missed harm and false refusals, and how one line of code sets the dial.
 
 Missed the last series? Start with "Why did the AI promise a full refund on a non-refundable ticket?" https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f or jump to the finale: https://www.linkedin.com/pulse/5-so-who-should-decide-code-model-finale-arpit-jain-qodgf
 
@@ -94,7 +80,7 @@ Which of your bot's refusals would you change first?
 ```
 📌 Just tell it not to: series index
 
-1. Why didn't "Please don't give medical advice" work?
+1. Why didn't "Never refund more than the order price" work?
 2. What should you check before the question reaches the model?
 3. What should you check before the answer reaches the customer?
 4. What if a customer tries to trick it?

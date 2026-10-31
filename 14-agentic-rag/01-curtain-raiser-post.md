@@ -7,15 +7,15 @@
 **Post text (copy and paste):**
 
 ```
-"Which vendor contracts let the vendor exit without notice?"
+"Which orders were refunded under a 2025 policy exception?"
 
-One search found 3. The real answer was 40: "terminate for convenience", "immediate effect", notice periods hidden in Schedule B.
+One search found 3 policy pages. The real answer: 40 pages and the refund log, joined together.
 
 Rely on one search for research questions, and you pay for it:
-• Risk: a confident answer that misses 37 contracts
-• Accuracy: the documents' words aren't the question's words
+• Risk: a confident answer that misses 37 refunds
+• Accuracy: the policy's words aren't the customer's words
 • Cost and speed: or the opposite, 30 searches for a one-line lookup
-• Trust: legal stops using it after the first missed clause
+• Trust: the support lead stops using it after the first missed exception
 
 Write-up 1 in my new series, Let it do its own research (#LetItResearch): why one search is rarely enough, what agentic RAG really is, and three things to take to your next kickoff meeting.
 

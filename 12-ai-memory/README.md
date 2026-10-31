@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | [Why Does the Assistant Forget What You Said Ten Minutes Ago?](01-curtain-raiser-post.md) | Remembering the right thing is harder than it sounds. | Why AI memory is harder than it sounds; the drawers every assistant needs; three things for your kickoff meeting. | "Size 9, please. Nothing orange." Forty messages later, it suggests size 7 in bright orange. | Draft for review |
+| 1 | [Why Does the Assistant Forget What You Said Ten Minutes Ago?](01-curtain-raiser-post.md) | Remembering the right thing is harder than it sounds. | Why AI memory is harder than it sounds; the drawers every assistant needs; three things for your kickoff meeting. | "Order 9931, the headphones, $120." Forty messages later it quotes $140 | Draft for review |
 | 2 | How Does an AI Remember You Next Week? | "Welcome back" needs long-term memory. | Long-term memory stores, what gets saved | Remembers your size on your next visit | Planned |
 | 3 | What Should It Forget? | A good assistant knows what not to mention. | Choosing what to keep, expiring old facts | Still suggesting baby clothes three years later | Planned |
 | 4 | Who Can See What the AI Remembers About You? | Memory is personal data. | Privacy, consent, viewing and deleting memories | Family members see each other's "preferences" | Planned |

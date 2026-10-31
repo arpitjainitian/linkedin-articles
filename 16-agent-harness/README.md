@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | [You Bought a Brilliant Model. Where's the System?](01-curtain-raiser-post.md) | A model alone doesn't settle a single claim. | Why the model isn't the system; what the harness around it does; three things for your kickoff meeting. | "The vendor ships the model, so we're done." The model reads an insurance claim perfectly, and nothing stops a 20-lakh approval. | Draft for review |
+| 1 | [You Bought a Brilliant Model. Where's the System?](01-curtain-raiser-post.md) | A model alone doesn't settle a single claim. | Why the model isn't the system; what the harness around it does; three things for your kickoff meeting. | "The vendor ships the model, so we're done." Then: what stops a $500 refund? | Draft for review |
 | 2 | Where Does the Agent Keep Its Place? | A claim can take three days. The agent can't hold its breath that long. | State, checkpoints, resuming after a crash | The server restarts mid-claim: start again, or carry on? | Planned |
 | 3 | Where Does It Practise Before Touching Real Claims? | Never test the brakes on the motorway. | Sandboxes, staging vs production, backups kept outside the system | A test run approves real payouts | Planned |
 | 4 | What's the Worst Thing Your Agent Is Allowed to Do? | Seeing is one key. Doing is another. | Action permissions: least privilege per tool, separating read from act, confirmation before irreversible steps, limits on damage (amounts, counts, recipients). Data access is covered in #JustAddRAG 8; this is about actions | The agent has email, database and payout access; a confused claim triggers a payout and an email to the wrong customer | Planned |

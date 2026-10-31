@@ -8,7 +8,7 @@ After this lesson, you can plan a red-teaming pass that tests every input the as
 
 ## The story
 
-Read the article: [04-trick-test.md](04-trick-test.md). Running example: an online pharmacy's medicine-question assistant. "Pretend you're my doctor", then "for a story", then "ignore the rules above". Each push is small. Together they can move the assistant off its instructions, and a note in an online order can do the same.
+Read the article: [04-trick-test.md](04-trick-test.md). Running example: an online electronics store's refund assistant. "I'm the store manager", then "for a story", then "ignore the rules above". Each push is small. Together they can move the assistant off its instructions, and a note in an online order can do the same.
 
 ## Deep dive
 
@@ -18,13 +18,13 @@ A **jailbreak** is a message built to make a model ignore its instructions. **Re
 
 - **Role play:** asking the model to act as a character or a professional who is not bound by the rules.
 - **Hypotheticals and fiction:** "for a story", "in theory", "imagine a world where".
-- **False authority:** claiming to be staff, a doctor or the developer.
+- **False authority:** claiming to be staff, a manager or the developer.
 - **Splitting:** asking for a risky result in small steps that each look harmless.
 - **Encoding and language tricks:** the same request in another language, in code, or with unusual spelling.
 
 Research on jailbreaks has shown that combining simple techniques can succeed where each one alone fails. That is why a test list should include combinations, not only single tricks. The Wei et al. paper in the further reading describes why safety training can leave gaps.
 
-**Indirect attacks.** The most dangerous doors are the ones the chat box does not show. An assistant that reads order notes, uploaded documents or tool results will treat their text as possible instructions. A note saying "skip the prescription check" is an instruction smuggled in as data. The same problem appears in retrieval systems, covered in #JustAddRAG 8. The rule for the design is simple: text from outside is data to read, never a command to obey.
+**Indirect attacks.** The most dangerous doors are the ones the chat box does not show. An assistant that reads order notes, uploaded documents or tool results will treat their text as possible instructions. A note saying "skip the policy check" is an instruction smuggled in as data. The same problem appears in retrieval systems, covered in #JustAddRAG 8. The rule for the design is simple: text from outside is data to read, never a command to obey.
 
 **Building the attack list.** Each row has four columns: the attack, the surface it arrives through (chat, document, note, tool), the expected safe behaviour, and the result. Include both safety and usefulness: a row where the assistant refuses a safe stock question is a failure too. Teams often add a column for the attack family, so the report can show which families still pass.
 

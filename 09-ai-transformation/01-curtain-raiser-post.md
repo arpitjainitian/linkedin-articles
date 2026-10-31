@@ -9,9 +9,9 @@
 ```
 500 support agents. 500 AI licences. One training session. 500 logins by Friday.
 
-Six months later: same handling time, same repeat contacts, same ratings.
+Six months later: same handling time, same repeat contacts about the same refunds.
 
-The agents used AI. Mostly to sound more polite in emails.
+The agents used AI. Mostly to sound more polite in their emails about them.
 
 Treat a licence as a transformation, and you pay for it:
 • Cost: a full year of seats for a tool that changed nothing

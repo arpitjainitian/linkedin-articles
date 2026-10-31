@@ -8,7 +8,7 @@ After this lesson, you can run the seven-line guardrails checklist on an AI proj
 
 ## The story
 
-Read the article: [07-finale-checklist.md](07-finale-checklist.md). Running example: an online pharmacy's medicine-question assistant, now with all five layers in place, and a checklist to test whether the fence really holds.
+Read the article: [07-finale-checklist.md](07-finale-checklist.md). Running example: an online electronics store's refund assistant, now with all five layers in place, and a checklist to test whether the fence really holds.
 
 ## Deep dive
 

@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | [It Said "Arriving in 5 Minutes". It Took an Hour. Can You Tell Why?](01-curtain-raiser-post.md) | "The AI was wrong" isn't a diagnosis. | Why AI fails politely; the failures normal logs miss; three things for your kickoff meeting. | "Arriving in 5 minutes," said three times. The food took an hour, and the logs show only question, answer and timestamp. | Draft for review |
+| 1 | [It Said "Arriving in 5 Minutes". It Took an Hour. Can You Tell Why?](01-curtain-raiser-post.md) | "The AI was wrong" isn't a diagnosis. | Why AI fails politely; the failures normal logs miss; three things for your kickoff meeting. | Track order 9931: "Arriving today." It arrived a week later | Draft for review |
 | 2 | The Bill Tripled. Nothing Errored. Where Do You Look? | Silent changes often show up in cost first. | Cache hit rate and cost as health signals | One line added to the prompt; cache hits drop, the bill triples | Planned |
 | 3 | How Do You Catch a Wrong Answer Nobody Reported? | Zero complaints can mean zero checks. | Canary questions, silent failures, refusal rate in both directions | "Where's my order?" answered with yesterday's status, and nobody complains | Planned |
 | 4 | What Happens When You Break It on Purpose? | Find the weak spot before Friday night does. | Fault injection, testing fallbacks, blast radius | The tracking service goes slow at 8 PM on a Friday | Planned |

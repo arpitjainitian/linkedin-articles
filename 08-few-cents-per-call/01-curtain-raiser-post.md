@@ -9,7 +9,7 @@
 ```
 "It's only a few cents per question."
 
-Then the big sale arrives. Twenty times the traffic. Every answer live, at full price, free for every shopper.
+Then the sale arrives. Twenty times the "where is my order?" traffic. Every answer live, at full price, for every shopper.
 
 Assume a few cents stays small, and you pay for it:
 • Cost: a sale-day bill nobody multiplied in advance

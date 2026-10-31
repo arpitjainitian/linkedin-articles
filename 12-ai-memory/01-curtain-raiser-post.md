@@ -7,13 +7,13 @@
 **Post text (copy and paste):**
 
 ```
-"Size 9, please. Nothing orange."
+"Order 9931. The headphones, $120."
 
-40 messages later, the shopping assistant suggests size 7, in bright orange. Next week, it forgets the size completely, but remembers a baby gift from 2023.
+40 messages later, the assistant asks which order you mean, and quotes $140. Next week, it forgets the order completely, but remembers a return from 2023.
 
 Get AI memory wrong, and you pay for it:
 • Experience: customers repeat themselves, then leave
-• Relevance: one-off purchases treated as lifelong preferences
+• Relevance: one-off returns treated as lifelong preferences
 • Privacy: remembered details customers can't see or delete
 • Cost: recalling everything for every answer, slowly and expensively
 

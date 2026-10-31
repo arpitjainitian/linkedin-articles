@@ -9,11 +9,11 @@
 ```
 "Let's just add an MCP server."
 
-The IT helpdesk assistant gets plugged into ticketing, team chat, laptop inventory, the HR system, and a free "ticket helper" from the internet. Done in an afternoon.
+The store's support assistant gets plugged into orders, shipping, refunds, the CRM, and a free "refund helper" from the internet. Done in an afternoon.
 
 Plug in without thinking, and you pay for it:
-• Security: an assistant acting with the IT admin's login
-• Privacy: tickets flowing to a third-party server nobody reviewed
+• Security: a refund tool running with the admin's full login
+• Privacy: customer emails flowing to a third-party server nobody reviewed
 • Availability: one tool update, and every request fails
 • Accuracy: twenty tools, and requests going to the wrong one
 

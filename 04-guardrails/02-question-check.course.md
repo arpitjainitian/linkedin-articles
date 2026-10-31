@@ -8,7 +8,7 @@ After this lesson, you can design an input screen that blocks off-topic and high
 
 ## The story
 
-Read the article: [02-question-check.md](02-question-check.md). Running example: an online pharmacy's medicine-question assistant. A customer asks how many tablets would be dangerous, and the assistant starts writing a list because nothing stopped the question.
+Read the article: [02-question-check.md](02-question-check.md). Running example: an online electronics store's refund assistant. A customer asks for the email addresses of other customers who bought headphones, and the assistant starts writing a list because nothing stopped the question.
 
 ## Deep dive
 
@@ -18,17 +18,17 @@ An input check is a screen that runs before the model call. Its job is to decide
 
 **What does the screen look at?** Three things, in order of cost:
 
-1. **Rules.** Keyword and pattern lists, such as phrases about taking many tablets at once. Cheap and predictable, but blind to rephrasing.
+1. **Rules.** Keyword and pattern lists, such as phrases that ask for other customers' data. Cheap and predictable, but blind to rephrasing.
 2. **A small classifier.** A model trained or prompted only to label messages: on topic or off, risk level, needs a human. More flexible than rules, and still fast.
 3. **Escalation.** When the screen is unsure, it sends the message to a safe route, not to the full assistant.
 
 For the highest-risk category, such as a message that suggests harm to oneself, the safe route is immediate: a short, caring reply that points to emergency help and a real person. It does not try to be a complete answer.
 
-**Topic limits.** A pharmacy assistant should answer about medicines, stock, opening hours and storage. Other topics get a polite redirect. Topic limits are not a safety feature by themselves, but they cut the surface area an attacker can use.
+**Topic limits.** A store's support assistant should answer about orders, delivery and refunds. Other topics get a polite redirect. Topic limits are not a safety feature by themselves, but they cut the surface area an attacker can use.
 
 **Logging.** Every blocked or redirected message gets a record: time, reason, route taken. Store only what you need, and remove personal details where you can. The log is how you learn what customers really ask. It also shows whether the screen is too tight, when many safe questions are being blocked. That measurement links to write-up 6.
 
-**Limits.** An input screen sees the message, not the intent behind it. A harmless-looking question can lead to a risky answer, which is why output checks exist (write-up 3). A screen that is too loose lets risk through, and one that is too tight refuses stock questions. Both failures are visible in the log if you look for them.
+**Limits.** An input screen sees the message, not the intent behind it. A harmless-looking question can lead to a risky answer, which is why output checks exist (write-up 3). A screen that is too loose lets risk through, and one that is too tight refuses order-status questions. Both failures are visible in the log if you look for them.
 
 ## Hands-on lab
 

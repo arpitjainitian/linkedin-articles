@@ -7,13 +7,13 @@
 **Post text (copy and paste):**
 
 ```
-A flood hits one region. The COO asks: which of our products depend on a supplier there?
+A flood hits one port. The COO asks: which orders and refunds depend on that route?
 
-The AI finds the supplier and summarises the contract. But the answer is a chain: supplier, valve, pump, washing machine. Plus "ABC Ltd", spelt differently, behind the water heater.
+The AI finds the shipping partner. But the answer is a chain: partner, route, 300 orders, 40 customers, 12 refunds in progress. Plus "ABC Logistics", spelt differently, on half the invoices.
 
 Use plain search for connection questions, and you pay for it:
-• Risk: products at risk that nobody listed
-• Accuracy: the same supplier counted as three, or missed entirely
+• Risk: orders at risk that nobody listed
+• Accuracy: the same partner counted as three, or missed entirely
 • Time: analysts rebuilding the chain by hand during a crisis
 • Cost: or the opposite mistake, a graph built for questions that never needed one
 
@@ -31,7 +31,7 @@ What's a question in your business that only makes sense as a chain of links?
 ```
 📌 Just connect the dots: series index
 
-1. A flood hit one region. Which of your products are at risk? (you're here)
+1. A flood hit one port. Which orders are at risk? (you're here)
 2. What is a knowledge graph, really? (next write-up)
 
 I'll keep this comment updated with each link as it goes live.

@@ -14,7 +14,7 @@
 
 | # | Title | The hook | What it covers | Example moment | Status |
 |---|---|---|---|---|---|
-| 1 | [The Invoice Demo Got a Standing Ovation. Now What?](01-curtain-raiser-post.md) | The applause is the easy part. | Why a demo and production are different worlds; what sits between the applause and go-live; three things for your kickoff meeting. | Ten clean invoices get a standing ovation. Invoice eleven is a phone photo with a coffee ring over the total. | Draft for review |
+| 1 | [The Invoice Demo Got a Standing Ovation. Now What?](01-curtain-raiser-post.md) | The applause is the easy part. | Why a demo and production are different worlds; what sits between the applause and go-live; three things for your kickoff meeting. | Ten clean refund requests, then a blurry photo of a cracked box | Draft for review |
 | 2 | Why Does It Work on 10 Invoices and Fail on 10,000? | Demos are hand-picked. Suppliers aren't. | Real data, edge cases, messy formats | Multi-page invoices, handwritten notes, three currencies | Planned |
 | 3 | Who Owns It at Month-End, and Every Month After? | A POC has fans. Production needs owners. | Ownership, on-call, runbooks, a maintenance budget | Month-end close stuck; a big supplier changes its invoice layout | Planned |
 | 4 | What Happens When 50,000 Invoices Arrive at Once? | One invoice isn't a load test. | Scale, queues, rate limits, cost at volume | Quarter-end backlog, everything slows down | Planned |
