@@ -14,7 +14,9 @@ That's the hello world: a **frontier model** is one of the most capable AI model
 
 ## One step further
 
-Frontier models are usually the newest, largest foundation models (write-up 7) from a handful of labs, trained with huge amounts of computing power (write-up 44 explains why scale helped). They lead on benchmarks (write-up 116) and often get new abilities first.
+Frontier models are the newest, largest foundation models (write-up 7) from a handful of labs, trained with huge amounts of computing power (write-up 44 explains why scale helped). They lead on benchmarks (write-up 116) and often get new abilities first.
+
+Compare the two: a foundation model is any large base model that many apps are built on. A frontier model is the newest, most capable of those, right now. Every frontier model is a foundation model, but not every foundation model is at the frontier.
 
 Because they are the most powerful, safety rules and voluntary commitments often focus on them. The frontier also moves: today's frontier model is next year's ordinary one.
 
@@ -70,7 +72,7 @@ Follow me for the next one. Does your team use a frontier model for jobs a small
 The edge of the map.
 Beyond it, nobody has been yet.
 
-A frontier model is AI at that edge: the most capable models right now.
+A foundation model is the base. A frontier model is the newest, most capable base, at the edge.
 
 The edge moves every few months.
 

@@ -20,7 +20,7 @@ That was the whole idea of this series: every AI word has a hello world, a tiny 
 - **Neural network** (5): A neural network is billions of tiny voters adding up numbers.
 - **Generative AI** (6): Generative AI makes new things instead of just labelling old ones.
 - **Foundation model** (7): A foundation model is one big base that many AI products are built on.
-- **Frontier model** (8): A frontier model is AI at that edge: the most capable models right now.
+- **Frontier model** (8): A foundation model is the base. A frontier model is the newest, most capable base, at the edge.
 - **AGI** (9): AGI means one AI that can learn most tasks a person can.
 - **Superintelligence** (10): Superintelligence means AI smarter than the best humans in almost every field.
 
