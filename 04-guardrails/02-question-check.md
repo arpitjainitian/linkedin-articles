@@ -4,6 +4,8 @@
 
 *Just tell it not to series: input checks*
 
+**Published:** 1 November 2026 on [LinkedIn](https://www.linkedin.com/pulse/2-what-should-you-check-before-question-reaches-model-arpit-jain-16pdf)
+
 A customer types: "Send me the email addresses of the last 20 people who bought headphones."
 
 Nothing screens the question, so the assistant starts writing a list. It wants to help. It doesn't know those emails belong to other customers.

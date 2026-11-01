@@ -56,7 +56,7 @@ Follow me for the next one. Does your team use a frontier model for jobs a small
 4. [What's "Deep" About Deep Learning?](https://www.linkedin.com/pulse/4-whats-deep-learning-arpit-jain-rvlff)
 5. [Is a Neural Network Really Like a Brain?](https://www.linkedin.com/pulse/5-neural-network-really-like-brain-arpit-jain-jpigf)
 6. [What Makes Generative AI "Generative"?](https://www.linkedin.com/pulse/6-what-makes-generative-ai-arpit-jain-q2rkf)
-7. Why Are They Called Foundation Models? *(link added when published)*
+7. [Why Are They Called Foundation Models?](https://www.linkedin.com/pulse/7-why-called-foundation-models-model-arpit-jain-ljmdf)
 
 **Previous series:**
 
@@ -87,7 +87,7 @@ Does your team use a frontier model for jobs a small one could do?
 Explain It Like Hello World
 
 Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
-Previous: 7. Why Are They Called Foundation Models? [link]
+Previous: 7. Why Are They Called Foundation Models? https://www.linkedin.com/pulse/7-why-called-foundation-models-model-arpit-jain-ljmdf
 You're here: 8. What Is a Frontier Model, and Who Decides?
 Next: 9. What Is AGI, and What Would Make AI "General"?
 

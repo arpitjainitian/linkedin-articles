@@ -4,6 +4,8 @@
 
 *Explain It Like Hello World series: Foundation model*
 
+**Published:** 1 November 2026 on [LinkedIn](https://www.linkedin.com/pulse/7-why-called-foundation-models-model-arpit-jain-ljmdf)
+
 "Foundation model." Investors, governments and regulators use the phrase. It sounds like construction.
 
 ## The hello world
