@@ -51,6 +51,6 @@
 | 010 | [Your AI agent is waiting. Are you still paying? \| Agent sandboxes](010-agent-sandboxes.md) | Google's Agent Compute Engine: a paused, isolated computer for each agent | [Published](https://www.linkedin.com/pulse/today-ai-010-your-agent-waiting-you-still-paying-sandboxes-arpit-jain-07qvf) 26 October 2026 |
 | 011 | [AI text-to-speech that fits on your phone. No internet needed. \| Text-to-speech](011-on-device-voice.md) | Gradium Phonon text-to-speech, now in Ollama on Macs | [Published](https://www.linkedin.com/pulse/today-ai-011-text-to-speech-fits-your-phone-internet-needed-jain-1ipuf) 27 October 2026 |
 | 012 | [Would you send your AI twin to a job interview? \| AI twins in hiring](012-ai-twin-interview.md) | AI twins that recruiters question before a real interview | Draft |
-| 013 | [What if the chart is the easy part? \| Claude Dashboards](013-the-chart-is-the-easy-part.md) | Claude Dashboards beta (8 Oct 2026) and the provider race: Claude, ChatGPT, Gemini, Copilot; fictional store story | Draft (cover done; body about 430 words including headings and table) |
+| 013 | [What if the chart is the easy part? \| Claude Dashboards](013-the-chart-is-the-easy-part.md) | Claude Dashboards beta (8 Oct 2026) and the provider race: Claude, ChatGPT, Gemini, Copilot; fictional store story | [Published](https://www.linkedin.com/pulse/today-ai-013-what-chart-easy-part-claude-dashboards-arpit-jain-18dhf) 2 November 2026 |
 
 Sources for each write-up are listed inside the write-up, under "References and credits".

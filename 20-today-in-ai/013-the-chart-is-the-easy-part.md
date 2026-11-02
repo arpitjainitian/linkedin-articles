@@ -4,6 +4,8 @@
 
 *Today in AI: what's new in AI, and what it means for you. In plain words.*
 
+**Published:** 2 November 2026 on [LinkedIn](https://www.linkedin.com/pulse/today-ai-013-what-chart-easy-part-claude-dashboards-arpit-jain-18dhf)
+
 **In one line:** Claude can now draw a live dashboard from company data. The hard part is making sure every AI tool gives the same answer.
 
 ## A story: Monday at Hollow Creek Home
