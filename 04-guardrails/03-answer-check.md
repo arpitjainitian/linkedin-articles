@@ -4,6 +4,8 @@
 
 *Just tell it not to series: output checks*
 
+**Published:** 2 November 2026 on [LinkedIn](https://www.linkedin.com/pulse/3-what-should-you-check-before-answer-reaches-customer-arpit-jain-osyrf)
+
 A customer asks about refunds for order 4471, a laptop stand that hasn't been delivered yet. The assistant's draft says: "Good news, your refund is approved and will reach you by tomorrow."
 
 The refund policy said no. Not eligible: not delivered yet. The question screen let the question through. The draft is the problem now.

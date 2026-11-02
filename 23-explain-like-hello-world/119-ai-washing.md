@@ -55,7 +55,7 @@ Follow me for the next one. Have you bought something "AI-powered" that wasn't?
 5. [Is a Neural Network Really Like a Brain?](https://www.linkedin.com/pulse/5-neural-network-really-like-brain-arpit-jain-jpigf)
 6. [What Makes Generative AI "Generative"?](https://www.linkedin.com/pulse/6-what-makes-generative-ai-arpit-jain-q2rkf)
 7. [Why Are They Called Foundation Models?](https://www.linkedin.com/pulse/7-why-called-foundation-models-model-arpit-jain-ljmdf)
-8. What Is a Frontier Model, and Who Decides? *(link added when published)*
+8. [What Is a Frontier Model, and Who Decides?](https://www.linkedin.com/pulse/8-what-frontier-model-who-decides-arpit-jain-ln5ef)
 9. What Is AGI, and What Would Make AI "General"? *(link added when published)*
 10. What Is Superintelligence, and Should We Worry? *(link added when published)*
 11. What Are Tokens, and Why Does an AI Read in Pieces? *(link added when published)*

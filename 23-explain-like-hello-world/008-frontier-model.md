@@ -4,6 +4,8 @@
 
 *Explain It Like Hello World series: Frontier model*
 
+**Published:** 2 November 2026 on [LinkedIn](https://www.linkedin.com/pulse/8-what-frontier-model-who-decides-arpit-jain-ln5ef)
+
 "Frontier model." "Frontier AI." Headlines and new AI laws use it for the most powerful models. What puts a model at the frontier?
 
 ## The hello world
