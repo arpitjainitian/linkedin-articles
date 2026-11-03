@@ -67,8 +67,9 @@ Retired files are at the end. The `qna/` folder has no Markdown files.
 | [2](https://github.com/arpitjainitian/linkedin-articles/blob/main/05-the-prompt-works-ship-it/02-right-answer-wrong-reason.md) | Right answer, wrong reason? | Draft | A lucky answer passes while the method is wrong. | Grade search, rules and answer separately, with the expected source. |
 | [3](https://github.com/arpitjainitian/linkedin-articles/blob/main/05-the-prompt-works-ship-it/03-who-checks-the-grader.md) | Who checks the AI grader? | Draft | A grader that likes nice writing passes wrong answers. | Audit the grader against people, and use a checklist, not a score. |
 | [4](https://github.com/arpitjainitian/linkedin-articles/blob/main/05-the-prompt-works-ship-it/04-launch-score.md) | What score is good enough to launch? | Draft | An overall average hides a failing high-risk category. | Set a release gate per category, from risk, before testing. |
+| [5](https://github.com/arpitjainitian/linkedin-articles/blob/main/05-the-prompt-works-ship-it/05-test-set-leak.md) | Is your test set leaking into your prompt? | Draft | Tuning to the test set inflates the score. | Keep a held-back set out of the prompt, and check for copies in the build. |
 
-Write-ups 5 and 6 are planned, not yet written.
+Write-up 6 is planned, not yet written.
 
 ## Series 6 to 16: curtain raisers only
 
