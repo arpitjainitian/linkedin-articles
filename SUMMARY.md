@@ -70,13 +70,21 @@ Retired files are at the end. The `qna/` folder has no Markdown files.
 | [5](https://github.com/arpitjainitian/linkedin-articles/blob/main/05-the-prompt-works-ship-it/05-test-set-leak.md) | Is your test set leaking into your prompt? | Draft | Tuning to the test set inflates the score. | Keep a held-back set out of the prompt, and check for copies in the build. |
 | [6](https://github.com/arpitjainitian/linkedin-articles/blob/main/05-the-prompt-works-ship-it/06-finale-checklist.md) | So, is your AI tested or just tried? | Draft | "We tried it" is taken as proof of a working assistant. | Five checks on a scorecard: sources, grader, gates, held-back set, repeat runs. |
 
-## Series 6 to 16: curtain raisers only
+## Series 6: We'll know when it breaks (observability)
+
+| No. | Title | Status | Problem | Solution |
+|---|---|---|---|---|
+| [1](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/01-curtain-raiser-post.md) | It said "arriving in 5 minutes". It took an hour. Can you tell why? | Draft | A wrong answer looks fine in normal logs. | Log what the bot read and why, not only the question and answer. |
+| [2](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/02-bill-tripled.md) | The bill tripled. Nothing errored. Where do you look? | Draft | A silent change shows up first in cost and cache reuse. | Track cost per answer and cache hit rate, and alert on jumps. |
+
+Write-ups 3 to 6 are planned, not yet written.
+
+## Series 7 to 16: curtain raisers only
 
 No articles exist yet for these series. Each has one curtain raiser post, all in Draft. The solution is the planned topic, not a written one.
 
 | Series | Title | Status | Problem | Planned solution |
 |---|---|---|---|---|
-| [6](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/01-curtain-raiser-post.md) Observability | We'll know when it breaks | Draft | A broken AI looks fine until users complain. | Monitoring and alerts. |
 | [7](https://github.com/arpitjainitian/linkedin-articles/blob/main/07-poc-to-production/01-curtain-raiser-post.md) POC to production | It worked in the demo | Draft | A demo is not production: scale, errors and sign-off. | Production-readiness steps. |
 | [8](https://github.com/arpitjainitian/linkedin-articles/blob/main/08-few-cents-per-call/01-curtain-raiser-post.md) Few cents per call | What's a few cents between friends? | Draft | Per-call costs add up fast at scale. | Cost controls and budgets. |
 | [9](https://github.com/arpitjainitian/linkedin-articles/blob/main/09-ai-transformation/01-curtain-raiser-post.md) AI transformation | We bought AI, so we're AI-first now | Draft | Buying licences is mistaken for changing how the work is done. | Change the work, not just the tools. |
