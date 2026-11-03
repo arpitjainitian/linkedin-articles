@@ -39,7 +39,7 @@ One word per write-up. Season 1 covers the AI words in use so far; later seasons
 | 8 | [What Is a Frontier Model, and Who Decides?](008-frontier-model.md) (Frontier model) | A foundation model is the base. A frontier model is the newest, most capable base, at the edge. | [Published](https://www.linkedin.com/pulse/8-what-frontier-model-who-decides-arpit-jain-ln5ef) 2 November 2026 |
 | 9 | [What Is AGI, and What Would Make AI "General"?](009-agi.md) (AGI) | AGI means one AI that can learn most tasks a person can. | [Published](https://www.linkedin.com/pulse/9-what-agi-would-make-ai-general-arpit-jain-kdnyf) 3 November 2026 |
 | | **Part 1: How an AI reads and writes** | | |
-| 10 | [What Are Tokens, and Why Does an AI Read in Pieces?](010-tokens.md) (Tokens) | An AI doesn't read words. It reads pieces, called tokens. | Draft for review |
+| 10 | [What Are Tokens, and Why Does an AI Read in Pieces?](010-tokens.md) (Tokens) | An AI doesn't read words. It reads pieces, called tokens. | [Published](https://www.linkedin.com/pulse/10-what-tokens-why-does-ai-read-pieces-arpit-jain-izpcf) 4 November 2026 |
 | 11 | [How Does an LLM Write a Sentence?](011-llm.md) (LLM) | An LLM writes by guessing the next word, again and again. | Draft for review |
 | 12 | [How Do Embeddings Know "King" Is Close to "Queen"?](012-embeddings.md) (Embeddings) | An embedding is a word's address on a map of meaning. | Draft for review |
 | 13 | [How Does Attention Help an AI Know What "It" Means?](013-attention.md) (Attention) | You glanced back at the other words. So does an AI. That's attention. | Draft for review |

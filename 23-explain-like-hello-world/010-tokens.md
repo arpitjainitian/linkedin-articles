@@ -4,6 +4,8 @@
 
 *Explain It Like Hello World series: Tokens*
 
+**Published:** 4 November 2026 on [LinkedIn](https://www.linkedin.com/pulse/10-what-tokens-why-does-ai-read-pieces-arpit-jain-izpcf)
+
 "This model has a 200,000-token limit." "We pay per million tokens." Tokens are on every AI bill and every spec sheet. Most people quietly assume a token is a word. It isn't.
 
 ## The hello world

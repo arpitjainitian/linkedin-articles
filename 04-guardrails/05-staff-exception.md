@@ -4,6 +4,8 @@
 
 *Just tell it not to series: staff exceptions*
 
+**Published:** 4 November 2026 on [LinkedIn](https://www.linkedin.com/pulse/5-what-your-guardrails-lock-out-own-team-staff-exceptions-arpit-jain-sqgrf)
+
 It's 9 pm. A store supervisor is on a call with a VIP customer. The customer's headphones arrived broken, and the supervisor wants to approve a $120 refund now.
 
 The refund agent says no. The order is past its refund rules. For the supervisor on a live call, it's the wrong door, locked at the wrong moment.
