@@ -78,8 +78,9 @@ Retired files are at the end. The `qna/` folder has no Markdown files.
 | [2](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/02-bill-tripled.md) | The bill tripled. Nothing errored. Where do you look? | Draft | A silent change shows up first in cost and cache reuse. | Track cost per answer and cache hit rate, and alert on jumps. |
 | [3](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/03-canary-questions.md) | How do you catch a wrong answer nobody reported? | Draft | A quiet wrong answer raises no error and no complaint. | Canary questions with known answers, run in production, and refusal rate watched in both directions. |
 | [4](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/04-break-it-on-purpose.md) | What happens when you break it on purpose? | Draft | A slow dependency can fill a queue, and nobody tested it. | Fault injection with timeouts, retry limits and safe fallbacks. |
+| [5](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/05-up-or-right.md) | Is it up, or is it right? | Draft | Uptime stays green while answers are wrong. | Service targets for correctness next to availability, and an incident plan for wrong answers. |
 
-Write-ups 5 and 6 are planned, not yet written.
+Write-up 6 is planned, not yet written.
 
 ## Series 7 to 16: curtain raisers only
 
