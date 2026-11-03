@@ -77,8 +77,9 @@ Retired files are at the end. The `qna/` folder has no Markdown files.
 | [1](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/01-curtain-raiser-post.md) | It said "arriving in 5 minutes". It took an hour. Can you tell why? | Draft | A wrong answer looks fine in normal logs. | Log what the bot read and why, not only the question and answer. |
 | [2](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/02-bill-tripled.md) | The bill tripled. Nothing errored. Where do you look? | Draft | A silent change shows up first in cost and cache reuse. | Track cost per answer and cache hit rate, and alert on jumps. |
 | [3](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/03-canary-questions.md) | How do you catch a wrong answer nobody reported? | Draft | A quiet wrong answer raises no error and no complaint. | Canary questions with known answers, run in production, and refusal rate watched in both directions. |
+| [4](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/04-break-it-on-purpose.md) | What happens when you break it on purpose? | Draft | A slow dependency can fill a queue, and nobody tested it. | Fault injection with timeouts, retry limits and safe fallbacks. |
 
-Write-ups 4 to 6 are planned, not yet written.
+Write-ups 5 and 6 are planned, not yet written.
 
 ## Series 7 to 16: curtain raisers only
 
