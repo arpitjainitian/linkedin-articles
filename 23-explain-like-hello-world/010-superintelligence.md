@@ -56,7 +56,7 @@ Follow me for the next one. Does superintelligence excite you or worry you?
 6. [What Makes Generative AI "Generative"?](https://www.linkedin.com/pulse/6-what-makes-generative-ai-arpit-jain-q2rkf)
 7. [Why Are They Called Foundation Models?](https://www.linkedin.com/pulse/7-why-called-foundation-models-model-arpit-jain-ljmdf)
 8. [What Is a Frontier Model, and Who Decides?](https://www.linkedin.com/pulse/8-what-frontier-model-who-decides-arpit-jain-ln5ef)
-9. What Is AGI, and What Would Make AI "General"? *(link added when published)*
+9. [What Is AGI, and What Would Make AI "General"?](https://www.linkedin.com/pulse/9-what-agi-would-make-ai-general-arpit-jain-kdnyf)
 
 **Previous series:**
 
@@ -87,7 +87,7 @@ Does superintelligence excite you or worry you?
 Explain It Like Hello World
 
 Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
-Previous: 9. What Is AGI, and What Would Make AI "General"? [link]
+Previous: 9. What Is AGI, and What Would Make AI "General"? https://www.linkedin.com/pulse/9-what-agi-would-make-ai-general-arpit-jain-kdnyf
 You're here: 10. What Is Superintelligence, and Should We Worry?
 Next: 11. What Are Tokens, and Why Does an AI Read in Pieces?
 
