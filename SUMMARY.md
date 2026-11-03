@@ -59,13 +59,21 @@ Retired files are at the end. The `qna/` folder has no Markdown files.
 | [6](https://github.com/arpitjainitian/linkedin-articles/blob/main/04-guardrails/06-how-strict.md) | How strict is too strict? | Draft | Strict bots refuse safe requests, and nobody measures it. | Measure missed harm and false refusals together. |
 | [7](https://github.com/arpitjainitian/linkedin-articles/blob/main/04-guardrails/07-finale-checklist.md) | So, is your AI fenced or just asked nicely? | Draft | Guardrails are scattered and never checked. | Use a five-layer checklist mapped to code. |
 
-## Series 5 to 16: curtain raisers only
+## Series 5: Works on my prompt (evals)
+
+| No. | Title | Status | Problem | Solution |
+|---|---|---|---|---|
+| [1](https://github.com/arpitjainitian/linkedin-articles/blob/main/05-the-prompt-works-ship-it/01-curtain-raiser-post.md) | It worked when you tried it. Will it work tomorrow? | Draft | "I tried it" is treated as a test. | Real tests, with the results written down. |
+| [2](https://github.com/arpitjainitian/linkedin-articles/blob/main/05-the-prompt-works-ship-it/02-right-answer-wrong-reason.md) | Right answer, wrong reason? | Draft | A lucky answer passes while the method is wrong. | Grade search, rules and answer separately, with the expected source. |
+
+Write-ups 3 to 6 are planned, not yet written.
+
+## Series 6 to 16: curtain raisers only
 
 No articles exist yet for these series. Each has one curtain raiser post, all in Draft. The solution is the planned topic, not a written one.
 
 | Series | Title | Status | Problem | Planned solution |
 |---|---|---|---|---|
-| [5](https://github.com/arpitjainitian/linkedin-articles/blob/main/05-the-prompt-works-ship-it/01-curtain-raiser-post.md) The prompt works, ship it | Works on my prompt | Draft | "It works" on one prompt is treated as a test. | Real tests before shipping. |
 | [6](https://github.com/arpitjainitian/linkedin-articles/blob/main/06-observability/01-curtain-raiser-post.md) Observability | We'll know when it breaks | Draft | A broken AI looks fine until users complain. | Monitoring and alerts. |
 | [7](https://github.com/arpitjainitian/linkedin-articles/blob/main/07-poc-to-production/01-curtain-raiser-post.md) POC to production | It worked in the demo | Draft | A demo is not production: scale, errors and sign-off. | Production-readiness steps. |
 | [8](https://github.com/arpitjainitian/linkedin-articles/blob/main/08-few-cents-per-call/01-curtain-raiser-post.md) Few cents per call | What's a few cents between friends? | Draft | Per-call costs add up fast at scale. | Cost controls and budgets. |
