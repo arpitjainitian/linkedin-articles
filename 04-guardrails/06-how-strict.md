@@ -4,6 +4,8 @@
 
 *Just tell it not to series: safety vs usefulness*
 
+**Published:** 5 November 2026 on [LinkedIn](https://www.linkedin.com/pulse/6-how-strict-too-safety-vs-usefulness-arpit-jain-id3lf)
+
 "Has my headphone order 9931 been refunded yet? It arrived broken."
 
 "Sorry, I can't help with that."

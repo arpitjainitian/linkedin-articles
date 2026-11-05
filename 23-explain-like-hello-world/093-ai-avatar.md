@@ -58,7 +58,7 @@ Follow me for the next one. Would you watch a training video presented by an AI 
 8. [What Is a Frontier Model, and Who Decides?](https://www.linkedin.com/pulse/8-what-frontier-model-who-decides-arpit-jain-ln5ef)
 9. [What Is AGI, and What Would Make AI "General"?](https://www.linkedin.com/pulse/9-what-agi-would-make-ai-general-arpit-jain-kdnyf)
 10. [What Are Tokens, and Why Does an AI Read in Pieces?](https://www.linkedin.com/pulse/10-what-tokens-why-does-ai-read-pieces-arpit-jain-izpcf)
-11. How Does an LLM Write a Sentence? *(link added when published)*
+11. [How Does an LLM Write a Sentence?](https://www.linkedin.com/pulse/11-how-does-llm-write-sentence-arpit-jain-ytwkf)
 12. How Do Embeddings Know "King" Is Close to "Queen"? *(link added when published)*
 13. How Does Attention Help an AI Know What "It" Means? *(link added when published)*
 14. What Is a Transformer, the "T" in GPT? *(link added when published)*

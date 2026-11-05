@@ -58,7 +58,7 @@ Follow me for the next one. Where have you seen search that understood what you 
 8. [What Is a Frontier Model, and Who Decides?](https://www.linkedin.com/pulse/8-what-frontier-model-who-decides-arpit-jain-ln5ef)
 9. [What Is AGI, and What Would Make AI "General"?](https://www.linkedin.com/pulse/9-what-agi-would-make-ai-general-arpit-jain-kdnyf)
 10. [What Are Tokens, and Why Does an AI Read in Pieces?](https://www.linkedin.com/pulse/10-what-tokens-why-does-ai-read-pieces-arpit-jain-izpcf)
-11. How Does an LLM Write a Sentence? *(link added when published)*
+11. [How Does an LLM Write a Sentence?](https://www.linkedin.com/pulse/11-how-does-llm-write-sentence-arpit-jain-ytwkf)
 
 **Previous series:**
 
@@ -89,7 +89,7 @@ Where have you seen search that understood what you meant?
 Explain It Like Hello World
 
 Start here: AI words everyone uses. Nobody explains. https://lnkd.in/p/d8abaPhq
-Previous: 11. How Does an LLM Write a Sentence? [link]
+Previous: 11. How Does an LLM Write a Sentence? https://www.linkedin.com/pulse/11-how-does-llm-write-sentence-arpit-jain-ytwkf
 You're here: 12. How Do Embeddings Know "King" Is Close to "Queen"?
 Next: 13. How Does Attention Help an AI Know What "It" Means?
 

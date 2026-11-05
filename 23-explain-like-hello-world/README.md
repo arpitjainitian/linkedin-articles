@@ -40,7 +40,7 @@ One word per write-up. Season 1 covers the AI words in use so far; later seasons
 | 9 | [What Is AGI, and What Would Make AI "General"?](009-agi.md) (AGI) | AGI means one AI that can learn most tasks a person can. | [Published](https://www.linkedin.com/pulse/9-what-agi-would-make-ai-general-arpit-jain-kdnyf) 3 November 2026 |
 | | **Part 1: How an AI reads and writes** | | |
 | 10 | [What Are Tokens, and Why Does an AI Read in Pieces?](010-tokens.md) (Tokens) | An AI doesn't read words. It reads pieces, called tokens. | [Published](https://www.linkedin.com/pulse/10-what-tokens-why-does-ai-read-pieces-arpit-jain-izpcf) 4 November 2026 |
-| 11 | [How Does an LLM Write a Sentence?](011-llm.md) (LLM) | An LLM writes by guessing the next word, again and again. | Draft for review |
+| 11 | [How Does an LLM Write a Sentence?](011-llm.md) (LLM) | An LLM writes by guessing the next word, again and again. | [Published](https://www.linkedin.com/pulse/11-how-does-llm-write-sentence-arpit-jain-ytwkf) 5 November 2026 |
 | 12 | [How Do Embeddings Know "King" Is Close to "Queen"?](012-embeddings.md) (Embeddings) | An embedding is a word's address on a map of meaning. | Draft for review |
 | 13 | [How Does Attention Help an AI Know What "It" Means?](013-attention.md) (Attention) | You glanced back at the other words. So does an AI. That's attention. | Draft for review |
 | 14 | [What Is a Transformer, the "T" in GPT?](014-transformer.md) (Transformer) | A transformer lays the whole sentence out and reads it all at once. | Draft for review |
