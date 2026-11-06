@@ -1,5 +1,7 @@
 # 1. Why Does the Customer's Monday Matter More Than Your Demo? | The FDE Job
 
+![Cover](images/01-curtain-raiser-cover.png)
+
 *Forward Deployed series: the curtain raiser*
 
 "Can it run at all 40 warehouses by Monday?"
@@ -93,7 +95,7 @@ Their orders were scanned PDFs, in three date formats.
 
 The demo is the easy part.
 
-New series, Forward Deployed (#ForwardDeployed): the engineer's job after the demo, one week at a time. Write-up 1 covers the job.
+New series, Forward Deployed (#ForwardDeployed): the engineer's job after the demo, from the customer's side.
 
 Which question would your customer's Monday ask first?
 
