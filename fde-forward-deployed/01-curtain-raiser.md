@@ -10,6 +10,32 @@ Monday was not my sample. Their orders came as scanned PDFs, in three date forma
 
 The demo is the easy part. The hard part is making the software work in someone else's world, with their data, their rules and their people. The engineer who does that job is called a Forward Deployed Engineer, or FDE.
 
+## Read these first
+
+This series sits on top of earlier series. You don't need to read them all, but these five give you the ground to stand on. For each one, the series comes first, then the article to read, then why it matters. Read them in this order:
+
+1. **Series: #JustAddRAG**
+   Article: [Why does "Just add RAG" sound like 2 weeks but take 6 months?](https://www.linkedin.com/pulse/why-does-just-add-rag-sound-like-2-weeks-take-6-months-arpit-jain-l4kkf/)
+   Why it matters: the demo is never the whole job.
+
+2. **Series: #BeyondJustRAG**
+   Article: [Your AI Can Answer. Now It Has to Act.](https://www.linkedin.com/pulse/1-your-ai-can-answer-now-has-act-from-answers-actions-arpit-jain-po6lf/)
+   Why it matters: an assistant that acts needs more care than one that only answers.
+
+3. **Series: Just put the rules in the prompt**
+   Article: [Why Did the AI Promise a Full Refund on a Non-Refundable Ticket?](https://www.linkedin.com/pulse/1-why-did-ai-promise-full-refund-non-refundable-ticket-arpit-jain-gxg4f)
+   Why it matters: rules belong in code, not in the prompt.
+
+4. **Series: #JustTellItNot**
+   Article: [What If a Customer Tries to Trick It?](https://www.linkedin.com/pulse/4-what-customer-tries-trick-red-teaming-arpit-jain-m7l5f)
+   Why it matters: a prompt is a request, not a rule, and customers will test it.
+
+5. **Series: Explain It Like Hello World**
+   Article: [How Do Embeddings Know "King" Is Close to "Queen"?](https://www.linkedin.com/pulse/12-how-do-embeddings-know-king-close-queen-arpit-jain-a5xuf)
+   Why it matters: the one AI idea the retrieval weeks depend on.
+
+Every write-up in this series uses the same order desk. The earlier reads give you the AI background. This series gives you the customer's side of it.
+
 ## The mechanic who goes to the farm
 
 A workshop mechanic fixes the tractors that are driven in. A farm mechanic drives out to the field, sees the mud, the broken gate and the old hitch, and fixes the tractor where it really works. An FDE is the farm mechanic for AI.
