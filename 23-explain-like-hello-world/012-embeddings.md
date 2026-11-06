@@ -4,6 +4,8 @@
 
 *Explain It Like Hello World series: Embeddings*
 
+**Published:** 6 November 2026 on [LinkedIn](https://www.linkedin.com/pulse/12-how-do-embeddings-know-king-close-queen-arpit-jain-a5xuf)
+
 "We'll embed the documents and store the vectors." Embeddings power AI search, recommendations and RAG. The word sounds like maths homework.
 
 ## The hello world

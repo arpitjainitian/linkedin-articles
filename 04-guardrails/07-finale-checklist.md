@@ -4,6 +4,8 @@
 
 *Just tell it not to series: the finale*
 
+**Published:** 6 November 2026 on [LinkedIn](https://www.linkedin.com/pulse/7-so-your-ai-fenced-just-asked-nicely-finale-arpit-jain-jfc5f)
+
 Back to the sign on the gate: "Never refund more than the order price."
 
 It's clear. It's also the first thing a clever customer walks past.

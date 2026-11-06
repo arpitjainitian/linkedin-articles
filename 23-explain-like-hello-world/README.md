@@ -41,7 +41,7 @@ One word per write-up. Season 1 covers the AI words in use so far; later seasons
 | | **Part 1: How an AI reads and writes** | | |
 | 10 | [What Are Tokens, and Why Does an AI Read in Pieces?](010-tokens.md) (Tokens) | An AI doesn't read words. It reads pieces, called tokens. | [Published](https://www.linkedin.com/pulse/10-what-tokens-why-does-ai-read-pieces-arpit-jain-izpcf) 4 November 2026 |
 | 11 | [How Does an LLM Write a Sentence?](011-llm.md) (LLM) | An LLM writes by guessing the next word, again and again. | [Published](https://www.linkedin.com/pulse/11-how-does-llm-write-sentence-arpit-jain-ytwkf) 5 November 2026 |
-| 12 | [How Do Embeddings Know "King" Is Close to "Queen"?](012-embeddings.md) (Embeddings) | An embedding is a word's address on a map of meaning. | Draft for review |
+| 12 | [How Do Embeddings Know "King" Is Close to "Queen"?](012-embeddings.md) (Embeddings) | An embedding is a word's address on a map of meaning. | [Published](https://www.linkedin.com/pulse/12-how-do-embeddings-know-king-close-queen-arpit-jain-a5xuf) 6 November 2026 |
 | 13 | [How Does Attention Help an AI Know What "It" Means?](013-attention.md) (Attention) | You glanced back at the other words. So does an AI. That's attention. | Draft for review |
 | 14 | [What Is a Transformer, the "T" in GPT?](014-transformer.md) (Transformer) | A transformer lays the whole sentence out and reads it all at once. | Draft for review |
 | 15 | [What Is a Context Window, and Why Does an AI Forget?](015-context-window.md) (Context window) | An AI's context window is its desk. When it's full, something falls off. | Draft for review |

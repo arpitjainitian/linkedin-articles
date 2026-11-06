@@ -59,7 +59,7 @@ Follow me for the next one. Have you spotted a physics mistake in an AI video?
 9. [What Is AGI, and What Would Make AI "General"?](https://www.linkedin.com/pulse/9-what-agi-would-make-ai-general-arpit-jain-kdnyf)
 10. [What Are Tokens, and Why Does an AI Read in Pieces?](https://www.linkedin.com/pulse/10-what-tokens-why-does-ai-read-pieces-arpit-jain-izpcf)
 11. [How Does an LLM Write a Sentence?](https://www.linkedin.com/pulse/11-how-does-llm-write-sentence-arpit-jain-ytwkf)
-12. How Do Embeddings Know "King" Is Close to "Queen"? *(link added when published)*
+12. [How Do Embeddings Know "King" Is Close to "Queen"?](https://www.linkedin.com/pulse/12-how-do-embeddings-know-king-close-queen-arpit-jain-a5xuf)
 13. How Does Attention Help an AI Know What "It" Means? *(link added when published)*
 14. What Is a Transformer, the "T" in GPT? *(link added when published)*
 15. What Is a Context Window, and Why Does an AI Forget? *(link added when published)*
