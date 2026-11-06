@@ -20,7 +20,7 @@ An FDE usually wears three hats at once:
 
 - **The builder:** writes code that runs in production, not just in a notebook.
 - **The translator:** turns "we want faster refunds" into rules a system can follow.
-- **The judge:** decides what to build, what to buy, and what should not exist at all.
+- **The judge:** decides with the customer what to build, what to buy, and what should not exist at all.
 
 ## The questions the demo skips
 
@@ -82,5 +82,5 @@ Which question would your customer's Monday ask first?
 1. Why does the customer's Monday matter more than your demo? (you're here)
 2. What should you learn from the customer before you build anything? (next)
 
-Parallel track to AI engineering. 15 write-ups in all.
+Parallel track to AI engineering. 20 write-ups in all, all about the customer.
 ```
