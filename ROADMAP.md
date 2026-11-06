@@ -7,6 +7,7 @@ Four kinds of writing, all in one place:
 3. **AI system design** (21): one AI system design question per post.
 4. **Certification prep** (22): the Claude Certified Architect – Foundations exam, one objective per post.
 5. **Explainers** (23): trending AI ideas explained the "hello world" way, no code.
+6. **Forward Deployed** (parallel track): the engineer's job of putting AI into a customer's world, one week at a time.
 
 ## 1. AI engineering series
 
@@ -74,3 +75,9 @@ Topics 9-11, 16, 18 and 19 were inspired by a "9 AI concepts" infographic by Bri
 | Series | Topic | Level | What it covers | Status | Why a full series, not one article |
 |---|---|---|---|---|---|
 | 23 | "Explain It Like Hello World" (#ExplainItLikeHelloWorld) | L1 to L2 | Trending AI ideas (tokens, embeddings, attention, quantization, mixture of experts, reasoning models, diffusion, A2A and more), each explained through the smallest example that shows it working. No code. 104 write-ups in 10 parts, one word each, ending with an AI dictionary. Topics covered by other series (RAG, MCP, agents, guardrails, memory, evals, cost) are linked, not repeated. Plan: [23-explain-like-hello-world/](23-explain-like-hello-world/README.md) | **In progress** (write-ups 1-6 published, latest 31 Oct 2026; 124 write-ups drafted) | Each AI word is its own idea with its own hello-world example; readers can share one explainer at a time. |
+
+## 6. Forward Deployed (parallel track)
+
+| Series | Topic | Level | What it covers | Status | Why a full series, not one article |
+|---|---|---|---|---|---|
+| FDE | "The demo is the easy part" (#ForwardDeployed) | L2 to L4 | The Forward Deployed Engineer's job, week by week: customer discovery, solution foundation, data, integrations, tools, grounding, durable agents, evaluation and cost, governance, deployment, observability, pilot, handover. Running example: a wholesale distributor's order desk. Runs alongside the AI engineering series and links to them for the basics. Plan: [fde-forward-deployed/](fde-forward-deployed/README.md) | **In progress** (curtain raiser drafted, 14 write-ups planned) | Putting AI into a customer's systems is a set of separate jobs, each with its own failure mode and its own customer conversation. |
