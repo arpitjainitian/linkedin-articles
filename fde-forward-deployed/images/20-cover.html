@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  :root { --navy: #0f1d3a; --navy-2: #17294f; --pink: #f9b8d4; --mint: #b8f2d8;
+          --lilac: #cdb8f9; --butter: #fbe9a6; --text: #f4f7ff; --muted: #b9c4e0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { width: 1920px; height: 1080px; background: var(--navy); color: var(--text);
+         font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+         overflow: hidden; position: relative; }
+  .tag { position: absolute; left: 110px; top: 80px; font-size: 26px; letter-spacing: 6px;
+         color: var(--mint); font-weight: 700; }
+  h1 { position: absolute; left: 110px; top: 130px; width: 1700px; line-height: 1.08;
+       font-weight: 800; font-size: 84px; }
+  h1 mark { background: var(--butter); color: var(--navy); padding: 0 12px; border-radius: 10px; }
+  .panel { position: absolute; top: 400px; width: 640px; height: 500px; border-radius: 28px;
+           padding: 44px 48px; background: var(--navy-2); border: 3px solid; }
+  .demo { left: 110px; border-color: var(--mint); }
+  .monday { left: 1170px; border-color: var(--pink); }
+  .label { font-size: 30px; letter-spacing: 4px; font-weight: 800; margin-bottom: 26px; }
+  .demo .label { color: var(--mint); }
+  .monday .label { color: var(--pink); }
+  .card { background: var(--navy); border-radius: 18px; padding: 26px 30px; font-size: 30px;
+          line-height: 1.4; color: var(--text); margin-bottom: 14px; }
+  .ok { color: var(--mint); font-weight: 800; }
+  .chip { display: inline-block; font-size: 26px; padding: 12px 22px; border-radius: 999px;
+          margin: 0 12px 12px 0; font-weight: 700; color: var(--navy); }
+  .c1 { background: var(--pink); } .c2 { background: var(--lilac); }
+  .c3 { background: var(--butter); } .c4 { background: var(--mint); }
+  .arrow { position: absolute; left: 790px; top: 620px; width: 340px; font-size: 40px;
+           color: var(--muted); text-align: center; font-weight: 700; letter-spacing: 2px; }
+  .bar { position: absolute; left: 0; right: 0; bottom: 0; height: 150px; background: var(--lilac);
+         color: var(--navy); display: flex; align-items: center; justify-content: space-between;
+         padding: 0 110px; font-size: 44px; font-weight: 800; }
+  .bar span:last-child { font-size: 36px; font-weight: 700; }
+</style>
+</head>
+<body>
+  <div class="tag">FINALE · CAPSTONE</div>
+  <h1>Is it ready for the customer, or only for the demo?</h1>
+  <div class="panel demo">
+    <div class="label">THE DEMO</div>
+    <div class="card">Demo ready</div>
+    <div class="card">Team confident</div>
+  </div>
+  <div class="arrow">SAME ASSISTANT,<br>NEW WORLD</div>
+  <div class="panel monday">
+    <div class="label">THE CUSTOMER</div>
+    <div><span class="chip c1">Not tested</span><span class="chip c2">Not owned</span><span class="chip c3">Not measured</span><span class="chip c4">Not handed over</span></div>
+    <div class="card">Would the customer accept this?</div>
+    <div class="card">Would the customer keep using it?</div>
+  </div>
+  <div class="bar">
+    <span>The demo is the easy part.</span>
+    <span>#ForwardDeployed</span>
+  </div>
+</body>
+</html>
