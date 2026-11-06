@@ -95,7 +95,7 @@ Their orders were scanned PDFs, in three date formats.
 
 The demo is the easy part.
 
-New series, Forward Deployed (#ForwardDeployed): the engineer's job after the demo, from the customer's side.
+New series, Forward Deployed (#ForwardDeployed): the engineer's job after the demo.
 
 Which question would your customer's Monday ask first?
 
